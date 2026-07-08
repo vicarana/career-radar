@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0f172a" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Career Radar" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="apple-touch-icon" href="icon-192.png" />
+<title>Career Radar</title>
+<style>
+  :root { --bg:#0f172a; --card:#1e293b; --line:#334155; --ink:#e2e8f0; --dim:#94a3b8; --accent:#38bdf8; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.5 -apple-system,system-ui,sans-serif;
+    padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom); }
+  header { padding:16px 16px 8px; position:sticky; top:0; background:var(--bg); z-index:5; }
+  h1 { margin:0; font-size:20px; color:var(--accent); }
+  .meta { color:var(--dim); font-size:13px; margin-top:2px; }
+  .tabs { display:flex; gap:6px; padding:8px 12px; overflow-x:auto; position:sticky; top:56px; background:var(--bg); z-index:5; }
+  .tab { flex:0 0 auto; padding:8px 14px; border:1px solid var(--line); border-radius:999px;
+    background:var(--card); color:var(--ink); font-weight:600; font-size:14px; }
+  .tab[aria-selected="true"] { background:var(--accent); color:#04283b; border-color:var(--accent); }
+  main { padding:8px 12px 40px; }
+  .job { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px 14px; margin:8px 0; }
+  .job a { color:var(--ink); text-decoration:none; font-weight:700; display:block; }
+  .job .sub { color:var(--dim); font-size:13px; margin-top:3px; }
+  .badge { display:inline-block; font-size:11px; font-weight:700; padding:2px 8px; border-radius:999px; margin-left:6px; }
+  .b-visa { background:#14532d; color:#86efac; }
+  .b-score { background:#1e3a8a; color:#bfdbfe; }
+  .empty { color:var(--dim); padding:24px 8px; text-align:center; }
+  .link { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin:8px 0; }
+  .link a { color:var(--accent); text-decoration:none; font-weight:600; word-break:break-all; }
+  button.refresh { background:none; border:1px solid var(--line); color:var(--ink); border-radius:8px; padding:6px 10px; font-size:13px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Career Radar</h1>
+  <div class="meta"><span id="meta">loading...</span> <button class="refresh" onclick="load(true)">Refresh</button></div>
+</header>
+<nav class="tabs" role="tablist">
+  <button class="tab" role="tab" data-t="C" aria-selected="true">Europe (C)</button>
+  <button class="tab" role="tab" data-t="B" aria-selected="false">Remote (B)</button>
+  <button class="tab" role="tab" data-t="LI" aria-selected="false">LinkedIn</button>
+  <button class="tab" role="tab" data-t="WM" aria-selected="false">Walmart</button>
+</nav>
+<main id="view"><div class="empty">Loading...</div></main>
+
+<script>
+let DATA = null, TAB = "C";
+
+function jobCard(j) {
+  const visa = j.visa ? '<span class="badge b-visa">VISA</span>' : '';
+  return `<div class="job"><a href="${j.url}" target="_blank" rel="noopener">${esc(j.title)}${visa}</a>
+    <div class="sub">${esc(j.company||"?")} - ${esc(j.location||"n/a")}
+    <span class="badge b-score">score ${j.score}</span></div></div>`;
+}
+function linkCard(l){ return `<div class="link"><a href="${l.url}" target="_blank" rel="noopener">${esc(l.label)}</a></div>`; }
+function esc(s){ return (s||"").replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+function render() {
+  const v = document.getElementById("view");
+  if (!DATA) { v.innerHTML = '<div class="empty">No data.</div>'; return; }
+  if (TAB === "C" || TAB === "B") {
+    const jobs = (DATA.tracks && DATA.tracks[TAB]) || [];
+    v.innerHTML = jobs.length ? jobs.map(jobCard).join("")
+      : '<div class="empty">No matches in this run.<br>Check the LinkedIn tab, or trigger the GitHub Action.</div>';
+  } else if (TAB === "LI") {
+    const li = DATA.linkedin || [];
+    v.innerHTML = '<div class="empty">Open each and tap "Set alert".</div>' + li.map(linkCard).join("");
+  } else if (TAB === "WM") {
+    const wm = (DATA.walmart_markets||[]).map(p=>({label:p.market, url:p.url}));
+    v.innerHTML = wm.map(linkCard).join("");
+  }
+}
+
+async function load(force) {
+  try {
+    const url = "data/latest.json" + (force ? "?t="+Date.now() : "");
+    const r = await fetch(url, {cache: force ? "reload" : "default"});
+    DATA = await r.json();
+    document.getElementById("meta").textContent =
+      `${DATA.generated} - sources ${DATA.sources_ok}/4`;
+  } catch(e) {
+    document.getElementById("meta").textContent = "offline (cached)";
+  }
+  render();
+}
+
+document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
+  document.querySelectorAll(".tab").forEach(x => x.setAttribute("aria-selected","false"));
+  t.setAttribute("aria-selected","true");
+  TAB = t.dataset.t; render();
+}));
+
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+load();
+</script>
+</body>
+</html>

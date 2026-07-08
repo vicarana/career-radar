@@ -1,0 +1,37 @@
+name: daily-radar
+
+# Runs in GitHub's cloud (NOT your Walmart Mac, NOT Walmart DNS).
+# Aggregates jobs, commits fresh data that the iPhone PWA reads.
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 11:00 UTC daily (~07:00 Chile). Adjust as needed.
+  workflow_dispatch: {}     # lets you trigger manually from phone (Actions tab -> Run workflow)
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run radar
+        run: python3 radar/radar.py
+
+      - name: Commit fresh data
+        run: |
+          git config user.name  "career-radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "radar: data $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
