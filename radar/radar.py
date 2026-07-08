@@ -110,6 +110,39 @@ def score(job, p):
     return sc
 
 
+def grade_of(score):
+    """Map raw score to an A-F letter + 0-100 match pct (career-ops-style rubric)."""
+    if score >= 14:
+        g = "A"
+    elif score >= 10:
+        g = "B"
+    elif score >= 7:
+        g = "C"
+    elif score >= 4:
+        g = "D"
+    else:
+        g = "F"
+    pct = max(35, min(99, round(score / 20 * 100)))
+    return g, pct
+
+
+def reasons_for(job, p):
+    """Top human-readable 'why it fits' reasons from matched strong/good skills."""
+    t, title = job["text"], job["title"].lower()
+    out = []
+    for s in p["target_titles"]:
+        if s in title:
+            out.append("Title match: " + s)
+            break
+    for s in p["strong_skills"]:
+        if s in t and len(out) < 3:
+            out.append(s.strip().upper() if len(s) <= 4 else s.strip().title())
+    for s in p["good_skills"]:
+        if s in t and len(out) < 3:
+            out.append(s.strip().title())
+    return out[:3]
+
+
 def tracks_of(job, p):
     t, tks = job["text"], set()
     if job["remote"] or "remote" in t or "anywhere" in t:
@@ -164,17 +197,32 @@ def main():
         buckets[tk].sort(key=lambda x: x["_score"], reverse=True)
 
     def clean(lst):
-        return [{"title": j["title"], "company": j["company"], "location": j["location"],
-                 "url": j["url"], "score": j["_score"], "visa": j.get("visa", False)}
-                for j in lst[:40]]
+        rows = []
+        for j in lst[:40]:
+            g, pct = grade_of(j["_score"])
+            rows.append({"title": j["title"], "company": j["company"], "location": j["location"],
+                         "url": j["url"], "score": j["_score"], "grade": g, "match": pct,
+                         "visa": j.get("visa", False), "reasons": reasons_for(j, p)})
+        return rows
 
     now = dt.datetime.now(dt.timezone.utc)
     date = now.strftime("%Y-%m-%d %H:%M UTC")
     sources_ok = 4 - len({w.split(":")[0] for w in WARN})
+    B, C = clean(buckets["B"]), clean(buckets["C"])
+    allrows = B + C
+    stats = {
+        "total": len(allrows),
+        "track_b": len(B),
+        "track_c": len(C),
+        "grade_a": sum(1 for r in allrows if r["grade"] == "A"),
+        "grade_b": sum(1 for r in allrows if r["grade"] == "B"),
+        "visa": sum(1 for r in C if r["visa"]),
+    }
     payload = {
         "generated": date,
         "sources_ok": sources_ok,
-        "tracks": {"B": clean(buckets["B"]), "C": clean(buckets["C"])},
+        "stats": stats,
+        "tracks": {"B": B, "C": C},
         "linkedin": linkedin_searches(),
         "walmart_markets": p["track_a_walmart_markets"]["portals"],
         "warnings": sorted(set(WARN)),

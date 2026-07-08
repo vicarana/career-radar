@@ -1,6 +1,14 @@
 {
-  "generated": "2026-07-08 07:27 UTC",
+  "generated": "2026-07-08 07:39 UTC",
   "sources_ok": 0,
+  "stats": {
+    "total": 0,
+    "track_b": 0,
+    "track_c": 0,
+    "grade_a": 0,
+    "grade_b": 0,
+    "visa": 0
+  },
   "tracks": {
     "B": [],
     "C": []
