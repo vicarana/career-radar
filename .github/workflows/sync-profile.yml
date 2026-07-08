@@ -1,0 +1,44 @@
+name: sync-profile-from-mclaude
+
+# Pipeline: MClaude is the BRAIN (source of truth for profile.json).
+# This pulls the canonical profile from the private MClaude repo into this app.
+#
+# SETUP (one time):
+#   1. Create a fine-grained PAT with read access to vicarana/MClaude (Contents: Read).
+#   2. In THIS repo: Settings -> Secrets and variables -> Actions -> New secret
+#      Name: MCLAUDE_PAT   Value: <the token>
+#
+# Trigger: manually, or nightly before the radar run.
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "30 10 * * *"   # 10:30 UTC, before daily-radar at 11:00
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch profile.json from MClaude
+        env:
+          PAT: ${{ secrets.MCLAUDE_PAT }}
+        run: |
+          if [ -z "$PAT" ]; then echo "MCLAUDE_PAT not set - skipping sync"; exit 0; fi
+          SRC="tools/career-automation/jobhunt/profile.json"
+          curl -sf -H "Authorization: Bearer $PAT" \
+               -H "Accept: application/vnd.github.raw" \
+               "https://api.github.com/repos/vicarana/MClaude/contents/$SRC" \
+               -o profile.json && echo "profile.json synced"
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "career-radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add profile.json
+          if git diff --cached --quiet; then echo "no change"; else \
+            git commit -m "sync: profile.json from MClaude" && git push; fi

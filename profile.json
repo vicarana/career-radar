@@ -1,0 +1,43 @@
+{
+  "name": "Victor Arana",
+  "headline": "SRE IV / DevOps / Automation & AI Engineer",
+  "seniority": ["senior", "staff", "lead", "principal", "iv", "iii"],
+  "target_titles": [
+    "site reliability", "sre", "devops", "platform engineer",
+    "automation engineer", "reliability engineer", "cloud engineer",
+    "ai engineer", "mlops", "infrastructure engineer"
+  ],
+  "strong_skills": [
+    "sre", "site reliability", "reliability", "devops", "platform",
+    "automation", "rpa", "kubernetes", "k8s", "observability",
+    "incident", "terraform", "ci/cd", "cicd", "python", "cloud native",
+    "gitops", "prometheus", "grafana"
+  ],
+  "good_skills": [
+    "aws", "gcp", "azure", "docker", "linux", "ansible", "monitoring",
+    "ai agent", "llm", "mlops", "golang", "sql", "power automate",
+    "airflow", "kafka", "bigquery", "helm", "argocd"
+  ],
+  "avoid_skills": [
+    "react native", "ios developer", "android developer", "salesforce developer",
+    "wordpress", "php developer", "unity", "game developer", "recruiter", "sales representative"
+  ],
+  "track_c_europe": {
+    "countries": [
+      "finland", "helsinki", "netherlands", "amsterdam", "rotterdam",
+      "germany", "berlin", "munich", "hamburg",
+      "norway", "oslo", "switzerland", "zurich", "geneva",
+      "ireland", "dublin", "iceland", "reykjavik",
+      "sweden", "stockholm", "denmark", "copenhagen", "portugal", "lisbon"
+    ],
+    "visa_terms": ["visa", "sponsor", "relocation", "relocate", "blue card", "work permit"]
+  },
+  "track_a_walmart_markets": {
+    "portals": [
+      {"market": "Walmart Global Tech (US)", "url": "https://careers.walmart.com/results?q=site%20reliability"},
+      {"market": "Walmart Global Tech India (GTP)", "url": "https://careers.walmart.com/results?q=SRE&jobCountry=India"},
+      {"market": "Walmart Technology (all)", "url": "https://careers.walmart.com/technology"}
+    ]
+  },
+  "min_score": 3
+}

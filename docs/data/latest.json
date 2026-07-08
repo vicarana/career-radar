@@ -1,0 +1,58 @@
+{
+  "generated": "2026-07-08 07:27 UTC",
+  "sources_ok": 0,
+  "tracks": {
+    "B": [],
+    "C": []
+  },
+  "linkedin": [
+    {
+      "label": "SRE - Remote (B)",
+      "url": "https://www.linkedin.com/jobs/search/?keywords=Site%20Reliability%20Engineer&f_WT=2"
+    },
+    {
+      "label": "DevOps - Remote (B)",
+      "url": "https://www.linkedin.com/jobs/search/?keywords=DevOps%20Engineer&f_WT=2"
+    },
+    {
+      "label": "Platform - Netherlands (C)",
+      "url": "https://www.linkedin.com/jobs/search/?keywords=Platform%20Engineer&location=Netherlands"
+    },
+    {
+      "label": "SRE - Finland (C)",
+      "url": "https://www.linkedin.com/jobs/search/?keywords=Site%20Reliability%20Engineer&location=Finland"
+    },
+    {
+      "label": "DevOps - Germany (C)",
+      "url": "https://www.linkedin.com/jobs/search/?keywords=DevOps%20Engineer&location=Germany"
+    },
+    {
+      "label": "SRE - Norway (C)",
+      "url": "https://www.linkedin.com/jobs/search/?keywords=Site%20Reliability%20Engineer&location=Norway"
+    },
+    {
+      "label": "Automation - EU (C)",
+      "url": "https://www.linkedin.com/jobs/search/?keywords=Automation%20Engineer&location=European%20Union"
+    }
+  ],
+  "walmart_markets": [
+    {
+      "market": "Walmart Global Tech (US)",
+      "url": "https://careers.walmart.com/results?q=site%20reliability"
+    },
+    {
+      "market": "Walmart Global Tech India (GTP)",
+      "url": "https://careers.walmart.com/results?q=SRE&jobCountry=India"
+    },
+    {
+      "market": "Walmart Technology (all)",
+      "url": "https://careers.walmart.com/technology"
+    }
+  ],
+  "warnings": [
+    "arbeitnow:URLError",
+    "jobicy:URLError",
+    "remoteok:URLError",
+    "remotive:URLError"
+  ]
+}
