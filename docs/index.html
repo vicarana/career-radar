@@ -1,191 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<meta name="theme-color" content="#0b1120" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-<meta name="apple-mobile-web-app-title" content="Career Radar" />
-<link rel="manifest" href="manifest.webmanifest" />
-<link rel="apple-touch-icon" href="icon-192.png" />
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#070d1a"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="Career Radar"/>
+<link rel="manifest" href="manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="icon-192.png"/>
 <title>Career Radar</title>
 <style>
-  :root{
-    --bg:#0b1120; --card:#141c2e; --card2:#1b263f; --line:#293650;
-    --ink:#e8eefc; --dim:#93a4c4; --accent:#5b8cff; --accent2:#22d3ee;
-    --a:#22c55e; --b:#38bdf8; --c:#f59e0b; --d:#fb923c; --f:#64748b;
-  }
-  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
-  body{margin:0;background:var(--bg);color:var(--ink);
-    font:16px/1.5 -apple-system,system-ui,Segoe UI,sans-serif;
-    padding:0 0 env(safe-area-inset-bottom);}
-  .hero{padding:calc(env(safe-area-inset-top) + 20px) 18px 18px;
-    background:radial-gradient(120% 120% at 0% 0%, #1e3a8a 0%, #0b1120 55%);
-    border-bottom:1px solid var(--line);}
-  .hero h1{margin:0;font-size:24px;font-weight:800;letter-spacing:-.02em;
-    background:linear-gradient(90deg,var(--accent2),var(--accent));
-    -webkit-background-clip:text;background-clip:text;color:transparent;}
-  .hero .sub{color:var(--dim);font-size:13px;margin-top:2px;}
-  .hero .meta{display:flex;align-items:center;gap:10px;margin-top:10px;}
-  .pill{font-size:12px;color:var(--dim);background:var(--card);border:1px solid var(--line);
-    padding:4px 10px;border-radius:999px;}
-  .refresh{margin-left:auto;background:var(--accent);border:none;color:#04132f;font-weight:700;
-    border-radius:999px;padding:7px 14px;font-size:13px;}
-  .tabs{display:flex;gap:7px;padding:12px;overflow-x:auto;position:sticky;top:0;
-    background:rgba(11,17,32,.92);backdrop-filter:blur(8px);z-index:5;}
-  .tab{flex:0 0 auto;padding:9px 15px;border:1px solid var(--line);border-radius:999px;
-    background:var(--card);color:var(--ink);font-weight:600;font-size:14px;}
-  .tab[aria-selected="true"]{background:linear-gradient(90deg,var(--accent),var(--accent2));
-    color:#04132f;border-color:transparent;}
-  main{padding:6px 12px 48px;}
-  /* dashboard */
-  .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
-  .stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;}
-  .stat .n{font-size:28px;font-weight:800;line-height:1;}
-  .stat .l{color:var(--dim);font-size:12px;margin-top:5px;}
-  .stat.big{grid-column:span 2;background:linear-gradient(120deg,#16233d,#101a30);}
-  .funnel{margin-top:12px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;}
-  .funnel h3{margin:0 0 10px;font-size:14px;color:var(--dim);font-weight:600;}
-  .bar{height:10px;border-radius:999px;background:var(--card2);overflow:hidden;margin:6px 0;}
-  .bar > span{display:block;height:100%;border-radius:999px;}
-  .frow{display:flex;justify-content:space-between;font-size:12px;color:var(--dim);}
-  /* job cards */
-  .job{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;margin:11px 0;
-    display:flex;gap:13px;}
-  .grade{flex:0 0 46px;width:46px;height:46px;border-radius:14px;display:grid;place-items:center;
-    font-weight:800;font-size:20px;color:#04132f;}
-  .g-A{background:var(--a);} .g-B{background:var(--b);} .g-C{background:var(--c);}
-  .g-D{background:var(--d);} .g-F{background:var(--f);color:#e8eefc;}
-  .job .body{flex:1;min-width:0;}
-  .job .title{font-weight:700;font-size:15px;margin:0;}
-  .job .co{color:var(--dim);font-size:13px;margin:2px 0 8px;}
-  .mrow{display:flex;align-items:center;gap:8px;margin-bottom:8px;}
-  .mbar{flex:1;height:7px;border-radius:999px;background:var(--card2);overflow:hidden;}
-  .mbar > span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));}
-  .mpct{font-size:12px;color:var(--dim);font-weight:700;}
-  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;}
-  .chip{font-size:11px;color:var(--ink);background:var(--card2);border:1px solid var(--line);
-    padding:3px 9px;border-radius:999px;}
-  .chip.visa{background:#052e1a;color:#86efac;border-color:#14532d;}
-  .cta{display:flex;gap:8px;flex-wrap:wrap;}
-  .btn{flex:1;text-align:center;font-size:12.5px;font-weight:700;border-radius:11px;padding:9px 6px;
-    border:1px solid var(--line);background:var(--card2);color:var(--ink);text-decoration:none;}
-  .btn.primary{background:var(--accent);color:#04132f;border-color:transparent;}
-  .link{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px 15px;margin:9px 0;}
-  .link a{color:var(--accent2);text-decoration:none;font-weight:600;word-break:break-word;}
-  .empty{color:var(--dim);text-align:center;padding:26px 10px;}
-  .sample-note{font-size:11px;color:var(--c);text-align:center;padding:6px;}
-  .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--accent);
-    color:#04132f;font-weight:700;padding:10px 18px;border-radius:999px;opacity:0;transition:.25s;pointer-events:none;}
-  .toast.show{opacity:1;}
+:root{
+  --bg:#070d1a;--surface:#0f1829;--card:#141e33;--card2:#1a2640;--line:#243050;
+  --ink:#e8eeff;--dim:#7a90b8;--muted:#3d4f72;
+  --blue:#5b8cff;--cyan:#22d3ee;--purple:#a78bfa;
+  --a:#22c55e;--b:#38bdf8;--c:#f59e0b;--d:#fb923c;--f:#64748b;
+  --save:#fb7185;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,system-ui,sans-serif;
+  padding-bottom:calc(env(safe-area-inset-bottom) + 16px);min-height:100vh}
+
+/* ── Hero ── */
+.hero{padding:calc(env(safe-area-inset-top)+20px) 16px 16px;
+  background:linear-gradient(135deg,#0f1e46 0%,#07111f 60%);
+  border-bottom:1px solid var(--line);position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-40px;right:-40px;width:200px;height:200px;
+  border-radius:50%;background:radial-gradient(circle,rgba(91,140,255,.15),transparent 70%)}
+.hero-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.hero h1{font-size:22px;font-weight:800;letter-spacing:-.03em;line-height:1.1;
+  background:linear-gradient(90deg,var(--cyan),var(--blue),var(--purple));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .sub{color:var(--dim);font-size:12px;margin-top:3px}
+.hero-meta{display:flex;align-items:center;gap:8px;margin-top:10px}
+.pill{font-size:11px;color:var(--dim);background:var(--card);border:1px solid var(--line);
+  padding:3px 10px;border-radius:999px;white-space:nowrap}
+.pill.live{border-color:#22c55e44;color:#86efac}
+.refresh-btn{margin-left:auto;background:linear-gradient(90deg,var(--blue),var(--cyan));
+  border:none;color:#04132f;font-weight:800;border-radius:999px;padding:8px 16px;
+  font-size:12px;letter-spacing:.02em;cursor:pointer}
+
+/* ── Tabs ── */
+.tabs{display:flex;gap:6px;padding:10px 12px;overflow-x:auto;scrollbar-width:none;
+  position:sticky;top:0;background:rgba(7,13,26,.94);backdrop-filter:blur(12px);
+  z-index:10;border-bottom:1px solid var(--line)}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;padding:8px 14px;border:1px solid var(--line);border-radius:999px;
+  background:var(--card);color:var(--dim);font-weight:600;font-size:13px;cursor:pointer;
+  display:flex;align-items:center;gap:5px;transition:all .15s}
+.tab[aria-selected=true]{background:linear-gradient(90deg,var(--blue),var(--cyan));
+  color:#04132f;border-color:transparent;box-shadow:0 0 12px rgba(91,140,255,.35)}
+.badge{background:#fb7185;color:#fff;font-size:10px;font-weight:800;
+  padding:1px 5px;border-radius:999px;line-height:1.4}
+
+/* ── Main ── */
+main{padding:10px 12px 20px}
+
+/* ── Stat grid ── */
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px}
+.stat.wide{grid-column:span 2;
+  background:linear-gradient(135deg,#0f1e46 0%,#111827 100%)}
+.stat .n{font-size:26px;font-weight:800;line-height:1}
+.stat .l{color:var(--dim);font-size:11px;margin-top:4px}
+.mbar-wrap{margin-top:10px}
+.mbar{height:8px;border-radius:999px;background:var(--card2)}
+.mbar>span{display:block;height:100%;border-radius:999px;
+  background:linear-gradient(90deg,var(--a),var(--b));transition:width .6s}
+.mbar-row{display:flex;justify-content:space-between;font-size:11px;color:var(--dim);margin-top:4px}
+
+/* ── Action card ── */
+.action-card{background:linear-gradient(135deg,#0d1e3a,#101827);
+  border:1px solid #2563eb55;border-radius:16px;padding:14px;margin:8px 0}
+.action-card .icon{font-size:20px;margin-bottom:6px}
+.action-card .label{font-size:13px;color:var(--dim);margin-bottom:4px}
+.action-card .msg{font-size:14px;font-weight:600;color:var(--ink);line-height:1.4}
+
+/* ── Job card ── */
+.job{background:var(--card);border:1px solid var(--line);border-radius:18px;
+  padding:14px;margin:10px 0;display:flex;gap:12px}
+.grade-box{flex:0 0 44px;width:44px;height:44px;border-radius:12px;
+  display:grid;place-items:center;font-weight:800;font-size:20px;color:#04132f}
+.g-A{background:var(--a)} .g-B{background:var(--b)} .g-C{background:var(--c)}
+.g-D{background:var(--d)} .g-F{background:var(--f);color:var(--ink)}
+.job-body{flex:1;min-width:0}
+.job-title{font-weight:700;font-size:15px;line-height:1.3;margin-bottom:2px}
+.job-co{color:var(--dim);font-size:12px;margin-bottom:8px}
+.match-row{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.match-bar{flex:1;height:6px;border-radius:999px;background:var(--card2);overflow:hidden}
+.match-bar>span{display:block;height:100%;border-radius:999px;
+  background:linear-gradient(90deg,var(--blue),var(--cyan))}
+.match-pct{font-size:11px;font-weight:800;color:var(--dim);width:30px;text-align:right}
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.chip{font-size:10px;color:var(--dim);background:var(--card2);border:1px solid var(--line);
+  padding:2px 8px;border-radius:999px}
+.chip.visa{background:#052e1a;color:#86efac;border-color:#166534}
+.cta{display:flex;gap:6px;flex-wrap:wrap}
+.btn{flex:1;text-align:center;font-size:12px;font-weight:700;border-radius:10px;
+  padding:9px 6px;border:1px solid var(--line);background:var(--card2);
+  color:var(--ink);cursor:pointer;min-width:60px}
+.btn.primary{background:linear-gradient(90deg,var(--blue),var(--cyan));
+  color:#04132f;border-color:transparent}
+.btn.heart{color:var(--dim);border-color:var(--line)}
+.btn.heart.on{color:var(--save);border-color:var(--save);background:#3a0a18}
+
+/* ── Link card ── */
+.link-card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:13px 15px;margin:8px 0}
+.link-card a{color:var(--cyan);text-decoration:none;font-weight:600;font-size:14px}
+
+/* ── Misc ── */
+.empty{color:var(--dim);text-align:center;padding:32px 16px;font-size:14px;line-height:1.6}
+.sample-tag{font-size:10px;color:var(--c);text-align:center;padding:4px;letter-spacing:.04em}
+.section-title{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.08em;
+  text-transform:uppercase;margin:14px 0 6px}
+.toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom)+20px);
+  transform:translateX(-50%);background:var(--blue);color:#fff;font-weight:700;
+  padding:10px 20px;border-radius:999px;opacity:0;transition:.2s;pointer-events:none;z-index:100}
+.toast.show{opacity:1}
 </style>
 </head>
 <body>
 <div class="hero">
-  <h1>Career Radar</h1>
-  <div class="sub">Tracks B (remote/income) + C (Europe relocation)</div>
-  <div class="meta">
+  <div class="hero-row">
+    <div>
+      <h1>Career Radar</h1>
+      <div class="sub">Tracks B (remote/income) · C (Europe relocation)</div>
+    </div>
+  </div>
+  <div class="hero-meta">
     <span class="pill" id="meta">loading...</span>
-    <button class="refresh" onclick="load(true)">Refresh</button>
+    <button class="refresh-btn" onclick="load(true)">↻ Refresh</button>
   </div>
 </div>
+
 <nav class="tabs" role="tablist">
   <button class="tab" role="tab" data-t="dash" aria-selected="true">Dashboard</button>
-  <button class="tab" role="tab" data-t="C" aria-selected="false">Europe</button>
-  <button class="tab" role="tab" data-t="B" aria-selected="false">Remote</button>
+  <button class="tab" role="tab" data-t="C" aria-selected="false"> Europe</button>
+  <button class="tab" role="tab" data-t="B" aria-selected="false"> Remote</button>
   <button class="tab" role="tab" data-t="LI" aria-selected="false">LinkedIn</button>
   <button class="tab" role="tab" data-t="WM" aria-selected="false">Walmart</button>
+  <button class="tab" role="tab" data-t="saved" aria-selected="false">
+     Saved <span class="badge" id="saved-badge" style="display:none">0</span>
+  </button>
 </nav>
-<main id="view"><div class="empty">Loading...</div></main>
-<div class="toast" id="toast">Copied</div>
+
+<main id="view"><div class="empty">Loading…</div></main>
+<div class="toast" id="toast"></div>
 
 <script>
-const SAMPLE = { sample:true, stats:{total:3,track_b:1,track_c:2,grade_a:1,grade_b:1,visa:2},
-  tracks:{ C:[
-    {title:"Site Reliability Engineer",company:"Relex Solutions",location:"Helsinki, Finland",url:"#",grade:"A",match:92,visa:true,reasons:["Title match: sre","Kubernetes","Observability"]},
-    {title:"Platform Engineer",company:"Adyen",location:"Amsterdam, Netherlands",url:"#",grade:"B",match:78,visa:true,reasons:["Platform","Terraform","GitOps"]}],
-    B:[{title:"DevOps Engineer (Remote)",company:"GitLab",location:"Anywhere",url:"#",grade:"C",match:64,visa:false,reasons:["DevOps","CI/CD","Python"]}]},
-  linkedin:[], walmart_markets:[] };
+/* ─── Sample data (10 real-looking roles) ─── */
+const SAMPLE = {
+  sample: true,
+  generated: "sample data",
+  sources_ok: 0,
+  stats: { total:10, track_b:4, track_c:6, grade_a:3, grade_b:3, visa:6 },
+  tracks: {
+    C: [
+      {title:"Staff Site Reliability Engineer", company:"Relex Solutions",
+       location:"Helsinki, Finland", url:"https://www.relex.com/careers/", grade:"A",
+       match:92, visa:true, reasons:["SRE title match","Kubernetes","Observability","Terraform"]},
+      {title:"Platform Engineer", company:"Adyen",
+       location:"Amsterdam, Netherlands", url:"https://www.adyen.com/careers", grade:"A",
+       match:88, visa:true, reasons:["Platform engineering","Python","CI/CD","Scale (50B+ tx/yr)"]},
+      {title:"Senior SRE", company:"Booking.com",
+       location:"Amsterdam, Netherlands", url:"https://jobs.booking.com/", grade:"B",
+       match:81, visa:true, reasons:["SRE title","Python","Distributed systems","EU HSM visa"]},
+      {title:"DevOps Lead", company:"Zalando",
+       location:"Berlin, Germany", url:"https://jobs.zalando.com/", grade:"B",
+       match:77, visa:true, reasons:["DevOps","Terraform","Automation","EU Blue Card"]},
+      {title:"SRE Engineer", company:"Visma",
+       location:"Oslo, Norway", url:"https://www.visma.com/careers/", grade:"B",
+       match:73, visa:false, reasons:["SRE","Cloud infra","Norway skilled-worker permit"]},
+      {title:"Infrastructure Engineer", company:"Personio",
+       location:"Munich, Germany", url:"https://www.personio.com/about-personio/jobs/", grade:"C",
+       match:64, visa:true, reasons:["Infrastructure","Python","HR-tech scale","Blue Card eligible"]}
+    ],
+    B: [
+      {title:"Staff SRE", company:"Cloudflare",
+       location:"Remote (EMEA)", url:"https://www.cloudflare.com/careers/", grade:"A",
+       match:89, visa:false, reasons:["SRE title","Edge/CDN infra","High TC (US-band)","Remote-first culture"]},
+      {title:"Platform Engineer", company:"HashiCorp",
+       location:"Remote EMEA", url:"https://www.hashicorp.com/jobs", grade:"B",
+       match:76, visa:false, reasons:["Platform","Terraform native","OSS culture","USD comp"]},
+      {title:"Senior SRE", company:"Fastly",
+       location:"Remote Global", url:"https://www.fastly.com/about/careers", grade:"C",
+       match:71, visa:false, reasons:["SRE","CDN/Edge","Python","USD band"]},
+      {title:"DevOps Engineer", company:"GitLab",
+       location:"Anywhere", url:"https://about.gitlab.com/jobs/", grade:"C",
+       match:64, visa:false, reasons:["DevOps","CI/CD","Python","Fully async remote"]}
+    ]
+  },
+  linkedin: [
+    {label:"SRE – Remote (B)", url:"https://www.linkedin.com/jobs/search/?keywords=Site%20Reliability%20Engineer&f_WT=2"},
+    {label:"DevOps – Remote (B)", url:"https://www.linkedin.com/jobs/search/?keywords=DevOps%20Engineer&f_WT=2"},
+    {label:"Platform – Netherlands (C)", url:"https://www.linkedin.com/jobs/search/?keywords=Platform%20Engineer&location=Netherlands"},
+    {label:"SRE – Finland (C)", url:"https://www.linkedin.com/jobs/search/?keywords=Site%20Reliability%20Engineer&location=Finland"},
+    {label:"DevOps – Germany (C)", url:"https://www.linkedin.com/jobs/search/?keywords=DevOps%20Engineer&location=Germany"},
+    {label:"SRE – Norway (C)", url:"https://www.linkedin.com/jobs/search/?keywords=Site%20Reliability%20Engineer&location=Norway"}
+  ],
+  walmart_markets: [
+    {market:"Walmart Global Tech (US)", url:"https://careers.walmart.com/results?q=site%20reliability"},
+    {market:"Walmart GTP – India", url:"https://careers.walmart.com/results?q=SRE&jobCountry=India"},
+    {market:"Walmart Technology (all)", url:"https://careers.walmart.com/technology"}
+  ]
+};
 
-let DATA=null, TAB="dash";
-function esc(s){return(s||"").replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
-function toast(m){const t=document.getElementById("toast");t.textContent=m;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),1400);}
-function copyPrompt(kind,j){
-  const p = kind==="cv"
-    ? `Tailor my CV for this role. Use my resume archetypes in career-assessment/resumes/en/. Role: ${j.title} @ ${j.company} (${j.location}). Keep it truthful - reformulate keywords, never invent. Output an ATS-friendly 1-2 page CV.`
-    : `Draft a short, human (no AI-slop) outreach message for this role. Role: ${j.title} @ ${j.company} (${j.location}). Reference why I fit: ${(j.reasons||[]).join(", ")}. 3-4 sentences, warm, specific.`;
-  navigator.clipboard.writeText(p).then(()=>toast("Prompt copied - paste in Claude")).catch(()=>toast("Copy failed"));
+/* ─── Saved jobs ─── */
+function getSaved(){try{return JSON.parse(localStorage.getItem('cr_saved')||'[]')}catch{return[]}}
+function setSaved(s){localStorage.setItem('cr_saved',JSON.stringify(s))}
+function toggleSave(id){
+  let s=getSaved();
+  s.includes(id)?s=s.filter(x=>x!==id):s.push(id);
+  setSaved(s); updateSavedBadge(); render();
 }
+function updateSavedBadge(){
+  const n=getSaved().length, el=document.getElementById('saved-badge');
+  el.textContent=n; el.style.display=n?'inline':'none';
+}
+
+/* ─── Helpers ─── */
+function esc(s){return(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function toast(m){const t=document.getElementById('toast');t.textContent=m;
+  t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}
+function copyPrompt(type,j){
+  const p=type==='cv'
+    ?`Tailor my CV for this role using my resume archetypes in career-assessment/resumes/en/.\nRole: ${j.title} at ${j.company}, ${j.location}.\nKeep it truthful – reformulate keywords, never invent. Output ATS-friendly 1–2 page CV.`
+    :`Draft a short, human outreach message (no AI-slop).\nRole: ${j.title} at ${j.company}, ${j.location}.\nWhy I fit: ${(j.reasons||[]).join(', ')}.\n3–4 sentences, warm and specific.`;
+  navigator.clipboard.writeText(p).then(()=>toast('Prompt copied – paste in Claude')).catch(()=>toast('Copy failed'));
+}
+
+let DATA=null, TAB='dash';
+let TRACK=[];
+
+/* ─── Dashboard ─── */
+function nextAction(s){
+  if(!s) return '';
+  if((s.grade_a||0)>0) return `<div class="action-card">
+    <div class="icon" style="color:var(--a);font-weight:800">[A] Apply now</div>
+    <div class="label">Recommended action</div>
+    <div class="msg">${s.grade_a} A-grade match${s.grade_a>1?'es':''} found. Apply today — open the Europe or Remote tab and use the Tailor CV button.</div>
+  </div>`;
+  if((s.grade_b||0)>0) return `<div class="action-card">
+    <div class="icon" style="color:var(--b);font-weight:800">[B] Apply this week</div>
+    <div class="label">Recommended action</div>
+    <div class="msg">${s.grade_b} B-grade matches worth applying. Check Europe tab first (visa-sponsor priority).</div>
+  </div>`;
+  return `<div class="action-card">
+    <div class="icon" style="color:var(--dim);font-weight:800">[~] Keep searching</div>
+    <div class="label">Today's move</div>
+    <div class="msg">No strong matches in this run. Hit LinkedIn tab for direct searches, or re-run the Action on personal WiFi.</div>
+  </div>`;
+}
+function dashboard(){
+  const s=DATA.stats||{};
+  const strong=(s.grade_a||0)+(s.grade_b||0);
+  const pct=s.total?Math.round(strong/s.total*100):0;
+  return `
+  ${nextAction(s)}
+  <div class="section-title">Today's snapshot</div>
+  <div class="grid">
+    <div class="stat wide">
+      <div class="n">${s.total}</div>
+      <div class="l">total matches scanned</div>
+      <div class="mbar-wrap">
+        <div class="mbar"><span style="width:${pct}%"></span></div>
+        <div class="mbar-row"><span>${strong} strong (A/B grade)</span><span>${pct}%</span></div>
+      </div>
+    </div>
+    <div class="stat"><div class="n" style="color:var(--a)">${s.grade_a||0}</div><div class="l">A-grade · apply now</div></div>
+    <div class="stat"><div class="n" style="color:var(--b)">${s.grade_b||0}</div><div class="l">B-grade · apply this week</div></div>
+    <div class="stat"><div class="n" style="color:var(--cyan)">${s.visa||0}</div><div class="l">visa sponsor (Europe)</div></div>
+    <div class="stat"><div class="n">${s.track_c||0}/${s.track_b||0}</div><div class="l">Europe / Remote split</div></div>
+  </div>`;
+}
+
+/* ─── Job card ─── */
 function jobCard(j,i){
-  const chips=(j.reasons||[]).map(r=>`<span class="chip">${esc(r)}</span>`).join("")
-    + (j.visa?'<span class="chip visa">VISA SPONSOR</span>':'');
+  const id=j.title+'|'+j.company;
+  const saved=getSaved().includes(id);
+  const chips=(j.reasons||[]).map(r=>`<span class="chip">${esc(r)}</span>`).join('')
+    +(j.visa?'<span class="chip visa">VISA SPONSOR</span>':'');
   return `<div class="job">
-    <div class="grade g-${esc(j.grade||'F')}">${esc(j.grade||'?')}</div>
-    <div class="body">
-      <p class="title">${esc(j.title)}</p>
-      <div class="co">${esc(j.company||'?')} - ${esc(j.location||'n/a')}</div>
-      <div class="mrow"><div class="mbar"><span style="width:${j.match||40}%"></span></div><span class="mpct">${j.match||40}%</span></div>
+    <div class="grade-box g-${esc(j.grade||'F')}">${esc(j.grade||'?')}</div>
+    <div class="job-body">
+      <div class="job-title">${esc(j.title)}</div>
+      <div class="job-co">${esc(j.company)} · ${esc(j.location)}</div>
+      <div class="match-row">
+        <div class="match-bar"><span style="width:${j.match||40}%"></span></div>
+        <span class="match-pct">${j.match||40}%</span>
+      </div>
       <div class="chips">${chips}</div>
       <div class="cta">
         <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Open</a>
         <button class="btn" onclick='copyPrompt("cv",TRACK[${i}])'>Tailor CV</button>
         <button class="btn" onclick='copyPrompt("out",TRACK[${i}])'>Outreach</button>
+        <button class="btn heart ${saved?'on':''}" onclick='toggleSave(${JSON.stringify(id)})'>${saved?'[saved]':'[save]'}</button>
       </div>
-    </div></div>`;
-}
-let TRACK=[];
-function linkCard(l){return `<div class="link"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label||l.market)} &rarr;</a></div>`;}
-
-function dashboard(){
-  const s=DATA.stats||{total:0,track_b:0,track_c:0,grade_a:0,grade_b:0,visa:0};
-  const strong=(s.grade_a||0)+(s.grade_b||0);
-  const pct=s.total?Math.round(strong/s.total*100):0;
-  return `<div class="grid">
-    <div class="stat big"><div class="n">${s.total}</div><div class="l">total matches today</div></div>
-    <div class="stat"><div class="n" style="color:var(--a)">${s.grade_a}</div><div class="l">A-grade (apply now)</div></div>
-    <div class="stat"><div class="n" style="color:var(--b)">${s.grade_b}</div><div class="l">B-grade (worth it)</div></div>
-    <div class="stat"><div class="n" style="color:var(--c)">${s.visa}</div><div class="l">visa-sponsor (C)</div></div>
-    <div class="stat"><div class="n">${s.track_c}/${s.track_b}</div><div class="l">Europe / Remote split</div></div>
-  </div>
-  <div class="funnel"><h3>Strong-match rate</h3>
-    <div class="bar"><span style="width:${pct}%;background:linear-gradient(90deg,var(--a),var(--b))"></span></div>
-    <div class="frow"><span>${strong} strong (A/B)</span><span>${pct}%</span></div>
+    </div>
   </div>`;
 }
 
-function render(){
-  const v=document.getElementById("view");
-  if(!DATA){v.innerHTML='<div class="empty">No data.</div>';return;}
-  const note = DATA.sample ? '<div class="sample-note">Showing SAMPLE data - run the GitHub Action for live jobs</div>' : '';
-  if(TAB==="dash"){ v.innerHTML=note+dashboard(); }
-  else if(TAB==="C"||TAB==="B"){
-    TRACK=(DATA.tracks&&DATA.tracks[TAB])||[];
-    v.innerHTML=note+(TRACK.length?TRACK.map(jobCard).join("")
-      :'<div class="empty">No matches in this run.<br>Check the LinkedIn tab or trigger the Action.</div>');
-  } else if(TAB==="LI"){
-    const li=DATA.linkedin||[];
-    v.innerHTML=(li.length?'<div class="empty">Open each &amp; tap "Set alert".</div>'+li.map(linkCard).join("")
-      :'<div class="empty">LinkedIn searches appear after a live run.</div>');
-  } else {
-    const wm=(DATA.walmart_markets||[]).map(p=>({label:p.market,url:p.url}));
-    v.innerHTML=(wm.length?wm.map(linkCard).join(""):'<div class="empty">Walmart markets appear after a live run.</div>');
-  }
+/* ─── Link / saved ─── */
+function linkCard(l){return`<div class="link-card"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label||l.market)} →</a></div>`}
+function savedView(){
+  const ids=getSaved(); if(!ids.length) return '<div class="empty">No saved jobs yet.<br>Tap [save] on any card.</div>';
+  const all=[...(DATA?.tracks?.B||[]),...(DATA?.tracks?.C||[])];
+  const jobs=all.filter(j=>ids.includes(j.title+'|'+j.company));
+  TRACK=jobs;
+  return jobs.length?jobs.map(jobCard).join(''):'<div class="empty">Saved jobs not found in current data. Re-run radar to reload.</div>';
 }
+
+/* ─── Render ─── */
+function render(){
+  const v=document.getElementById('view');
+  if(!DATA){v.innerHTML='<div class="empty">No data.</div>';return}
+  const note=DATA.sample?'<div class="sample-tag">[SAMPLE] run GitHub Action on personal WiFi for live jobs</div>':'';
+  if(TAB==='dash'){v.innerHTML=note+dashboard()}
+  else if(TAB==='C'||TAB==='B'){
+    TRACK=(DATA.tracks&&DATA.tracks[TAB])||[];
+    v.innerHTML=note+(TRACK.length?TRACK.map(jobCard).join('')
+      :'<div class="empty">No matches in this run.<br>Check LinkedIn tab or re-run on personal WiFi.</div>');
+  }
+  else if(TAB==='LI') v.innerHTML=(DATA.linkedin||[]).map(linkCard).join('')||'<div class="empty">Run the Action first.</div>';
+  else if(TAB==='WM') v.innerHTML=(DATA.walmart_markets||[]).map(linkCard).join('')||'<div class="empty">No markets.</div>';
+  else if(TAB==='saved') v.innerHTML=note+savedView();
+  updateSavedBadge();
+}
+
+/* ─── Load ─── */
 async function load(force){
   try{
-    const r=await fetch("data/latest.json"+(force?"?t="+Date.now():""),{cache:force?"reload":"default"});
+    const r=await fetch('data/latest.json'+(force?'?t='+Date.now():''),{cache:force?'reload':'default'});
     const d=await r.json();
     DATA=(d.stats&&d.stats.total>0)?d:SAMPLE;
-    document.getElementById("meta").textContent=(DATA.sample?"sample - ":"")+(d.generated||"")+" - src "+(d.sources_ok||0)+"/4";
-  }catch(e){ DATA=SAMPLE; document.getElementById("meta").textContent="offline - sample data"; }
+    const src=DATA.sample?'sample':'live';
+    document.getElementById('meta').textContent=`${src} · ${d.generated||'—'} · APIs ${d.sources_ok||0}/4`;
+    if(!DATA.sample) document.getElementById('meta').classList.add('live');
+  }catch{DATA=SAMPLE;document.getElementById('meta').textContent='offline · sample data'}
   render();
 }
-document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
-  document.querySelectorAll(".tab").forEach(x=>x.setAttribute("aria-selected","false"));
-  t.setAttribute("aria-selected","true"); TAB=t.dataset.t; render();
+
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected','false'));
+  t.setAttribute('aria-selected','true'); TAB=t.dataset.t; render();
 }));
-if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+if('serviceWorker'in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
+updateSavedBadge();
 load();
 </script>
 </body>
