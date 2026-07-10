@@ -1,16 +1,46 @@
 {
-  "generated": "2026-07-09 13:42 UTC",
+  "generated": "2026-07-10 13:03 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 29,
-    "track_b": 26,
-    "track_c": 3,
-    "grade_a": 0,
-    "grade_b": 2,
+    "total": 39,
+    "track_b": 34,
+    "track_c": 5,
+    "grade_a": 2,
+    "grade_b": 4,
     "visa": 0
   },
   "tracks": {
     "B": [
+      {
+        "title": "Senior Network Site Reliability Engineer (NetSRE)",
+        "company": "Nebius",
+        "location": "Europe,  Netherlands",
+        "url": "https://jobicy.com/jobs/149056-senior-network-site-reliability-engineer-netsre",
+        "score": 14,
+        "grade": "A",
+        "match": 70,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "SRE",
+          "Site Reliability"
+        ]
+      },
+      {
+        "title": "Senior Site Reliability Engineer (Hardware Automation)",
+        "company": "Nebius",
+        "location": "Europe,  Netherlands",
+        "url": "https://jobicy.com/jobs/149057-senior-site-reliability-engineer-hardware-automation",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ]
+      },
       {
         "title": "(Senior) Site Reliability Engineer (m/f/d) - Platform & Agentic Operations",
         "company": "1KOMMA5°",
@@ -117,6 +147,21 @@
         ]
       },
       {
+        "title": "QA Automation Lead [gn] Data Intelligence",
+        "company": "Actian",
+        "location": "Europe",
+        "url": "https://jobicy.com/jobs/149048-qa-automation-lead-gn-data-intelligence",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Reliability",
+          "Platform",
+          "Automation"
+        ]
+      },
+      {
         "title": "Software Development Engineer in Test",
         "company": "Sporty Group",
         "location": "EMEA",
@@ -129,6 +174,36 @@
           "Platform",
           "Automation",
           "Python"
+        ]
+      },
+      {
+        "title": "AI Engineer [gn] (Agentic AI & Automation)",
+        "company": "Actian",
+        "location": "Europe",
+        "url": "https://jobicy.com/jobs/149051-ai-engineer-gn-agentic-ai-automation",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Platform",
+          "Automation"
+        ]
+      },
+      {
+        "title": "QA Engineer [gn] (Automation & Resilience)",
+        "company": "Actian",
+        "location": "Europe",
+        "url": "https://jobicy.com/jobs/149050-qa-engineer-gn-automation-resilience",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Reliability",
+          "Platform",
+          "Automation"
         ]
       },
       {
@@ -302,17 +377,17 @@
         ]
       },
       {
-        "title": "MTS Cloud Test",
-        "company": "Aviatrix",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/145145-mts-cloud-test",
+        "title": "Non USA",
+        "company": "New Relic",
+        "location": "Hyderabad,",
+        "url": "https://remoteOK.com/remote-jobs/remote-non-usa-new-relic-1134671",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Kubernetes",
-          "Cloud Native"
+          "Platform",
+          "Observability"
         ]
       },
       {
@@ -358,6 +433,48 @@
         ]
       },
       {
+        "title": "Junior Ecommerce Specialist",
+        "company": "Haystack",
+        "location": "Greater Chicago Area",
+        "url": "https://remoteOK.com/remote-jobs/remote-junior-ecommerce-specialist-haystack-1134653",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Linux"
+        ]
+      },
+      {
+        "title": "Project Coordinator",
+        "company": "Franklin Fitch",
+        "location": "London Area, London Area, United Kingdom",
+        "url": "https://remoteOK.com/remote-jobs/remote-project-coordinator-franklin-fitch-1134634",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Devops",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Events Manager",
+        "company": "Lantern",
+        "location": "Dallas, Dallas, Texas, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-events-manager-lantern-1134622",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Golang"
+        ]
+      },
+      {
         "title": "Freelance Social Media &amp; Marketing Executive",
         "company": "MePlus Nutrition",
         "location": "Glasgow, Glasgow, Scotland, United Kingdom",
@@ -387,6 +504,36 @@
       }
     ],
     "C": [
+      {
+        "title": "Senior Network Site Reliability Engineer (NetSRE)",
+        "company": "Nebius",
+        "location": "Europe,  Netherlands",
+        "url": "https://jobicy.com/jobs/149056-senior-network-site-reliability-engineer-netsre",
+        "score": 14,
+        "grade": "A",
+        "match": 70,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "SRE",
+          "Site Reliability"
+        ]
+      },
+      {
+        "title": "Senior Site Reliability Engineer (Hardware Automation)",
+        "company": "Nebius",
+        "location": "Europe,  Netherlands",
+        "url": "https://jobicy.com/jobs/149057-senior-site-reliability-engineer-hardware-automation",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ]
+      },
       {
         "title": "(Senior) Site Reliability Engineer (m/f/d) - Platform & Agentic Operations",
         "company": "1KOMMA5°",
