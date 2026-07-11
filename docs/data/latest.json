@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-10 13:03 UTC",
+  "generated": "2026-07-11 11:44 UTC",
   "sources_ok": 4,
   "stats": {
     "total": 39,
-    "track_b": 34,
-    "track_c": 5,
+    "track_b": 33,
+    "track_c": 6,
     "grade_a": 2,
     "grade_b": 4,
     "visa": 0
@@ -177,36 +177,6 @@
         ]
       },
       {
-        "title": "AI Engineer [gn] (Agentic AI & Automation)",
-        "company": "Actian",
-        "location": "Europe",
-        "url": "https://jobicy.com/jobs/149051-ai-engineer-gn-agentic-ai-automation",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Platform",
-          "Automation"
-        ]
-      },
-      {
-        "title": "QA Engineer [gn] (Automation & Resilience)",
-        "company": "Actian",
-        "location": "Europe",
-        "url": "https://jobicy.com/jobs/149050-qa-engineer-gn-automation-resilience",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Reliability",
-          "Platform",
-          "Automation"
-        ]
-      },
-      {
         "title": "Customer Solutions Architect, Amazon Connect",
         "company": "Caylent",
         "location": "Canada",
@@ -293,17 +263,17 @@
         ]
       },
       {
-        "title": "Principal DevOps Engineer (Poland Remote)",
-        "company": "Turnitin, LLC",
-        "location": "Poland",
-        "url": "https://jobicy.com/jobs/145949-principal-devops-engineer-poland-remote",
+        "title": "Director of Engineering, Cloud & Reliability",
+        "company": "Boulevard",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/149111-director-of-engineering-cloud-reliability",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: devops",
-          "Devops"
+          "Reliability",
+          "Platform"
         ]
       },
       {
@@ -349,20 +319,6 @@
         ]
       },
       {
-        "title": "Python & React Engineer with AI (Remote, Latam)",
-        "company": "Kubikware",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/146122-python-react-engineer-with-ai-remote-latam-2",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Python"
-        ]
-      },
-      {
         "title": "Salesforce Marketing Cloud Platform Manager (Pharmaceutical Sector)",
         "company": "Omega CRM",
         "location": "Spain",
@@ -374,6 +330,34 @@
         "reasons": [
           "Platform",
           "Automation"
+        ]
+      },
+      {
+        "title": "DevOps Softwareentwickler/in mit Karriereambitionen - jetzt mit uns voll durchstarten!",
+        "company": "Auralis Group",
+        "location": "Markt Indersdorf",
+        "url": "https://www.arbeitnow.com/jobs/companies/auralis-group/devops-softwareentwickler-in-mit-karriereambitionen-jetzt-mit-uns-voll-durchstarten-markt-indersdorf-43537",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ]
+      },
+      {
+        "title": "Platform Engineer (m/w/d) mit Karriereambitionen!",
+        "company": "Auralis Group",
+        "location": "Markt Indersdorf",
+        "url": "https://www.arbeitnow.com/jobs/companies/auralis-group/platform-engineer-mit-karriereambitionen-markt-indersdorf-232407",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
         ]
       },
       {
@@ -419,17 +403,45 @@
         ]
       },
       {
-        "title": "Senior Full-Stack Developer",
-        "company": "Automat-it",
-        "location": "Ukraine",
-        "url": "https://jobicy.com/jobs/143143-senior-full-stack-developer",
+        "title": "Application Support Engineer",
+        "company": "Cresta",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/149098-application-support-engineer",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Devops",
-          "Aws"
+          "Platform",
+          "Ai Agent"
+        ]
+      },
+      {
+        "title": "Computer User Support",
+        "company": "Recruitlytixs Hirings",
+        "location": "Alberta, Alberta, Canada",
+        "url": "https://remoteOK.com/remote-jobs/remote-computer-user-support-recruitlytixs-hirings-1134667",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Customer Success Manager",
+        "company": "INNERGY",
+        "location": "Austin, Austin, Texas, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-innergy-1134651",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Linux"
         ]
       },
       {
@@ -472,34 +484,6 @@
         "reasons": [
           "Platform",
           "Golang"
-        ]
-      },
-      {
-        "title": "Freelance Social Media &amp; Marketing Executive",
-        "company": "MePlus Nutrition",
-        "location": "Glasgow, Glasgow, Scotland, United Kingdom",
-        "url": "https://remoteOK.com/remote-jobs/remote-freelance-social-media-amp-marketing-executive-meplus-nutrition-1134635",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Devops",
-          "Golang"
-        ]
-      },
-      {
-        "title": "GET",
-        "company": "Yokogawa",
-        "location": "Baroda,",
-        "url": "https://remoteOK.com/remote-jobs/remote-get-yokogawa-1134535",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Automation",
-          "Monitoring"
         ]
       }
     ],
@@ -547,6 +531,20 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
+        ]
+      },
+      {
+        "title": "(Senior) AI Engineer / MLOps Engineer (w/m/d)",
+        "company": "Right Search",
+        "location": "Munich",
+        "url": "https://www.arbeitnow.com/jobs/companies/right-search/senior-ai-engineer-mlops-engineer-munich-86006",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Mlops"
         ]
       },
       {
