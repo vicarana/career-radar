@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-11 11:44 UTC",
+  "generated": "2026-07-12 11:52 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 39,
-    "track_b": 33,
+    "total": 42,
+    "track_b": 36,
     "track_c": 6,
     "grade_a": 2,
     "grade_b": 4,
@@ -84,6 +84,21 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
+        ]
+      },
+      {
+        "title": "Senior Cloud Engineer / DevOps (GCP) - Marketing",
+        "company": "Truelogic",
+        "location": "LATAM",
+        "url": "https://jobicy.com/jobs/149150-senior-cloud-engineer-devops-gcp-marketing",
+        "score": 7,
+        "grade": "C",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Gcp"
         ]
       },
       {
@@ -174,6 +189,21 @@
           "Platform",
           "Automation",
           "Python"
+        ]
+      },
+      {
+        "title": "Lead Platform Engineer",
+        "company": "Launchpad Technologies",
+        "location": "LATAM",
+        "url": "https://jobicy.com/jobs/149146-lead-platform-engineer",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Azure"
         ]
       },
       {
@@ -316,6 +346,20 @@
         "reasons": [
           "Platform",
           "Python"
+        ]
+      },
+      {
+        "title": "Senior Data & Platform Engineer – Veterinary Technology",
+        "company": "Truelogic",
+        "location": "LATAM",
+        "url": "https://jobicy.com/jobs/149168-senior-data-platform-engineer-veterinary-technology",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
         ]
       },
       {
