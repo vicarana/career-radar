@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-13 13:12 UTC",
+  "generated": "2026-07-14 12:05 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 38,
-    "track_b": 32,
-    "track_c": 6,
+    "total": 37,
+    "track_b": 28,
+    "track_c": 9,
     "grade_a": 2,
     "grade_b": 4,
     "visa": 0
@@ -61,21 +61,6 @@
         "company": "Remote",
         "location": "EMEA",
         "url": "https://jobicy.com/jobs/148108-senior-site-reliability-engineer",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
-      },
-      {
-        "title": "Senior Site Reliability Engineer",
-        "company": "Akamai Technologies",
-        "location": "Poland",
-        "url": "https://jobicy.com/jobs/143565-senior-site-reliability-engineer-3",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -347,34 +332,6 @@
         ]
       },
       {
-        "title": "AI Engineer (m/f/d) - Full Stack, TypeScript / Nuxt / Next / Vue / React",
-        "company": "Laioutr GmbH",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/laioutr-gmbh/ai-engineer-full-stack-typescript-nuxt-next-vue-react-berlin-265753",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Platform"
-        ]
-      },
-      {
-        "title": "Non USA",
-        "company": "New Relic",
-        "location": "Hyderabad,",
-        "url": "https://remoteOK.com/remote-jobs/remote-non-usa-new-relic-1134671",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Observability"
-        ]
-      },
-      {
         "title": "Software Engineer (.NET) (f/m/d)",
         "company": "Apaleo",
         "location": "Germany",
@@ -457,20 +414,6 @@
           "Platform",
           "Linux"
         ]
-      },
-      {
-        "title": "Junior Ecommerce Specialist",
-        "company": "Haystack",
-        "location": "Greater Chicago Area",
-        "url": "https://remoteOK.com/remote-jobs/remote-junior-ecommerce-specialist-haystack-1134653",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Linux"
-        ]
       }
     ],
     "C": [
@@ -520,6 +463,21 @@
         ]
       },
       {
+        "title": "Full Stack Platform Engineer (m/f/d)",
+        "company": "Nomadic GmbH",
+        "location": "Munich",
+        "url": "https://www.arbeitnow.com/jobs/companies/nomadic-gmbh/full-stack-platform-engineer-munich-39238",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Monitoring"
+        ]
+      },
+      {
         "title": "DevOps Engineer",
         "company": "PSI CRO",
         "location": "Latvia",
@@ -534,17 +492,17 @@
         ]
       },
       {
-        "title": "AI Engineer (m/f/d) - Full Stack, TypeScript / Nuxt / Next / Vue / React",
-        "company": "Laioutr GmbH",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/laioutr-gmbh/ai-engineer-full-stack-typescript-nuxt-next-vue-react-berlin-265753",
+        "title": "Working Student: QA Automation Engineering (m/f/d)",
+        "company": "Retorio GmbH",
+        "location": "Munich",
+        "url": "https://www.arbeitnow.com/jobs/companies/retorio-gmbh/working-student-qa-automation-engineering-munich-344238",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: ai engineer",
-          "Platform"
+          "Title match: automation engineer",
+          "Automation"
         ]
       },
       {
@@ -552,6 +510,34 @@
         "company": "Apaleo",
         "location": "Germany",
         "url": "https://jobicy.com/jobs/145054-software-engineer-net-f-m-d",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Ai Agent"
+        ]
+      },
+      {
+        "title": "Staff Software Engineer - AI Data Platform & Snowflake (d/f/m, Berlin)",
+        "company": "Monda Labs",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/monda-labs/staff-software-engineer-ai-data-platform-snowflake-berlin-75874",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Ai Agent"
+        ]
+      },
+      {
+        "title": "Senior Product Marketing Manager (f/m/d)",
+        "company": "Apaleo",
+        "location": "Munich, Bavaria, Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/apaleo/senior-product-marketing-manager-munich-401894",
         "score": 3,
         "grade": "F",
         "match": 35,
