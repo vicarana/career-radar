@@ -1,46 +1,16 @@
 {
-  "generated": "2026-07-14 12:05 UTC",
+  "generated": "2026-07-15 12:09 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 37,
-    "track_b": 28,
-    "track_c": 9,
-    "grade_a": 2,
-    "grade_b": 4,
+    "total": 34,
+    "track_b": 29,
+    "track_c": 5,
+    "grade_a": 0,
+    "grade_b": 2,
     "visa": 0
   },
   "tracks": {
     "B": [
-      {
-        "title": "Senior Network Site Reliability Engineer (NetSRE)",
-        "company": "Nebius",
-        "location": "Europe,  Netherlands",
-        "url": "https://jobicy.com/jobs/149056-senior-network-site-reliability-engineer-netsre",
-        "score": 14,
-        "grade": "A",
-        "match": 70,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "SRE",
-          "Site Reliability"
-        ]
-      },
-      {
-        "title": "Senior Site Reliability Engineer (Hardware Automation)",
-        "company": "Nebius",
-        "location": "Europe,  Netherlands",
-        "url": "https://jobicy.com/jobs/149057-senior-site-reliability-engineer-hardware-automation",
-        "score": 12,
-        "grade": "B",
-        "match": 60,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
-      },
       {
         "title": "(Senior) Site Reliability Engineer (m/f/d) - Platform & Agentic Operations",
         "company": "1KOMMA5°",
@@ -49,21 +19,6 @@
         "score": 10,
         "grade": "B",
         "match": 50,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
-      },
-      {
-        "title": "Senior Site Reliability Engineer",
-        "company": "Remote",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/148108-senior-site-reliability-engineer",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
         "visa": false,
         "reasons": [
           "Title match: site reliability",
@@ -147,6 +102,21 @@
         ]
       },
       {
+        "title": "Sr. Machine Learning Solutions Architect",
+        "company": "phData",
+        "location": "LATAM",
+        "url": "https://jobicy.com/jobs/146291-sr-machine-learning-solutions-architect",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Aws",
+          "Gcp"
+        ]
+      },
+      {
         "title": "Lead Platform Engineer",
         "company": "Launchpad Technologies",
         "location": "LATAM",
@@ -189,6 +159,20 @@
           "Devops",
           "Platform",
           "Ai Agent"
+        ]
+      },
+      {
+        "title": "Senior DevOps Engineer - Financial Company - (Remote/LATAM)",
+        "company": "Truelogic",
+        "location": "LATAM",
+        "url": "https://jobicy.com/jobs/146308-senior-devops-engineer-financial-company-remote-latam",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
         ]
       },
       {
@@ -292,6 +276,20 @@
       {
         "title": "Python & React Engineer with AI (Remote, Latam)",
         "company": "Kubikware",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/146122-python-react-engineer-with-ai-remote-latam-2",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Python"
+        ]
+      },
+      {
+        "title": "Python & React Engineer with AI (Remote, Latam)",
+        "company": "Kubikware",
         "location": "LATAM",
         "url": "https://jobicy.com/jobs/142967-python-react-engineer-with-ai-remote-latam",
         "score": 4,
@@ -301,6 +299,34 @@
         "reasons": [
           "Platform",
           "Python"
+        ]
+      },
+      {
+        "title": "Senior SecOps Automation Engineer - Consumer FinTech",
+        "company": "Truelogic",
+        "location": "LATAM",
+        "url": "https://jobicy.com/jobs/146284-senior-secops-automation-engineer-consumer-fintech",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: automation engineer",
+          "Automation"
+        ]
+      },
+      {
+        "title": "Senior Security Engineer, Security Incident Response Team (SIRT) - EMEA",
+        "company": "GitLab",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/149309-senior-security-engineer-security-incident-response-team-sirt-emea",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Incident"
         ]
       },
       {
@@ -329,6 +355,34 @@
         "reasons": [
           "Title match: platform engineer",
           "Platform"
+        ]
+      },
+      {
+        "title": "Senior DevOps Engineer - full-time - 100 % remote",
+        "company": "Contensi Software GmbH",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/contensi-software-gmbh/senior-devops-engineer-full-time-100-remote-berlin-357461",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ]
+      },
+      {
+        "title": "Software Developer Sr. - AI-Native .NET/ Azure (Cloud Platform)",
+        "company": "Dayforce",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/146260-software-developer-sr-ai-native-net-azure-cloud-platform",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Azure"
         ]
       },
       {
@@ -372,81 +426,9 @@
           "Reliability",
           "Linux"
         ]
-      },
-      {
-        "title": "Application Support Engineer",
-        "company": "Cresta",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/149098-application-support-engineer",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Ai Agent"
-        ]
-      },
-      {
-        "title": "Computer User Support",
-        "company": "Recruitlytixs Hirings",
-        "location": "Alberta, Alberta, Canada",
-        "url": "https://remoteOK.com/remote-jobs/remote-computer-user-support-recruitlytixs-hirings-1134667",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Customer Success Manager",
-        "company": "INNERGY",
-        "location": "Austin, Austin, Texas, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-innergy-1134651",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Linux"
-        ]
       }
     ],
     "C": [
-      {
-        "title": "Senior Network Site Reliability Engineer (NetSRE)",
-        "company": "Nebius",
-        "location": "Europe,  Netherlands",
-        "url": "https://jobicy.com/jobs/149056-senior-network-site-reliability-engineer-netsre",
-        "score": 14,
-        "grade": "A",
-        "match": 70,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "SRE",
-          "Site Reliability"
-        ]
-      },
-      {
-        "title": "Senior Site Reliability Engineer (Hardware Automation)",
-        "company": "Nebius",
-        "location": "Europe,  Netherlands",
-        "url": "https://jobicy.com/jobs/149057-senior-site-reliability-engineer-hardware-automation",
-        "score": 12,
-        "grade": "B",
-        "match": 60,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
-      },
       {
         "title": "(Senior) Site Reliability Engineer (m/f/d) - Platform & Agentic Operations",
         "company": "1KOMMA5°",
@@ -460,21 +442,6 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
-        ]
-      },
-      {
-        "title": "Full Stack Platform Engineer (m/f/d)",
-        "company": "Nomadic GmbH",
-        "location": "Munich",
-        "url": "https://www.arbeitnow.com/jobs/companies/nomadic-gmbh/full-stack-platform-engineer-munich-39238",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Monitoring"
         ]
       },
       {
@@ -492,17 +459,31 @@
         ]
       },
       {
-        "title": "Working Student: QA Automation Engineering (m/f/d)",
-        "company": "Retorio GmbH",
-        "location": "Munich",
-        "url": "https://www.arbeitnow.com/jobs/companies/retorio-gmbh/working-student-qa-automation-engineering-munich-344238",
+        "title": "Senior DevOps Engineer - full-time - 100 % remote",
+        "company": "Contensi Software GmbH",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/contensi-software-gmbh/senior-devops-engineer-full-time-100-remote-berlin-357461",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: automation engineer",
-          "Automation"
+          "Title match: devops",
+          "Devops"
+        ]
+      },
+      {
+        "title": "Senior Full Stack Engineer- Python (m/f/d)",
+        "company": "Flix",
+        "location": "Berlin, Berlin, Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/flix/senior-full-stack-engineer-python-berlin-464084",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Automation",
+          "Python"
         ]
       },
       {
@@ -510,34 +491,6 @@
         "company": "Apaleo",
         "location": "Germany",
         "url": "https://jobicy.com/jobs/145054-software-engineer-net-f-m-d",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Ai Agent"
-        ]
-      },
-      {
-        "title": "Staff Software Engineer - AI Data Platform & Snowflake (d/f/m, Berlin)",
-        "company": "Monda Labs",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/monda-labs/staff-software-engineer-ai-data-platform-snowflake-berlin-75874",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Ai Agent"
-        ]
-      },
-      {
-        "title": "Senior Product Marketing Manager (f/m/d)",
-        "company": "Apaleo",
-        "location": "Munich, Bavaria, Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/apaleo/senior-product-marketing-manager-munich-401894",
         "score": 3,
         "grade": "F",
         "match": 35,
