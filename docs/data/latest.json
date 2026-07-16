@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-15 12:09 UTC",
+  "generated": "2026-07-16 12:14 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 34,
-    "track_b": 29,
-    "track_c": 5,
+    "total": 36,
+    "track_b": 32,
+    "track_c": 4,
     "grade_a": 0,
     "grade_b": 2,
     "visa": 0
@@ -102,6 +102,21 @@
         ]
       },
       {
+        "title": "AI DevOps Engineer / Automation Builder (m/w/d)",
+        "company": "Ecoturn GmbH",
+        "location": "Munich",
+        "url": "https://www.arbeitnow.com/jobs/companies/ecoturn-gmbh/ai-devops-engineer-automation-builder-munich-416030",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Automation"
+        ]
+      },
+      {
         "title": "Sr. Machine Learning Solutions Architect",
         "company": "phData",
         "location": "LATAM",
@@ -159,6 +174,20 @@
           "Devops",
           "Platform",
           "Ai Agent"
+        ]
+      },
+      {
+        "title": "Senior DevOps Engineer",
+        "company": "Lemon.io",
+        "location": "Americas, Europe, Asia, Africa, Oceania",
+        "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091067",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
         ]
       },
       {
@@ -344,31 +373,31 @@
         ]
       },
       {
-        "title": "Senior Data & Platform Engineer – Veterinary Technology",
-        "company": "Truelogic",
-        "location": "LATAM",
-        "url": "https://jobicy.com/jobs/149168-senior-data-platform-engineer-veterinary-technology",
+        "title": "Business Development",
+        "company": "Timo",
+        "location": "SÃ£o Paulo e RegiÃ£o",
+        "url": "https://remoteOK.com/remote-jobs/remote-business-development-timo-1134909",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: platform engineer",
-          "Platform"
+          "Platform",
+          "Python"
         ]
       },
       {
-        "title": "Senior DevOps Engineer - full-time - 100 % remote",
-        "company": "Contensi Software GmbH",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/contensi-software-gmbh/senior-devops-engineer-full-time-100-remote-berlin-357461",
-        "score": 4,
-        "grade": "D",
+        "title": "Engineering Manager, Internal Developer Platform",
+        "company": "Chainguard",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/148144-engineering-manager-internal-developer-platform",
+        "score": 3,
+        "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: devops",
-          "Devops"
+          "Platform",
+          "Ai Agent"
         ]
       },
       {
@@ -400,20 +429,6 @@
         ]
       },
       {
-        "title": "Engineering Manager, Internal Developer Platform",
-        "company": "Chainguard",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/148144-engineering-manager-internal-developer-platform",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Ai Agent"
-        ]
-      },
-      {
         "title": "Ubuntu Linux Kernel Test Engineer",
         "company": "Canonical Ltd.",
         "location": "APAC,  China",
@@ -425,6 +440,34 @@
         "reasons": [
           "Reliability",
           "Linux"
+        ]
+      },
+      {
+        "title": "Social Media Manager",
+        "company": "aion",
+        "location": "New York, New York, New York, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-social-media-manager-aion-1134877",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Customer Success Manager Brazil",
+        "company": "Group-IB",
+        "location": "SÃ£o Paulo, SÃ£o Paulo, SÃ£o Paulo, Brasil",
+        "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-brazil-group-ib-1134910",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Golang"
         ]
       }
     ],
@@ -445,6 +488,21 @@
         ]
       },
       {
+        "title": "AI DevOps Engineer / Automation Builder (m/w/d)",
+        "company": "Ecoturn GmbH",
+        "location": "Munich",
+        "url": "https://www.arbeitnow.com/jobs/companies/ecoturn-gmbh/ai-devops-engineer-automation-builder-munich-416030",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Automation"
+        ]
+      },
+      {
         "title": "DevOps Engineer",
         "company": "PSI CRO",
         "location": "Latvia",
@@ -456,34 +514,6 @@
         "reasons": [
           "Title match: devops",
           "Devops"
-        ]
-      },
-      {
-        "title": "Senior DevOps Engineer - full-time - 100 % remote",
-        "company": "Contensi Software GmbH",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/contensi-software-gmbh/senior-devops-engineer-full-time-100-remote-berlin-357461",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ]
-      },
-      {
-        "title": "Senior Full Stack Engineer- Python (m/f/d)",
-        "company": "Flix",
-        "location": "Berlin, Berlin, Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/flix/senior-full-stack-engineer-python-berlin-464084",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Automation",
-          "Python"
         ]
       },
       {
