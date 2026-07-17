@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-16 12:14 UTC",
+  "generated": "2026-07-17 12:02 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 36,
-    "track_b": 32,
-    "track_c": 4,
+    "total": 33,
+    "track_b": 30,
+    "track_c": 3,
     "grade_a": 0,
     "grade_b": 2,
     "visa": 0
@@ -57,18 +57,18 @@
         ]
       },
       {
-        "title": "Principal DevOps Engineer",
+        "title": "Senior QA Automation Engineer",
         "company": "Zartis",
         "location": "Europe",
-        "url": "https://jobicy.com/jobs/146762-principal-devops-engineer",
+        "url": "https://jobicy.com/jobs/146790-senior-qa-automation-engineer-3",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
+          "Title match: automation engineer",
+          "Platform",
+          "Automation"
         ]
       },
       {
@@ -99,21 +99,6 @@
           "Platform",
           "Automation",
           "Python"
-        ]
-      },
-      {
-        "title": "AI DevOps Engineer / Automation Builder (m/w/d)",
-        "company": "Ecoturn GmbH",
-        "location": "Munich",
-        "url": "https://www.arbeitnow.com/jobs/companies/ecoturn-gmbh/ai-devops-engineer-automation-builder-munich-416030",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Automation"
         ]
       },
       {
@@ -195,20 +180,6 @@
         "company": "Truelogic",
         "location": "LATAM",
         "url": "https://jobicy.com/jobs/146308-senior-devops-engineer-financial-company-remote-latam",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ]
-      },
-      {
-        "title": "DevOps Engineer",
-        "company": "PSI CRO",
-        "location": "Latvia",
-        "url": "https://jobicy.com/jobs/145786-devops-engineer-3",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -331,20 +302,6 @@
         ]
       },
       {
-        "title": "Senior SecOps Automation Engineer - Consumer FinTech",
-        "company": "Truelogic",
-        "location": "LATAM",
-        "url": "https://jobicy.com/jobs/146284-senior-secops-automation-engineer-consumer-fintech",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: automation engineer",
-          "Automation"
-        ]
-      },
-      {
         "title": "Senior Security Engineer, Security Incident Response Team (SIRT) - EMEA",
         "company": "GitLab",
         "location": "EMEA",
@@ -356,20 +313,6 @@
         "reasons": [
           "Platform",
           "Incident"
-        ]
-      },
-      {
-        "title": "Senior Marketing Automation Manager",
-        "company": "Canonical Ltd.",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/146167-senior-marketing-automation-manager",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Automation"
         ]
       },
       {
@@ -415,20 +358,6 @@
         ]
       },
       {
-        "title": "Software Engineer (.NET) (f/m/d)",
-        "company": "Apaleo",
-        "location": "Germany",
-        "url": "https://jobicy.com/jobs/145054-software-engineer-net-f-m-d",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Ai Agent"
-        ]
-      },
-      {
         "title": "Ubuntu Linux Kernel Test Engineer",
         "company": "Canonical Ltd.",
         "location": "APAC,  China",
@@ -440,6 +369,34 @@
         "reasons": [
           "Reliability",
           "Linux"
+        ]
+      },
+      {
+        "title": "Project Coordinator",
+        "company": "VeraSafe",
+        "location": "Kingston, Kingston, Jamaica",
+        "url": "https://remoteOK.com/remote-jobs/remote-project-coordinator-verasafe-1134911",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Golang"
+        ]
+      },
+      {
+        "title": "TÃ©cnico De Estudos E Propostas",
+        "company": "Wikibuild S.A",
+        "location": "Lisboa,",
+        "url": "https://remoteOK.com/remote-jobs/remote-tecnico-de-estudos-e-propostas-wikibuild-s-a-1134929",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Docker"
         ]
       },
       {
@@ -469,6 +426,20 @@
           "Python",
           "Golang"
         ]
+      },
+      {
+        "title": "Record Your Daily Routine &amp; Get Paid AI Training",
+        "company": "Toloka Annotators",
+        "location": "Montreal, Montreal, Quebec, Canada",
+        "url": "https://remoteOK.com/remote-jobs/remote-record-your-daily-routine-amp-get-paid-ai-training-toloka-annotators-1134939",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Golang"
+        ]
       }
     ],
     "C": [
@@ -488,46 +459,31 @@
         ]
       },
       {
-        "title": "AI DevOps Engineer / Automation Builder (m/w/d)",
-        "company": "Ecoturn GmbH",
-        "location": "Munich",
-        "url": "https://www.arbeitnow.com/jobs/companies/ecoturn-gmbh/ai-devops-engineer-automation-builder-munich-416030",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Automation"
-        ]
-      },
-      {
-        "title": "DevOps Engineer",
-        "company": "PSI CRO",
-        "location": "Latvia",
-        "url": "https://jobicy.com/jobs/145786-devops-engineer-3",
+        "title": "Senior Product Manager Operations (MarTech & Automation) - all genders",
+        "company": "Urban Sports Club",
+        "location": "Berlin, Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/urban-sports-club/senior-product-manager-operations-martech-automation-all-genders-berlin-275551",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: devops",
-          "Devops"
+          "Platform",
+          "Automation"
         ]
       },
       {
-        "title": "Software Engineer (.NET) (f/m/d)",
-        "company": "Apaleo",
-        "location": "Germany",
-        "url": "https://jobicy.com/jobs/145054-software-engineer-net-f-m-d",
+        "title": "IT-Support Spezialist (m/w/d) Windows und Linux",
+        "company": "hubside - Die Recruitingwerkstatt",
+        "location": "Munich",
+        "url": "https://www.arbeitnow.com/jobs/companies/hubside-die-recruitingwerkstatt/it-support-spezialist-windows-und-linux-munich-459493",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Ai Agent"
+          "SRE",
+          "Linux"
         ]
       }
     ]
