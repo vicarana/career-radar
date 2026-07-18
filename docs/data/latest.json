@@ -1,24 +1,24 @@
 {
-  "generated": "2026-07-17 12:02 UTC",
+  "generated": "2026-07-18 11:44 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 33,
-    "track_b": 30,
-    "track_c": 3,
+    "total": 27,
+    "track_b": 27,
+    "track_c": 0,
     "grade_a": 0,
-    "grade_b": 2,
+    "grade_b": 0,
     "visa": 0
   },
   "tracks": {
     "B": [
       {
-        "title": "(Senior) Site Reliability Engineer (m/f/d) - Platform & Agentic Operations",
-        "company": "1KOMMA5°",
-        "location": "Germany",
-        "url": "https://jobicy.com/jobs/145278-senior-site-reliability-engineer-m-f-d-platform-agentic-operations",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
+        "title": "Senior Site Reliability Engineer (Remote Build)",
+        "company": "Remote",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/146979-senior-site-reliability-engineer-remote-build",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
         "visa": false,
         "reasons": [
           "Title match: site reliability",
@@ -246,6 +246,20 @@
         ]
       },
       {
+        "title": "Technical Product Marketer, k0rdent AI - remote in the US",
+        "company": "Mirantis",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/146688-technical-product-marketer-k0rdent-ai-remote-in-the-us",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Kubernetes"
+        ]
+      },
+      {
         "title": "Director of Engineering, Cloud & Reliability",
         "company": "Boulevard",
         "location": "USA",
@@ -358,17 +372,17 @@
         ]
       },
       {
-        "title": "Ubuntu Linux Kernel Test Engineer",
-        "company": "Canonical Ltd.",
-        "location": "APAC,  China",
-        "url": "https://jobicy.com/jobs/145995-ubuntu-linux-kernel-test-engineer",
+        "title": "SEO/AEO/GEO/LLM - B2B SaaS",
+        "company": "Syntivis AG",
+        "location": "Rosenheim",
+        "url": "https://www.arbeitnow.com/jobs/companies/syntivis-ag/seo-aeo-geo-llm-b2b-saas-rosenheim-241606",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Reliability",
-          "Linux"
+          "RPA",
+          "Llm"
         ]
       },
       {
@@ -384,109 +398,9 @@
           "Python",
           "Golang"
         ]
-      },
-      {
-        "title": "TÃ©cnico De Estudos E Propostas",
-        "company": "Wikibuild S.A",
-        "location": "Lisboa,",
-        "url": "https://remoteOK.com/remote-jobs/remote-tecnico-de-estudos-e-propostas-wikibuild-s-a-1134929",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Docker"
-        ]
-      },
-      {
-        "title": "Social Media Manager",
-        "company": "aion",
-        "location": "New York, New York, New York, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-social-media-manager-aion-1134877",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Customer Success Manager Brazil",
-        "company": "Group-IB",
-        "location": "SÃ£o Paulo, SÃ£o Paulo, SÃ£o Paulo, Brasil",
-        "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-brazil-group-ib-1134910",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Record Your Daily Routine &amp; Get Paid AI Training",
-        "company": "Toloka Annotators",
-        "location": "Montreal, Montreal, Quebec, Canada",
-        "url": "https://remoteOK.com/remote-jobs/remote-record-your-daily-routine-amp-get-paid-ai-training-toloka-annotators-1134939",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Golang"
-        ]
       }
     ],
-    "C": [
-      {
-        "title": "(Senior) Site Reliability Engineer (m/f/d) - Platform & Agentic Operations",
-        "company": "1KOMMA5°",
-        "location": "Germany",
-        "url": "https://jobicy.com/jobs/145278-senior-site-reliability-engineer-m-f-d-platform-agentic-operations",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
-      },
-      {
-        "title": "Senior Product Manager Operations (MarTech & Automation) - all genders",
-        "company": "Urban Sports Club",
-        "location": "Berlin, Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/urban-sports-club/senior-product-manager-operations-martech-automation-all-genders-berlin-275551",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Automation"
-        ]
-      },
-      {
-        "title": "IT-Support Spezialist (m/w/d) Windows und Linux",
-        "company": "hubside - Die Recruitingwerkstatt",
-        "location": "Munich",
-        "url": "https://www.arbeitnow.com/jobs/companies/hubside-die-recruitingwerkstatt/it-support-spezialist-windows-und-linux-munich-459493",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "SRE",
-          "Linux"
-        ]
-      }
-    ]
+    "C": []
   },
   "linkedin": [
     {
