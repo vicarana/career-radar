@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-18 11:44 UTC",
+  "generated": "2026-07-19 11:48 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 27,
-    "track_b": 27,
-    "track_c": 0,
+    "total": 28,
+    "track_b": 26,
+    "track_c": 2,
     "grade_a": 0,
     "grade_b": 0,
     "visa": 0
@@ -330,20 +330,6 @@
         ]
       },
       {
-        "title": "Business Development",
-        "company": "Timo",
-        "location": "SÃ£o Paulo e RegiÃ£o",
-        "url": "https://remoteOK.com/remote-jobs/remote-business-development-timo-1134909",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Python"
-        ]
-      },
-      {
         "title": "Engineering Manager, Internal Developer Platform",
         "company": "Chainguard",
         "location": "USA",
@@ -372,6 +358,20 @@
         ]
       },
       {
+        "title": "Software Engineer in Test - Onsite or Remote (FR, UK, DE, NL)",
+        "company": "Dataiku",
+        "location": "Europe,  France,  Germany,  Netherlands,  UK",
+        "url": "https://jobicy.com/jobs/146800-software-engineer-in-test-onsite-or-remote-fr-uk-de-nl",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Ai Agent"
+        ]
+      },
+      {
         "title": "SEO/AEO/GEO/LLM - B2B SaaS",
         "company": "Syntivis AG",
         "location": "Rosenheim",
@@ -384,23 +384,38 @@
           "RPA",
           "Llm"
         ]
+      }
+    ],
+    "C": [
+      {
+        "title": "Senior Data Engineer",
+        "company": "GLS/NXT",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/glsnxt/senior-data-engineer-berlin-391080",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Reliability",
+          "Platform"
+        ]
       },
       {
-        "title": "Project Coordinator",
-        "company": "VeraSafe",
-        "location": "Kingston, Kingston, Jamaica",
-        "url": "https://remoteOK.com/remote-jobs/remote-project-coordinator-verasafe-1134911",
+        "title": "Software Engineer in Test - Onsite or Remote (FR, UK, DE, NL)",
+        "company": "Dataiku",
+        "location": "Europe,  France,  Germany,  Netherlands,  UK",
+        "url": "https://jobicy.com/jobs/146800-software-engineer-in-test-onsite-or-remote-fr-uk-de-nl",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Python",
-          "Golang"
+          "Platform",
+          "Ai Agent"
         ]
       }
-    ],
-    "C": []
+    ]
   },
   "linkedin": [
     {
