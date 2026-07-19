@@ -1,10 +1,12 @@
-# career-radar - 2026-07-18 11:44 UTC
+# career-radar - 2026-07-19 11:48 UTC
 Sources OK: 4/4
 
 
-## Track C - Europe (visa-first) (0)
+## Track C - Europe (visa-first) (2)
+- Senior Data Engineer @ GLS/NXT (Berlin) s4 https://www.arbeitnow.com/jobs/companies/glsnxt/senior-data-engineer-berlin-391080
+- Software Engineer in Test - Onsite or Remote (FR, UK, DE, NL) @ Dataiku (Europe,  France,  Germany,  Netherlands,  UK) s3 https://jobicy.com/jobs/146800-software-engineer-in-test-onsite-or-remote-fr-uk-de-nl
 
-## Track B - Remote/income (27)
+## Track B - Remote/income (26)
 - Senior Site Reliability Engineer (Remote Build) @ Remote (EMEA) s8 https://jobicy.com/jobs/146979-senior-site-reliability-engineer-remote-build
 - Senior Cloud Engineer / DevOps (GCP) - Marketing @ Truelogic (LATAM) s7 https://jobicy.com/jobs/149150-senior-cloud-engineer-devops-gcp-marketing
 - Senior DevOps Engineer @ Zartis (Europe) s6 https://jobicy.com/jobs/148666-senior-devops-engineer-2
