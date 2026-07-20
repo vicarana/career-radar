@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-19 11:48 UTC",
+  "generated": "2026-07-20 13:00 UTC",
   "sources_ok": 4,
   "stats": {
     "total": 28,
-    "track_b": 26,
-    "track_c": 2,
+    "track_b": 25,
+    "track_c": 3,
     "grade_a": 0,
     "grade_b": 0,
     "visa": 0
@@ -39,6 +39,21 @@
           "Title match: devops",
           "Devops",
           "Gcp"
+        ]
+      },
+      {
+        "title": "Principal DevOps Engineer",
+        "company": "Zartis",
+        "location": "Europe",
+        "url": "https://jobicy.com/jobs/146762-principal-devops-engineer",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
         ]
       },
       {
@@ -144,21 +159,6 @@
           "Devops",
           "Cloud Native",
           "Aws"
-        ]
-      },
-      {
-        "title": "Senior People Business Partner",
-        "company": "Platform.sh",
-        "location": "France",
-        "url": "https://jobicy.com/jobs/145296-senior-people-business-partner-2",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Devops",
-          "Platform",
-          "Ai Agent"
         ]
       },
       {
@@ -370,23 +370,24 @@
           "Platform",
           "Ai Agent"
         ]
-      },
-      {
-        "title": "SEO/AEO/GEO/LLM - B2B SaaS",
-        "company": "Syntivis AG",
-        "location": "Rosenheim",
-        "url": "https://www.arbeitnow.com/jobs/companies/syntivis-ag/seo-aeo-geo-llm-b2b-saas-rosenheim-241606",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "RPA",
-          "Llm"
-        ]
       }
     ],
     "C": [
+      {
+        "title": "AWS DevOps Engineer",
+        "company": "MICO Software UG (haftungsbeschränkt)",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/mico-software-ug-haftungsbeschrankt/aws-devops-engineer-berlin-214113",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Aws"
+        ]
+      },
       {
         "title": "Senior Data Engineer",
         "company": "GLS/NXT",
