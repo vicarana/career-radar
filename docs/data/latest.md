@@ -1,10 +1,8 @@
-# career-radar - 2026-07-20 13:00 UTC
+# career-radar - 2026-07-21 12:19 UTC
 Sources OK: 4/4
 
 
-## Track C - Europe (visa-first) (3)
-- AWS DevOps Engineer @ MICO Software UG (haftungsbeschränkt) (Berlin) s5 https://www.arbeitnow.com/jobs/companies/mico-software-ug-haftungsbeschrankt/aws-devops-engineer-berlin-214113
-- Senior Data Engineer @ GLS/NXT (Berlin) s4 https://www.arbeitnow.com/jobs/companies/glsnxt/senior-data-engineer-berlin-391080
+## Track C - Europe (visa-first) (1)
 - Software Engineer in Test - Onsite or Remote (FR, UK, DE, NL) @ Dataiku (Europe,  France,  Germany,  Netherlands,  UK) s3 https://jobicy.com/jobs/146800-software-engineer-in-test-onsite-or-remote-fr-uk-de-nl
 
 ## Track B - Remote/income (25)
