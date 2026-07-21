@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-20 13:00 UTC",
+  "generated": "2026-07-21 12:19 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 28,
+    "total": 26,
     "track_b": 25,
-    "track_c": 3,
+    "track_c": 1,
     "grade_a": 0,
     "grade_b": 0,
     "visa": 0
@@ -373,35 +373,6 @@
       }
     ],
     "C": [
-      {
-        "title": "AWS DevOps Engineer",
-        "company": "MICO Software UG (haftungsbeschränkt)",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/mico-software-ug-haftungsbeschrankt/aws-devops-engineer-berlin-214113",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Aws"
-        ]
-      },
-      {
-        "title": "Senior Data Engineer",
-        "company": "GLS/NXT",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/glsnxt/senior-data-engineer-berlin-391080",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Reliability",
-          "Platform"
-        ]
-      },
       {
         "title": "Software Engineer in Test - Onsite or Remote (FR, UK, DE, NL)",
         "company": "Dataiku",
