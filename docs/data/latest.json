@@ -1,16 +1,61 @@
 {
-  "generated": "2026-07-21 12:19 UTC",
+  "generated": "2026-07-22 12:21 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 26,
-    "track_b": 25,
-    "track_c": 1,
+    "total": 37,
+    "track_b": 37,
+    "track_c": 0,
     "grade_a": 0,
-    "grade_b": 0,
+    "grade_b": 3,
     "visa": 0
   },
   "tracks": {
     "B": [
+      {
+        "title": "Senior Site Reliability Engineer",
+        "company": "Canonical Ltd.",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ]
+      },
+      {
+        "title": "Site Reliability Engineer",
+        "company": "Canonical Ltd.",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149547-site-reliability-engineer",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ]
+      },
+      {
+        "title": "Site Reliability / Gitops Engineer",
+        "company": "Canonical Ltd.",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149553-site-reliability-gitops-engineer",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ]
+      },
       {
         "title": "Senior Site Reliability Engineer (Remote Build)",
         "company": "Remote",
@@ -87,32 +132,17 @@
         ]
       },
       {
-        "title": "QA Automation Lead [gn] Data Intelligence",
-        "company": "Actian",
-        "location": "Europe",
-        "url": "https://jobicy.com/jobs/149048-qa-automation-lead-gn-data-intelligence",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Reliability",
-          "Platform",
-          "Automation"
-        ]
-      },
-      {
-        "title": "Software Development Engineer in Test",
-        "company": "Sporty Group",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/145584-software-development-engineer-in-test",
+        "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
+        "company": "Canonical Ltd.",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Automation",
+          "Kubernetes",
           "Python"
         ]
       },
@@ -132,33 +162,18 @@
         ]
       },
       {
-        "title": "Lead Platform Engineer",
-        "company": "Launchpad Technologies",
-        "location": "LATAM",
-        "url": "https://jobicy.com/jobs/149146-lead-platform-engineer",
+        "title": "Don't see an open position you'd like fill",
+        "company": "DBOS, Inc.",
+        "location": "Cambridge,",
+        "url": "https://remoteOK.com/remote-jobs/remote-dont-see-an-open-position-youd-like-fill-dbos-inc-1135102",
         "score": 5,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Azure"
-        ]
-      },
-      {
-        "title": "Customer Solutions Architect, Amazon Connect",
-        "company": "Caylent",
-        "location": "Canada",
-        "url": "https://jobicy.com/jobs/149035-customer-solutions-architect-amazon-connect",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Devops",
-          "Cloud Native",
-          "Aws"
+          "Python",
+          "Aws",
+          "Golang"
         ]
       },
       {
@@ -260,6 +275,20 @@
         ]
       },
       {
+        "title": "Cloud Engineering Manager",
+        "company": "Canonical Ltd.",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149569-cloud-engineering-manager",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: cloud engineer",
+          "Platform"
+        ]
+      },
+      {
         "title": "Director of Engineering, Cloud & Reliability",
         "company": "Boulevard",
         "location": "USA",
@@ -274,17 +303,17 @@
         ]
       },
       {
-        "title": "Senior Manager, IT Platform Engineering - FIXED TERM",
-        "company": "ŌURA",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/148338-senior-manager-it-platform-engineering-fixed-term",
+        "title": "Python Engineer",
+        "company": "Canonical Ltd.",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149543-python-engineer",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: platform engineer",
-          "Platform"
+          "Platform",
+          "Python"
         ]
       },
       {
@@ -316,17 +345,31 @@
         ]
       },
       {
-        "title": "Senior Security Engineer, Security Incident Response Team (SIRT) - EMEA",
-        "company": "GitLab",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/149309-senior-security-engineer-security-incident-response-team-sirt-emea",
+        "title": "Platform Engineer (m/w/d) mit Karriereambitionen!",
+        "company": "Auralis Group",
+        "location": "Markt Indersdorf",
+        "url": "https://www.arbeitnow.com/jobs/companies/auralis-group/platform-engineer-mit-karriereambitionen-markt-indersdorf-176615",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Incident"
+          "Title match: platform engineer",
+          "Platform"
+        ]
+      },
+      {
+        "title": "DevOps Softwareentwickler/in mit Karriereambitionen - jetzt mit uns voll durchstarten!",
+        "company": "Auralis Group",
+        "location": "Markt Indersdorf",
+        "url": "https://www.arbeitnow.com/jobs/companies/auralis-group/devops-softwareentwickler-in-mit-karriereambitionen-jetzt-mit-uns-voll-durchstarten-markt-indersdorf-165014",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
         ]
       },
       {
@@ -358,36 +401,147 @@
         ]
       },
       {
-        "title": "Software Engineer in Test - Onsite or Remote (FR, UK, DE, NL)",
-        "company": "Dataiku",
-        "location": "Europe,  France,  Germany,  Netherlands,  UK",
-        "url": "https://jobicy.com/jobs/146800-software-engineer-in-test-onsite-or-remote-fr-uk-de-nl",
+        "title": "Rust Engineering Lead - Linux and Open Source",
+        "company": "Canonical Ltd.",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149566-rust-engineering-lead-linux-and-open-source",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Ai Agent"
+          "Linux"
+        ]
+      },
+      {
+        "title": "Engineering Manager - Data Platform",
+        "company": "Canonical Ltd.",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149561-engineering-manager-data-platform",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Sql"
+        ]
+      },
+      {
+        "title": "Embedded Linux Field Engineering Manager (Americas only)",
+        "company": "Canonical Ltd.",
+        "location": "LATAM,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/149559-embedded-linux-field-engineering-manager-americas-only",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Linux"
+        ]
+      },
+      {
+        "title": "Engineering Manager - MLOps & Analytics",
+        "company": "Canonical Ltd.",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149521-engineering-manager-mlops-analytics",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: mlops",
+          "Mlops"
+        ]
+      },
+      {
+        "title": "Graduate Software Engineer, Open Source and Linux, Canonical Ubuntu",
+        "company": "Canonical Ltd.",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149581-graduate-software-engineer-open-source-and-linux-canonical-ubuntu",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Linux"
+        ]
+      },
+      {
+        "title": "Linux Platform Integration - Ubuntu Systems Senior Engineer",
+        "company": "Canonical Ltd.",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149574-linux-platform-integration-ubuntu-systems-senior-engineer",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Linux"
+        ]
+      },
+      {
+        "title": "Lead Linux Kernel Engineer - Ubuntu",
+        "company": "Canonical Ltd.",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149562-lead-linux-kernel-engineer-ubuntu",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Linux"
+        ]
+      },
+      {
+        "title": "Freelance Designer",
+        "company": "Abamedia",
+        "location": "Allen County,",
+        "url": "https://remoteOK.com/remote-jobs/remote-freelance-designer-abamedia-1135201",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Rippling",
+        "company": "StackAmplify",
+        "location": "Anupgarh,",
+        "url": "https://remoteOK.com/remote-jobs/remote-rippling-stackamplify-1135142",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Automation",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Receptionist",
+        "company": "Evolve Psychiatry",
+        "location": "Massapequa, Massapequa, New York, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-receptionist-evolve-psychiatry-1135199",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Golang"
         ]
       }
     ],
-    "C": [
-      {
-        "title": "Software Engineer in Test - Onsite or Remote (FR, UK, DE, NL)",
-        "company": "Dataiku",
-        "location": "Europe,  France,  Germany,  Netherlands,  UK",
-        "url": "https://jobicy.com/jobs/146800-software-engineer-in-test-onsite-or-remote-fr-uk-de-nl",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Ai Agent"
-        ]
-      }
-    ]
+    "C": []
   },
   "linkedin": [
     {
