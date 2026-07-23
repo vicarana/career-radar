@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-22 12:21 UTC",
+  "generated": "2026-07-23 12:18 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 37,
-    "track_b": 37,
-    "track_c": 0,
+    "total": 42,
+    "track_b": 40,
+    "track_c": 2,
     "grade_a": 0,
     "grade_b": 3,
     "visa": 0
@@ -162,18 +162,48 @@
         ]
       },
       {
-        "title": "Don't see an open position you'd like fill",
-        "company": "DBOS, Inc.",
-        "location": "Cambridge,",
-        "url": "https://remoteOK.com/remote-jobs/remote-dont-see-an-open-position-youd-like-fill-dbos-inc-1135102",
+        "title": "Enterprise IT Support Specialist",
+        "company": "Nymbus",
+        "location": "Jacksonville, Jacksonville, Florida, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-enterprise-it-support-specialist-nymbus-1135194",
         "score": 5,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
+          "Platform",
           "Python",
-          "Aws",
           "Golang"
+        ]
+      },
+      {
+        "title": "Data Quality Analyst",
+        "company": "Owl.co",
+        "location": "Toronto, Toronto, Ontario, Canada",
+        "url": "https://remoteOK.com/remote-jobs/remote-data-quality-analyst-owl-co-1135274",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Docker",
+          "Linux"
+        ]
+      },
+      {
+        "title": "Junior Operations Support Specialist",
+        "company": "Guesty",
+        "location": "Greater Montreal Metropolitan Area",
+        "url": "https://remoteOK.com/remote-jobs/remote-junior-operations-support-specialist-guesty-1135271",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Docker",
+          "Linux"
         ]
       },
       {
@@ -345,31 +375,18 @@
         ]
       },
       {
-        "title": "Platform Engineer (m/w/d) mit Karriereambitionen!",
-        "company": "Auralis Group",
-        "location": "Markt Indersdorf",
-        "url": "https://www.arbeitnow.com/jobs/companies/auralis-group/platform-engineer-mit-karriereambitionen-markt-indersdorf-176615",
+        "title": "Sr. Software Engineer II - AI",
+        "company": "iHerb",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/147334-sr-software-engineer-ii-ai",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: platform engineer",
-          "Platform"
-        ]
-      },
-      {
-        "title": "DevOps Softwareentwickler/in mit Karriereambitionen - jetzt mit uns voll durchstarten!",
-        "company": "Auralis Group",
-        "location": "Markt Indersdorf",
-        "url": "https://www.arbeitnow.com/jobs/companies/auralis-group/devops-softwareentwickler-in-mit-karriereambitionen-jetzt-mit-uns-voll-durchstarten-markt-indersdorf-165014",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
+          "Platform",
+          "Llm",
+          "Mlops"
         ]
       },
       {
@@ -499,10 +516,10 @@
         ]
       },
       {
-        "title": "Freelance Designer",
-        "company": "Abamedia",
-        "location": "Allen County,",
-        "url": "https://remoteOK.com/remote-jobs/remote-freelance-designer-abamedia-1135201",
+        "title": "Head of People",
+        "company": "MVP Ventures",
+        "location": "Remote",
+        "url": "https://remoteOK.com/remote-jobs/remote-head-of-people-mvp-ventures-1135203",
         "score": 3,
         "grade": "F",
         "match": 35,
@@ -513,24 +530,52 @@
         ]
       },
       {
-        "title": "Rippling",
-        "company": "StackAmplify",
-        "location": "Anupgarh,",
-        "url": "https://remoteOK.com/remote-jobs/remote-rippling-stackamplify-1135142",
+        "title": "Patient Access Surgical Scheduler I",
+        "company": "Forefront Dermatology",
+        "location": "Remote",
+        "url": "https://remoteOK.com/remote-jobs/remote-patient-access-surgical-scheduler-i-forefront-dermatology-1135200",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Automation",
+          "Python",
           "Golang"
         ]
       },
       {
-        "title": "Receptionist",
-        "company": "Evolve Psychiatry",
-        "location": "Massapequa, Massapequa, New York, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-receptionist-evolve-psychiatry-1135199",
+        "title": "DiseÃ±ador GrÃ¡fico Junior",
+        "company": "workLATAM",
+        "location": "Delaware,",
+        "url": "https://remoteOK.com/remote-jobs/remote-disenador-grafico-junior-worklatam-1135195",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Marketing Associate",
+        "company": "Red Rover",
+        "location": "Exton, Exton, Pennsylvania, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-marketing-associate-red-rover-1135198",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Human Resources Generalist",
+        "company": "Insight Global",
+        "location": "Washington, Washington, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-human-resources-generalist-insight-global-1135202",
         "score": 3,
         "grade": "F",
         "match": 35,
@@ -541,7 +586,36 @@
         ]
       }
     ],
-    "C": []
+    "C": [
+      {
+        "title": "Senior Full-Stack Engineer (Python & .NET) (f/m/d)",
+        "company": "Apaleo",
+        "location": "Munich, Bavaria, Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/apaleo/senior-full-stack-engineer-python-net-munich-423188",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Python"
+        ]
+      },
+      {
+        "title": "Senior Data Platform Engineer (m/f/d)",
+        "company": "Flix",
+        "location": "Berlin, Berlin, Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/flix/senior-data-platform-engineer-berlin-142531",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
+        ]
+      }
+    ]
   },
   "linkedin": [
     {
