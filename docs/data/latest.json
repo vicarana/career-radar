@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-23 12:18 UTC",
+  "generated": "2026-07-24 12:12 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 42,
+    "total": 40,
     "track_b": 40,
-    "track_c": 2,
+    "track_c": 0,
     "grade_a": 0,
-    "grade_b": 3,
+    "grade_b": 2,
     "visa": 0
   },
   "tracks": {
@@ -31,21 +31,6 @@
         "company": "Canonical Ltd.",
         "location": "Anywhere",
         "url": "https://jobicy.com/jobs/149547-site-reliability-engineer",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
-      },
-      {
-        "title": "Site Reliability / Gitops Engineer",
-        "company": "Canonical Ltd.",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149553-site-reliability-gitops-engineer",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -177,36 +162,6 @@
         ]
       },
       {
-        "title": "Data Quality Analyst",
-        "company": "Owl.co",
-        "location": "Toronto, Toronto, Ontario, Canada",
-        "url": "https://remoteOK.com/remote-jobs/remote-data-quality-analyst-owl-co-1135274",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Docker",
-          "Linux"
-        ]
-      },
-      {
-        "title": "Junior Operations Support Specialist",
-        "company": "Guesty",
-        "location": "Greater Montreal Metropolitan Area",
-        "url": "https://remoteOK.com/remote-jobs/remote-junior-operations-support-specialist-guesty-1135271",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Docker",
-          "Linux"
-        ]
-      },
-      {
         "title": "Senior DevOps Engineer",
         "company": "Lemon.io",
         "location": "Americas, Europe, Asia, Africa, Oceania",
@@ -267,20 +222,6 @@
         "company": "NBCUniversal",
         "location": "USA",
         "url": "https://jobicy.com/jobs/148200-principal-devops-engineer-2",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ]
-      },
-      {
-        "title": "Senior DevOps Engineer",
-        "company": "Experian",
-        "location": "Costa Rica",
-        "url": "https://jobicy.com/jobs/144464-senior-devops-engineer-5",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -365,6 +306,34 @@
         "company": "Kubikware",
         "location": "LATAM",
         "url": "https://jobicy.com/jobs/142967-python-react-engineer-with-ai-remote-latam",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Python"
+        ]
+      },
+      {
+        "title": "Senior Software Engineer (Storage) - remote in the US",
+        "company": "Mirantis",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/149690-senior-software-engineer-storage-remote-in-the-us",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Kubernetes"
+        ]
+      },
+      {
+        "title": "Sr. Software Engineer II - Catalog",
+        "company": "iHerb",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/147333-sr-software-engineer-ii-catalog",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -474,6 +443,20 @@
         ]
       },
       {
+        "title": "Customer Engineer",
+        "company": "Cresta",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/149642-customer-engineer-2",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Ai Agent"
+        ]
+      },
+      {
         "title": "Graduate Software Engineer, Open Source and Linux, Canonical Ubuntu",
         "company": "Canonical Ltd.",
         "location": "Anywhere",
@@ -513,6 +496,21 @@
         "reasons": [
           "Platform",
           "Linux"
+        ]
+      },
+      {
+        "title": "Data Entry Specialist",
+        "company": "Morgan McKinley",
+        "location": "Remote",
+        "url": "https://remoteOK.com/remote-jobs/remote-data-entry-specialist-morgan-mckinley-1135273",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Docker",
+          "Linux",
+          "Golang"
         ]
       },
       {
@@ -586,36 +584,7 @@
         ]
       }
     ],
-    "C": [
-      {
-        "title": "Senior Full-Stack Engineer (Python & .NET) (f/m/d)",
-        "company": "Apaleo",
-        "location": "Munich, Bavaria, Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/apaleo/senior-full-stack-engineer-python-net-munich-423188",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Python"
-        ]
-      },
-      {
-        "title": "Senior Data Platform Engineer (m/f/d)",
-        "company": "Flix",
-        "location": "Berlin, Berlin, Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/flix/senior-data-platform-engineer-berlin-142531",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform"
-        ]
-      }
-    ]
+    "C": []
   },
   "linkedin": [
     {
