@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-24 12:12 UTC",
+  "generated": "2026-07-25 11:56 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 40,
+    "total": 43,
     "track_b": 40,
-    "track_c": 0,
+    "track_c": 3,
     "grade_a": 0,
     "grade_b": 2,
     "visa": 0
@@ -54,6 +54,21 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
+        ]
+      },
+      {
+        "title": "Analista de Infraestrutura Pleno DevOps",
+        "company": "Melhor Envio",
+        "location": "Brasil,",
+        "url": "https://remoteOK.com/remote-jobs/remote-analista-de-infraestrutura-pleno-devops-melhor-envio-1135334",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Python"
         ]
       },
       {
@@ -147,25 +162,24 @@
         ]
       },
       {
-        "title": "Enterprise IT Support Specialist",
-        "company": "Nymbus",
-        "location": "Jacksonville, Jacksonville, Florida, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-enterprise-it-support-specialist-nymbus-1135194",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Python",
-          "Golang"
-        ]
-      },
-      {
         "title": "Senior DevOps Engineer",
         "company": "Lemon.io",
         "location": "Americas, Europe, Asia, Africa, Oceania",
         "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091067",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ]
+      },
+      {
+        "title": "Senior DevOps Engineer",
+        "company": "Experian",
+        "location": "Costa Rica",
+        "url": "https://jobicy.com/jobs/144464-senior-devops-engineer-5",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -260,20 +274,6 @@
         ]
       },
       {
-        "title": "Director of Engineering, Cloud & Reliability",
-        "company": "Boulevard",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/149111-director-of-engineering-cloud-reliability",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Reliability",
-          "Platform"
-        ]
-      },
-      {
         "title": "Python Engineer",
         "company": "Canonical Ltd.",
         "location": "Anywhere",
@@ -313,6 +313,34 @@
         "reasons": [
           "Platform",
           "Python"
+        ]
+      },
+      {
+        "title": "QA Automation Engineer - Pro",
+        "company": "Kraken",
+        "location": "Europe",
+        "url": "https://jobicy.com/jobs/144513-qa-automation-engineer-pro",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: automation engineer",
+          "Automation"
+        ]
+      },
+      {
+        "title": "Senior Quality Assurance Automation Engineer",
+        "company": "Experian",
+        "location": "Costa Rica",
+        "url": "https://jobicy.com/jobs/144474-senior-quality-assurance-automation-engineer",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: automation engineer",
+          "Automation"
         ]
       },
       {
@@ -356,6 +384,65 @@
           "Platform",
           "Llm",
           "Mlops"
+        ]
+      },
+      {
+        "title": "Senior Cloud Native Storage Engineer Ceph (m/w/d)",
+        "company": "noris network AG",
+        "location": "Nuremberg",
+        "url": "https://www.arbeitnow.com/jobs/companies/noris-network-ag/senior-cloud-native-storage-engineer-ceph-nuremberg-120079",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "SRE",
+          "Cloud Native"
+        ]
+      },
+      {
+        "title": "ADVPL JÃºnior",
+        "company": "TOTVS",
+        "location": "Brasil,",
+        "url": "https://remoteOK.com/remote-jobs/remote-advpl-junior-totvs-1135333",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Docker",
+          "Sql"
+        ]
+      },
+      {
+        "title": "Suporte N1 REMOTO",
+        "company": "Spread Tecnologia",
+        "location": "Brasil,",
+        "url": "https://remoteOK.com/remote-jobs/remote-suporte-n1-remoto-spread-tecnologia-1135332",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Docker",
+          "Sql"
+        ]
+      },
+      {
+        "title": "Business Development Manager",
+        "company": "Temu",
+        "location": "Remote",
+        "url": "https://remoteOK.com/remote-jobs/remote-business-development-manager-temu-1135291",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Linux",
+          "Sql"
         ]
       },
       {
@@ -485,106 +572,64 @@
         ]
       },
       {
-        "title": "Lead Linux Kernel Engineer - Ubuntu",
-        "company": "Canonical Ltd.",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149562-lead-linux-kernel-engineer-ubuntu",
+        "title": "Executive Assistant",
+        "company": "Ritual AdsÂ®",
+        "location": "Pasadena, Pasadena, California, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-executive-assistant-ritual-adsr-1135344",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Linux"
-        ]
-      },
-      {
-        "title": "Data Entry Specialist",
-        "company": "Morgan McKinley",
-        "location": "Remote",
-        "url": "https://remoteOK.com/remote-jobs/remote-data-entry-specialist-morgan-mckinley-1135273",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Docker",
-          "Linux",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Head of People",
-        "company": "MVP Ventures",
-        "location": "Remote",
-        "url": "https://remoteOK.com/remote-jobs/remote-head-of-people-mvp-ventures-1135203",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Patient Access Surgical Scheduler I",
-        "company": "Forefront Dermatology",
-        "location": "Remote",
-        "url": "https://remoteOK.com/remote-jobs/remote-patient-access-surgical-scheduler-i-forefront-dermatology-1135200",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Golang"
-        ]
-      },
-      {
-        "title": "DiseÃ±ador GrÃ¡fico Junior",
-        "company": "workLATAM",
-        "location": "Delaware,",
-        "url": "https://remoteOK.com/remote-jobs/remote-disenador-grafico-junior-worklatam-1135195",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Marketing Associate",
-        "company": "Red Rover",
-        "location": "Exton, Exton, Pennsylvania, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-marketing-associate-red-rover-1135198",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Human Resources Generalist",
-        "company": "Insight Global",
-        "location": "Washington, Washington, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-human-resources-generalist-insight-global-1135202",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
           "Golang"
         ]
       }
     ],
-    "C": []
+    "C": [
+      {
+        "title": "Engineering Manager - Edge AI",
+        "company": "SumUp",
+        "location": "Berlin, Berlin, Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/sumup/engineering-manager-edge-ai-berlin-258996",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Llm"
+        ]
+      },
+      {
+        "title": "Senior Data Science/ML Engineer - Financial Crime",
+        "company": "SumUp",
+        "location": "Berlin, Berlin, Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-data-science-ml-engineer-financial-crime-berlin-119994",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Automation",
+          "Monitoring"
+        ]
+      },
+      {
+        "title": "Senior Backend Engineer (Golang) - Balance Management",
+        "company": "SumUp",
+        "location": "Berlin, Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-backend-engineer-golang-balance-management-berlin-365224",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Golang"
+        ]
+      }
+    ]
   },
   "linkedin": [
     {
