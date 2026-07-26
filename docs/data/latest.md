@@ -1,4 +1,4 @@
-# career-radar - 2026-07-25 11:56 UTC
+# career-radar - 2026-07-26 11:54 UTC
 Sources OK: 4/4
 
 
@@ -7,7 +7,7 @@ Sources OK: 4/4
 - Senior Data Science/ML Engineer - Financial Crime @ SumUp (Berlin, Berlin, Germany) s3 https://www.arbeitnow.com/jobs/companies/sumup/senior-data-science-ml-engineer-financial-crime-berlin-119994
 - Senior Backend Engineer (Golang) - Balance Management @ SumUp (Berlin, Germany) s3 https://www.arbeitnow.com/jobs/companies/sumup/senior-backend-engineer-golang-balance-management-berlin-365224
 
-## Track B - Remote/income (45)
+## Track B - Remote/income (43)
 - Senior Site Reliability Engineer @ Canonical Ltd. (Anywhere) s10 https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5
 - Site Reliability Engineer @ Canonical Ltd. (Anywhere) s10 https://jobicy.com/jobs/149547-site-reliability-engineer
 - Senior Site Reliability Engineer (Remote Build) @ Remote (EMEA) s8 https://jobicy.com/jobs/146979-senior-site-reliability-engineer-remote-build
