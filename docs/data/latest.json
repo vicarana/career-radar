@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25 11:56 UTC",
+  "generated": "2026-07-26 11:54 UTC",
   "sources_ok": 4,
   "stats": {
     "total": 43,
@@ -302,20 +302,6 @@
         ]
       },
       {
-        "title": "Python & React Engineer with AI (Remote, Latam)",
-        "company": "Kubikware",
-        "location": "LATAM",
-        "url": "https://jobicy.com/jobs/142967-python-react-engineer-with-ai-remote-latam",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Python"
-        ]
-      },
-      {
         "title": "QA Automation Engineer - Pro",
         "company": "Kraken",
         "location": "Europe",
@@ -569,6 +555,20 @@
         "reasons": [
           "Platform",
           "Linux"
+        ]
+      },
+      {
+        "title": "Enterprise Account Executive",
+        "company": "career",
+        "location": "Remote",
+        "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-career-1135389",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Incident",
+          "Golang"
         ]
       },
       {
