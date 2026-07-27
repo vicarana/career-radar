@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-26 11:54 UTC",
+  "generated": "2026-07-27 13:32 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 43,
+    "total": 42,
     "track_b": 40,
-    "track_c": 3,
+    "track_c": 2,
     "grade_a": 0,
     "grade_b": 2,
     "visa": 0
@@ -39,6 +39,21 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
+        ]
+      },
+      {
+        "title": "AI Platform Engineer (m/f/d)",
+        "company": "Jedox GmbH",
+        "location": "Germany remote",
+        "url": "https://www.arbeitnow.com/jobs/companies/jedox-gmbh/remote-ai-platform-engineer-340051",
+        "score": 9,
+        "grade": "C",
+        "match": 45,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Ci/Cd"
         ]
       },
       {
@@ -84,6 +99,36 @@
           "Title match: devops",
           "Devops",
           "Gcp"
+        ]
+      },
+      {
+        "title": "Customer Reliability Engineer, Airflow",
+        "company": "Astronomer",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/147810-customer-reliability-engineer-airflow",
+        "score": 7,
+        "grade": "C",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: reliability engineer",
+          "Reliability",
+          "Platform"
+        ]
+      },
+      {
+        "title": "Customer Reliability Engineer - Infrastructure",
+        "company": "Astronomer",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/147812-customer-reliability-engineer-infrastructure",
+        "score": 7,
+        "grade": "C",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: reliability engineer",
+          "Reliability",
+          "Platform"
         ]
       },
       {
@@ -147,18 +192,18 @@
         ]
       },
       {
-        "title": "Sr. Machine Learning Solutions Architect",
-        "company": "phData",
-        "location": "LATAM",
-        "url": "https://jobicy.com/jobs/146291-sr-machine-learning-solutions-architect",
-        "score": 5,
+        "title": "Senior Data Platform Engineer",
+        "company": "1Password",
+        "location": "Canada,  USA",
+        "url": "https://jobicy.com/jobs/144689-senior-data-platform-engineer",
+        "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
+          "Title match: platform engineer",
           "Platform",
-          "Aws",
-          "Gcp"
+          "RPA"
         ]
       },
       {
@@ -246,6 +291,20 @@
         ]
       },
       {
+        "title": "Customer Success Manager II - West",
+        "company": "Tines",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/147811-customer-success-manager-ii-west",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Automation"
+        ]
+      },
+      {
         "title": "Technical Product Marketer, k0rdent AI - remote in the US",
         "company": "Mirantis",
         "location": "USA",
@@ -271,6 +330,20 @@
         "reasons": [
           "Title match: cloud engineer",
           "Platform"
+        ]
+      },
+      {
+        "title": "Python & React Engineer with AI (Remote, Latam)",
+        "company": "Kubikware",
+        "location": "LATAM",
+        "url": "https://jobicy.com/jobs/142967-python-react-engineer-with-ai-remote-latam",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Python"
         ]
       },
       {
@@ -373,20 +446,6 @@
         ]
       },
       {
-        "title": "Senior Cloud Native Storage Engineer Ceph (m/w/d)",
-        "company": "noris network AG",
-        "location": "Nuremberg",
-        "url": "https://www.arbeitnow.com/jobs/companies/noris-network-ag/senior-cloud-native-storage-engineer-ceph-nuremberg-120079",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "SRE",
-          "Cloud Native"
-        ]
-      },
-      {
         "title": "ADVPL JÃºnior",
         "company": "TOTVS",
         "location": "Brasil,",
@@ -432,6 +491,20 @@
         ]
       },
       {
+        "title": "Senior Full-Stack Developer",
+        "company": "Automat-it",
+        "location": "Ukraine",
+        "url": "https://jobicy.com/jobs/143143-senior-full-stack-developer",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Devops",
+          "Aws"
+        ]
+      },
+      {
         "title": "Engineering Manager, Internal Developer Platform",
         "company": "Chainguard",
         "location": "USA",
@@ -443,20 +516,6 @@
         "reasons": [
           "Platform",
           "Ai Agent"
-        ]
-      },
-      {
-        "title": "Software Developer Sr. - AI-Native .NET/ Azure (Cloud Platform)",
-        "company": "Dayforce",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/146260-software-developer-sr-ai-native-net-azure-cloud-platform",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Azure"
         ]
       },
       {
@@ -528,105 +587,36 @@
           "Platform",
           "Ai Agent"
         ]
-      },
-      {
-        "title": "Graduate Software Engineer, Open Source and Linux, Canonical Ubuntu",
-        "company": "Canonical Ltd.",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149581-graduate-software-engineer-open-source-and-linux-canonical-ubuntu",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Linux"
-        ]
-      },
-      {
-        "title": "Linux Platform Integration - Ubuntu Systems Senior Engineer",
-        "company": "Canonical Ltd.",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149574-linux-platform-integration-ubuntu-systems-senior-engineer",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Linux"
-        ]
-      },
-      {
-        "title": "Enterprise Account Executive",
-        "company": "career",
-        "location": "Remote",
-        "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-career-1135389",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Incident",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Executive Assistant",
-        "company": "Ritual AdsÂ®",
-        "location": "Pasadena, Pasadena, California, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-executive-assistant-ritual-adsr-1135344",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Golang"
-        ]
       }
     ],
     "C": [
       {
-        "title": "Engineering Manager - Edge AI",
-        "company": "SumUp",
-        "location": "Berlin, Berlin, Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/sumup/engineering-manager-edge-ai-berlin-258996",
-        "score": 3,
-        "grade": "F",
+        "title": "AI Platform Engineer (m/f/d)",
+        "company": "Jedox GmbH",
+        "location": "Germany remote",
+        "url": "https://www.arbeitnow.com/jobs/companies/jedox-gmbh/remote-ai-platform-engineer-340051",
+        "score": 9,
+        "grade": "C",
+        "match": 45,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Ci/Cd"
+        ]
+      },
+      {
+        "title": "Customer Success Manager II - West",
+        "company": "Tines",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/147811-customer-success-manager-ii-west",
+        "score": 4,
+        "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Llm"
-        ]
-      },
-      {
-        "title": "Senior Data Science/ML Engineer - Financial Crime",
-        "company": "SumUp",
-        "location": "Berlin, Berlin, Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-data-science-ml-engineer-financial-crime-berlin-119994",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Automation",
-          "Monitoring"
-        ]
-      },
-      {
-        "title": "Senior Backend Engineer (Golang) - Balance Management",
-        "company": "SumUp",
-        "location": "Berlin, Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-backend-engineer-golang-balance-management-berlin-365224",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Golang"
+          "Automation"
         ]
       }
     ]
