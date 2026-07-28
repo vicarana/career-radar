@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-27 13:32 UTC",
+  "generated": "2026-07-28 12:47 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 42,
-    "track_b": 40,
-    "track_c": 2,
+    "total": 38,
+    "track_b": 35,
+    "track_c": 3,
     "grade_a": 0,
     "grade_b": 2,
     "visa": 0
@@ -42,21 +42,6 @@
         ]
       },
       {
-        "title": "AI Platform Engineer (m/f/d)",
-        "company": "Jedox GmbH",
-        "location": "Germany remote",
-        "url": "https://www.arbeitnow.com/jobs/companies/jedox-gmbh/remote-ai-platform-engineer-340051",
-        "score": 9,
-        "grade": "C",
-        "match": 45,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Ci/Cd"
-        ]
-      },
-      {
         "title": "Senior Site Reliability Engineer (Remote Build)",
         "company": "Remote",
         "location": "EMEA",
@@ -69,21 +54,6 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
-        ]
-      },
-      {
-        "title": "Analista de Infraestrutura Pleno DevOps",
-        "company": "Melhor Envio",
-        "location": "Brasil,",
-        "url": "https://remoteOK.com/remote-jobs/remote-analista-de-infraestrutura-pleno-devops-melhor-envio-1135334",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Python"
         ]
       },
       {
@@ -375,20 +345,6 @@
         ]
       },
       {
-        "title": "QA Automation Engineer - Pro",
-        "company": "Kraken",
-        "location": "Europe",
-        "url": "https://jobicy.com/jobs/144513-qa-automation-engineer-pro",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: automation engineer",
-          "Automation"
-        ]
-      },
-      {
         "title": "Senior Quality Assurance Automation Engineer",
         "company": "Experian",
         "location": "Costa Rica",
@@ -443,51 +399,6 @@
           "Platform",
           "Llm",
           "Mlops"
-        ]
-      },
-      {
-        "title": "ADVPL JÃºnior",
-        "company": "TOTVS",
-        "location": "Brasil,",
-        "url": "https://remoteOK.com/remote-jobs/remote-advpl-junior-totvs-1135333",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Docker",
-          "Sql"
-        ]
-      },
-      {
-        "title": "Suporte N1 REMOTO",
-        "company": "Spread Tecnologia",
-        "location": "Brasil,",
-        "url": "https://remoteOK.com/remote-jobs/remote-suporte-n1-remoto-spread-tecnologia-1135332",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Docker",
-          "Sql"
-        ]
-      },
-      {
-        "title": "Business Development Manager",
-        "company": "Temu",
-        "location": "Remote",
-        "url": "https://remoteOK.com/remote-jobs/remote-business-development-manager-temu-1135291",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Linux",
-          "Sql"
         ]
       },
       {
@@ -587,24 +498,23 @@
           "Platform",
           "Ai Agent"
         ]
+      },
+      {
+        "title": "Enterprise Account Executive",
+        "company": "career",
+        "location": "Remote",
+        "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-career-1135389",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Incident",
+          "Golang"
+        ]
       }
     ],
     "C": [
-      {
-        "title": "AI Platform Engineer (m/f/d)",
-        "company": "Jedox GmbH",
-        "location": "Germany remote",
-        "url": "https://www.arbeitnow.com/jobs/companies/jedox-gmbh/remote-ai-platform-engineer-340051",
-        "score": 9,
-        "grade": "C",
-        "match": 45,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Ci/Cd"
-        ]
-      },
       {
         "title": "Customer Success Manager II - West",
         "company": "Tines",
@@ -617,6 +527,34 @@
         "reasons": [
           "Platform",
           "Automation"
+        ]
+      },
+      {
+        "title": "Engineering Manager - Automation Platform (x/f/m)",
+        "company": "Doctolib",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/doctolib/engineering-manager-automation-platform-berlin-89560",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Automation"
+        ]
+      },
+      {
+        "title": "Data Platform Engineer (Mid-Level) (m/f/d)",
+        "company": "Flix",
+        "location": "Berlin, Berlin, Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/flix/data-platform-engineer-mid-level-berlin-231606",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
         ]
       }
     ]

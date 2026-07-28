@@ -1,17 +1,16 @@
-# career-radar - 2026-07-27 13:32 UTC
+# career-radar - 2026-07-28 12:47 UTC
 Sources OK: 4/4
 
 
-## Track C - Europe (visa-first) (2)
-- AI Platform Engineer (m/f/d) @ Jedox GmbH (Germany remote) s9 https://www.arbeitnow.com/jobs/companies/jedox-gmbh/remote-ai-platform-engineer-340051
+## Track C - Europe (visa-first) (3)
 - Customer Success Manager II - West @ Tines (USA) s4 https://jobicy.com/jobs/147811-customer-success-manager-ii-west
+- Engineering Manager - Automation Platform (x/f/m) @ Doctolib (Berlin) s4 https://www.arbeitnow.com/jobs/companies/doctolib/engineering-manager-automation-platform-berlin-89560
+- Data Platform Engineer (Mid-Level) (m/f/d) @ Flix (Berlin, Berlin, Germany) s4 https://www.arbeitnow.com/jobs/companies/flix/data-platform-engineer-mid-level-berlin-231606
 
-## Track B - Remote/income (44)
+## Track B - Remote/income (35)
 - Senior Site Reliability Engineer @ Canonical Ltd. (Anywhere) s10 https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5
 - Site Reliability Engineer @ Canonical Ltd. (Anywhere) s10 https://jobicy.com/jobs/149547-site-reliability-engineer
-- AI Platform Engineer (m/f/d) @ Jedox GmbH (Germany remote) s9 https://www.arbeitnow.com/jobs/companies/jedox-gmbh/remote-ai-platform-engineer-340051
 - Senior Site Reliability Engineer (Remote Build) @ Remote (EMEA) s8 https://jobicy.com/jobs/146979-senior-site-reliability-engineer-remote-build
-- Analista de Infraestrutura Pleno DevOps @ Melhor Envio (Brasil,) s8 https://remoteOK.com/remote-jobs/remote-analista-de-infraestrutura-pleno-devops-melhor-envio-1135334
 - Senior Cloud Engineer / DevOps (GCP) - Marketing @ Truelogic (LATAM) s7 https://jobicy.com/jobs/149150-senior-cloud-engineer-devops-gcp-marketing
 - Customer Reliability Engineer, Airflow @ Astronomer (USA) s7 https://jobicy.com/jobs/147810-customer-reliability-engineer-airflow
 - Customer Reliability Engineer - Infrastructure @ Astronomer (USA) s7 https://jobicy.com/jobs/147812-customer-reliability-engineer-infrastructure
@@ -27,3 +26,5 @@ Sources OK: 4/4
 - DevOps Senior Engineer @ Experian (Costa Rica) s4 https://jobicy.com/jobs/148202-devops-senior-engineer
 - Principal DevOps Engineer @ NBCUniversal (USA) s4 https://jobicy.com/jobs/148200-principal-devops-engineer-2
 - Customer Success Manager II - West @ Tines (USA) s4 https://jobicy.com/jobs/147811-customer-success-manager-ii-west
+- Technical Product Marketer, k0rdent AI - remote in the US @ Mirantis (USA) s4 https://jobicy.com/jobs/146688-technical-product-marketer-k0rdent-ai-remote-in-the-us
+- Cloud Engineering Manager @ Canonical Ltd. (Anywhere) s4 https://jobicy.com/jobs/149569-cloud-engineering-manager
