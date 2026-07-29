@@ -1,17 +1,17 @@
-# career-radar - 2026-07-28 12:47 UTC
+# career-radar - 2026-07-29 12:55 UTC
 Sources OK: 4/4
 
 
 ## Track C - Europe (visa-first) (3)
 - Customer Success Manager II - West @ Tines (USA) s4 https://jobicy.com/jobs/147811-customer-success-manager-ii-west
-- Engineering Manager - Automation Platform (x/f/m) @ Doctolib (Berlin) s4 https://www.arbeitnow.com/jobs/companies/doctolib/engineering-manager-automation-platform-berlin-89560
-- Data Platform Engineer (Mid-Level) (m/f/d) @ Flix (Berlin, Berlin, Germany) s4 https://www.arbeitnow.com/jobs/companies/flix/data-platform-engineer-mid-level-berlin-231606
+- Cloud Infrastructure Engineer (f/d/m) @ Kooku (Germany) s4 https://www.arbeitnow.com/jobs/companies/kooku/remote-cloud-infrastructure-engineer-germany-60445
+- Aircraft Vehicle Automation Engineer (m/f/d) @ Quantum-Systems GmbH (Gilching, Bayern, Germany) s4 https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/aircraft-vehicle-automation-engineer-gilching-43711
 
-## Track B - Remote/income (35)
+## Track B - Remote/income (36)
 - Senior Site Reliability Engineer @ Canonical Ltd. (Anywhere) s10 https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5
 - Site Reliability Engineer @ Canonical Ltd. (Anywhere) s10 https://jobicy.com/jobs/149547-site-reliability-engineer
+- Senior Site Reliability Engineer @ Akamai Technologies (Poland) s8 https://jobicy.com/jobs/143565-senior-site-reliability-engineer-3
 - Senior Site Reliability Engineer (Remote Build) @ Remote (EMEA) s8 https://jobicy.com/jobs/146979-senior-site-reliability-engineer-remote-build
-- Senior Cloud Engineer / DevOps (GCP) - Marketing @ Truelogic (LATAM) s7 https://jobicy.com/jobs/149150-senior-cloud-engineer-devops-gcp-marketing
 - Customer Reliability Engineer, Airflow @ Astronomer (USA) s7 https://jobicy.com/jobs/147810-customer-reliability-engineer-airflow
 - Customer Reliability Engineer - Infrastructure @ Astronomer (USA) s7 https://jobicy.com/jobs/147812-customer-reliability-engineer-infrastructure
 - Principal DevOps Engineer @ Zartis (Europe) s6 https://jobicy.com/jobs/146762-principal-devops-engineer

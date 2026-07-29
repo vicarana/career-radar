@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-28 12:47 UTC",
+  "generated": "2026-07-29 12:55 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 38,
-    "track_b": 35,
+    "total": 39,
+    "track_b": 36,
     "track_c": 3,
     "grade_a": 0,
     "grade_b": 2,
@@ -42,6 +42,21 @@
         ]
       },
       {
+        "title": "Senior Site Reliability Engineer",
+        "company": "Akamai Technologies",
+        "location": "Poland",
+        "url": "https://jobicy.com/jobs/143565-senior-site-reliability-engineer-3",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ]
+      },
+      {
         "title": "Senior Site Reliability Engineer (Remote Build)",
         "company": "Remote",
         "location": "EMEA",
@@ -54,21 +69,6 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
-        ]
-      },
-      {
-        "title": "Senior Cloud Engineer / DevOps (GCP) - Marketing",
-        "company": "Truelogic",
-        "location": "LATAM",
-        "url": "https://jobicy.com/jobs/149150-senior-cloud-engineer-devops-gcp-marketing",
-        "score": 7,
-        "grade": "C",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Gcp"
         ]
       },
       {
@@ -387,10 +387,24 @@
         ]
       },
       {
-        "title": "Sr. Software Engineer II - AI",
-        "company": "iHerb",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/147334-sr-software-engineer-ii-ai",
+        "title": "Cloud Infrastructure Engineer (f/d/m)",
+        "company": "Kooku",
+        "location": "Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/kooku/remote-cloud-infrastructure-engineer-germany-60445",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: infrastructure engineer",
+          "Devops"
+        ]
+      },
+      {
+        "title": "VP Revenue",
+        "company": "Mongoose",
+        "location": "New York, New York, New York, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-vp-revenue-mongoose-1135531",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -398,7 +412,7 @@
         "reasons": [
           "Platform",
           "Llm",
-          "Mlops"
+          "Golang"
         ]
       },
       {
@@ -486,10 +500,10 @@
         ]
       },
       {
-        "title": "Customer Engineer",
-        "company": "Cresta",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/149642-customer-engineer-2",
+        "title": "Software Engineer, AI Agent Platform",
+        "company": "QAD, Inc.",
+        "location": "Mexico",
+        "url": "https://jobicy.com/jobs/147582-software-engineer-ai-agent-platform",
         "score": 3,
         "grade": "F",
         "match": 35,
@@ -500,16 +514,16 @@
         ]
       },
       {
-        "title": "Enterprise Account Executive",
-        "company": "career",
-        "location": "Remote",
-        "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-career-1135389",
+        "title": "Social Media and Video Content Manager",
+        "company": "Ajaia | AI Consultancy",
+        "location": "New York, New York, New York, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-social-media-and-video-content-manager-ajaia-ai-consultancy-1135536",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Incident",
+          "Automation",
           "Golang"
         ]
       }
@@ -530,31 +544,31 @@
         ]
       },
       {
-        "title": "Engineering Manager - Automation Platform (x/f/m)",
-        "company": "Doctolib",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/doctolib/engineering-manager-automation-platform-berlin-89560",
+        "title": "Cloud Infrastructure Engineer (f/d/m)",
+        "company": "Kooku",
+        "location": "Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/kooku/remote-cloud-infrastructure-engineer-germany-60445",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Automation"
+          "Title match: infrastructure engineer",
+          "Devops"
         ]
       },
       {
-        "title": "Data Platform Engineer (Mid-Level) (m/f/d)",
-        "company": "Flix",
-        "location": "Berlin, Berlin, Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/flix/data-platform-engineer-mid-level-berlin-231606",
+        "title": "Aircraft Vehicle Automation Engineer (m/f/d)",
+        "company": "Quantum-Systems GmbH",
+        "location": "Gilching, Bayern, Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/aircraft-vehicle-automation-engineer-gilching-43711",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: platform engineer",
-          "Platform"
+          "Title match: automation engineer",
+          "Automation"
         ]
       }
     ]
