@@ -1,16 +1,31 @@
 {
-  "generated": "2026-07-29 12:55 UTC",
+  "generated": "2026-07-30 12:23 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 39,
-    "track_b": 36,
-    "track_c": 3,
+    "total": 42,
+    "track_b": 40,
+    "track_c": 2,
     "grade_a": 0,
-    "grade_b": 2,
+    "grade_b": 3,
     "visa": 0
   },
   "tracks": {
     "B": [
+      {
+        "title": "Senior DevOps Engineer",
+        "company": "Lemon.io",
+        "location": "Remote",
+        "url": "https://remoteOK.com/remote-jobs/remote-senior-devops-engineer-lemon-io-1135562",
+        "score": 13,
+        "grade": "B",
+        "match": 65,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Kubernetes"
+        ]
+      },
       {
         "title": "Senior Site Reliability Engineer",
         "company": "Canonical Ltd.",
@@ -174,6 +189,51 @@
           "Title match: platform engineer",
           "Platform",
           "RPA"
+        ]
+      },
+      {
+        "title": "Senior Platform Engineer (Remote UK Only)",
+        "company": "Partnerize",
+        "location": "Bristol, England, United Kingdom",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/partnerize/senior-platform-engineer-remote-uk-only-bristol-225280",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Automation"
+        ]
+      },
+      {
+        "title": "Senior Platform Engineer (Remote UK Only)",
+        "company": "Partnerize",
+        "location": "Leeds, England, United Kingdom",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/partnerize/senior-platform-engineer-remote-uk-only-leeds-470720",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Automation"
+        ]
+      },
+      {
+        "title": "Senior Platform Engineer (Remote UK Only)",
+        "company": "Partnerize",
+        "location": "Newcastle upon Tyne, England, United Kingdom",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/partnerize/senior-platform-engineer-remote-uk-only-newcastle-upon-tyne-11538",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Automation"
         ]
       },
       {
@@ -373,34 +433,6 @@
         ]
       },
       {
-        "title": "Sr. Software Engineer II - Catalog",
-        "company": "iHerb",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/147333-sr-software-engineer-ii-catalog",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Python"
-        ]
-      },
-      {
-        "title": "Cloud Infrastructure Engineer (f/d/m)",
-        "company": "Kooku",
-        "location": "Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/kooku/remote-cloud-infrastructure-engineer-germany-60445",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: infrastructure engineer",
-          "Devops"
-        ]
-      },
-      {
         "title": "VP Revenue",
         "company": "Mongoose",
         "location": "New York, New York, New York, United States",
@@ -514,6 +546,34 @@
         ]
       },
       {
+        "title": "Junior Data Analyst",
+        "company": "HiredBuddy",
+        "location": "California, California, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-junior-data-analyst-hiredbuddy-1135673",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Golang"
+        ]
+      },
+      {
+        "title": "LLM Engineer Freelancer",
+        "company": "Monterail",
+        "location": "KrakÃ³w, KrakÃ³w, Woj. MaÅopolskie, Polska",
+        "url": "https://remoteOK.com/remote-jobs/remote-llm-engineer-freelancer-monterail-1135638",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Llm"
+        ]
+      },
+      {
         "title": "Social Media and Video Content Manager",
         "company": "Ajaia | AI Consultancy",
         "location": "New York, New York, New York, United States",
@@ -544,31 +604,17 @@
         ]
       },
       {
-        "title": "Cloud Infrastructure Engineer (f/d/m)",
-        "company": "Kooku",
-        "location": "Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/kooku/remote-cloud-infrastructure-engineer-germany-60445",
+        "title": "(Senior) Data Platform Engineer (m/w/d)",
+        "company": "wetter.com GmbH",
+        "location": "Konstanz",
+        "url": "https://www.arbeitnow.com/jobs/companies/wettercom-gmbh/senior-data-platform-engineer-konstanz-65621",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: infrastructure engineer",
-          "Devops"
-        ]
-      },
-      {
-        "title": "Aircraft Vehicle Automation Engineer (m/f/d)",
-        "company": "Quantum-Systems GmbH",
-        "location": "Gilching, Bayern, Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/aircraft-vehicle-automation-engineer-gilching-43711",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: automation engineer",
-          "Automation"
+          "Title match: platform engineer",
+          "Platform"
         ]
       }
     ]
