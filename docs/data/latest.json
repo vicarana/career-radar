@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-30 12:23 UTC",
+  "generated": "2026-07-31 12:50 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 42,
-    "track_b": 40,
-    "track_c": 2,
+    "total": 40,
+    "track_b": 37,
+    "track_c": 3,
     "grade_a": 0,
     "grade_b": 3,
     "visa": 0
@@ -87,21 +87,6 @@
         ]
       },
       {
-        "title": "Customer Reliability Engineer, Airflow",
-        "company": "Astronomer",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/147810-customer-reliability-engineer-airflow",
-        "score": 7,
-        "grade": "C",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: reliability engineer",
-          "Reliability",
-          "Platform"
-        ]
-      },
-      {
         "title": "Customer Reliability Engineer - Infrastructure",
         "company": "Astronomer",
         "location": "USA",
@@ -121,21 +106,6 @@
         "company": "Zartis",
         "location": "Europe",
         "url": "https://jobicy.com/jobs/146762-principal-devops-engineer",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
-        ]
-      },
-      {
-        "title": "Senior DevOps Engineer",
-        "company": "Zartis",
-        "location": "Europe",
-        "url": "https://jobicy.com/jobs/148666-senior-devops-engineer-2",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -189,51 +159,6 @@
           "Title match: platform engineer",
           "Platform",
           "RPA"
-        ]
-      },
-      {
-        "title": "Senior Platform Engineer (Remote UK Only)",
-        "company": "Partnerize",
-        "location": "Bristol, England, United Kingdom",
-        "url": "https://www.arbeitnow.co.uk/jobs/companies/partnerize/senior-platform-engineer-remote-uk-only-bristol-225280",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Automation"
-        ]
-      },
-      {
-        "title": "Senior Platform Engineer (Remote UK Only)",
-        "company": "Partnerize",
-        "location": "Leeds, England, United Kingdom",
-        "url": "https://www.arbeitnow.co.uk/jobs/companies/partnerize/senior-platform-engineer-remote-uk-only-leeds-470720",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Automation"
-        ]
-      },
-      {
-        "title": "Senior Platform Engineer (Remote UK Only)",
-        "company": "Partnerize",
-        "location": "Newcastle upon Tyne, England, United Kingdom",
-        "url": "https://www.arbeitnow.co.uk/jobs/companies/partnerize/senior-platform-engineer-remote-uk-only-newcastle-upon-tyne-11538",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Automation"
         ]
       },
       {
@@ -321,6 +246,20 @@
         ]
       },
       {
+        "title": "Senior Customer Success Manager - East/Public Sector",
+        "company": "Tines",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/149843-senior-customer-success-manager-east-public-sector",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Automation"
+        ]
+      },
+      {
         "title": "Customer Success Manager II - West",
         "company": "Tines",
         "location": "USA",
@@ -402,49 +341,6 @@
         "reasons": [
           "Platform",
           "Python"
-        ]
-      },
-      {
-        "title": "Senior Quality Assurance Automation Engineer",
-        "company": "Experian",
-        "location": "Costa Rica",
-        "url": "https://jobicy.com/jobs/144474-senior-quality-assurance-automation-engineer",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: automation engineer",
-          "Automation"
-        ]
-      },
-      {
-        "title": "Senior Software Engineer (Storage) - remote in the US",
-        "company": "Mirantis",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/149690-senior-software-engineer-storage-remote-in-the-us",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Kubernetes"
-        ]
-      },
-      {
-        "title": "VP Revenue",
-        "company": "Mongoose",
-        "location": "New York, New York, New York, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-vp-revenue-mongoose-1135531",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Llm",
-          "Golang"
         ]
       },
       {
@@ -546,10 +442,80 @@
         ]
       },
       {
+        "title": "Senior Analytics Engineer",
+        "company": "Remotewoman",
+        "location": "Remote • France, Germany",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/remotewoman/remote-senior-analytics-engineer-193086",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Ai Agent"
+        ]
+      },
+      {
+        "title": "Supply Chain &amp; Operations Specialist",
+        "company": "Miss Amara",
+        "location": "Metro Manila",
+        "url": "https://remoteOK.com/remote-jobs/remote-supply-chain-amp-operations-specialist-miss-amara-1135691",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Human Resources Specialist",
+        "company": "Harvey Nash",
+        "location": "California, California, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-human-resources-specialist-harvey-nash-1135675",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Care Navigator Level 1",
+        "company": "Ready",
+        "location": "Seattle, Seattle, Washington, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-care-navigator-level-1-ready-1135674",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Golang"
+        ]
+      },
+      {
         "title": "Junior Data Analyst",
         "company": "HiredBuddy",
         "location": "California, California, United States",
         "url": "https://remoteOK.com/remote-jobs/remote-junior-data-analyst-hiredbuddy-1135673",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Project Management Coordinator",
+        "company": "Arabian Private Holdings",
+        "location": "Ø¯Ø¨Ù, Ø¯Ø¨Ù Ø¯Ø¨Ù Ø§ÙØ¥ÙØ§Ø±Ø§Øª Ø§ÙØ¹Ø±Ø¨ÙØ© Ø§ÙÙØªØ­Ø¯Ø©",
+        "url": "https://remoteOK.com/remote-jobs/remote-project-management-coordinator-arabian-private-holdings-1135692",
         "score": 3,
         "grade": "F",
         "match": 35,
@@ -572,23 +538,23 @@
           "Python",
           "Llm"
         ]
-      },
-      {
-        "title": "Social Media and Video Content Manager",
-        "company": "Ajaia | AI Consultancy",
-        "location": "New York, New York, New York, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-social-media-and-video-content-manager-ajaia-ai-consultancy-1135536",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Automation",
-          "Golang"
-        ]
       }
     ],
     "C": [
+      {
+        "title": "Senior Customer Success Manager - East/Public Sector",
+        "company": "Tines",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/149843-senior-customer-success-manager-east-public-sector",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Automation"
+        ]
+      },
       {
         "title": "Customer Success Manager II - West",
         "company": "Tines",
@@ -604,17 +570,17 @@
         ]
       },
       {
-        "title": "(Senior) Data Platform Engineer (m/w/d)",
-        "company": "wetter.com GmbH",
-        "location": "Konstanz",
-        "url": "https://www.arbeitnow.com/jobs/companies/wettercom-gmbh/senior-data-platform-engineer-konstanz-65621",
-        "score": 4,
-        "grade": "D",
+        "title": "Senior Analytics Engineer",
+        "company": "Remotewoman",
+        "location": "Remote • France, Germany",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/remotewoman/remote-senior-analytics-engineer-193086",
+        "score": 3,
+        "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: platform engineer",
-          "Platform"
+          "Platform",
+          "Ai Agent"
         ]
       }
     ]
