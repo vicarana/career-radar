@@ -1,29 +1,29 @@
 {
-  "generated": "2026-07-31 12:50 UTC",
+  "generated": "2026-08-01 11:55 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 40,
-    "track_b": 37,
-    "track_c": 3,
+    "total": 45,
+    "track_b": 40,
+    "track_c": 5,
     "grade_a": 0,
-    "grade_b": 3,
+    "grade_b": 4,
     "visa": 0
   },
   "tracks": {
     "B": [
       {
-        "title": "Senior DevOps Engineer",
-        "company": "Lemon.io",
-        "location": "Remote",
-        "url": "https://remoteOK.com/remote-jobs/remote-senior-devops-engineer-lemon-io-1135562",
-        "score": 13,
+        "title": "Site Reliability Engineering Manager",
+        "company": "Canonical Ltd.",
+        "location": "APAC,  EMEA",
+        "url": "https://jobicy.com/jobs/149986-site-reliability-engineering-manager",
+        "score": 10,
         "grade": "B",
-        "match": 65,
+        "match": 50,
         "visa": false,
         "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Kubernetes"
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
         ]
       },
       {
@@ -57,10 +57,40 @@
         ]
       },
       {
+        "title": "Senior Site Reliability Engineer- EMEA",
+        "company": "Clickhouse",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/149958-senior-site-reliability-engineer-emea",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ]
+      },
+      {
+        "title": "Platform Engineer",
+        "company": "Bloom & Wild Group",
+        "location": "London",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/bloom-wild-group/platform-engineer-london-441826",
+        "score": 9,
+        "grade": "C",
+        "match": 45,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Terraform"
+        ]
+      },
+      {
         "title": "Senior Site Reliability Engineer",
-        "company": "Akamai Technologies",
-        "location": "Poland",
-        "url": "https://jobicy.com/jobs/143565-senior-site-reliability-engineer-3",
+        "company": "Remote",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/148108-senior-site-reliability-engineer",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -72,10 +102,10 @@
         ]
       },
       {
-        "title": "Senior Site Reliability Engineer (Remote Build)",
-        "company": "Remote",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/146979-senior-site-reliability-engineer-remote-build",
+        "title": "Senior Site Reliability Engineer",
+        "company": "Akamai Technologies",
+        "location": "Poland",
+        "url": "https://jobicy.com/jobs/143565-senior-site-reliability-engineer-3",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -102,6 +132,21 @@
         ]
       },
       {
+        "title": "Senior DevOps / DevEx Engineer",
+        "company": "RevenueCat",
+        "location": "APAC,  EMEA,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/149932-senior-devops-devex-engineer",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
+        ]
+      },
+      {
         "title": "Principal DevOps Engineer",
         "company": "Zartis",
         "location": "Europe",
@@ -114,21 +159,6 @@
           "Title match: devops",
           "Devops",
           "Platform"
-        ]
-      },
-      {
-        "title": "Senior QA Automation Engineer",
-        "company": "Zartis",
-        "location": "Europe",
-        "url": "https://jobicy.com/jobs/146790-senior-qa-automation-engineer-3",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: automation engineer",
-          "Platform",
-          "Automation"
         ]
       },
       {
@@ -147,18 +177,78 @@
         ]
       },
       {
-        "title": "Senior Data Platform Engineer",
-        "company": "1Password",
-        "location": "Canada,  USA",
-        "url": "https://jobicy.com/jobs/144689-senior-data-platform-engineer",
+        "title": "Software Engineer - Data Infrastructure - Kafka",
+        "company": "Canonical Ltd.",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/149988-software-engineer-data-infrastructure-kafka",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: platform engineer",
           "Platform",
-          "RPA"
+          "Automation",
+          "Sql"
+        ]
+      },
+      {
+        "title": "Engineering Manager - Public Cloud, Python, Golang",
+        "company": "Canonical Ltd.",
+        "location": "EMEA,  LATAM,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Python",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Software Engineer - Data Infrastructure - OpenSearch/ElasticSearch",
+        "company": "Canonical Ltd.",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/149994-software-engineer-data-infrastructure-opensearch-elasticsearch",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Automation",
+          "Sql"
+        ]
+      },
+      {
+        "title": "Software Engineer - Data Infrastructure",
+        "company": "Canonical Ltd.",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/149971-software-engineer-data-infrastructure",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Automation",
+          "Sql"
+        ]
+      },
+      {
+        "title": "Ubuntu Linux Kernel Engineer - BIOS/Firmware",
+        "company": "Canonical Ltd.",
+        "location": "APAC",
+        "url": "https://jobicy.com/jobs/149940-ubuntu-linux-kernel-engineer-bios-firmware",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Reliability",
+          "Platform",
+          "Linux"
         ]
       },
       {
@@ -204,20 +294,6 @@
         ]
       },
       {
-        "title": "Principal DevOps Engineer (Poland Remote)",
-        "company": "Turnitin, LLC",
-        "location": "Poland",
-        "url": "https://jobicy.com/jobs/145949-principal-devops-engineer-poland-remote",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ]
-      },
-      {
         "title": "DevOps Senior Engineer",
         "company": "Experian",
         "location": "Costa Rica",
@@ -243,6 +319,20 @@
         "reasons": [
           "Title match: devops",
           "Devops"
+        ]
+      },
+      {
+        "title": "GitOps Engineering Manager",
+        "company": "Canonical Ltd.",
+        "location": "APAC,  EMEA",
+        "url": "https://jobicy.com/jobs/149939-gitops-engineering-manager",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Gitops"
         ]
       },
       {
@@ -274,17 +364,31 @@
         ]
       },
       {
-        "title": "Technical Product Marketer, k0rdent AI - remote in the US",
-        "company": "Mirantis",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/146688-technical-product-marketer-k0rdent-ai-remote-in-the-us",
+        "title": "Senior Backend Engineer, AI Engineering: Chat",
+        "company": "GitLab",
+        "location": "UK",
+        "url": "https://jobicy.com/jobs/150061-senior-backend-engineer-ai-engineering-chat",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Platform"
+        ]
+      },
+      {
+        "title": "Python Engineering Manager, Commercial Systems",
+        "company": "Canonical Ltd.",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/149989-python-engineering-manager-commercial-systems",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Kubernetes"
+          "Python"
         ]
       },
       {
@@ -299,6 +403,20 @@
         "reasons": [
           "Title match: cloud engineer",
           "Platform"
+        ]
+      },
+      {
+        "title": "Senior Software Engineer - Python/MongoDB",
+        "company": "Canonical Ltd.",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/149974-senior-software-engineer-python-mongodb",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Python"
         ]
       },
       {
@@ -344,6 +462,20 @@
         ]
       },
       {
+        "title": "AI Platform Engineer (m/f/d)",
+        "company": "Fioneer",
+        "location": "Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/fioneer/remote-ai-platform-engineer-germany-51162",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
+        ]
+      },
+      {
         "title": "Senior Full-Stack Developer",
         "company": "Automat-it",
         "location": "Ukraine",
@@ -358,17 +490,17 @@
         ]
       },
       {
-        "title": "Engineering Manager, Internal Developer Platform",
-        "company": "Chainguard",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/148144-engineering-manager-internal-developer-platform",
+        "title": "Golang Engineering Manager, Commercial Systems",
+        "company": "Canonical Ltd.",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/149984-golang-engineering-manager-commercial-systems",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Ai Agent"
+          "Golang"
         ]
       },
       {
@@ -428,24 +560,24 @@
         ]
       },
       {
-        "title": "Software Engineer, AI Agent Platform",
-        "company": "QAD, Inc.",
-        "location": "Mexico",
-        "url": "https://jobicy.com/jobs/147582-software-engineer-ai-agent-platform",
+        "title": "Linux devices software engineer - snapd",
+        "company": "Canonical Ltd.",
+        "location": "EMEA,  LATAM,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/149969-linux-devices-software-engineer-snapd",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Ai Agent"
+          "Linux"
         ]
       },
       {
         "title": "Senior Analytics Engineer",
         "company": "Remotewoman",
-        "location": "Remote • France, Germany",
-        "url": "https://www.arbeitnow.co.uk/jobs/companies/remotewoman/remote-senior-analytics-engineer-193086",
+        "location": "Remote • France, Spain or UK",
+        "url": "https://www.arbeitnow.com/jobs/companies/remotewoman/remote-senior-analytics-engineer-88923",
         "score": 3,
         "grade": "F",
         "match": 35,
@@ -454,93 +586,24 @@
           "Platform",
           "Ai Agent"
         ]
-      },
-      {
-        "title": "Supply Chain &amp; Operations Specialist",
-        "company": "Miss Amara",
-        "location": "Metro Manila",
-        "url": "https://remoteOK.com/remote-jobs/remote-supply-chain-amp-operations-specialist-miss-amara-1135691",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Human Resources Specialist",
-        "company": "Harvey Nash",
-        "location": "California, California, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-human-resources-specialist-harvey-nash-1135675",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Care Navigator Level 1",
-        "company": "Ready",
-        "location": "Seattle, Seattle, Washington, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-care-navigator-level-1-ready-1135674",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Junior Data Analyst",
-        "company": "HiredBuddy",
-        "location": "California, California, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-junior-data-analyst-hiredbuddy-1135673",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Project Management Coordinator",
-        "company": "Arabian Private Holdings",
-        "location": "Ø¯Ø¨Ù, Ø¯Ø¨Ù Ø¯Ø¨Ù Ø§ÙØ¥ÙØ§Ø±Ø§Øª Ø§ÙØ¹Ø±Ø¨ÙØ© Ø§ÙÙØªØ­Ø¯Ø©",
-        "url": "https://remoteOK.com/remote-jobs/remote-project-management-coordinator-arabian-private-holdings-1135692",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Golang"
-        ]
-      },
-      {
-        "title": "LLM Engineer Freelancer",
-        "company": "Monterail",
-        "location": "KrakÃ³w, KrakÃ³w, Woj. MaÅopolskie, Polska",
-        "url": "https://remoteOK.com/remote-jobs/remote-llm-engineer-freelancer-monterail-1135638",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Llm"
-        ]
       }
     ],
     "C": [
+      {
+        "title": "Platform Engineer",
+        "company": "Bloom & Wild Group",
+        "location": "London",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/bloom-wild-group/platform-engineer-london-441826",
+        "score": 9,
+        "grade": "C",
+        "match": 45,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Terraform"
+        ]
+      },
       {
         "title": "Senior Customer Success Manager - East/Public Sector",
         "company": "Tines",
@@ -570,17 +633,31 @@
         ]
       },
       {
-        "title": "Senior Analytics Engineer",
-        "company": "Remotewoman",
-        "location": "Remote • France, Germany",
-        "url": "https://www.arbeitnow.co.uk/jobs/companies/remotewoman/remote-senior-analytics-engineer-193086",
-        "score": 3,
-        "grade": "F",
+        "title": "Senior Infrastructure Engineer (Core Infra)",
+        "company": "workato",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/workato/senior-infrastructure-engineer-core-infra-berlin-313094",
+        "score": 4,
+        "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Ai Agent"
+          "Title match: infrastructure engineer",
+          "Platform"
+        ]
+      },
+      {
+        "title": "AI Platform Engineer (m/f/d)",
+        "company": "Fioneer",
+        "location": "Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/fioneer/remote-ai-platform-engineer-germany-51162",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
         ]
       }
     ]
