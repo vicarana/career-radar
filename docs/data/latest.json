@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-01 11:55 UTC",
+  "generated": "2026-08-02 11:54 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 45,
+    "total": 42,
     "track_b": 40,
-    "track_c": 5,
+    "track_c": 2,
     "grade_a": 0,
     "grade_b": 4,
     "visa": 0
@@ -72,21 +72,6 @@
         ]
       },
       {
-        "title": "Platform Engineer",
-        "company": "Bloom & Wild Group",
-        "location": "London",
-        "url": "https://www.arbeitnow.co.uk/jobs/companies/bloom-wild-group/platform-engineer-london-441826",
-        "score": 9,
-        "grade": "C",
-        "match": 45,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Terraform"
-        ]
-      },
-      {
         "title": "Senior Site Reliability Engineer",
         "company": "Remote",
         "location": "EMEA",
@@ -106,6 +91,21 @@
         "company": "Akamai Technologies",
         "location": "Poland",
         "url": "https://jobicy.com/jobs/143565-senior-site-reliability-engineer-3",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ]
+      },
+      {
+        "title": "Senior Site Reliability Engineer (Remote Build)",
+        "company": "Remote",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/146979-senior-site-reliability-engineer-remote-build",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -189,6 +189,21 @@
           "Platform",
           "Automation",
           "Sql"
+        ]
+      },
+      {
+        "title": "Accounts Assistant",
+        "company": "CUBE Construction Group Ltd.",
+        "location": "Bridgetown,",
+        "url": "https://remoteOK.com/remote-jobs/remote-accounts-assistant-cube-construction-group-ltd-1135829",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Devops",
+          "Python",
+          "Golang"
         ]
       },
       {
@@ -294,34 +309,6 @@
         ]
       },
       {
-        "title": "DevOps Senior Engineer",
-        "company": "Experian",
-        "location": "Costa Rica",
-        "url": "https://jobicy.com/jobs/148202-devops-senior-engineer",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ]
-      },
-      {
-        "title": "Principal DevOps Engineer",
-        "company": "NBCUniversal",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/148200-principal-devops-engineer-2",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ]
-      },
-      {
         "title": "GitOps Engineering Manager",
         "company": "Canonical Ltd.",
         "location": "APAC,  EMEA",
@@ -361,6 +348,20 @@
         "reasons": [
           "Platform",
           "Automation"
+        ]
+      },
+      {
+        "title": "Technical Product Marketer, k0rdent AI - remote in the US",
+        "company": "Mirantis",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/146688-technical-product-marketer-k0rdent-ai-remote-in-the-us",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Kubernetes"
         ]
       },
       {
@@ -462,17 +463,17 @@
         ]
       },
       {
-        "title": "AI Platform Engineer (m/f/d)",
-        "company": "Fioneer",
-        "location": "Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/fioneer/remote-ai-platform-engineer-germany-51162",
+        "title": "Kubernetes Administrator/Private Cloud Engineer (m/w/d)",
+        "company": "virtual7 GmbH",
+        "location": "Homeoffice",
+        "url": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/remote-kubernetes-administrator-private-cloud-engineer-karlsruhe-275362",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: platform engineer",
-          "Platform"
+          "Title match: cloud engineer",
+          "Kubernetes"
         ]
       },
       {
@@ -574,36 +575,21 @@
         ]
       },
       {
-        "title": "Senior Analytics Engineer",
-        "company": "Remotewoman",
-        "location": "Remote • France, Spain or UK",
-        "url": "https://www.arbeitnow.com/jobs/companies/remotewoman/remote-senior-analytics-engineer-88923",
+        "title": "Client Onboarding Manager",
+        "company": "Connecteam",
+        "location": "Brooklyn, Brooklyn, New York, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-client-onboarding-manager-connecteam-1135743",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Ai Agent"
+          "Golang"
         ]
       }
     ],
     "C": [
-      {
-        "title": "Platform Engineer",
-        "company": "Bloom & Wild Group",
-        "location": "London",
-        "url": "https://www.arbeitnow.co.uk/jobs/companies/bloom-wild-group/platform-engineer-london-441826",
-        "score": 9,
-        "grade": "C",
-        "match": 45,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Terraform"
-        ]
-      },
       {
         "title": "Senior Customer Success Manager - East/Public Sector",
         "company": "Tines",
@@ -630,34 +616,6 @@
         "reasons": [
           "Platform",
           "Automation"
-        ]
-      },
-      {
-        "title": "Senior Infrastructure Engineer (Core Infra)",
-        "company": "workato",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/workato/senior-infrastructure-engineer-core-infra-berlin-313094",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: infrastructure engineer",
-          "Platform"
-        ]
-      },
-      {
-        "title": "AI Platform Engineer (m/f/d)",
-        "company": "Fioneer",
-        "location": "Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/fioneer/remote-ai-platform-engineer-germany-51162",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform"
         ]
       }
     ]
