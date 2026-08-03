@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-02 11:54 UTC",
+  "generated": "2026-08-03 13:33 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 42,
+    "total": 44,
     "track_b": 40,
-    "track_c": 2,
+    "track_c": 4,
     "grade_a": 0,
     "grade_b": 4,
     "visa": 0
@@ -102,21 +102,6 @@
         ]
       },
       {
-        "title": "Senior Site Reliability Engineer (Remote Build)",
-        "company": "Remote",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/146979-senior-site-reliability-engineer-remote-build",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
-      },
-      {
         "title": "Customer Reliability Engineer - Infrastructure",
         "company": "Astronomer",
         "location": "USA",
@@ -159,6 +144,21 @@
           "Title match: devops",
           "Devops",
           "Platform"
+        ]
+      },
+      {
+        "title": "Engineering Manager - Python and K8s",
+        "company": "Canonical Ltd.",
+        "location": "APAC,  EMEA",
+        "url": "https://jobicy.com/jobs/150121-engineering-manager-python-and-k8s",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "K8S",
+          "Python"
         ]
       },
       {
@@ -351,20 +351,6 @@
         ]
       },
       {
-        "title": "Technical Product Marketer, k0rdent AI - remote in the US",
-        "company": "Mirantis",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/146688-technical-product-marketer-k0rdent-ai-remote-in-the-us",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Kubernetes"
-        ]
-      },
-      {
         "title": "Senior Backend Engineer, AI Engineering: Chat",
         "company": "GitLab",
         "location": "UK",
@@ -463,17 +449,33 @@
         ]
       },
       {
-        "title": "Kubernetes Administrator/Private Cloud Engineer (m/w/d)",
-        "company": "virtual7 GmbH",
-        "location": "Homeoffice",
-        "url": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/remote-kubernetes-administrator-private-cloud-engineer-karlsruhe-275362",
+        "title": "Plant Fitter",
+        "company": "Queensland Rail",
+        "location": "Townsville,",
+        "url": "https://remoteOK.com/remote-jobs/remote-plant-fitter-queensland-rail-1136027",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: cloud engineer",
-          "Kubernetes"
+          "Python",
+          "Linux",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Hardship &amp; Insolvency Specialist",
+        "company": "Jacaranda Finance",
+        "location": "Milton,",
+        "url": "https://remoteOK.com/remote-jobs/remote-hardship-amp-insolvency-specialist-jacaranda-finance-1136030",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Linux",
+          "Golang"
         ]
       },
       {
@@ -547,20 +549,6 @@
         ]
       },
       {
-        "title": "Engineering Manager - MLOps & Analytics",
-        "company": "Canonical Ltd.",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149521-engineering-manager-mlops-analytics",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: mlops",
-          "Mlops"
-        ]
-      },
-      {
         "title": "Linux devices software engineer - snapd",
         "company": "Canonical Ltd.",
         "location": "EMEA,  LATAM,  Canada,  USA",
@@ -586,6 +574,20 @@
         "reasons": [
           "Platform",
           "Golang"
+        ]
+      },
+      {
+        "title": "GenAI Engineer AI Builder AI Agent Associate Specialist",
+        "company": "Magic Compass Limited",
+        "location": "Remote",
+        "url": "https://remoteOK.com/remote-jobs/remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Ai Agent"
         ]
       }
     ],
@@ -616,6 +618,34 @@
         "reasons": [
           "Platform",
           "Automation"
+        ]
+      },
+      {
+        "title": "Software Development Engineer II, Incidents",
+        "company": "Mapbox",
+        "location": "Mapbox Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/mapbox/software-development-engineer-ii-incidents-mapbox-germany-88682",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Incident"
+        ]
+      },
+      {
+        "title": "Engineering Manager, Navigation Incidents",
+        "company": "Mapbox",
+        "location": "Mapbox Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/mapbox/engineering-manager-navigation-incidents-mapbox-germany-474199",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Incident"
         ]
       }
     ]
