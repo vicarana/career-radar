@@ -1,22 +1,24 @@
-# career-radar - 2026-08-02 11:54 UTC
+# career-radar - 2026-08-03 13:33 UTC
 Sources OK: 4/4
 
 
-## Track C - Europe (visa-first) (2)
+## Track C - Europe (visa-first) (4)
 - Senior Customer Success Manager - East/Public Sector @ Tines (USA) s4 https://jobicy.com/jobs/149843-senior-customer-success-manager-east-public-sector
 - Customer Success Manager II - West @ Tines (USA) s4 https://jobicy.com/jobs/147811-customer-success-manager-ii-west
+- Software Development Engineer II, Incidents @ Mapbox (Mapbox Germany) s4 https://www.arbeitnow.com/jobs/companies/mapbox/software-development-engineer-ii-incidents-mapbox-germany-88682
+- Engineering Manager, Navigation Incidents @ Mapbox (Mapbox Germany) s4 https://www.arbeitnow.com/jobs/companies/mapbox/engineering-manager-navigation-incidents-mapbox-germany-474199
 
-## Track B - Remote/income (46)
+## Track B - Remote/income (41)
 - Site Reliability Engineering Manager @ Canonical Ltd. (APAC,  EMEA) s10 https://jobicy.com/jobs/149986-site-reliability-engineering-manager
 - Senior Site Reliability Engineer @ Canonical Ltd. (Anywhere) s10 https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5
 - Site Reliability Engineer @ Canonical Ltd. (Anywhere) s10 https://jobicy.com/jobs/149547-site-reliability-engineer
 - Senior Site Reliability Engineer- EMEA @ Clickhouse (EMEA) s10 https://jobicy.com/jobs/149958-senior-site-reliability-engineer-emea
 - Senior Site Reliability Engineer @ Remote (EMEA) s8 https://jobicy.com/jobs/148108-senior-site-reliability-engineer
 - Senior Site Reliability Engineer @ Akamai Technologies (Poland) s8 https://jobicy.com/jobs/143565-senior-site-reliability-engineer-3
-- Senior Site Reliability Engineer (Remote Build) @ Remote (EMEA) s8 https://jobicy.com/jobs/146979-senior-site-reliability-engineer-remote-build
 - Customer Reliability Engineer - Infrastructure @ Astronomer (USA) s7 https://jobicy.com/jobs/147812-customer-reliability-engineer-infrastructure
 - Senior DevOps / DevEx Engineer @ RevenueCat (APAC,  EMEA,  Canada,  USA) s6 https://jobicy.com/jobs/149932-senior-devops-devex-engineer
 - Principal DevOps Engineer @ Zartis (Europe) s6 https://jobicy.com/jobs/146762-principal-devops-engineer
+- Engineering Manager - Python and K8s @ Canonical Ltd. (APAC,  EMEA) s6 https://jobicy.com/jobs/150121-engineering-manager-python-and-k8s
 - Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics @ Canonical Ltd. (Anywhere) s6 https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics
 - Software Engineer - Data Infrastructure - Kafka @ Canonical Ltd. (EMEA) s6 https://jobicy.com/jobs/149988-software-engineer-data-infrastructure-kafka
 - Accounts Assistant @ CUBE Construction Group Ltd. (Bridgetown,) s6 https://remoteOK.com/remote-jobs/remote-accounts-assistant-cube-construction-group-ltd-1135829
