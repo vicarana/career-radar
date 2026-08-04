@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-03 13:33 UTC",
+  "generated": "2026-08-04 12:52 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 44,
-    "track_b": 40,
-    "track_c": 4,
+    "total": 46,
+    "track_b": 39,
+    "track_c": 7,
     "grade_a": 0,
-    "grade_b": 4,
+    "grade_b": 6,
     "visa": 0
   },
   "tracks": {
@@ -46,6 +46,21 @@
         "company": "Canonical Ltd.",
         "location": "Anywhere",
         "url": "https://jobicy.com/jobs/149547-site-reliability-engineer",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ]
+      },
+      {
+        "title": "Site Reliability Engineer in Network Infrastructure",
+        "company": "Nebius",
+        "location": "Europe,  Netherlands",
+        "url": "https://jobicy.com/jobs/150130-site-reliability-engineer-in-network-infrastructure",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -192,21 +207,6 @@
         ]
       },
       {
-        "title": "Accounts Assistant",
-        "company": "CUBE Construction Group Ltd.",
-        "location": "Bridgetown,",
-        "url": "https://remoteOK.com/remote-jobs/remote-accounts-assistant-cube-construction-group-ltd-1135829",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Devops",
-          "Python",
-          "Golang"
-        ]
-      },
-      {
         "title": "Engineering Manager - Public Cloud, Python, Golang",
         "company": "Canonical Ltd.",
         "location": "EMEA,  LATAM,  Canada,  USA",
@@ -306,6 +306,20 @@
         "reasons": [
           "Title match: devops",
           "Devops"
+        ]
+      },
+      {
+        "title": "Senior Platform Engineer",
+        "company": "saas.group",
+        "location": "Europe",
+        "url": "https://jobicy.com/jobs/150132-senior-platform-engineer-2",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
         ]
       },
       {
@@ -449,33 +463,18 @@
         ]
       },
       {
-        "title": "Plant Fitter",
-        "company": "Queensland Rail",
-        "location": "Townsville,",
-        "url": "https://remoteOK.com/remote-jobs/remote-plant-fitter-queensland-rail-1136027",
+        "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
+        "company": "Canonical Ltd.",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/150128-c-golang-software-engineer-working-on-dqlite-a-raft-extension-for-sqlite",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Python",
-          "Linux",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Hardship &amp; Insolvency Specialist",
-        "company": "Jacaranda Finance",
-        "location": "Milton,",
-        "url": "https://remoteOK.com/remote-jobs/remote-hardship-amp-insolvency-specialist-jacaranda-finance-1136030",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Linux",
-          "Golang"
+          "Platform",
+          "Golang",
+          "Sql"
         ]
       },
       {
@@ -575,23 +574,24 @@
           "Platform",
           "Golang"
         ]
-      },
-      {
-        "title": "GenAI Engineer AI Builder AI Agent Associate Specialist",
-        "company": "Magic Compass Limited",
-        "location": "Remote",
-        "url": "https://remoteOK.com/remote-jobs/remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Ai Agent"
-        ]
       }
     ],
     "C": [
+      {
+        "title": "Site Reliability Engineer in Network Infrastructure",
+        "company": "Nebius",
+        "location": "Europe,  Netherlands",
+        "url": "https://jobicy.com/jobs/150130-site-reliability-engineer-in-network-infrastructure",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ]
+      },
       {
         "title": "Senior Customer Success Manager - East/Public Sector",
         "company": "Tines",
@@ -621,31 +621,59 @@
         ]
       },
       {
-        "title": "Software Development Engineer II, Incidents",
-        "company": "Mapbox",
-        "location": "Mapbox Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/mapbox/software-development-engineer-ii-incidents-mapbox-germany-88682",
+        "title": "AI Platform Engineer",
+        "company": "Jobgether",
+        "location": "Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/jobgether/ai-platform-engineer-germany-172514",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Incident"
+          "Title match: platform engineer",
+          "Platform"
         ]
       },
       {
-        "title": "Engineering Manager, Navigation Incidents",
-        "company": "Mapbox",
-        "location": "Mapbox Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/mapbox/engineering-manager-navigation-incidents-mapbox-germany-474199",
-        "score": 4,
-        "grade": "D",
+        "title": "Customer Marketing & Advocacy Manager",
+        "company": "BLP Digital AG",
+        "location": "Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/blp-digital-ag/customer-marketing-advocacy-manager-munich-479779",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Automation",
+          "Ai Agent"
+        ]
+      },
+      {
+        "title": "Product Marketing Manager",
+        "company": "BLP Digital AG",
+        "location": "Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/blp-digital-ag/product-marketing-manager-munich-195829",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Automation",
+          "Ai Agent"
+        ]
+      },
+      {
+        "title": "Backend Engineer (Infrastructure & Platform) (f/m/d)",
+        "company": "Zeit Ai",
+        "location": "Munich",
+        "url": "https://www.arbeitnow.com/jobs/companies/zeit-ai/backend-engineer-infrastructure-platform-munich-140531",
+        "score": 3,
+        "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Incident"
+          "Llm"
         ]
       }
     ]
