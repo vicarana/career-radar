@@ -1,17 +1,21 @@
-# career-radar - 2026-08-03 13:33 UTC
+# career-radar - 2026-08-04 12:52 UTC
 Sources OK: 4/4
 
 
-## Track C - Europe (visa-first) (4)
+## Track C - Europe (visa-first) (7)
+- Site Reliability Engineer in Network Infrastructure @ Nebius (Europe,  Netherlands) s10 https://jobicy.com/jobs/150130-site-reliability-engineer-in-network-infrastructure
 - Senior Customer Success Manager - East/Public Sector @ Tines (USA) s4 https://jobicy.com/jobs/149843-senior-customer-success-manager-east-public-sector
 - Customer Success Manager II - West @ Tines (USA) s4 https://jobicy.com/jobs/147811-customer-success-manager-ii-west
-- Software Development Engineer II, Incidents @ Mapbox (Mapbox Germany) s4 https://www.arbeitnow.com/jobs/companies/mapbox/software-development-engineer-ii-incidents-mapbox-germany-88682
-- Engineering Manager, Navigation Incidents @ Mapbox (Mapbox Germany) s4 https://www.arbeitnow.com/jobs/companies/mapbox/engineering-manager-navigation-incidents-mapbox-germany-474199
+- AI Platform Engineer @ Jobgether (Germany) s4 https://www.arbeitnow.com/jobs/companies/jobgether/ai-platform-engineer-germany-172514
+- Customer Marketing & Advocacy Manager @ BLP Digital AG (Germany) s3 https://www.arbeitnow.com/jobs/companies/blp-digital-ag/customer-marketing-advocacy-manager-munich-479779
+- Product Marketing Manager @ BLP Digital AG (Germany) s3 https://www.arbeitnow.com/jobs/companies/blp-digital-ag/product-marketing-manager-munich-195829
+- Backend Engineer (Infrastructure & Platform) (f/m/d) @ Zeit Ai (Munich) s3 https://www.arbeitnow.com/jobs/companies/zeit-ai/backend-engineer-infrastructure-platform-munich-140531
 
-## Track B - Remote/income (41)
+## Track B - Remote/income (39)
 - Site Reliability Engineering Manager @ Canonical Ltd. (APAC,  EMEA) s10 https://jobicy.com/jobs/149986-site-reliability-engineering-manager
 - Senior Site Reliability Engineer @ Canonical Ltd. (Anywhere) s10 https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5
 - Site Reliability Engineer @ Canonical Ltd. (Anywhere) s10 https://jobicy.com/jobs/149547-site-reliability-engineer
+- Site Reliability Engineer in Network Infrastructure @ Nebius (Europe,  Netherlands) s10 https://jobicy.com/jobs/150130-site-reliability-engineer-in-network-infrastructure
 - Senior Site Reliability Engineer- EMEA @ Clickhouse (EMEA) s10 https://jobicy.com/jobs/149958-senior-site-reliability-engineer-emea
 - Senior Site Reliability Engineer @ Remote (EMEA) s8 https://jobicy.com/jobs/148108-senior-site-reliability-engineer
 - Senior Site Reliability Engineer @ Akamai Technologies (Poland) s8 https://jobicy.com/jobs/143565-senior-site-reliability-engineer-3
@@ -21,7 +25,6 @@ Sources OK: 4/4
 - Engineering Manager - Python and K8s @ Canonical Ltd. (APAC,  EMEA) s6 https://jobicy.com/jobs/150121-engineering-manager-python-and-k8s
 - Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics @ Canonical Ltd. (Anywhere) s6 https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics
 - Software Engineer - Data Infrastructure - Kafka @ Canonical Ltd. (EMEA) s6 https://jobicy.com/jobs/149988-software-engineer-data-infrastructure-kafka
-- Accounts Assistant @ CUBE Construction Group Ltd. (Bridgetown,) s6 https://remoteOK.com/remote-jobs/remote-accounts-assistant-cube-construction-group-ltd-1135829
 - Engineering Manager - Public Cloud, Python, Golang @ Canonical Ltd. (EMEA,  LATAM,  Canada,  USA) s5 https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang
 - Software Engineer - Data Infrastructure - OpenSearch/ElasticSearch @ Canonical Ltd. (EMEA) s5 https://jobicy.com/jobs/149994-software-engineer-data-infrastructure-opensearch-elasticsearch
 - Software Engineer - Data Infrastructure @ Canonical Ltd. (EMEA) s5 https://jobicy.com/jobs/149971-software-engineer-data-infrastructure
