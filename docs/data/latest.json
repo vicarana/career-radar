@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-04 12:52 UTC",
+  "generated": "2026-08-05 12:47 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 46,
-    "track_b": 39,
-    "track_c": 7,
+    "total": 43,
+    "track_b": 38,
+    "track_c": 5,
     "grade_a": 0,
-    "grade_b": 6,
+    "grade_b": 3,
     "visa": 0
   },
   "tracks": {
@@ -27,55 +27,10 @@
         ]
       },
       {
-        "title": "Senior Site Reliability Engineer",
-        "company": "Canonical Ltd.",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
-      },
-      {
-        "title": "Site Reliability Engineer",
-        "company": "Canonical Ltd.",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149547-site-reliability-engineer",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
-      },
-      {
         "title": "Site Reliability Engineer in Network Infrastructure",
         "company": "Nebius",
         "location": "Europe,  Netherlands",
         "url": "https://jobicy.com/jobs/150130-site-reliability-engineer-in-network-infrastructure",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
-      },
-      {
-        "title": "Senior Site Reliability Engineer- EMEA",
-        "company": "Clickhouse",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/149958-senior-site-reliability-engineer-emea",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -192,21 +147,6 @@
         ]
       },
       {
-        "title": "Software Engineer - Data Infrastructure - Kafka",
-        "company": "Canonical Ltd.",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/149988-software-engineer-data-infrastructure-kafka",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Automation",
-          "Sql"
-        ]
-      },
-      {
         "title": "Engineering Manager - Public Cloud, Python, Golang",
         "company": "Canonical Ltd.",
         "location": "EMEA,  LATAM,  Canada,  USA",
@@ -222,55 +162,38 @@
         ]
       },
       {
-        "title": "Software Engineer - Data Infrastructure - OpenSearch/ElasticSearch",
-        "company": "Canonical Ltd.",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/149994-software-engineer-data-infrastructure-opensearch-elasticsearch",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Automation",
-          "Sql"
-        ]
-      },
-      {
-        "title": "Software Engineer - Data Infrastructure",
-        "company": "Canonical Ltd.",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/149971-software-engineer-data-infrastructure",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Automation",
-          "Sql"
-        ]
-      },
-      {
-        "title": "Ubuntu Linux Kernel Engineer - BIOS/Firmware",
-        "company": "Canonical Ltd.",
-        "location": "APAC",
-        "url": "https://jobicy.com/jobs/149940-ubuntu-linux-kernel-engineer-bios-firmware",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Reliability",
-          "Platform",
-          "Linux"
-        ]
-      },
-      {
         "title": "Senior DevOps Engineer",
         "company": "Lemon.io",
         "location": "Americas, Europe, Asia, Africa, Oceania",
         "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091067",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ]
+      },
+      {
+        "title": "Principal DevOps Engineer",
+        "company": "NBCUniversal",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/148200-principal-devops-engineer-2",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ]
+      },
+      {
+        "title": "DevOps Senior Engineer",
+        "company": "Experian",
+        "location": "Costa Rica",
+        "url": "https://jobicy.com/jobs/148202-devops-senior-engineer",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -306,6 +229,20 @@
         "reasons": [
           "Title match: devops",
           "Devops"
+        ]
+      },
+      {
+        "title": "Pre-Sales Solution Architect – AI Infrastructure (remote in the EU)",
+        "company": "Mirantis",
+        "location": "Europe",
+        "url": "https://jobicy.com/jobs/150239-pre-sales-solution-architect-ai-infrastructure-remote-in-the-eu",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Kubernetes"
         ]
       },
       {
@@ -362,6 +299,20 @@
         "reasons": [
           "Platform",
           "Automation"
+        ]
+      },
+      {
+        "title": "Senior Manager, IT Platform Engineering - FIXED TERM",
+        "company": "ŌURA",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/148338-senior-manager-it-platform-engineering-fixed-term",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
         ]
       },
       {
@@ -463,6 +414,20 @@
         ]
       },
       {
+        "title": "Salesforce Marketing Cloud Platform Manager (Pharmaceutical Sector)",
+        "company": "Omega CRM",
+        "location": "Spain",
+        "url": "https://jobicy.com/jobs/145494-salesforce-marketing-cloud-platform-manager-pharmaceutical-sector",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Automation"
+        ]
+      },
+      {
         "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
         "company": "Canonical Ltd.",
         "location": "EMEA",
@@ -475,6 +440,35 @@
           "Platform",
           "Golang",
           "Sql"
+        ]
+      },
+      {
+        "title": "Software Engineer (.NET) (f/m/d)",
+        "company": "Apaleo",
+        "location": "Germany",
+        "url": "https://jobicy.com/jobs/145054-software-engineer-net-f-m-d",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Ai Agent"
+        ]
+      },
+      {
+        "title": "Senior Business Analyst, AI & Data",
+        "company": "phData",
+        "location": "LATAM",
+        "url": "https://jobicy.com/jobs/150207-senior-business-analyst-ai-data",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Aws",
+          "Gcp",
+          "Azure"
         ]
       },
       {
@@ -548,30 +542,16 @@
         ]
       },
       {
-        "title": "Linux devices software engineer - snapd",
-        "company": "Canonical Ltd.",
-        "location": "EMEA,  LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/149969-linux-devices-software-engineer-snapd",
+        "title": "Mark Lefebvre",
+        "company": "SC AI Impact Alliance",
+        "location": "Karjat,",
+        "url": "https://remoteOK.com/remote-jobs/remote-mark-lefebvre-sc-ai-impact-alliance-1136145",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Linux"
-        ]
-      },
-      {
-        "title": "Client Onboarding Manager",
-        "company": "Connecteam",
-        "location": "Brooklyn, Brooklyn, New York, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-client-onboarding-manager-connecteam-1135743",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
+          "Automation",
           "Golang"
         ]
       }
@@ -621,59 +601,31 @@
         ]
       },
       {
-        "title": "AI Platform Engineer",
-        "company": "Jobgether",
-        "location": "Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/jobgether/ai-platform-engineer-germany-172514",
+        "title": "Content Automation Engineer (d/f/m)",
+        "company": "Taxfix",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/taxfix/content-automation-engineer-berlin-498929",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: platform engineer",
-          "Platform"
+          "Title match: automation engineer",
+          "Automation"
         ]
       },
       {
-        "title": "Customer Marketing & Advocacy Manager",
-        "company": "BLP Digital AG",
+        "title": "Software Engineer (.NET) (f/m/d)",
+        "company": "Apaleo",
         "location": "Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/blp-digital-ag/customer-marketing-advocacy-manager-munich-479779",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Automation",
-          "Ai Agent"
-        ]
-      },
-      {
-        "title": "Product Marketing Manager",
-        "company": "BLP Digital AG",
-        "location": "Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/blp-digital-ag/product-marketing-manager-munich-195829",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Automation",
-          "Ai Agent"
-        ]
-      },
-      {
-        "title": "Backend Engineer (Infrastructure & Platform) (f/m/d)",
-        "company": "Zeit Ai",
-        "location": "Munich",
-        "url": "https://www.arbeitnow.com/jobs/companies/zeit-ai/backend-engineer-infrastructure-platform-munich-140531",
+        "url": "https://jobicy.com/jobs/145054-software-engineer-net-f-m-d",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Llm"
+          "Ai Agent"
         ]
       }
     ]
