@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-05 12:47 UTC",
+  "generated": "2026-08-06 12:50 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 43,
-    "track_b": 38,
-    "track_c": 5,
+    "total": 44,
+    "track_b": 40,
+    "track_c": 4,
     "grade_a": 0,
     "grade_b": 3,
     "visa": 0
@@ -542,16 +542,44 @@
         ]
       },
       {
-        "title": "Mark Lefebvre",
-        "company": "SC AI Impact Alliance",
-        "location": "Karjat,",
-        "url": "https://remoteOK.com/remote-jobs/remote-mark-lefebvre-sc-ai-impact-alliance-1136145",
+        "title": "Cabin Crew Virtual Interviews PAN India",
+        "company": "Akasa Air",
+        "location": "Bengaluru,",
+        "url": "https://remoteOK.com/remote-jobs/remote-cabin-crew-virtual-interviews-pan-india-akasa-air-1136223",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Automation",
+          "Python",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Phenom",
+        "company": "Build Fast with AI",
+        "location": "Jawali,",
+        "url": "https://remoteOK.com/remote-jobs/remote-phenom-build-fast-with-ai-1136143",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Head of Security",
+        "company": "Tremendous",
+        "location": "New York, New York, New York, United States",
+        "url": "https://remoteOK.com/remote-jobs/remote-head-of-security-tremendous-1136210",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
           "Golang"
         ]
       }
@@ -597,20 +625,6 @@
         "visa": false,
         "reasons": [
           "Platform",
-          "Automation"
-        ]
-      },
-      {
-        "title": "Content Automation Engineer (d/f/m)",
-        "company": "Taxfix",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/taxfix/content-automation-engineer-berlin-498929",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: automation engineer",
           "Automation"
         ]
       },
