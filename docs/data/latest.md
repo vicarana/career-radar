@@ -1,15 +1,14 @@
-# career-radar - 2026-08-05 12:47 UTC
+# career-radar - 2026-08-06 12:50 UTC
 Sources OK: 4/4
 
 
-## Track C - Europe (visa-first) (5)
+## Track C - Europe (visa-first) (4)
 - Site Reliability Engineer in Network Infrastructure @ Nebius (Europe,  Netherlands) s10 https://jobicy.com/jobs/150130-site-reliability-engineer-in-network-infrastructure
 - Senior Customer Success Manager - East/Public Sector @ Tines (USA) s4 https://jobicy.com/jobs/149843-senior-customer-success-manager-east-public-sector
 - Customer Success Manager II - West @ Tines (USA) s4 https://jobicy.com/jobs/147811-customer-success-manager-ii-west
-- Content Automation Engineer (d/f/m) @ Taxfix (Berlin) s4 https://www.arbeitnow.com/jobs/companies/taxfix/content-automation-engineer-berlin-498929
 - Software Engineer (.NET) (f/m/d) @ Apaleo (Germany) s3 https://jobicy.com/jobs/145054-software-engineer-net-f-m-d
 
-## Track B - Remote/income (38)
+## Track B - Remote/income (41)
 - Site Reliability Engineering Manager @ Canonical Ltd. (APAC,  EMEA) s10 https://jobicy.com/jobs/149986-site-reliability-engineering-manager
 - Site Reliability Engineer in Network Infrastructure @ Nebius (Europe,  Netherlands) s10 https://jobicy.com/jobs/150130-site-reliability-engineer-in-network-infrastructure
 - Senior Site Reliability Engineer @ Remote (EMEA) s8 https://jobicy.com/jobs/148108-senior-site-reliability-engineer
