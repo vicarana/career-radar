@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-06 12:50 UTC",
+  "generated": "2026-08-07 11:37 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 44,
+    "total": 45,
     "track_b": 40,
-    "track_c": 4,
+    "track_c": 5,
     "grade_a": 0,
-    "grade_b": 3,
+    "grade_b": 1,
     "visa": 0
   },
   "tracks": {
@@ -16,21 +16,6 @@
         "company": "Canonical Ltd.",
         "location": "APAC,  EMEA",
         "url": "https://jobicy.com/jobs/149986-site-reliability-engineering-manager",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
-      },
-      {
-        "title": "Site Reliability Engineer in Network Infrastructure",
-        "company": "Nebius",
-        "location": "Europe,  Netherlands",
-        "url": "https://jobicy.com/jobs/150130-site-reliability-engineer-in-network-infrastructure",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -117,6 +102,21 @@
         ]
       },
       {
+        "title": "Software Development Engineer in Test",
+        "company": "Sporty Group",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/145584-software-development-engineer-in-test",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Automation",
+          "Python"
+        ]
+      },
+      {
         "title": "Engineering Manager - Python and K8s",
         "company": "Canonical Ltd.",
         "location": "APAC,  EMEA",
@@ -144,6 +144,51 @@
           "Platform",
           "Kubernetes",
           "Python"
+        ]
+      },
+      {
+        "title": "Staff Backend Engineer - Grafana App Platform | Germany | Remote",
+        "company": "grafanalabs",
+        "location": "",
+        "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-backend-engineer-grafana-app-platform-germany-remote-160254",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Observability",
+          "Grafana"
+        ]
+      },
+      {
+        "title": "Senior Field Engineer | Germany | Remote",
+        "company": "grafanalabs",
+        "location": "",
+        "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/senior-field-engineer-germany-remote-440932",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Observability",
+          "Grafana"
+        ]
+      },
+      {
+        "title": "Java Developer",
+        "company": "Clera",
+        "location": "Los Angeles",
+        "url": "https://remoteOK.com/remote-jobs/remote-java-developer-clera-1136188",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Kubernetes",
+          "Docker"
         ]
       },
       {
@@ -428,18 +473,17 @@
         ]
       },
       {
-        "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
-        "company": "Canonical Ltd.",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/150128-c-golang-software-engineer-working-on-dqlite-a-raft-extension-for-sqlite",
+        "title": "Werkstudent Planungsrecht & Research (m/w/d)",
+        "company": "syte GmbH",
+        "location": "Münster",
+        "url": "https://www.arbeitnow.com/jobs/companies/syte-gmbh/werkstudent-planungsrecht-research-munster-95946",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Golang",
-          "Sql"
+          "Title match: sre",
+          "SRE"
         ]
       },
       {
@@ -540,64 +584,37 @@
           "Platform",
           "Linux"
         ]
-      },
-      {
-        "title": "Cabin Crew Virtual Interviews PAN India",
-        "company": "Akasa Air",
-        "location": "Bengaluru,",
-        "url": "https://remoteOK.com/remote-jobs/remote-cabin-crew-virtual-interviews-pan-india-akasa-air-1136223",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Phenom",
-        "company": "Build Fast with AI",
-        "location": "Jawali,",
-        "url": "https://remoteOK.com/remote-jobs/remote-phenom-build-fast-with-ai-1136143",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Golang"
-        ]
-      },
-      {
-        "title": "Head of Security",
-        "company": "Tremendous",
-        "location": "New York, New York, New York, United States",
-        "url": "https://remoteOK.com/remote-jobs/remote-head-of-security-tremendous-1136210",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Golang"
-        ]
       }
     ],
     "C": [
       {
-        "title": "Site Reliability Engineer in Network Infrastructure",
-        "company": "Nebius",
-        "location": "Europe,  Netherlands",
-        "url": "https://jobicy.com/jobs/150130-site-reliability-engineer-in-network-infrastructure",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
+        "title": "Staff Backend Engineer - Grafana App Platform | Germany | Remote",
+        "company": "grafanalabs",
+        "location": "",
+        "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-backend-engineer-grafana-app-platform-germany-remote-160254",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
+          "Platform",
+          "Observability",
+          "Grafana"
+        ]
+      },
+      {
+        "title": "Senior Field Engineer | Germany | Remote",
+        "company": "grafanalabs",
+        "location": "",
+        "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/senior-field-engineer-germany-remote-440932",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Observability",
+          "Grafana"
         ]
       },
       {
