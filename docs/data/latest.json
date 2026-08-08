@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-07 11:37 UTC",
+  "generated": "2026-08-08 11:20 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 45,
+    "total": 48,
     "track_b": 40,
-    "track_c": 5,
-    "grade_a": 0,
-    "grade_b": 1,
+    "track_c": 8,
+    "grade_a": 1,
+    "grade_b": 3,
     "visa": 0
   },
   "tracks": {
@@ -16,6 +16,21 @@
         "company": "Canonical Ltd.",
         "location": "APAC,  EMEA",
         "url": "https://jobicy.com/jobs/149986-site-reliability-engineering-manager",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ]
+      },
+      {
+        "title": "Site Reliability Engineer in Network Infrastructure",
+        "company": "Nebius",
+        "location": "Europe,  Netherlands",
+        "url": "https://jobicy.com/jobs/150130-site-reliability-engineer-in-network-infrastructure",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -144,36 +159,6 @@
           "Platform",
           "Kubernetes",
           "Python"
-        ]
-      },
-      {
-        "title": "Staff Backend Engineer - Grafana App Platform | Germany | Remote",
-        "company": "grafanalabs",
-        "location": "",
-        "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-backend-engineer-grafana-app-platform-germany-remote-160254",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Observability",
-          "Grafana"
-        ]
-      },
-      {
-        "title": "Senior Field Engineer | Germany | Remote",
-        "company": "grafanalabs",
-        "location": "",
-        "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/senior-field-engineer-germany-remote-440932",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Observability",
-          "Grafana"
         ]
       },
       {
@@ -473,31 +458,46 @@
         ]
       },
       {
-        "title": "Werkstudent Planungsrecht & Research (m/w/d)",
-        "company": "syte GmbH",
-        "location": "Münster",
-        "url": "https://www.arbeitnow.com/jobs/companies/syte-gmbh/werkstudent-planungsrecht-research-munster-95946",
+        "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
+        "company": "Canonical Ltd.",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/150128-c-golang-software-engineer-working-on-dqlite-a-raft-extension-for-sqlite",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: sre",
-          "SRE"
+          "Platform",
+          "Golang",
+          "Sql"
         ]
       },
       {
-        "title": "Software Engineer (.NET) (f/m/d)",
-        "company": "Apaleo",
+        "title": "Senior Backend + Infrastructure Engineer (Platform)",
+        "company": "Soda Data Nv",
         "location": "Germany",
-        "url": "https://jobicy.com/jobs/145054-software-engineer-net-f-m-d",
-        "score": 3,
-        "grade": "F",
+        "url": "https://www.arbeitnow.com/jobs/companies/soda-data-nv/remote-senior-backend-infrastructure-engineer-platform-germany-203231",
+        "score": 4,
+        "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Ai Agent"
+          "Title match: infrastructure engineer",
+          "Platform"
+        ]
+      },
+      {
+        "title": "Senior Backend Engineer (Ruby), AI Engineering: DAP Repository Flows",
+        "company": "Gitlab",
+        "location": "Remote",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/gitlab/remote-senior-backend-engineer-ruby-ai-engineering-dap-repository-flows-58849",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Platform"
         ]
       },
       {
@@ -588,33 +588,33 @@
     ],
     "C": [
       {
-        "title": "Staff Backend Engineer - Grafana App Platform | Germany | Remote",
-        "company": "grafanalabs",
-        "location": "",
-        "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-backend-engineer-grafana-app-platform-germany-remote-160254",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
+        "title": "Site Reliability Engineer (SRE) (m/w/d)",
+        "company": "Lio",
+        "location": "Munich Office",
+        "url": "https://www.arbeitnow.com/jobs/companies/lio/site-reliability-engineer-sre-munich-455998",
+        "score": 14,
+        "grade": "A",
+        "match": 70,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Observability",
-          "Grafana"
+          "Title match: site reliability",
+          "SRE",
+          "Site Reliability"
         ]
       },
       {
-        "title": "Senior Field Engineer | Germany | Remote",
-        "company": "grafanalabs",
-        "location": "",
-        "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/senior-field-engineer-germany-remote-440932",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
+        "title": "Site Reliability Engineer in Network Infrastructure",
+        "company": "Nebius",
+        "location": "Europe,  Netherlands",
+        "url": "https://jobicy.com/jobs/150130-site-reliability-engineer-in-network-infrastructure",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Observability",
-          "Grafana"
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
         ]
       },
       {
@@ -646,17 +646,59 @@
         ]
       },
       {
-        "title": "Software Engineer (.NET) (f/m/d)",
-        "company": "Apaleo",
+        "title": "Flight Control Automation Engineer (m/f/d)",
+        "company": "Quantum-Systems GmbH",
+        "location": "Gilching, Bayern, Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/flight-control-automation-engineer-gilching-223927",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: automation engineer",
+          "Automation"
+        ]
+      },
+      {
+        "title": "Senior Frontend Platform Engineer",
+        "company": "N8N",
+        "location": "Berlin Office",
+        "url": "https://www.arbeitnow.com/jobs/companies/n8n/senior-frontend-platform-engineer-berlin-249395",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
+        ]
+      },
+      {
+        "title": "Senior Backend + Infrastructure Engineer (Platform)",
+        "company": "Soda Data Nv",
         "location": "Germany",
-        "url": "https://jobicy.com/jobs/145054-software-engineer-net-f-m-d",
-        "score": 3,
-        "grade": "F",
+        "url": "https://www.arbeitnow.com/jobs/companies/soda-data-nv/remote-senior-backend-infrastructure-engineer-platform-germany-203231",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: infrastructure engineer",
+          "Platform"
+        ]
+      },
+      {
+        "title": "Python Web Crawler & PunchOut Integration Engineer (m/w/d)",
+        "company": "Lio",
+        "location": "Munich Office",
+        "url": "https://www.arbeitnow.com/jobs/companies/lio/python-web-crawler-punchout-integration-engineer-munich-493886",
+        "score": 4,
+        "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Ai Agent"
+          "Python"
         ]
       }
     ]
