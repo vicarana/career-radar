@@ -1,0 +1,4 @@
+# All changes require review from the repo owner.
+# Pairs with GitHub branch protection ("Require review from Code Owners")
+# to be enabled manually in Settings → Branches.
+* @vicarana
