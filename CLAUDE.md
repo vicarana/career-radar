@@ -1,13 +1,13 @@
 # Vic's Personal Workshop — Claude Context
-# v0a01cb | victoraranacl@gmail.com | Updated: 2026-07-11
+# victoraranacl@gmail.com | Updated: 2026-07-11
 
 ---
 
 ## Who I Am Working With
 
-**Vic (Victor Arana)** — Staff SRE / Platform Engineer at Walmart Chile.
-Personal email: victoraranacl@gmail.com | Walmart: Victor.Arana1@walmart.com
-GitHub: vicarana | Walmart GHE: v0a01cb
+**Vic** — personal workshop context for career and side projects.
+Personal email: victoraranacl@gmail.com
+GitHub: vicarana
 
 ---
 
@@ -16,7 +16,7 @@ GitHub: vicarana | Walmart GHE: v0a01cb
 | Server | What it gives you | Classification |
 |--------|------------------|----------------|
 | `private` | Career data: resumes, cover letters, analysis, 101s, logs | PRIVATE — local only, never send to APIs |
-| `corpus` | WMT FlexPOS corpus, Quipu KB, store playbooks | CONFIDENTIAL — sanitize before Element Gateway |
+| `corpus` | Employer-internal corpus, Quipu KB, internal playbooks | CONFIDENTIAL — sanitize before Element Gateway |
 
 **Always call `list_private()` first** to see what's available before loading files.
 **Never pass PRIVATE or CONFIDENTIAL content to external LLM APIs.**
@@ -35,13 +35,7 @@ GitHub: vicarana | Walmart GHE: v0a01cb
 - `~/workshop/Panther/`     — Code Puppy agent customizations
 - `~/workshop/Quipu/`       — Knowledge base engine
 - `~/workshop/tools/`       — Personal dev tools
-
-### Walmart Work (use Walmart git identity)
-- `~/workshop/cl-*/`        — Chile platform repos (email: Victor.Arana1@walmart.com)
-- `~/workshop/Mig*/`        — Migration projects
-- `~/workshop/vcert-*/`     — Cert management
 - `~/workshop/AraOps*/`     — Ops tooling
-- `~/workshop/wm-*/`        — WMT mobility
 
 ---
 
@@ -49,17 +43,16 @@ GitHub: vicarana | Walmart GHE: v0a01cb
 
 | Directory pattern | Identity |
 |------------------|----------|
-| `~/workshop/cl-*` `~/workshop/Mig*` `~/workshop/vcert-*` `~/workshop/wm-*` `~/workshop/AraOps*` | Victor.Arana1@walmart.com |
-| Everything else | victoraranacl@gmail.com |
+| All directories | victoraranacl@gmail.com |
 
-**Never cross-contaminate:** no Walmart commits with personal email or vice versa.
+**Never cross-contaminate:** no employer commits with personal email or vice versa.
 
 ---
 
 ## Coding Standards (all projects)
 
 - Python: `uv` + venvs outside OneDrive (`~/.venvs/<project>`)
-- No secrets in git. No .env files committed. Use Akeyless for Walmart.
+- No secrets in git. No .env files committed. Use a secrets manager for anything employer-related.
 - Keep files under 600 lines. DRY, YAGNI, SOLID.
 - Commit often with descriptive messages. Never force-push.
 - New projects: `git init` + `.gitignore` (node_modules, .venv, .env*)
@@ -71,9 +64,9 @@ GitHub: vicarana | Walmart GHE: v0a01cb
 - FileVault: ON
 - Firewall: ON + stealth mode
 - Screen lock: immediate on sleep
-- SSH keys: `~/.ssh/vha-git` for GitHub, `id_ed25519-retail-cert` for Walmart infra
-- Secrets: KeePassXC + Akeyless. Never in OneDrive root.
-- `.venv`, `node_modules`, `.git`, `.env*`, `*.jks` excluded from OneDrive via `.onedriveignore`
+- SSH keys: managed per separate git identities, not detailed here
+- Secrets: password manager + secrets vault. Never in OneDrive root.
+- `.venv`, `node_modules`, `.git`, `.env*`, `*.jks` excluded from OneDrive sync
 
 ---
 
@@ -83,11 +76,11 @@ GitHub: vicarana | Walmart GHE: v0a01cb
 PRIVATE (career data — salary, comp targets, resumes, 1on1 notes)
   -> LOCAL ONLY. No external APIs. Use private-mcp to load.
 
-CONFIDENTIAL (FlexPOS server data, store IPs, Kafka creds, certs)
+CONFIDENTIAL (employer server data, internal IPs, service creds, certs)
   -> LOCAL ONLY or run sanitize-for-element.sh before Element Gateway.
 
-INTERNAL (Walmart code, architecture, non-public docs)
-  -> Walmart tools only (Code Puppy on Eagle WiFi / VPN).
+INTERNAL (employer code, architecture, non-public docs)
+  -> Employer-approved tools + network only.
 
 PUBLIC
   -> Anywhere.
