@@ -16,6 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Push must authenticate as Vic (the repo's sole ruleset bypass actor),
+          # not the default GITHUB_TOKEN bot identity, or "sealed main" rejects it.
+          # Set via: gh secret set RADAR_PAT --repo vicarana/career-radar
+          token: ${{ secrets.RADAR_PAT }}
 
       - uses: actions/setup-python@v5
         with:
