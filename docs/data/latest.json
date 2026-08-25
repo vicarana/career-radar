@@ -1,21 +1,21 @@
 {
-  "generated": "2026-08-08 11:20 UTC",
+  "generated": "2026-08-25 23:36 UTC",
   "sources_ok": 4,
   "stats": {
-    "total": 48,
-    "track_b": 40,
-    "track_c": 8,
-    "grade_a": 1,
-    "grade_b": 3,
+    "total": 36,
+    "track_b": 33,
+    "track_c": 3,
+    "grade_a": 0,
+    "grade_b": 2,
     "visa": 0
   },
   "tracks": {
     "B": [
       {
-        "title": "Site Reliability Engineering Manager",
-        "company": "Canonical Ltd.",
-        "location": "APAC,  EMEA",
-        "url": "https://jobicy.com/jobs/149986-site-reliability-engineering-manager",
+        "title": "Senior Site Reliability Engineer",
+        "company": "Canonical",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -27,10 +27,10 @@
         ]
       },
       {
-        "title": "Site Reliability Engineer in Network Infrastructure",
-        "company": "Nebius",
-        "location": "Europe,  Netherlands",
-        "url": "https://jobicy.com/jobs/150130-site-reliability-engineer-in-network-infrastructure",
+        "title": "Site Reliability Engineer",
+        "company": "Canonical",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149547-site-reliability-engineer",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -57,33 +57,48 @@
         ]
       },
       {
-        "title": "Senior Site Reliability Engineer",
-        "company": "Akamai Technologies",
-        "location": "Poland",
-        "url": "https://jobicy.com/jobs/143565-senior-site-reliability-engineer-3",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
-      },
-      {
-        "title": "Customer Reliability Engineer - Infrastructure",
-        "company": "Astronomer",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/147812-customer-reliability-engineer-infrastructure",
+        "title": "DevOps Engineer AWS & Kubernetes, Junior/Intermediate (m/w/d)",
+        "company": "New Monday GmbH",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/new-monday-gmbh/devops-engineer-aws-kubernetes-junior-intermediate-berlin-387611",
         "score": 7,
         "grade": "C",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: reliability engineer",
-          "Reliability",
-          "Platform"
+          "Title match: devops",
+          "Devops",
+          "Kubernetes"
+        ]
+      },
+      {
+        "title": "Manager DevOps Engineering (Observability & Developer Experience)",
+        "company": "Cision",
+        "location": "Bulgaria,  Hungary",
+        "url": "https://jobicy.com/jobs/151548-manager-devops-engineering-observability-developer-experience",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Observability"
+        ]
+      },
+      {
+        "title": "DevOps Engineer",
+        "company": "Launchpad Technologies",
+        "location": "LATAM",
+        "url": "https://jobicy.com/jobs/151148-devops-engineer",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Ci/Cd"
         ]
       },
       {
@@ -102,53 +117,8 @@
         ]
       },
       {
-        "title": "Principal DevOps Engineer",
-        "company": "Zartis",
-        "location": "Europe",
-        "url": "https://jobicy.com/jobs/146762-principal-devops-engineer",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
-        ]
-      },
-      {
-        "title": "Software Development Engineer in Test",
-        "company": "Sporty Group",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/145584-software-development-engineer-in-test",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Automation",
-          "Python"
-        ]
-      },
-      {
-        "title": "Engineering Manager - Python and K8s",
-        "company": "Canonical Ltd.",
-        "location": "APAC,  EMEA",
-        "url": "https://jobicy.com/jobs/150121-engineering-manager-python-and-k8s",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "K8S",
-          "Python"
-        ]
-      },
-      {
         "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
-        "company": "Canonical Ltd.",
+        "company": "Canonical",
         "location": "Anywhere",
         "url": "https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics",
         "score": 6,
@@ -162,23 +132,68 @@
         ]
       },
       {
-        "title": "Java Developer",
-        "company": "Clera",
-        "location": "Los Angeles",
-        "url": "https://remoteOK.com/remote-jobs/remote-java-developer-clera-1136188",
+        "title": "Engineering Manager - Python and K8s",
+        "company": "Canonical",
+        "location": "APAC,  EMEA",
+        "url": "https://jobicy.com/jobs/150121-engineering-manager-python-and-k8s",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Kubernetes",
-          "Docker"
+          "K8S",
+          "Python"
+        ]
+      },
+      {
+        "title": "Staff Product Manager, OpenTelemetry | UK | Remote",
+        "company": "grafanalabs",
+        "location": "",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/grafanalabs/staff-product-manager-opentelemetry-uk-remote-22840",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Observability",
+          "Grafana"
+        ]
+      },
+      {
+        "title": "DESARROLLADOR FULL STACK",
+        "company": "Kruger NearShore LLC - Rekluti",
+        "location": "Remote",
+        "url": "https://remoteOK.com/remote-jobs/remote-desarrollador-full-stack-kruger-nearshore-llc-rekluti-1137062",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Devops",
+          "Python",
+          "Golang"
+        ]
+      },
+      {
+        "title": "Azure DevOps Engineer (Cloud & AI Delivery)",
+        "company": "Oowlish Technology",
+        "location": "LATAM,  Argentina,  Brazil,  Mexico",
+        "url": "https://jobicy.com/jobs/151481-azure-devops-engineer-cloud-ai-delivery",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Azure"
         ]
       },
       {
         "title": "Engineering Manager - Public Cloud, Python, Golang",
-        "company": "Canonical Ltd.",
+        "company": "Canonical",
         "location": "EMEA,  LATAM,  Canada,  USA",
         "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
         "score": 5,
@@ -193,9 +208,9 @@
       },
       {
         "title": "Senior DevOps Engineer",
-        "company": "Lemon.io",
-        "location": "Americas, Europe, Asia, Africa, Oceania",
-        "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091067",
+        "company": "Experian",
+        "location": "Costa Rica",
+        "url": "https://jobicy.com/jobs/144464-senior-devops-engineer-5",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -234,38 +249,24 @@
         ]
       },
       {
-        "title": "Senior DevOps Engineer",
-        "company": "Experian",
-        "location": "Costa Rica",
-        "url": "https://jobicy.com/jobs/144464-senior-devops-engineer-5",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ]
-      },
-      {
-        "title": "Senior DevOps Engineer - Financial Company - (Remote/LATAM)",
-        "company": "Truelogic",
-        "location": "LATAM",
-        "url": "https://jobicy.com/jobs/146308-senior-devops-engineer-financial-company-remote-latam",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ]
-      },
-      {
-        "title": "Pre-Sales Solution Architect – AI Infrastructure (remote in the EU)",
-        "company": "Mirantis",
+        "title": "VP, Platform Engineering",
+        "company": "Frontify",
         "location": "Europe",
-        "url": "https://jobicy.com/jobs/150239-pre-sales-solution-architect-ai-infrastructure-remote-in-the-eu",
+        "url": "https://jobicy.com/jobs/151398-vp-platform-engineering",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
+        ]
+      },
+      {
+        "title": "Technical Product Marketer, k0rdent AI - remote in the US",
+        "company": "Mirantis",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/146688-technical-product-marketer-k0rdent-ai-remote-in-the-us",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -276,106 +277,8 @@
         ]
       },
       {
-        "title": "Senior Platform Engineer",
-        "company": "saas.group",
-        "location": "Europe",
-        "url": "https://jobicy.com/jobs/150132-senior-platform-engineer-2",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform"
-        ]
-      },
-      {
-        "title": "GitOps Engineering Manager",
-        "company": "Canonical Ltd.",
-        "location": "APAC,  EMEA",
-        "url": "https://jobicy.com/jobs/149939-gitops-engineering-manager",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Gitops"
-        ]
-      },
-      {
-        "title": "Senior Customer Success Manager - East/Public Sector",
-        "company": "Tines",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/149843-senior-customer-success-manager-east-public-sector",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Automation"
-        ]
-      },
-      {
-        "title": "Customer Success Manager II - West",
-        "company": "Tines",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/147811-customer-success-manager-ii-west",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Automation"
-        ]
-      },
-      {
-        "title": "Senior Manager, IT Platform Engineering - FIXED TERM",
-        "company": "ŌURA",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/148338-senior-manager-it-platform-engineering-fixed-term",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform"
-        ]
-      },
-      {
-        "title": "Senior Backend Engineer, AI Engineering: Chat",
-        "company": "GitLab",
-        "location": "UK",
-        "url": "https://jobicy.com/jobs/150061-senior-backend-engineer-ai-engineering-chat",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Platform"
-        ]
-      },
-      {
-        "title": "Python Engineering Manager, Commercial Systems",
-        "company": "Canonical Ltd.",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/149989-python-engineering-manager-commercial-systems",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Python"
-        ]
-      },
-      {
         "title": "Cloud Engineering Manager",
-        "company": "Canonical Ltd.",
+        "company": "Canonical",
         "location": "Anywhere",
         "url": "https://jobicy.com/jobs/149569-cloud-engineering-manager",
         "score": 4,
@@ -388,36 +291,8 @@
         ]
       },
       {
-        "title": "Senior Software Engineer - Python/MongoDB",
-        "company": "Canonical Ltd.",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/149974-senior-software-engineer-python-mongodb",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Python"
-        ]
-      },
-      {
-        "title": "Python & React Engineer with AI (Remote, Latam)",
-        "company": "Kubikware",
-        "location": "LATAM",
-        "url": "https://jobicy.com/jobs/142967-python-react-engineer-with-ai-remote-latam",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Python"
-        ]
-      },
-      {
         "title": "Python Engineer",
-        "company": "Canonical Ltd.",
+        "company": "Canonical",
         "location": "Anywhere",
         "url": "https://jobicy.com/jobs/149543-python-engineer",
         "score": 4,
@@ -430,10 +305,10 @@
         ]
       },
       {
-        "title": "Python & React Engineer with AI (Remote, Latam)",
-        "company": "Kubikware",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/146122-python-react-engineer-with-ai-remote-latam-2",
+        "title": "Distributed Systems Testing Software Engineer, Python / Go",
+        "company": "Canonical",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/151013-distributed-systems-testing-software-engineer-python-go",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -444,110 +319,66 @@
         ]
       },
       {
-        "title": "Salesforce Marketing Cloud Platform Manager (Pharmaceutical Sector)",
-        "company": "Omega CRM",
-        "location": "Spain",
-        "url": "https://jobicy.com/jobs/145494-salesforce-marketing-cloud-platform-manager-pharmaceutical-sector",
+        "title": "Software Engineer - Python - Container Images",
+        "company": "Canonical",
+        "location": "APAC,  EMEA,  LATAM,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/150364-software-engineer-python-container-images",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Automation"
+          "Python"
         ]
       },
       {
-        "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
-        "company": "Canonical Ltd.",
+        "title": "Python Engineering Manager, Commercial Systems",
+        "company": "Canonical",
         "location": "EMEA",
-        "url": "https://jobicy.com/jobs/150128-c-golang-software-engineer-working-on-dqlite-a-raft-extension-for-sqlite",
+        "url": "https://jobicy.com/jobs/149989-python-engineering-manager-commercial-systems",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Golang",
-          "Sql"
+          "Python"
         ]
       },
       {
-        "title": "Senior Backend + Infrastructure Engineer (Platform)",
-        "company": "Soda Data Nv",
-        "location": "Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/soda-data-nv/remote-senior-backend-infrastructure-engineer-platform-germany-203231",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: infrastructure engineer",
-          "Platform"
-        ]
-      },
-      {
-        "title": "Senior Backend Engineer (Ruby), AI Engineering: DAP Repository Flows",
-        "company": "Gitlab",
-        "location": "Remote",
-        "url": "https://www.arbeitnow.co.uk/jobs/companies/gitlab/remote-senior-backend-engineer-ruby-ai-engineering-dap-repository-flows-58849",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Platform"
-        ]
-      },
-      {
-        "title": "Senior Business Analyst, AI & Data",
-        "company": "phData",
-        "location": "LATAM",
-        "url": "https://jobicy.com/jobs/150207-senior-business-analyst-ai-data",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Aws",
-          "Gcp",
-          "Azure"
-        ]
-      },
-      {
-        "title": "Senior Full-Stack Developer",
-        "company": "Automat-it",
-        "location": "Ukraine",
-        "url": "https://jobicy.com/jobs/143143-senior-full-stack-developer",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Devops",
-          "Aws"
-        ]
-      },
-      {
-        "title": "Golang Engineering Manager, Commercial Systems",
-        "company": "Canonical Ltd.",
+        "title": "Senior Software Engineer - Python/MongoDB",
+        "company": "Canonical",
         "location": "EMEA",
-        "url": "https://jobicy.com/jobs/149984-golang-engineering-manager-commercial-systems",
-        "score": 3,
-        "grade": "F",
+        "url": "https://jobicy.com/jobs/149974-senior-software-engineer-python-mongodb",
+        "score": 4,
+        "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Golang"
+          "Python"
         ]
       },
       {
-        "title": "Rust Engineering Lead - Linux and Open Source",
-        "company": "Canonical Ltd.",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149566-rust-engineering-lead-linux-and-open-source",
+        "title": "Senior Software Engineer (Storage) - remote in the US",
+        "company": "Mirantis",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/149690-senior-software-engineer-storage-remote-in-the-us",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Kubernetes"
+        ]
+      },
+      {
+        "title": "Embedded Linux Field Engineering Manager (Americas only)",
+        "company": "Canonical",
+        "location": "LATAM,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/149559-embedded-linux-field-engineering-manager-americas-only",
         "score": 3,
         "grade": "F",
         "match": 35,
@@ -559,7 +390,7 @@
       },
       {
         "title": "Engineering Manager - Data Platform",
-        "company": "Canonical Ltd.",
+        "company": "Canonical",
         "location": "Anywhere",
         "url": "https://jobicy.com/jobs/149561-engineering-manager-data-platform",
         "score": 3,
@@ -572,10 +403,10 @@
         ]
       },
       {
-        "title": "Embedded Linux Field Engineering Manager (Americas only)",
-        "company": "Canonical Ltd.",
-        "location": "LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/149559-embedded-linux-field-engineering-manager-americas-only",
+        "title": "Rust Engineering Lead - Linux and Open Source",
+        "company": "Canonical",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149566-rust-engineering-lead-linux-and-open-source",
         "score": 3,
         "grade": "F",
         "match": 35,
@@ -584,86 +415,99 @@
           "Platform",
           "Linux"
         ]
+      },
+      {
+        "title": "Engineering Manager - MLOps & Analytics",
+        "company": "Canonical",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149521-engineering-manager-mlops-analytics",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: mlops",
+          "Mlops"
+        ]
+      },
+      {
+        "title": "Senior AI Solutions Engineer (Python & AWS Bedrock)",
+        "company": "Oowlish Technology",
+        "location": "LATAM,  Argentina,  Brazil,  Mexico",
+        "url": "https://jobicy.com/jobs/151507-senior-ai-solutions-engineer-python-aws-bedrock",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Aws"
+        ]
+      },
+      {
+        "title": "Director, Data Science",
+        "company": "Gopuff",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/151618-director-data-science-2",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Llm"
+        ]
+      },
+      {
+        "title": "Senior Enterprise AI Engineer (AWS Bedrock)",
+        "company": "Oowlish Technology",
+        "location": "LATAM,  Argentina,  Brazil,  Mexico",
+        "url": "https://jobicy.com/jobs/151510-senior-enterprise-ai-engineer-aws-bedrock",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Aws"
+        ]
+      },
+      {
+        "title": "Store Manager",
+        "company": "JACK &amp; JONES",
+        "location": "Aberdeen,",
+        "url": "https://remoteOK.com/remote-jobs/remote-store-manager-jack-amp-jones-1137006",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Python",
+          "Golang"
+        ]
       }
     ],
     "C": [
       {
-        "title": "Site Reliability Engineer (SRE) (m/w/d)",
-        "company": "Lio",
-        "location": "Munich Office",
-        "url": "https://www.arbeitnow.com/jobs/companies/lio/site-reliability-engineer-sre-munich-455998",
-        "score": 14,
-        "grade": "A",
-        "match": 70,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "SRE",
-          "Site Reliability"
-        ]
-      },
-      {
-        "title": "Site Reliability Engineer in Network Infrastructure",
-        "company": "Nebius",
-        "location": "Europe,  Netherlands",
-        "url": "https://jobicy.com/jobs/150130-site-reliability-engineer-in-network-infrastructure",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
-      },
-      {
-        "title": "Senior Customer Success Manager - East/Public Sector",
-        "company": "Tines",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/149843-senior-customer-success-manager-east-public-sector",
-        "score": 4,
-        "grade": "D",
+        "title": "DevOps Engineer AWS & Kubernetes, Junior/Intermediate (m/w/d)",
+        "company": "New Monday GmbH",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/new-monday-gmbh/devops-engineer-aws-kubernetes-junior-intermediate-berlin-387611",
+        "score": 7,
+        "grade": "C",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Automation"
+          "Title match: devops",
+          "Devops",
+          "Kubernetes"
         ]
       },
       {
-        "title": "Customer Success Manager II - West",
-        "company": "Tines",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/147811-customer-success-manager-ii-west",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Automation"
-        ]
-      },
-      {
-        "title": "Flight Control Automation Engineer (m/f/d)",
-        "company": "Quantum-Systems GmbH",
-        "location": "Gilching, Bayern, Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/flight-control-automation-engineer-gilching-223927",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: automation engineer",
-          "Automation"
-        ]
-      },
-      {
-        "title": "Senior Frontend Platform Engineer",
-        "company": "N8N",
-        "location": "Berlin Office",
-        "url": "https://www.arbeitnow.com/jobs/companies/n8n/senior-frontend-platform-engineer-berlin-249395",
+        "title": "VP, Platform Engineering",
+        "company": "Frontify",
+        "location": "Europe",
+        "url": "https://jobicy.com/jobs/151398-vp-platform-engineering",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -674,31 +518,17 @@
         ]
       },
       {
-        "title": "Senior Backend + Infrastructure Engineer (Platform)",
-        "company": "Soda Data Nv",
-        "location": "Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/soda-data-nv/remote-senior-backend-infrastructure-engineer-platform-germany-203231",
+        "title": "Automation Engineer (All genders)",
+        "company": "Stark",
+        "location": "Munich",
+        "url": "https://www.arbeitnow.com/jobs/companies/stark/automation-engineer-all-genders-munich-143675",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: infrastructure engineer",
-          "Platform"
-        ]
-      },
-      {
-        "title": "Python Web Crawler & PunchOut Integration Engineer (m/w/d)",
-        "company": "Lio",
-        "location": "Munich Office",
-        "url": "https://www.arbeitnow.com/jobs/companies/lio/python-web-crawler-punchout-integration-engineer-munich-493886",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Python"
+          "Title match: automation engineer",
+          "Automation"
         ]
       }
     ]
