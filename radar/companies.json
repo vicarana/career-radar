@@ -1,6 +1,6 @@
 {
-  "_note": "Seed watchlist for public ATS job-board adapters (Greenhouse/Lever/Ashby). These are best-guess slugs, not verified live. After the first Actions run, check docs/data/latest.json 'warnings' for entries like 'greenhouse:<slug>:HTTPError' and drop/fix any bad slugs here. Tune freely, no code changes needed.",
-  "greenhouse": ["gitlab", "hashicorp", "cloudflare", "elastic", "datadog", "circleci"],
-  "lever": ["netlify", "sourcegraph", "retool"],
+  "_note": "Seed watchlist for public ATS job-board adapters (Greenhouse/Lever/Ashby). Verified against a live run on 2026-08-26: gitlab/cloudflare/elastic/datadog/circleci (Greenhouse) and replit/vanta (Ashby) all resolve. hashicorp (Greenhouse) and netlify/sourcegraph/retool (Lever) returned HTTPError that run, likely moved ATS or changed slug, dropped for now. Check docs/data/latest.json 'warnings' after future runs and tune here, no code changes needed.",
+  "greenhouse": ["gitlab", "cloudflare", "elastic", "datadog", "circleci"],
+  "lever": [],
   "ashby": ["replit", "vanta"]
 }
