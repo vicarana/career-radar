@@ -1,0 +1,6 @@
+{
+  "_note": "Seed watchlist for public ATS job-board adapters (Greenhouse/Lever/Ashby). These are best-guess slugs, not verified live. After the first Actions run, check docs/data/latest.json 'warnings' for entries like 'greenhouse:<slug>:HTTPError' and drop/fix any bad slugs here. Tune freely, no code changes needed.",
+  "greenhouse": ["gitlab", "hashicorp", "cloudflare", "elastic", "datadog", "circleci"],
+  "lever": ["netlify", "sourcegraph", "retool"],
+  "ashby": ["replit", "vanta"]
+}

@@ -23,9 +23,11 @@ import urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 PROFILE = os.path.join(ROOT, "profile.json")
+COMPANIES = os.path.join(HERE, "companies.json")
 DATA = os.path.join(ROOT, "docs", "data")
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 WARN = []
+ATTEMPTED = []
 
 
 def _get(url, timeout=20):
@@ -96,6 +98,90 @@ def src_remoteok(qs):
                             j.get("url"), True, (j.get("description", "") or "")[:300] + " " + tags))
     except Exception as e:
         WARN.append(f"remoteok:{type(e).__name__}")
+    return out
+
+
+def _load_companies():
+    try:
+        with open(COMPANIES, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        WARN.append(f"companies.json:{type(e).__name__}")
+        return {}
+
+
+def src_greenhouse(slugs):
+    """Public, unauthenticated ATS board API. Companies opt into this feed
+    on purpose so their own careers page can render it."""
+    ATTEMPTED.append("greenhouse")
+    out = []
+    for slug in slugs:
+        try:
+            d = _get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true")
+            for j in d.get("jobs", [])[:60]:
+                loc = (j.get("location") or {}).get("name", "")
+                out.append(_job(j.get("title"), slug, loc, j.get("absolute_url"),
+                                "remote" in loc.lower(), (j.get("content") or "")[:400]))
+        except Exception as e:
+            WARN.append(f"greenhouse:{slug}:{type(e).__name__}")
+    return out
+
+
+def src_lever(slugs):
+    """Public, unauthenticated ATS board API (same opt-in pattern as Greenhouse)."""
+    ATTEMPTED.append("lever")
+    out = []
+    for slug in slugs:
+        try:
+            d = _get(f"https://api.lever.co/v0/postings/{slug}?mode=json")
+            for j in d[:60]:
+                cats = j.get("categories", {}) or {}
+                loc = cats.get("location", "")
+                out.append(_job(j.get("text"), slug, loc, j.get("hostedUrl"),
+                                "remote" in loc.lower(), (j.get("descriptionPlain") or "")[:400]))
+        except Exception as e:
+            WARN.append(f"lever:{slug}:{type(e).__name__}")
+    return out
+
+
+def src_ashby(slugs):
+    """Public, unauthenticated ATS board API (same opt-in pattern as Greenhouse)."""
+    ATTEMPTED.append("ashby")
+    out = []
+    for slug in slugs:
+        try:
+            d = _get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}")
+            for j in d.get("jobs", [])[:60]:
+                loc = j.get("location", "")
+                out.append(_job(j.get("title"), slug, loc, j.get("jobUrl"),
+                                bool(j.get("isRemote")), (j.get("descriptionPlain") or "")[:400]))
+        except Exception as e:
+            WARN.append(f"ashby:{slug}:{type(e).__name__}")
+    return out
+
+
+def src_adzuna(qs):
+    """Free-tier aggregator API. Skips cleanly if creds aren't set - no crash,
+    just fewer sources, same graceful-degrade pattern as sync-profile.yml."""
+    app_id = os.environ.get("ADZUNA_APP_ID")
+    app_key = os.environ.get("ADZUNA_APP_KEY")
+    if not app_id or not app_key:
+        return []
+    ATTEMPTED.append("adzuna")
+    out = []
+    for q in qs:
+        try:
+            url = ("https://api.adzuna.com/v1/api/jobs/us/search/1"
+                   f"?app_id={app_id}&app_key={app_key}&results_per_page=40"
+                   f"&what={urllib.parse.quote(q)}&content-type=application/json")
+            d = _get(url)
+            for j in d.get("results", []):
+                loc = (j.get("location") or {}).get("display_name", "")
+                out.append(_job(j.get("title"), (j.get("company") or {}).get("display_name"),
+                                loc, j.get("redirect_url"), "remote" in loc.lower(),
+                                (j.get("description") or "")[:400]))
+        except Exception as e:
+            WARN.append(f"adzuna:{type(e).__name__}")
     return out
 
 
@@ -172,11 +258,17 @@ def linkedin_searches():
 def main():
     with open(PROFILE, encoding="utf-8") as f:
         p = json.load(f)
+    companies = _load_companies()
 
+    ATTEMPTED.extend(["remotive", "jobicy", "arbeitnow", "remoteok"])
     jobs = (src_remotive(["sre", "devops", "platform engineer", "automation", "reliability"])
             + src_jobicy(["devops", "engineering", "python"])
             + src_arbeitnow()
-            + src_remoteok(["sre", "devops", "platform"]))
+            + src_remoteok(["sre", "devops", "platform"])
+            + src_greenhouse(companies.get("greenhouse", []))
+            + src_lever(companies.get("lever", []))
+            + src_ashby(companies.get("ashby", []))
+            + src_adzuna(["site reliability engineer", "devops engineer", "platform engineer"]))
 
     seen, uniq = set(), []
     for j in jobs:
@@ -207,7 +299,8 @@ def main():
 
     now = dt.datetime.now(dt.timezone.utc)
     date = now.strftime("%Y-%m-%d %H:%M UTC")
-    sources_ok = 4 - len({w.split(":")[0] for w in WARN})
+    total_attempted = len(set(ATTEMPTED))
+    sources_ok = total_attempted - len({w.split(":")[0] for w in WARN})
     B, C = clean(buckets["B"]), clean(buckets["C"])
     allrows = B + C
     stats = {
@@ -221,11 +314,18 @@ def main():
     payload = {
         "generated": date,
         "sources_ok": sources_ok,
+        "sources_total": total_attempted,
         "stats": stats,
         "tracks": {"B": B, "C": C},
         "linkedin": linkedin_searches(),
         "walmart_markets": p["track_a_walmart_markets"]["portals"],
         "warnings": sorted(set(WARN)),
+        "profile_lite": {
+            "target_titles": p["target_titles"],
+            "strong_skills": p["strong_skills"],
+            "good_skills": p["good_skills"],
+            "avoid_skills": p["avoid_skills"],
+        },
     }
 
     os.makedirs(os.path.join(DATA, "history"), exist_ok=True)
@@ -235,7 +335,7 @@ def main():
     with open(os.path.join(DATA, "history", f"{day}.json"), "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False)
 
-    lines = [f"# career-radar - {date}", f"Sources OK: {sources_ok}/4\n"]
+    lines = [f"# career-radar - {date}", f"Sources OK: {sources_ok}/{total_attempted}\n"]
     for tk, name in [("C", "Track C - Europe (visa-first)"), ("B", "Track B - Remote/income")]:
         lines.append(f"\n## {name} ({len(buckets[tk])})")
         for j in buckets[tk][:20]:
@@ -245,7 +345,7 @@ def main():
     with open(os.path.join(DATA, "latest.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
-    print(f"[radar] {date}: B={len(buckets['B'])} C={len(buckets['C'])} sources={sources_ok}/4")
+    print(f"[radar] {date}: B={len(buckets['B'])} C={len(buckets['C'])} sources={sources_ok}/{total_attempted}")
 
 
 if __name__ == "__main__":

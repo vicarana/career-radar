@@ -139,6 +139,7 @@ main{padding:10px 12px 20px}
   <button class="tab" role="tab" data-t="dash" aria-selected="true">Dashboard</button>
   <button class="tab" role="tab" data-t="C" aria-selected="false"> Europe</button>
   <button class="tab" role="tab" data-t="B" aria-selected="false"> Remote</button>
+  <button class="tab" role="tab" data-t="match" aria-selected="false">Match JD</button>
   <button class="tab" role="tab" data-t="LI" aria-selected="false">LinkedIn</button>
   <button class="tab" role="tab" data-t="WM" aria-selected="false">Walmart</button>
   <button class="tab" role="tab" data-t="saved" aria-selected="false">
@@ -149,6 +150,7 @@ main{padding:10px 12px 20px}
 <main id="view"><div class="empty">Loading…</div></main>
 <div class="toast" id="toast"></div>
 
+<script src="match.js"></script>
 <script>
 /* ─── Sample data (10 real-looking roles) ─── */
 const SAMPLE = {
@@ -204,7 +206,13 @@ const SAMPLE = {
     {market:"Walmart Global Tech (US)", url:"https://careers.walmart.com/results?q=site%20reliability"},
     {market:"Walmart GTP – India", url:"https://careers.walmart.com/results?q=SRE&jobCountry=India"},
     {market:"Walmart Technology (all)", url:"https://careers.walmart.com/technology"}
-  ]
+  ],
+  profile_lite: {
+    target_titles: ["site reliability","sre","devops","platform engineer"],
+    strong_skills: ["sre","devops","kubernetes","terraform","observability"],
+    good_skills: ["aws","gcp","azure","docker","mlops"],
+    avoid_skills: ["wordpress","salesforce developer"]
+  }
 };
 
 /* ─── Saved jobs ─── */
@@ -225,14 +233,57 @@ function esc(s){return(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':
 function toast(m){const t=document.getElementById('toast');t.textContent=m;
   t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}
 function copyPrompt(type,j){
+  const gapNote=(j.gap&&j.gap.length)?`\nJD asks for these I haven't tagged in my profile yet: ${j.gap.join(', ')}. Address truthfully only where it genuinely applies, never invent experience.`:'';
   const p=type==='cv'
-    ?`Tailor my CV for this role using my resume archetypes in career-assessment/resumes/en/.\nRole: ${j.title} at ${j.company}, ${j.location}.\nKeep it truthful – reformulate keywords, never invent. Output ATS-friendly 1–2 page CV.`
+    ?`Tailor my CV for this role using my resume archetypes in career-assessment/resumes/en/.\nRole: ${j.title} at ${j.company}, ${j.location}.${gapNote}\nKeep it truthful – reformulate keywords, never invent. Output ATS-friendly 1–2 page CV.`
     :`Draft a short, human outreach message (no AI-slop).\nRole: ${j.title} at ${j.company}, ${j.location}.\nWhy I fit: ${(j.reasons||[]).join(', ')}.\n3–4 sentences, warm and specific.`;
   navigator.clipboard.writeText(p).then(()=>toast('Prompt copied – paste in Claude')).catch(()=>toast('Copy failed'));
 }
 
 let DATA=null, TAB='dash';
 let TRACK=[];
+let LAST_MATCH=null;
+
+/* ─── Match JD tab ─── */
+function matchView(){
+  const result=LAST_MATCH?`<div class="job" style="margin-top:14px">
+      <div class="grade-box g-${esc(LAST_MATCH.grade)}">${esc(LAST_MATCH.grade)}</div>
+      <div class="job-body">
+        <div class="job-title">Match: ${LAST_MATCH.match}%</div>
+        <div class="job-co">${esc(LAST_MATCH.matched.length)} keywords matched · ${esc(LAST_MATCH.gap.length)} gaps found</div>
+        <div class="section-title">Matched (already in your profile)</div>
+        <div class="chips">${LAST_MATCH.matched.map(k=>`<span class="chip">${esc(k)}</span>`).join('')||'<span class="chip">none found</span>'}</div>
+        <div class="section-title">Gap (JD wants, not in your profile yet)</div>
+        <div class="chips">${LAST_MATCH.gap.map(k=>`<span class="chip visa">${esc(k)}</span>`).join('')||'<span class="chip">no gaps – strong fit</span>'}</div>
+        <div class="cta" style="margin-top:10px">
+          <button class="btn primary" onclick="copyTailoredPrompt()">Tailor CV (with gaps)</button>
+        </div>
+      </div>
+    </div>`:'';
+  return `<div class="section-title">Paste a job description</div>
+    <textarea id="jd-title" placeholder="Job title (optional)" style="width:100%;margin-bottom:6px;padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:13px/1.4 inherit">${LAST_MATCH?esc(LAST_MATCH.title||''):''}</textarea>
+    <textarea id="jd-company" placeholder="Company (optional)" style="width:100%;margin-bottom:6px;padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:13px/1.4 inherit">${LAST_MATCH?esc(LAST_MATCH.company||''):''}</textarea>
+    <textarea id="jd-text" placeholder="Paste the job description here (bookmarklet or manual copy)" rows="8" style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:13px/1.4 inherit">${LAST_MATCH?esc(LAST_MATCH.rawText||''):''}</textarea>
+    <div class="cta" style="margin-top:8px">
+      <button class="btn primary" onclick="runJdMatch()">Analyze</button>
+    </div>
+    ${result}`;
+}
+function runJdMatch(){
+  const rawText=document.getElementById('jd-text').value;
+  const title=document.getElementById('jd-title').value;
+  const company=document.getElementById('jd-company').value;
+  if(!rawText||!rawText.trim()){toast('Paste a job description first');return}
+  const profile=(DATA&&DATA.profile_lite)||SAMPLE.profile_lite;
+  const r=crAnalyzeJD(rawText,title,company,profile);
+  LAST_MATCH={...r,title,company,rawText};
+  render();
+}
+function copyTailoredPrompt(){
+  if(!LAST_MATCH) return;
+  copyPrompt('cv',{title:LAST_MATCH.title||'this role',company:LAST_MATCH.company||'',
+    location:'',gap:LAST_MATCH.gap});
+}
 
 /* ─── Dashboard ─── */
 function nextAction(s){
@@ -325,6 +376,7 @@ function render(){
   }
   else if(TAB==='LI') v.innerHTML=(DATA.linkedin||[]).map(linkCard).join('')||'<div class="empty">Run the Action first.</div>';
   else if(TAB==='WM') v.innerHTML=(DATA.walmart_markets||[]).map(linkCard).join('')||'<div class="empty">No markets.</div>';
+  else if(TAB==='match') v.innerHTML=matchView();
   else if(TAB==='saved') v.innerHTML=note+savedView();
   updateSavedBadge();
 }
@@ -336,7 +388,7 @@ async function load(force){
     const d=await r.json();
     DATA=(d.stats&&d.stats.total>0)?d:SAMPLE;
     const src=DATA.sample?'sample':'live';
-    document.getElementById('meta').textContent=`${src} · ${d.generated||'—'} · APIs ${d.sources_ok||0}/4`;
+    document.getElementById('meta').textContent=`${src} · ${d.generated||'—'} · APIs ${d.sources_ok||0}/${d.sources_total||4}`;
     if(!DATA.sample) document.getElementById('meta').classList.add('live');
   }catch{DATA=SAMPLE;document.getElementById('meta').textContent='offline · sample data'}
   render();
