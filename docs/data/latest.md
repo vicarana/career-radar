@@ -1,5 +1,5 @@
-# career-radar - 2026-08-26 19:17 UTC
-Sources OK: 5/7
+# career-radar - 2026-08-26 19:20 UTC
+Sources OK: 7/7
 
 
 ## Track C - Europe (visa-first) (4)
