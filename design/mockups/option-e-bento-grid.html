@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Option E - Bento Grid</title>
+<style>
+:root{--bg:#f4f3f0;--ink:#14161a;--dim:#6b7280;--line:#e5e3de;
+  --p1:#eaf0ff;--p2:#e8fbf3;--p3:#fff2e0;--p4:#f5edff;--accent:#4f46e5}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,system-ui,sans-serif;
+  min-height:100vh}
+.wrap{max-width:520px;margin:0 auto;padding:20px 16px 40px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.top h1{font-size:22px;font-weight:800;letter-spacing:-.02em}
+.badge{font-size:11px;font-weight:700;background:var(--accent);color:#fff;padding:5px 12px;border-radius:999px}
+
+.bento{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;grid-auto-rows:minmax(90px,auto)}
+.tile{border-radius:24px;padding:18px;display:flex;flex-direction:column;justify-content:space-between}
+.tile.big{grid-column:span 2}
+.tile.tall{grid-row:span 2}
+.tile h3{font-size:13px;font-weight:700;color:var(--dim);margin-bottom:6px}
+.tile .n{font-size:30px;font-weight:800;line-height:1}
+.tile .job-title{font-size:16px;font-weight:800;margin-top:4px}
+.tile .job-co{font-size:12px;color:var(--dim);margin-top:2px}
+.tile .tag{display:inline-block;font-size:10px;font-weight:700;background:rgba(0,0,0,.06);
+  padding:3px 9px;border-radius:999px;margin-top:8px;margin-right:4px}
+.tile .cta{margin-top:10px;font-size:12px;font-weight:800;color:var(--accent)}
+
+.nav{display:flex;gap:8px;margin-top:20px;overflow-x:auto}
+.nav-item{flex:0 0 auto;font-size:12px;font-weight:700;padding:8px 14px;border-radius:999px;
+  background:#fff;border:1px solid var(--line)}
+.nav-item.on{background:var(--ink);color:#fff}
+
+@media (min-width:720px){
+  .wrap{max-width:900px;padding-top:36px}
+  .bento{grid-template-columns:repeat(4,1fr)}
+  .tile.big{grid-column:span 2}
+}
+@media (min-width:1100px){
+  .wrap{max-width:1180px}
+  .bento{grid-template-columns:repeat(6,1fr)}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><h1>Career Radar</h1><span class="badge">7/7 live</span></div>
+  <div class="bento">
+    <div class="tile big" style="background:var(--p1)">
+      <h3>Today's snapshot</h3>
+      <div class="n">44</div>
+      <div style="font-size:12px;color:var(--dim)">total matches · 4 worth applying</div>
+    </div>
+    <div class="tile" style="background:var(--p2)"><h3>A-grade</h3><div class="n" style="color:#059669">0</div></div>
+    <div class="tile" style="background:var(--p3)"><h3>B-grade</h3><div class="n" style="color:#d97706">4</div></div>
+    <div class="tile tall" style="background:var(--p4)">
+      <h3>Staff SRE</h3>
+      <div class="job-title">Replit</div>
+      <div class="job-co">Remote · 76% match</div>
+      <div><span class="tag">Kubernetes</span><span class="tag">Observability</span></div>
+      <div class="cta">Open &amp; Tailor CV -&gt;</div>
+    </div>
+    <div class="tile" style="background:#fff;border:1px solid var(--line)">
+      <h3>Senior SRE</h3>
+      <div class="job-title" style="font-size:14px">Replit</div>
+      <div class="cta">71% match</div>
+    </div>
+    <div class="tile" style="background:#fff;border:1px solid var(--line)">
+      <h3>Backend Eng, AI</h3>
+      <div class="job-title" style="font-size:14px">GitLab</div>
+      <div class="cta">55% match</div>
+    </div>
+    <div class="tile big" style="background:var(--p1)">
+      <h3>Match JD</h3>
+      <div style="font-size:13px;color:var(--dim);margin-top:2px">Paste any posting for instant ATS gap analysis</div>
+      <div class="cta">Try it -&gt;</div>
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="nav-item on">Dashboard</div><div class="nav-item">Europe</div>
+    <div class="nav-item">Remote</div><div class="nav-item">Saved</div>
+  </nav>
+</div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Option B - Command Center</title>
+<style>
+:root{
+  --bg:#0a0e14;--surface:#111823;--card:#161f2e;--line:#232f42;
+  --ink:#eef2f8;--dim:#8a99b0;
+  --accent:#00d9a3;--accent2:#3b82f6;
+  --a:#00d9a3;--b:#3b82f6;--c:#f5a623;--d:#f97362;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,system-ui,sans-serif;
+  min-height:100vh;padding-bottom:64px}
+
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;
+  border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:10}
+.topbar h1{font-size:17px;font-weight:800}
+.topbar .status{font-size:11px;color:var(--accent);background:#00d9a31a;padding:4px 10px;
+  border-radius:999px;font-weight:700}
+
+.stats-row{display:flex;gap:8px;padding:12px 16px;overflow-x:auto}
+.stat-chip{flex:0 0 auto;background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:10px 16px;min-width:90px}
+.stat-chip .n{font-size:20px;font-weight:800}
+.stat-chip .l{font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.04em}
+
+.list{padding:0 16px}
+.row{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.dot{width:8px;height:8px;border-radius:50%;flex:0 0 8px}
+.dot.a{background:var(--a)} .dot.b{background:var(--b)} .dot.c{background:var(--c)}
+.row-body{flex:1;min-width:0}
+.row-title{font-weight:700;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row-sub{font-size:12px;color:var(--dim)}
+.row-pct{font-weight:800;font-size:13px;color:var(--accent)}
+.row-actions{display:flex;gap:6px}
+.mini-btn{font-size:11px;padding:5px 10px;border-radius:8px;border:1px solid var(--line);
+  background:var(--card);color:var(--ink);font-weight:600}
+
+.bottom-nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:var(--surface);
+  border-top:1px solid var(--line);padding:8px 0 calc(env(safe-area-inset-bottom)+8px)}
+.bn-item{flex:1;text-align:center;font-size:10px;color:var(--dim);font-weight:600}
+.bn-item.on{color:var(--accent)}
+.bn-ico{display:block;font-size:16px;margin-bottom:2px}
+
+/* ── Responsive: tablet/desktop becomes two-pane, bottom nav becomes side nav ── */
+@media (min-width:768px){
+  body{padding-bottom:0;display:flex}
+  .bottom-nav{position:static;flex-direction:column;width:200px;flex:0 0 200px;
+    border-top:none;border-right:1px solid var(--line);padding:20px 0;height:100vh}
+  .bn-item{text-align:left;padding:10px 20px;font-size:13px}
+  .bn-item.on{background:var(--card);border-radius:0 20px 20px 0}
+  .bn-ico{display:inline-block;margin-right:8px;margin-bottom:0}
+  .main-col{flex:1;display:flex;flex-direction:column;max-height:100vh;overflow-y:auto}
+  .stats-row{padding:16px 24px;flex-wrap:wrap}
+  .list{padding:0 24px;max-width:700px}
+  .row{padding:14px 0}
+}
+@media (min-width:1200px){
+  .list{max-width:900px}
+  .row-title{font-size:15px}
+}
+</style>
+</head>
+<body>
+<nav class="bottom-nav">
+  <div class="bn-item on"><span class="bn-ico">[#]</span>Dashboard</div>
+  <div class="bn-item"><span class="bn-ico">[EU]</span>Europe</div>
+  <div class="bn-item"><span class="bn-ico">[R]</span>Remote</div>
+  <div class="bn-item"><span class="bn-ico">[JD]</span>Match</div>
+  <div class="bn-item"><span class="bn-ico">[*]</span>Saved</div>
+</nav>
+<div class="main-col">
+  <div class="topbar">
+    <h1>Career Radar</h1>
+    <span class="status">LIVE · 7/7</span>
+  </div>
+  <div class="stats-row">
+    <div class="stat-chip"><div class="n">44</div><div class="l">Total</div></div>
+    <div class="stat-chip"><div class="n" style="color:var(--a)">0</div><div class="l">A-grade</div></div>
+    <div class="stat-chip"><div class="n" style="color:var(--b)">4</div><div class="l">B-grade</div></div>
+    <div class="stat-chip"><div class="n">4/40</div><div class="l">EU / Remote</div></div>
+  </div>
+  <div class="list">
+    <div class="row"><div class="dot b"></div><div class="row-body">
+      <div class="row-title">Staff Site Reliability Engineer · Replit</div>
+      <div class="row-sub">Remote · Kubernetes, Observability</div>
+    </div><div class="row-pct">76%</div>
+    <div class="row-actions"><button class="mini-btn">Open</button></div></div>
+
+    <div class="row"><div class="dot b"></div><div class="row-body">
+      <div class="row-title">Senior SRE · Replit</div>
+      <div class="row-sub">Remote · Terraform, CI/CD</div>
+    </div><div class="row-pct">71%</div>
+    <div class="row-actions"><button class="mini-btn">Open</button></div></div>
+
+    <div class="row"><div class="dot c"></div><div class="row-body">
+      <div class="row-title">Backend Engineer, AI Engineering · GitLab</div>
+      <div class="row-sub">Anywhere · Ruby, CI/CD</div>
+    </div><div class="row-pct">55%</div>
+    <div class="row-actions"><button class="mini-btn">Open</button></div></div>
+
+    <div class="row"><div class="dot c"></div><div class="row-body">
+      <div class="row-title">Developer Advocate · Datadog</div>
+      <div class="row-sub">Remote · Python, DevRel</div>
+    </div><div class="row-pct">52%</div>
+    <div class="row-actions"><button class="mini-btn">Open</button></div></div>
+  </div>
+</div>
+</body>
+</html>
