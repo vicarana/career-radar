@@ -27,6 +27,12 @@ jobs:
           python-version: "3.12"
 
       - name: Run radar
+        env:
+          # Optional. If unset, src_adzuna() skips cleanly (see radar.py).
+          # Set via: gh secret set ADZUNA_APP_ID --repo vicarana/career-radar
+          #          gh secret set ADZUNA_APP_KEY --repo vicarana/career-radar
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
         run: python3 radar/radar.py
 
       - name: Commit fresh data

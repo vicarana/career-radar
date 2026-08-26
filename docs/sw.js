@@ -1,6 +1,6 @@
 // career-radar service worker - cache shell + last data for offline viewing
 const CACHE = "radar-v1";
-const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./data/latest.json"];
+const SHELL = ["./", "./index.html", "./match.js", "./manifest.webmanifest", "./data/latest.json"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
