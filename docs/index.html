@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
-<meta name="theme-color" content="#070d1a"/>
+<meta name="theme-color" content="#0a0f1e"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 <meta name="apple-mobile-web-app-title" content="Career Radar"/>
@@ -12,102 +12,117 @@
 <title>Career Radar</title>
 <style>
 :root{
-  --bg:#070d1a;--surface:#0f1829;--card:#141e33;--card2:#1a2640;--line:#243050;
-  --ink:#e8eeff;--dim:#7a90b8;--muted:#3d4f72;
+  --bg:#0a0f1e;--ink:#eef2ff;--dim:#8b98b8;--muted:#4a5578;
   --blue:#5b8cff;--cyan:#22d3ee;--purple:#a78bfa;
-  --a:#22c55e;--b:#38bdf8;--c:#f59e0b;--d:#fb923c;--f:#64748b;
-  --save:#fb7185;
+  --a:#34d399;--b:#5b8cff;--c:#f5a623;--d:#fb923c;--f:#64748b;--save:#fb7185;
+  --glass-bg:rgba(255,255,255,.07);--glass-bg2:rgba(255,255,255,.11);
+  --glass-line:rgba(255,255,255,.14);--glass-line2:rgba(255,255,255,.22);
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;margin:0;padding:0}
+html,body{height:100%}
 body{background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,system-ui,sans-serif;
-  padding-bottom:calc(env(safe-area-inset-bottom) + 16px);min-height:100vh}
+  min-height:100vh;position:relative;overflow-x:hidden}
 
-/* ── Hero ── */
-.hero{padding:calc(env(safe-area-inset-top)+20px) 16px 16px;
-  background:linear-gradient(135deg,#0f1e46 0%,#07111f 60%);
-  border-bottom:1px solid var(--line);position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;top:-40px;right:-40px;width:200px;height:200px;
-  border-radius:50%;background:radial-gradient(circle,rgba(91,140,255,.15),transparent 70%)}
-.hero-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
-.hero h1{font-size:22px;font-weight:800;letter-spacing:-.03em;line-height:1.1;
+/* ── Background blobs (Liquid Glass) ── */
+.blob{position:fixed;border-radius:50%;filter:blur(80px);opacity:.35;z-index:0;pointer-events:none}
+.blob.b1{width:360px;height:360px;background:#5b6bff;top:-140px;left:-100px}
+.blob.b2{width:320px;height:320px;background:#22d3ee;bottom:-80px;right:-100px}
+.blob.b3{width:260px;height:260px;background:#a78bfa;top:35%;left:55%}
+
+/* ── Glass surface helper ── */
+.glass{background:var(--glass-bg);backdrop-filter:blur(20px) saturate(150%);
+  -webkit-backdrop-filter:blur(20px) saturate(150%);border:1px solid var(--glass-line);
+  box-shadow:0 8px 32px rgba(0,0,0,.25), inset 0 1px 0 rgba(255,255,255,.08)}
+
+/* ── Shell / layout ── */
+.shell{position:relative;z-index:1;min-height:100vh}
+.content{max-width:640px;margin:0 auto;padding:0 14px calc(env(safe-area-inset-bottom)+150px)}
+
+/* ── Hero (minimal, AI-native) ── */
+.hero{padding:calc(env(safe-area-inset-top)+18px) 4px 6px}
+.hero h1{font-size:20px;font-weight:800;letter-spacing:-.02em;
   background:linear-gradient(90deg,var(--cyan),var(--blue),var(--purple));
-  -webkit-background-clip:text;background-clip:text;color:transparent}
-.hero .sub{color:var(--dim);font-size:12px;margin-top:3px}
-.hero-meta{display:flex;align-items:center;gap:8px;margin-top:10px}
-.pill{font-size:11px;color:var(--dim);background:var(--card);border:1px solid var(--line);
+  -webkit-background-clip:text;background-clip:text;color:transparent;display:inline-block}
+.hero-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:2px}
+.hero .sub{color:var(--dim);font-size:12px}
+.pill{font-size:11px;color:var(--dim);background:var(--glass-bg2);border:1px solid var(--glass-line);
   padding:3px 10px;border-radius:999px;white-space:nowrap}
-.pill.live{border-color:#22c55e44;color:#86efac}
-.refresh-btn{margin-left:auto;background:linear-gradient(90deg,var(--blue),var(--cyan));
-  border:none;color:#04132f;font-weight:800;border-radius:999px;padding:8px 16px;
-  font-size:12px;letter-spacing:.02em;cursor:pointer}
+.pill.live{border-color:#34d39955;color:#86efac}
+.refresh-btn{background:transparent;border:1px solid var(--glass-line);color:var(--dim);
+  border-radius:999px;padding:6px 12px;font-size:11px;font-weight:700;cursor:pointer}
 
-/* ── Tabs ── */
-.tabs{display:flex;gap:6px;padding:10px 12px;overflow-x:auto;scrollbar-width:none;
-  position:sticky;top:0;background:rgba(7,13,26,.94);backdrop-filter:blur(12px);
-  z-index:10;border-bottom:1px solid var(--line)}
-.tabs::-webkit-scrollbar{display:none}
-.tab{flex:0 0 auto;padding:8px 14px;border:1px solid var(--line);border-radius:999px;
-  background:var(--card);color:var(--dim);font-weight:600;font-size:13px;cursor:pointer;
-  display:flex;align-items:center;gap:5px;transition:all .15s}
-.tab[aria-selected=true]{background:linear-gradient(90deg,var(--blue),var(--cyan));
-  color:#04132f;border-color:transparent;box-shadow:0 0 12px rgba(91,140,255,.35)}
-.badge{background:#fb7185;color:#fff;font-size:10px;font-weight:800;
-  padding:1px 5px;border-radius:999px;line-height:1.4}
+/* ── Floating search bar (AI-native input) ── */
+.searchbar{position:fixed;left:14px;right:14px;
+  bottom:calc(max(12px, env(safe-area-inset-bottom)) + 70px);
+  z-index:15;max-width:612px;margin:0 auto;display:flex;align-items:center;gap:6px;
+  height:50px;padding:0 6px 0 16px;border-radius:999px}
+.searchbar input{flex:1;background:transparent;border:none;outline:none;color:var(--ink);
+  font-size:14px;padding:10px 0}
+.searchbar input::placeholder{color:var(--dim)}
+.searchbar .clear{background:var(--glass-bg2);border:none;color:var(--dim);width:30px;height:30px;
+  border-radius:50%;font-size:14px;cursor:pointer;flex:0 0 30px}
 
-/* ── Main ── */
-main{padding:10px 12px 20px}
+/* ── Bottom tab bar (mobile) / rail (desktop) ── */
+.tabbar{position:fixed;left:14px;right:14px;bottom:max(12px, env(safe-area-inset-bottom));
+  z-index:20;max-width:612px;margin:0 auto;display:flex;align-items:center;justify-content:space-around;
+  height:56px;padding:0 6px;border-radius:22px}
+.tab{flex:1;background:transparent;border:none;color:var(--dim);font-size:11px;font-weight:700;
+  padding:9px 4px;border-radius:16px;cursor:pointer;transition:all .15s;position:relative}
+.tab[aria-selected=true]{background:var(--glass-bg2);color:#fff}
+.tab .badge{position:absolute;top:2px;right:14%;background:var(--save);color:#fff;font-size:9px;
+  font-weight:800;padding:1px 5px;border-radius:999px;line-height:1.3}
+
+/* ── Main content ── */
+main{padding-top:8px}
 
 /* ── Stat grid ── */
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px}
-.stat.wide{grid-column:span 2;
-  background:linear-gradient(135deg,#0f1e46 0%,#111827 100%)}
+.stat{border-radius:20px;padding:14px}
+.stat.wide{grid-column:span 2}
 .stat .n{font-size:26px;font-weight:800;line-height:1}
 .stat .l{color:var(--dim);font-size:11px;margin-top:4px}
 .mbar-wrap{margin-top:10px}
-.mbar{height:8px;border-radius:999px;background:var(--card2)}
+.mbar{height:8px;border-radius:999px;background:rgba(255,255,255,.08)}
 .mbar>span{display:block;height:100%;border-radius:999px;
   background:linear-gradient(90deg,var(--a),var(--b));transition:width .6s}
 .mbar-row{display:flex;justify-content:space-between;font-size:11px;color:var(--dim);margin-top:4px}
 
 /* ── Action card ── */
-.action-card{background:linear-gradient(135deg,#0d1e3a,#101827);
-  border:1px solid #2563eb55;border-radius:16px;padding:14px;margin:8px 0}
-.action-card .icon{font-size:20px;margin-bottom:6px}
-.action-card .label{font-size:13px;color:var(--dim);margin-bottom:4px}
+.action-card{border-radius:20px;padding:14px;margin:8px 0;
+  background:linear-gradient(135deg,rgba(91,140,255,.14),rgba(255,255,255,.05))}
+.action-card .icon{font-size:13px;margin-bottom:6px;font-weight:800}
+.action-card .label{font-size:12px;color:var(--dim);margin-bottom:4px}
 .action-card .msg{font-size:14px;font-weight:600;color:var(--ink);line-height:1.4}
 
 /* ── Job card ── */
-.job{background:var(--card);border:1px solid var(--line);border-radius:18px;
-  padding:14px;margin:10px 0;display:flex;gap:12px}
-.grade-box{flex:0 0 44px;width:44px;height:44px;border-radius:12px;
-  display:grid;place-items:center;font-weight:800;font-size:20px;color:#04132f}
+.job{border-radius:22px;padding:14px;margin:10px 0;display:flex;gap:12px}
+.grade-box{flex:0 0 44px;width:44px;height:44px;border-radius:14px;
+  display:grid;place-items:center;font-weight:800;font-size:19px;color:#04132f}
 .g-A{background:var(--a)} .g-B{background:var(--b)} .g-C{background:var(--c)}
 .g-D{background:var(--d)} .g-F{background:var(--f);color:var(--ink)}
 .job-body{flex:1;min-width:0}
 .job-title{font-weight:700;font-size:15px;line-height:1.3;margin-bottom:2px}
 .job-co{color:var(--dim);font-size:12px;margin-bottom:8px}
 .match-row{display:flex;align-items:center;gap:8px;margin-bottom:8px}
-.match-bar{flex:1;height:6px;border-radius:999px;background:var(--card2);overflow:hidden}
+.match-bar{flex:1;height:6px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden}
 .match-bar>span{display:block;height:100%;border-radius:999px;
   background:linear-gradient(90deg,var(--blue),var(--cyan))}
 .match-pct{font-size:11px;font-weight:800;color:var(--dim);width:30px;text-align:right}
 .chips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
-.chip{font-size:10px;color:var(--dim);background:var(--card2);border:1px solid var(--line);
+.chip{font-size:10px;color:var(--dim);background:rgba(255,255,255,.07);border:1px solid var(--glass-line);
   padding:2px 8px;border-radius:999px}
-.chip.visa{background:#052e1a;color:#86efac;border-color:#166534}
+.chip.visa{background:rgba(52,211,153,.14);color:#86efac;border-color:rgba(52,211,153,.3)}
 .cta{display:flex;gap:6px;flex-wrap:wrap}
-.btn{flex:1;text-align:center;font-size:12px;font-weight:700;border-radius:10px;
-  padding:9px 6px;border:1px solid var(--line);background:var(--card2);
+.btn{flex:1;text-align:center;font-size:12px;font-weight:700;border-radius:12px;
+  padding:9px 6px;border:1px solid var(--glass-line);background:rgba(255,255,255,.06);
   color:var(--ink);cursor:pointer;min-width:60px}
 .btn.primary{background:linear-gradient(90deg,var(--blue),var(--cyan));
   color:#04132f;border-color:transparent}
-.btn.heart{color:var(--dim);border-color:var(--line)}
-.btn.heart.on{color:var(--save);border-color:var(--save);background:#3a0a18}
+.btn.heart{color:var(--dim)}
+.btn.heart.on{color:var(--save);border-color:rgba(251,113,133,.5);background:rgba(251,113,133,.12)}
 
 /* ── Link card ── */
-.link-card{background:var(--card);border:1px solid var(--line);border-radius:14px;
-  padding:13px 15px;margin:8px 0}
+.link-card{border-radius:16px;padding:13px 15px;margin:8px 0}
 .link-card a{color:var(--cyan);text-decoration:none;font-weight:600;font-size:14px}
 
 /* ── Misc ── */
@@ -115,39 +130,62 @@ main{padding:10px 12px 20px}
 .sample-tag{font-size:10px;color:var(--c);text-align:center;padding:4px;letter-spacing:.04em}
 .section-title{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.08em;
   text-transform:uppercase;margin:14px 0 6px}
-.toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom)+20px);
-  transform:translateX(-50%);background:var(--blue);color:#fff;font-weight:700;
-  padding:10px 20px;border-radius:999px;opacity:0;transition:.2s;pointer-events:none;z-index:100}
+.toast{position:fixed;left:50%;bottom:calc(max(12px, env(safe-area-inset-bottom)) + 138px);
+  transform:translateX(-50%);background:var(--blue);color:#fff;font-weight:700;height:40px;
+  display:flex;align-items:center;padding:0 20px;border-radius:999px;opacity:0;transition:.2s;
+  pointer-events:none;z-index:100}
 .toast.show{opacity:1}
+
+/* ── Responsive: tablet ── */
+@media (min-width:640px){
+  .content{max-width:760px;padding-top:6px}
+  .job{padding:16px}
+}
+
+/* ── Responsive: desktop, tabbar becomes a left rail ── */
+@media (min-width:960px){
+  .shell{display:flex}
+  .content{max-width:900px;margin:0;flex:1;padding:24px 32px 60px}
+  .tabbar{position:sticky;top:24px;left:0;right:auto;bottom:auto;flex-direction:column;
+    width:200px;flex:0 0 200px;margin:24px 0 24px 24px;height:fit-content;
+    justify-content:flex-start;gap:4px;padding:14px}
+  .tab{text-align:left;padding:11px 14px;font-size:14px}
+  .searchbar{position:sticky;top:24px;left:auto;right:auto;bottom:auto;margin:0 0 18px;max-width:520px}
+  .grid{grid-template-columns:repeat(4,1fr)}
+  .stat.wide{grid-column:span 4}
+}
 </style>
 </head>
 <body>
-<div class="hero">
-  <div class="hero-row">
-    <div>
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+<div class="shell">
+  <nav class="tabbar glass" role="tablist">
+    <button class="tab" role="tab" data-t="dash" aria-selected="true">Dashboard</button>
+    <button class="tab" role="tab" data-t="C" aria-selected="false">Europe</button>
+    <button class="tab" role="tab" data-t="B" aria-selected="false">Remote</button>
+    <button class="tab" role="tab" data-t="match" aria-selected="false">Match JD</button>
+    <button class="tab" role="tab" data-t="saved" aria-selected="false">
+      Saved<span class="badge" id="saved-badge" style="display:none">0</span>
+    </button>
+  </nav>
+  <div class="content">
+    <div class="hero">
       <h1>Career Radar</h1>
-      <div class="sub">Tracks B (remote/income) · C (Europe relocation)</div>
+      <div class="hero-row">
+        <div class="sub">Remote &amp; Europe, daily</div>
+        <div style="display:flex;align-items:center;gap:8px">
+          <span class="pill" id="meta">loading...</span>
+          <button class="refresh-btn" onclick="load(true)">Refresh</button>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="hero-meta">
-    <span class="pill" id="meta">loading...</span>
-    <button class="refresh-btn" onclick="load(true)">↻ Refresh</button>
+    <div class="searchbar glass" id="searchbar">
+      <input id="q" oninput="onQuickSearch(this.value)" placeholder="Search roles, companies, skills..."/>
+      <button class="clear" onclick="clearQuery()" aria-label="Clear search">&times;</button>
+    </div>
+    <main id="view"><div class="empty">Loading…</div></main>
   </div>
 </div>
-
-<nav class="tabs" role="tablist">
-  <button class="tab" role="tab" data-t="dash" aria-selected="true">Dashboard</button>
-  <button class="tab" role="tab" data-t="C" aria-selected="false"> Europe</button>
-  <button class="tab" role="tab" data-t="B" aria-selected="false"> Remote</button>
-  <button class="tab" role="tab" data-t="match" aria-selected="false">Match JD</button>
-  <button class="tab" role="tab" data-t="LI" aria-selected="false">LinkedIn</button>
-  <button class="tab" role="tab" data-t="WM" aria-selected="false">Walmart</button>
-  <button class="tab" role="tab" data-t="saved" aria-selected="false">
-     Saved <span class="badge" id="saved-badge" style="display:none">0</span>
-  </button>
-</nav>
-
-<main id="view"><div class="empty">Loading…</div></main>
 <div class="toast" id="toast"></div>
 
 <script src="match.js"></script>
@@ -243,10 +281,21 @@ function copyPrompt(type,j){
 let DATA=null, TAB='dash';
 let TRACK=[];
 let LAST_MATCH=null;
+let QUERY='';
+
+/* ─── Quick search (AI-native floating input) ─── */
+function onQuickSearch(v){QUERY=v.trim().toLowerCase();render()}
+function clearQuery(){QUERY='';const el=document.getElementById('q');if(el)el.value='';render()}
+function matchesQuery(j){
+  if(!QUERY) return true;
+  const hay=[j.title,j.company,j.location,...(j.reasons||[])].join(' ').toLowerCase();
+  return hay.includes(QUERY);
+}
+function allJobs(){return [...((DATA&&DATA.tracks&&DATA.tracks.B)||[]),...((DATA&&DATA.tracks&&DATA.tracks.C)||[])]}
 
 /* ─── Match JD tab ─── */
 function matchView(){
-  const result=LAST_MATCH?`<div class="job" style="margin-top:14px">
+  const result=LAST_MATCH?`<div class="job glass" style="margin-top:14px">
       <div class="grade-box g-${esc(LAST_MATCH.grade)}">${esc(LAST_MATCH.grade)}</div>
       <div class="job-body">
         <div class="job-title">Match: ${LAST_MATCH.match}%</div>
@@ -261,9 +310,9 @@ function matchView(){
       </div>
     </div>`:'';
   return `<div class="section-title">Paste a job description</div>
-    <textarea id="jd-title" placeholder="Job title (optional)" style="width:100%;margin-bottom:6px;padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:13px/1.4 inherit">${LAST_MATCH?esc(LAST_MATCH.title||''):''}</textarea>
-    <textarea id="jd-company" placeholder="Company (optional)" style="width:100%;margin-bottom:6px;padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:13px/1.4 inherit">${LAST_MATCH?esc(LAST_MATCH.company||''):''}</textarea>
-    <textarea id="jd-text" placeholder="Paste the job description here (bookmarklet or manual copy)" rows="8" style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:13px/1.4 inherit">${LAST_MATCH?esc(LAST_MATCH.rawText||''):''}</textarea>
+    <textarea id="jd-title" placeholder="Job title (optional)" class="glass" style="width:100%;margin-bottom:6px;padding:10px;border-radius:14px;color:var(--ink);font:13px/1.4 inherit">${LAST_MATCH?esc(LAST_MATCH.title||''):''}</textarea>
+    <textarea id="jd-company" placeholder="Company (optional)" class="glass" style="width:100%;margin-bottom:6px;padding:10px;border-radius:14px;color:var(--ink);font:13px/1.4 inherit">${LAST_MATCH?esc(LAST_MATCH.company||''):''}</textarea>
+    <textarea id="jd-text" placeholder="Paste the job description here (bookmarklet or manual copy)" rows="8" class="glass" style="width:100%;padding:10px;border-radius:14px;color:var(--ink);font:13px/1.4 inherit">${LAST_MATCH?esc(LAST_MATCH.rawText||''):''}</textarea>
     <div class="cta" style="margin-top:8px">
       <button class="btn primary" onclick="runJdMatch()">Analyze</button>
     </div>
@@ -288,20 +337,20 @@ function copyTailoredPrompt(){
 /* ─── Dashboard ─── */
 function nextAction(s){
   if(!s) return '';
-  if((s.grade_a||0)>0) return `<div class="action-card">
-    <div class="icon" style="color:var(--a);font-weight:800">[A] Apply now</div>
+  if((s.grade_a||0)>0) return `<div class="action-card glass">
+    <div class="icon" style="color:var(--a)">Apply now</div>
     <div class="label">Recommended action</div>
-    <div class="msg">${s.grade_a} A-grade match${s.grade_a>1?'es':''} found. Apply today — open the Europe or Remote tab and use the Tailor CV button.</div>
+    <div class="msg">${s.grade_a} A-grade match${s.grade_a>1?'es':''} found. Apply today – open the Europe or Remote tab and use the Tailor CV button.</div>
   </div>`;
-  if((s.grade_b||0)>0) return `<div class="action-card">
-    <div class="icon" style="color:var(--b);font-weight:800">[B] Apply this week</div>
+  if((s.grade_b||0)>0) return `<div class="action-card glass">
+    <div class="icon" style="color:var(--b)">Apply this week</div>
     <div class="label">Recommended action</div>
     <div class="msg">${s.grade_b} B-grade matches worth applying. Check Europe tab first (visa-sponsor priority).</div>
   </div>`;
-  return `<div class="action-card">
-    <div class="icon" style="color:var(--dim);font-weight:800">[~] Keep searching</div>
+  return `<div class="action-card glass">
+    <div class="icon" style="color:var(--dim)">Keep searching</div>
     <div class="label">Today's move</div>
-    <div class="msg">No strong matches in this run. Hit LinkedIn tab for direct searches, or re-run the Action on personal WiFi.</div>
+    <div class="msg">No strong matches in this run. Try the search bar above, or re-run the Action on personal WiFi.</div>
   </div>`;
 }
 function dashboard(){
@@ -312,7 +361,7 @@ function dashboard(){
   ${nextAction(s)}
   <div class="section-title">Today's snapshot</div>
   <div class="grid">
-    <div class="stat wide">
+    <div class="stat glass wide">
       <div class="n">${s.total}</div>
       <div class="l">total matches scanned</div>
       <div class="mbar-wrap">
@@ -320,11 +369,18 @@ function dashboard(){
         <div class="mbar-row"><span>${strong} strong (A/B grade)</span><span>${pct}%</span></div>
       </div>
     </div>
-    <div class="stat"><div class="n" style="color:var(--a)">${s.grade_a||0}</div><div class="l">A-grade · apply now</div></div>
-    <div class="stat"><div class="n" style="color:var(--b)">${s.grade_b||0}</div><div class="l">B-grade · apply this week</div></div>
-    <div class="stat"><div class="n" style="color:var(--cyan)">${s.visa||0}</div><div class="l">visa sponsor (Europe)</div></div>
-    <div class="stat"><div class="n">${s.track_c||0}/${s.track_b||0}</div><div class="l">Europe / Remote split</div></div>
+    <div class="stat glass"><div class="n" style="color:var(--a)">${s.grade_a||0}</div><div class="l">A-grade · apply now</div></div>
+    <div class="stat glass"><div class="n" style="color:var(--b)">${s.grade_b||0}</div><div class="l">B-grade · apply this week</div></div>
+    <div class="stat glass"><div class="n" style="color:var(--cyan)">${s.visa||0}</div><div class="l">visa sponsor (Europe)</div></div>
+    <div class="stat glass"><div class="n">${s.track_c||0}/${s.track_b||0}</div><div class="l">Europe / Remote split</div></div>
   </div>`;
+}
+function quickLinks(){
+  const li=(DATA.linkedin||[]);
+  const wm=(DATA.walmart_markets||[]);
+  if(!li.length && !wm.length) return '';
+  return `<div class="section-title">Quick links</div>`
+    + li.map(linkCard).join('') + wm.map(linkCard).join('');
 }
 
 /* ─── Job card ─── */
@@ -333,7 +389,7 @@ function jobCard(j,i){
   const saved=getSaved().includes(id);
   const chips=(j.reasons||[]).map(r=>`<span class="chip">${esc(r)}</span>`).join('')
     +(j.visa?'<span class="chip visa">VISA SPONSOR</span>':'');
-  return `<div class="job">
+  return `<div class="job glass">
     <div class="grade-box g-${esc(j.grade||'F')}">${esc(j.grade||'?')}</div>
     <div class="job-body">
       <div class="job-title">${esc(j.title)}</div>
@@ -347,17 +403,17 @@ function jobCard(j,i){
         <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Open</a>
         <button class="btn" onclick='copyPrompt("cv",TRACK[${i}])'>Tailor CV</button>
         <button class="btn" onclick='copyPrompt("out",TRACK[${i}])'>Outreach</button>
-        <button class="btn heart ${saved?'on':''}" onclick='toggleSave(${JSON.stringify(id)})'>${saved?'[saved]':'[save]'}</button>
+        <button class="btn heart ${saved?'on':''}" onclick='toggleSave(${JSON.stringify(id)})'>${saved?'Saved':'Save'}</button>
       </div>
     </div>
   </div>`;
 }
 
 /* ─── Link / saved ─── */
-function linkCard(l){return`<div class="link-card"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label||l.market)} →</a></div>`}
+function linkCard(l){return`<div class="link-card glass"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label||l.market)} &rarr;</a></div>`}
 function savedView(){
-  const ids=getSaved(); if(!ids.length) return '<div class="empty">No saved jobs yet.<br>Tap [save] on any card.</div>';
-  const all=[...(DATA?.tracks?.B||[]),...(DATA?.tracks?.C||[])];
+  const ids=getSaved(); if(!ids.length) return '<div class="empty">No saved jobs yet.<br>Tap Save on any card.</div>';
+  const all=allJobs();
   const jobs=all.filter(j=>ids.includes(j.title+'|'+j.company));
   TRACK=jobs;
   return jobs.length?jobs.map(jobCard).join(''):'<div class="empty">Saved jobs not found in current data. Re-run radar to reload.</div>';
@@ -366,16 +422,24 @@ function savedView(){
 /* ─── Render ─── */
 function render(){
   const v=document.getElementById('view');
+  const sb=document.getElementById('searchbar');
   if(!DATA){v.innerHTML='<div class="empty">No data.</div>';return}
+  sb.style.display=(TAB==='match')?'none':'flex';
   const note=DATA.sample?'<div class="sample-tag">[SAMPLE] run GitHub Action on personal WiFi for live jobs</div>':'';
-  if(TAB==='dash'){v.innerHTML=note+dashboard()}
-  else if(TAB==='C'||TAB==='B'){
-    TRACK=(DATA.tracks&&DATA.tracks[TAB])||[];
-    v.innerHTML=note+(TRACK.length?TRACK.map(jobCard).join('')
-      :'<div class="empty">No matches in this run.<br>Check LinkedIn tab or re-run on personal WiFi.</div>');
+  if(TAB==='dash'){
+    if(QUERY){
+      TRACK=allJobs().filter(matchesQuery);
+      v.innerHTML=note+`<div class="section-title">Search results for "${esc(QUERY)}"</div>`
+        +(TRACK.length?TRACK.map(jobCard).join(''):'<div class="empty">No matches for that search.</div>');
+    } else {
+      v.innerHTML=note+dashboard()+quickLinks();
+    }
   }
-  else if(TAB==='LI') v.innerHTML=(DATA.linkedin||[]).map(linkCard).join('')||'<div class="empty">Run the Action first.</div>';
-  else if(TAB==='WM') v.innerHTML=(DATA.walmart_markets||[]).map(linkCard).join('')||'<div class="empty">No markets.</div>';
+  else if(TAB==='C'||TAB==='B'){
+    TRACK=((DATA.tracks&&DATA.tracks[TAB])||[]).filter(matchesQuery);
+    v.innerHTML=note+(TRACK.length?TRACK.map(jobCard).join('')
+      :'<div class="empty">No matches here.<br>Try clearing your search, or re-run on personal WiFi.</div>');
+  }
   else if(TAB==='match') v.innerHTML=matchView();
   else if(TAB==='saved') v.innerHTML=note+savedView();
   updateSavedBadge();
