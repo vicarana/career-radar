@@ -1,16 +1,32 @@
 {
-  "generated": "2026-08-26 11:20 UTC",
-  "sources_ok": 4,
+  "generated": "2026-08-26 19:17 UTC",
+  "sources_ok": 5,
+  "sources_total": 7,
   "stats": {
-    "total": 42,
-    "track_b": 37,
-    "track_c": 5,
+    "total": 44,
+    "track_b": 40,
+    "track_c": 4,
     "grade_a": 0,
-    "grade_b": 2,
+    "grade_b": 4,
     "visa": 0
   },
   "tracks": {
     "B": [
+      {
+        "title": "Staff Site Reliability Engineer",
+        "company": "replit",
+        "location": "Remote - Europe",
+        "url": "https://jobs.ashbyhq.com/replit/f35042a1-b016-4811-9597-b98facf5eb4d",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "SRE",
+          "Site Reliability"
+        ]
+      },
       {
         "title": "Senior Site Reliability Engineer",
         "company": "Canonical",
@@ -31,6 +47,21 @@
         "company": "Canonical",
         "location": "Anywhere",
         "url": "https://jobicy.com/jobs/149547-site-reliability-engineer",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ]
+      },
+      {
+        "title": "Senior Site Reliability Engineer",
+        "company": "replit",
+        "location": "Remote - Europe",
+        "url": "https://jobs.ashbyhq.com/replit/ca50a435-72b4-4092-b957-31d29ede1c00",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -147,36 +178,6 @@
         ]
       },
       {
-        "title": "Staff Product Manager, OpenTelemetry | Germany | Remote",
-        "company": "grafanalabs",
-        "location": "",
-        "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-product-manager-opentelemetry-germany-remote-47569",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Observability",
-          "Grafana"
-        ]
-      },
-      {
-        "title": "Staff Backend Engineer - Alerting | Germany | Remote",
-        "company": "grafanalabs",
-        "location": "",
-        "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-backend-engineer-alerting-germany-remote-192759",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Observability",
-          "Grafana"
-        ]
-      },
-      {
         "title": "DESARROLLADOR FULL STACK",
         "company": "Kruger NearShore LLC - Rekluti",
         "location": "Remote",
@@ -189,6 +190,51 @@
           "Devops",
           "Python",
           "Golang"
+        ]
+      },
+      {
+        "title": "Backend Engineer (Ruby), AI Engineering: Agent Observability",
+        "company": "gitlab",
+        "location": "Remote, Canada",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8620720002",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Platform",
+          "Observability"
+        ]
+      },
+      {
+        "title": "Developer Advocate - Service Management",
+        "company": "datadog",
+        "location": "California, USA, Remote; New York, USA, Remote",
+        "url": "https://careers.datadoghq.com/detail/8139662/?gh_jid=8139662",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "SRE",
+          "Devops",
+          "Incident"
+        ]
+      },
+      {
+        "title": "Staff Infrastructure Engineer",
+        "company": "replit",
+        "location": "Foster City, CA",
+        "url": "https://jobs.ashbyhq.com/replit/6481ec1e-527c-4c1f-a041-2fb5021e7bd5",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: infrastructure engineer",
+          "Reliability",
+          "Platform"
         ]
       },
       {
@@ -219,6 +265,21 @@
           "Platform",
           "Python",
           "Golang"
+        ]
+      },
+      {
+        "title": "Senior Consultant Microsoft Dynamics 365 (gn)",
+        "company": "Ifblueprint",
+        "location": "München oder deutschlandweit remote",
+        "url": "https://www.arbeitnow.com/jobs/companies/ifblueprint/remote-senior-consultant-microsoft-dynamics-365-gn-167438",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Automation",
+          "Power Automate"
         ]
       },
       {
@@ -418,31 +479,73 @@
         ]
       },
       {
-        "title": "Kubernetes Administrator/Private Cloud Engineer (m/w/d)",
-        "company": "virtual7 GmbH",
-        "location": "Homeoffice",
-        "url": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/remote-kubernetes-administrator-private-cloud-engineer-karlsruhe-182251",
+        "title": "AI Engineer",
+        "company": "gitlab",
+        "location": "Remote, Bangalore",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8556658002",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: cloud engineer",
-          "Kubernetes"
+          "Title match: ai engineer",
+          "Platform"
         ]
       },
       {
-        "title": "Senior Platform Engineer (d/f/m)",
-        "company": "Vivenu",
-        "location": "Remote Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/vivenu/remote-senior-platform-engineer-181815",
+        "title": "Backend Engineer, AI Engineering: Duo Chat",
+        "company": "gitlab",
+        "location": "Remote, Canada; Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8698314002",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: platform engineer",
+          "Title match: ai engineer",
           "Platform"
+        ]
+      },
+      {
+        "title": "Engineering Manager, AI Engineering: Chat",
+        "company": "gitlab",
+        "location": "Remote, Americas; Remote, Canada; Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8603824002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Platform"
+        ]
+      },
+      {
+        "title": "Fullstack Engineer (TypeScript), AI Engineering: Duo Client SDK",
+        "company": "gitlab",
+        "location": "Remote, Canada; Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8698330002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Platform"
+        ]
+      },
+      {
+        "title": "Product Security Engineer (PSIRT - Product Security Incident Response Team)",
+        "company": "replit",
+        "location": "Foster City, CA",
+        "url": "https://jobs.ashbyhq.com/replit/1634b879-80c7-4064-be0a-8a4aecc81923",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Incident"
         ]
       },
       {
@@ -486,93 +589,37 @@
           "Platform",
           "Linux"
         ]
-      },
-      {
-        "title": "Engineering Manager - MLOps & Analytics",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149521-engineering-manager-mlops-analytics",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: mlops",
-          "Mlops"
-        ]
-      },
-      {
-        "title": "Senior AI Solutions Engineer (Python & AWS Bedrock)",
-        "company": "Oowlish Technology",
-        "location": "LATAM,  Argentina,  Brazil,  Mexico",
-        "url": "https://jobicy.com/jobs/151507-senior-ai-solutions-engineer-python-aws-bedrock",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Aws"
-        ]
-      },
-      {
-        "title": "Director, Data Science",
-        "company": "Gopuff",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151618-director-data-science-2",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Llm"
-        ]
-      },
-      {
-        "title": "Store Manager",
-        "company": "JACK &amp; JONES",
-        "location": "Aberdeen,",
-        "url": "https://remoteOK.com/remote-jobs/remote-store-manager-jack-amp-jones-1137006",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Golang"
-        ]
       }
     ],
     "C": [
       {
-        "title": "Staff Product Manager, OpenTelemetry | Germany | Remote",
-        "company": "grafanalabs",
-        "location": "",
-        "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-product-manager-opentelemetry-germany-remote-47569",
+        "title": "Data Engineer",
+        "company": "Platoapp",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/platoapp/data-engineer-berlin-6005",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
           "Platform",
-          "Observability",
-          "Grafana"
+          "Terraform",
+          "Python"
         ]
       },
       {
-        "title": "Staff Backend Engineer - Alerting | Germany | Remote",
-        "company": "grafanalabs",
-        "location": "",
-        "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-backend-engineer-alerting-germany-remote-192759",
+        "title": "Working Student / Intern: Offensive Security Engineer (Red Team & AppSec) (f/m/x)",
+        "company": "ilert GmbH",
+        "location": "Cologne",
+        "url": "https://www.arbeitnow.com/jobs/companies/ilert-gmbh/working-student-intern-offensive-security-engineer-red-team-appsec-cologne-335470",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
+          "Devops",
           "Platform",
-          "Observability",
-          "Grafana"
+          "Incident"
         ]
       },
       {
@@ -590,31 +637,17 @@
         ]
       },
       {
-        "title": "Senior Platform Engineer (d/f/m)",
-        "company": "Vivenu",
-        "location": "Remote Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/vivenu/remote-senior-platform-engineer-181815",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform"
-        ]
-      },
-      {
-        "title": "AI Engineer, Quality & Evals (m/f/x)",
-        "company": "Cortea AI",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/cortea-ai/ai-engineer-quality-evals-berlin-165419",
+        "title": "Full Stack Developer (m/w/d)",
+        "company": "Ess Energy Sales Services Gmbh",
+        "location": "Berlin - Hybrid",
+        "url": "https://www.arbeitnow.com/jobs/companies/ess-energy-sales-services-gmbh/full-stack-developer-berlin-hybrid-437698",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: ai engineer",
-          "Ai Agent"
+          "Ci/Cd",
+          "Sql"
         ]
       }
     ]
@@ -663,5 +696,77 @@
       "url": "https://careers.walmart.com/technology"
     }
   ],
-  "warnings": []
+  "warnings": [
+    "greenhouse:hashicorp:HTTPError",
+    "lever:netlify:HTTPError",
+    "lever:retool:HTTPError",
+    "lever:sourcegraph:HTTPError"
+  ],
+  "profile_lite": {
+    "target_titles": [
+      "site reliability",
+      "sre",
+      "devops",
+      "platform engineer",
+      "automation engineer",
+      "reliability engineer",
+      "cloud engineer",
+      "ai engineer",
+      "mlops",
+      "infrastructure engineer"
+    ],
+    "strong_skills": [
+      "sre",
+      "site reliability",
+      "reliability",
+      "devops",
+      "platform",
+      "automation",
+      "rpa",
+      "kubernetes",
+      "k8s",
+      "observability",
+      "incident",
+      "terraform",
+      "ci/cd",
+      "cicd",
+      "python",
+      "cloud native",
+      "gitops",
+      "prometheus",
+      "grafana"
+    ],
+    "good_skills": [
+      "aws",
+      "gcp",
+      "azure",
+      "docker",
+      "linux",
+      "ansible",
+      "monitoring",
+      "ai agent",
+      "llm",
+      "mlops",
+      "golang",
+      "sql",
+      "power automate",
+      "airflow",
+      "kafka",
+      "bigquery",
+      "helm",
+      "argocd"
+    ],
+    "avoid_skills": [
+      "react native",
+      "ios developer",
+      "android developer",
+      "salesforce developer",
+      "wordpress",
+      "php developer",
+      "unity",
+      "game developer",
+      "recruiter",
+      "sales representative"
+    ]
+  }
 }
