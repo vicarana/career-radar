@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Option D - Liquid Glass</title>
+<style>
+:root{--ink:#fff;--dim:#c9d3e6;--a:#34d399;--b:#60a5fa;--c:#fbbf24}
+*{box-sizing:border-box;margin:0;padding:0}
+body{min-height:100vh;font:15px/1.5 -apple-system,system-ui,sans-serif;color:var(--ink);
+  background:#0b1020;position:relative;overflow-x:hidden;padding-bottom:100px}
+.blob{position:fixed;border-radius:50%;filter:blur(70px);opacity:.55;z-index:0}
+.b1{width:380px;height:380px;background:#6d5bff;top:-120px;left:-100px}
+.b2{width:320px;height:320px;background:#00c2b8;bottom:100px;right:-80px}
+.b3{width:260px;height:260px;background:#ff6ec7;top:40%;left:60%}
+
+.wrap{position:relative;z-index:1;max-width:520px;margin:0 auto;padding:20px 16px}
+.glass{background:rgba(255,255,255,.08);backdrop-filter:blur(24px) saturate(160%);
+  -webkit-backdrop-filter:blur(24px) saturate(160%);
+  border:1px solid rgba(255,255,255,.18);border-radius:28px;
+  box-shadow:0 8px 32px rgba(0,0,0,.25), inset 0 1px 0 rgba(255,255,255,.25)}
+
+.hero{padding:22px;margin-bottom:16px}
+.hero h1{font-size:24px;font-weight:800}
+.hero .sub{color:var(--dim);font-size:12px;margin-top:4px}
+.pill-row{display:flex;gap:8px;margin-top:14px}
+.pill{font-size:11px;padding:5px 12px;border-radius:999px;background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.2)}
+
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
+.stat{padding:16px 10px;text-align:center}
+.stat .n{font-size:22px;font-weight:800}
+.stat .l{font-size:10px;color:var(--dim);margin-top:2px}
+
+.job{padding:16px;margin-bottom:12px;display:flex;gap:12px;align-items:center}
+.grade{width:40px;height:40px;border-radius:14px;display:grid;place-items:center;font-weight:800;
+  background:rgba(255,255,255,.15);flex:0 0 40px}
+.job-body{flex:1;min-width:0}
+.job-title{font-weight:700;font-size:14px}
+.job-co{color:var(--dim);font-size:11px;margin-top:2px}
+.job-cta{display:flex;gap:6px;margin-top:8px}
+.mini{font-size:11px;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.14);
+  border:1px solid rgba(255,255,255,.2);font-weight:700}
+.mini.primary{background:linear-gradient(135deg,#60a5fa,#34d399);color:#04132f}
+
+.tabbar{position:fixed;left:16px;right:16px;bottom:16px;z-index:5;display:flex;justify-content:space-around;
+  padding:12px 8px;max-width:488px;margin:0 auto}
+.tabbar .t{font-size:10px;color:var(--dim);font-weight:600;text-align:center}
+.tabbar .t.on{color:#fff}
+.tabbar .ico{display:block;font-size:16px;margin-bottom:2px}
+
+@media (min-width:720px){
+  .wrap{max-width:820px;padding-top:40px}
+  .jobs-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .job{margin-bottom:0}
+}
+@media (min-width:1100px){
+  .wrap{max-width:1080px}
+  .jobs-grid{grid-template-columns:1fr 1fr 1fr}
+}
+</style>
+</head>
+<body>
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+<div class="wrap">
+  <div class="glass hero">
+    <h1>Career Radar</h1>
+    <div class="sub">Tracks B (remote) · C (Europe)</div>
+    <div class="pill-row"><span class="pill">live</span><span class="pill">7/7 sources</span></div>
+  </div>
+  <div class="glass stats">
+    <div class="stat"><div class="n">44</div><div class="l">TOTAL</div></div>
+    <div class="stat"><div class="n" style="color:var(--a)">0</div><div class="l">A-GRADE</div></div>
+    <div class="stat"><div class="n" style="color:var(--b)">4</div><div class="l">B-GRADE</div></div>
+  </div>
+  <div class="jobs-grid">
+    <div class="glass job"><div class="grade">B</div><div class="job-body">
+      <div class="job-title">Staff SRE</div><div class="job-co">Replit · Remote</div>
+      <div class="job-cta"><span class="mini primary">Open</span><span class="mini">Tailor</span></div>
+    </div></div>
+    <div class="glass job"><div class="grade">B</div><div class="job-body">
+      <div class="job-title">Senior SRE</div><div class="job-co">Replit · Remote</div>
+      <div class="job-cta"><span class="mini primary">Open</span><span class="mini">Tailor</span></div>
+    </div></div>
+    <div class="glass job"><div class="grade">C</div><div class="job-body">
+      <div class="job-title">Backend Eng, AI</div><div class="job-co">GitLab · Anywhere</div>
+      <div class="job-cta"><span class="mini primary">Open</span><span class="mini">Tailor</span></div>
+    </div></div>
+    <div class="glass job"><div class="grade">C</div><div class="job-body">
+      <div class="job-title">Developer Advocate</div><div class="job-co">Datadog · Remote</div>
+      <div class="job-cta"><span class="mini primary">Open</span><span class="mini">Tailor</span></div>
+    </div></div>
+  </div>
+</div>
+<nav class="glass tabbar">
+  <div class="t on"><span class="ico">[#]</span>Dash</div>
+  <div class="t"><span class="ico">[EU]</span>Europe</div>
+  <div class="t"><span class="ico">[R]</span>Remote</div>
+  <div class="t"><span class="ico">[JD]</span>Match</div>
+  <div class="t"><span class="ico">[*]</span>Saved</div>
+</nav>
+</body>
+</html>

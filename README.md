@@ -14,6 +14,9 @@ MClaude (private brain) --sync-profile.yml--> career-radar --daily-radar.yml--> 
 ```
 
 ## Pieces
+- `design/README.md` - full UI redesign process log: 21 design mockups
+  considered, the decision, and a real Chromium engine bug found + fixed
+  during the rebuild. Start here if you want the "why" behind the UI.
 - `radar/radar.py` - cloud aggregator (pure stdlib; public job APIs + public ATS board
   APIs; NO LinkedIn/employer scraping, ever).
 - `radar/companies.json` - watchlist of company slugs for the Greenhouse/Lever/Ashby

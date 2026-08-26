@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Option C - Warm Minimal</title>
+<style>
+:root{
+  --bg:#faf8f5;--surface:#fff;--line:#e8e2d8;--ink:#1c1a17;--dim:#7a7468;
+  --accent:#d4632f;--a:#2f7a4f;--b:#2563eb;--c:#b8860b;
+}
+[data-theme="dark"]{
+  --bg:#151310;--surface:#1e1b17;--line:#332e26;--ink:#f2ede4;--dim:#9a9184;
+  --accent:#e8794a;--a:#4ade80;--b:#60a5fa;--c:#facc15;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 Georgia,'Iowan Old Style',serif;
+  min-height:100vh;transition:background .2s,color .2s}
+.wrap{max-width:640px;margin:0 auto;padding:24px 20px 60px}
+
+.top{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}
+.top h1{font-size:26px;font-weight:400;letter-spacing:-.01em}
+.top .sub{font-family:-apple-system,system-ui,sans-serif;font-size:12px;color:var(--dim);
+  text-transform:uppercase;letter-spacing:.08em;margin-top:4px}
+.toggle{font-family:-apple-system,system-ui,sans-serif;font-size:12px;border:1px solid var(--line);
+  border-radius:999px;padding:6px 14px;background:var(--surface);color:var(--ink)}
+
+.nav{display:flex;gap:18px;font-family:-apple-system,system-ui,sans-serif;font-size:13px;
+  font-weight:600;color:var(--dim);border-bottom:1px solid var(--line);padding-bottom:12px;
+  margin-bottom:24px;overflow-x:auto}
+.nav span{white-space:nowrap;padding-bottom:4px}
+.nav span.on{color:var(--accent);border-bottom:2px solid var(--accent)}
+
+.summary{font-family:-apple-system,system-ui,sans-serif;font-size:14px;color:var(--dim);
+  margin-bottom:28px;line-height:1.7}
+.summary b{color:var(--ink)}
+
+.entry{padding:22px 0;border-bottom:1px solid var(--line)}
+.entry-top{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.entry-title{font-size:19px;font-weight:400}
+.entry-grade{font-family:-apple-system,system-ui,sans-serif;font-size:11px;font-weight:800;
+  padding:2px 9px;border-radius:999px;flex:0 0 auto}
+.eg-A{background:var(--a);color:#fff}.eg-B{background:var(--b);color:#fff}.eg-C{background:var(--c);color:#1c1a17}
+.entry-co{font-family:-apple-system,system-ui,sans-serif;font-size:13px;color:var(--dim);margin:4px 0 10px}
+.entry-tags{font-family:-apple-system,system-ui,sans-serif;font-size:11px;color:var(--dim)}
+.entry-tags span{margin-right:10px}
+.entry-actions{margin-top:12px;font-family:-apple-system,system-ui,sans-serif}
+.entry-actions a{font-size:13px;font-weight:700;color:var(--accent);text-decoration:none;margin-right:18px}
+
+/* ── Responsive: wider reading column + 2-col grid for job cards on larger screens ── */
+@media (min-width:720px){
+  .wrap{max-width:760px;padding-top:40px}
+  .top h1{font-size:32px}
+}
+@media (min-width:1024px){
+  .wrap{max-width:960px}
+  .entries{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+  .entry{padding:26px 0}
+}
+</style>
+</head>
+<body data-theme="light">
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>Career Radar</h1>
+      <div class="sub">Remote &amp; Europe · Daily Digest</div>
+    </div>
+    <button class="toggle" onclick="document.body.dataset.theme=document.body.dataset.theme==='light'?'dark':'light'">
+      Toggle theme</button>
+  </div>
+  <nav class="nav">
+    <span class="on">Dashboard</span><span>Europe</span><span>Remote</span>
+    <span>Match JD</span><span>Saved</span>
+  </nav>
+  <p class="summary"><b>44 roles scanned today</b>, 4 worth a serious look. Two strong SRE
+    matches at Replit, remote and open to Kubernetes-heavy backgrounds. Europe track is
+    quiet today, check back tomorrow.</p>
+  <div class="entries">
+    <div class="entry">
+      <div class="entry-top"><span class="entry-title">Staff Site Reliability Engineer</span>
+        <span class="entry-grade eg-B">B · 76%</span></div>
+      <div class="entry-co">Replit · Remote</div>
+      <div class="entry-tags"><span>Kubernetes</span><span>Observability</span><span>Terraform</span></div>
+      <div class="entry-actions"><a href="#">Open posting</a><a href="#">Tailor CV</a></div>
+    </div>
+    <div class="entry">
+      <div class="entry-top"><span class="entry-title">Senior SRE</span>
+        <span class="entry-grade eg-B">B · 71%</span></div>
+      <div class="entry-co">Replit · Remote</div>
+      <div class="entry-tags"><span>Terraform</span><span>CI/CD</span></div>
+      <div class="entry-actions"><a href="#">Open posting</a><a href="#">Tailor CV</a></div>
+    </div>
+    <div class="entry">
+      <div class="entry-top"><span class="entry-title">Backend Engineer, AI Engineering</span>
+        <span class="entry-grade eg-C">C · 55%</span></div>
+      <div class="entry-co">GitLab · Anywhere</div>
+      <div class="entry-tags"><span>Ruby</span><span>CI/CD</span></div>
+      <div class="entry-actions"><a href="#">Open posting</a><a href="#">Tailor CV</a></div>
+    </div>
+    <div class="entry">
+      <div class="entry-top"><span class="entry-title">Developer Advocate</span>
+        <span class="entry-grade eg-C">C · 52%</span></div>
+      <div class="entry-co">Datadog · Remote</div>
+      <div class="entry-tags"><span>Python</span><span>DevRel</span></div>
+      <div class="entry-actions"><a href="#">Open posting</a><a href="#">Tailor CV</a></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

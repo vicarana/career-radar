@@ -1,0 +1,25 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>P - Scroll Micro-interactions</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#10131a;color:#fff;min-height:220vh;font:15px/1.5 -apple-system,system-ui,sans-serif;padding:24px 16px}
+.wrap{max-width:400px;margin:0 auto}
+h1{font-size:20px;font-weight:800;margin-bottom:6px}
+.sub{font-size:12px;color:#8a93a3;margin-bottom:40px}
+.job{background:#171c26;border:1px solid #232a38;border-radius:18px;padding:18px;margin-bottom:60vh;
+  opacity:0;transform:translateY(30px);transition:opacity .6s ease,transform .6s ease}
+.job.show{opacity:1;transform:translateY(0)}
+.job:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(56,189,248,.15);border-color:#38bdf8}
+.job-title{font-weight:800;font-size:16px}
+.job-co{font-size:12px;color:#8a93a3;margin-top:4px}
+.hint{position:fixed;bottom:20px;left:0;right:0;text-align:center;font-size:11px;color:#8a93a3}
+</style></head><body><div class="wrap">
+<h1>Career Radar</h1><div class="sub">Scroll down - cards fade/lift in, hover any card</div>
+<div class="job" id="j1"><div class="job-title">Staff Site Reliability Engineer</div><div class="job-co">Replit · Remote · 76%</div></div>
+<div class="job" id="j2"><div class="job-title">Senior SRE</div><div class="job-co">Replit · Remote · 71%</div></div>
+</div>
+<div class="hint">scroll ↓</div>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.3});
+document.querySelectorAll('.job').forEach(j=>io.observe(j));
+</script>
+</body></html>

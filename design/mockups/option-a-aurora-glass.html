@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Option A - Aurora Glass</title>
+<style>
+:root{
+  --bg:#070d1a;--surface:#0f1829;--card:#141e33;--card2:#1a2640;--line:#243050;
+  --ink:#e8eeff;--dim:#7a90b8;--muted:#3d4f72;
+  --blue:#5b8cff;--cyan:#22d3ee;--purple:#a78bfa;
+  --a:#22c55e;--b:#38bdf8;--c:#f59e0b;--d:#fb923c;--f:#64748b;--save:#fb7185;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,system-ui,sans-serif;min-height:100vh}
+
+/* Layout shell: mobile = stacked, tablet+ = max-width centered, desktop = side rail */
+.shell{display:flex;min-height:100vh}
+.rail{display:none}
+.content{flex:1;max-width:900px;margin:0 auto;width:100%}
+
+.hero{padding:20px 16px 16px;background:linear-gradient(135deg,#0f1e46 0%,#07111f 60%);
+  border-bottom:1px solid var(--line);position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-40px;right:-40px;width:200px;height:200px;
+  border-radius:50%;background:radial-gradient(circle,rgba(91,140,255,.15),transparent 70%)}
+.hero h1{font-size:22px;font-weight:800;letter-spacing:-.03em;
+  background:linear-gradient(90deg,var(--cyan),var(--blue),var(--purple));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .sub{color:var(--dim);font-size:12px;margin-top:3px}
+.pill{font-size:11px;color:var(--dim);background:var(--card);border:1px solid var(--line);
+  padding:3px 10px;border-radius:999px;display:inline-block;margin-top:10px}
+
+.tabs{display:flex;gap:6px;padding:10px 12px;overflow-x:auto;position:sticky;top:0;
+  background:rgba(7,13,26,.94);backdrop-filter:blur(12px);z-index:10;border-bottom:1px solid var(--line)}
+.tab{flex:0 0 auto;padding:8px 14px;border:1px solid var(--line);border-radius:999px;
+  background:var(--card);color:var(--dim);font-weight:600;font-size:13px}
+.tab.on{background:linear-gradient(90deg,var(--blue),var(--cyan));color:#04132f;border-color:transparent}
+
+main{padding:14px 16px 40px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;
+  backdrop-filter:blur(6px)}
+.stat.wide{grid-column:span 2;background:linear-gradient(135deg,#0f1e46 0%,#111827 100%)}
+.stat .n{font-size:26px;font-weight:800}
+.stat .l{color:var(--dim);font-size:11px;margin-top:4px}
+
+.jobs{display:grid;grid-template-columns:1fr;gap:10px}
+.job{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;
+  display:flex;gap:12px;transition:transform .15s,border-color .15s}
+.job:hover{border-color:var(--blue);transform:translateY(-2px)}
+.grade-box{flex:0 0 44px;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;
+  font-weight:800;font-size:20px;color:#04132f}
+.g-A{background:var(--a)} .g-B{background:var(--b)} .g-C{background:var(--c)}
+.job-body{flex:1;min-width:0}
+.job-title{font-weight:700;font-size:15px}
+.job-co{color:var(--dim);font-size:12px;margin:2px 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.chip{font-size:10px;color:var(--dim);background:var(--card2);border:1px solid var(--line);
+  padding:2px 8px;border-radius:999px}
+.cta{display:flex;gap:6px}
+.btn{flex:1;text-align:center;font-size:12px;font-weight:700;border-radius:10px;padding:9px 6px;
+  border:1px solid var(--line);background:var(--card2);color:var(--ink)}
+.btn.primary{background:linear-gradient(90deg,var(--blue),var(--cyan));color:#04132f;border-color:transparent}
+
+/* ── Responsive breakpoints ── */
+@media (min-width:640px){
+  .jobs{grid-template-columns:1fr 1fr}
+  main{padding:20px 24px 40px}
+}
+@media (min-width:960px){
+  .rail{display:flex;flex-direction:column;width:220px;flex:0 0 220px;background:var(--surface);
+    border-right:1px solid var(--line);padding:24px 16px}
+  .rail h1{font-size:18px;font-weight:800;margin-bottom:24px;
+    background:linear-gradient(90deg,var(--cyan),var(--blue));-webkit-background-clip:text;
+    background-clip:text;color:transparent}
+  .rail .r-tab{padding:10px 12px;border-radius:10px;color:var(--dim);font-weight:600;font-size:14px;
+    margin-bottom:4px;cursor:pointer}
+  .rail .r-tab.on{background:var(--card);color:var(--ink)}
+  .tabs{display:none}
+  .hero{display:none}
+  .content{max-width:1100px}
+  .jobs{grid-template-columns:1fr 1fr 1fr}
+  main{padding:32px 40px}
+}
+</style>
+</head>
+<body>
+<div class="shell">
+  <nav class="rail">
+    <h1>Career Radar</h1>
+    <div class="r-tab on">Dashboard</div>
+    <div class="r-tab">Europe</div>
+    <div class="r-tab">Remote</div>
+    <div class="r-tab">Match JD</div>
+    <div class="r-tab">Saved</div>
+  </nav>
+  <div class="content">
+    <div class="hero">
+      <h1>Career Radar</h1>
+      <div class="sub">Tracks B (remote/income) · C (Europe relocation)</div>
+      <span class="pill">live · APIs 7/7</span>
+    </div>
+    <nav class="tabs">
+      <div class="tab on">Dashboard</div>
+      <div class="tab">Europe</div>
+      <div class="tab">Remote</div>
+      <div class="tab">Match JD</div>
+      <div class="tab">Saved</div>
+    </nav>
+    <main>
+      <div class="grid">
+        <div class="stat wide"><div class="n">44</div><div class="l">total matches scanned</div></div>
+        <div class="stat"><div class="n" style="color:var(--a)">0</div><div class="l">A-grade</div></div>
+        <div class="stat"><div class="n" style="color:var(--b)">4</div><div class="l">B-grade</div></div>
+      </div>
+      <div class="jobs">
+        <div class="job"><div class="grade-box g-B">B</div><div class="job-body">
+          <div class="job-title">Staff Site Reliability Engineer</div>
+          <div class="job-co">Replit · Remote</div>
+          <div class="chips"><span class="chip">SRE</span><span class="chip">Kubernetes</span></div>
+          <div class="cta"><a class="btn primary" href="#">Open</a><button class="btn">Tailor CV</button></div>
+        </div></div>
+        <div class="job"><div class="grade-box g-B">B</div><div class="job-body">
+          <div class="job-title">Senior SRE</div>
+          <div class="job-co">Replit · Remote</div>
+          <div class="chips"><span class="chip">Observability</span><span class="chip">Terraform</span></div>
+          <div class="cta"><a class="btn primary" href="#">Open</a><button class="btn">Tailor CV</button></div>
+        </div></div>
+        <div class="job"><div class="grade-box g-C">C</div><div class="job-body">
+          <div class="job-title">Backend Engineer, AI Engineering</div>
+          <div class="job-co">GitLab · Anywhere</div>
+          <div class="chips"><span class="chip">Ruby</span><span class="chip">CI/CD</span></div>
+          <div class="cta"><a class="btn primary" href="#">Open</a><button class="btn">Tailor CV</button></div>
+        </div></div>
+        <div class="job"><div class="grade-box g-C">C</div><div class="job-body">
+          <div class="job-title">Developer Advocate</div>
+          <div class="job-co">Datadog · Remote</div>
+          <div class="chips"><span class="chip">Python</span><span class="chip">DevRel</span></div>
+          <div class="cta"><a class="btn primary" href="#">Open</a><button class="btn">Tailor CV</button></div>
+        </div></div>
+      </div>
+    </main>
+  </div>
+</div>
+</body>
+</html>

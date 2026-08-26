@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Option F - Neo-Brutalist</title>
+<style>
+:root{--bg:#fef6e4;--ink:#111;--yellow:#ffd93d;--pink:#ff6b9d;--lime:#a8e10c;--blue:#3d8bfd}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.4 'Helvetica Neue',Arial,sans-serif;
+  min-height:100vh}
+.wrap{max-width:520px;margin:0 auto;padding:20px 16px 40px}
+.top{border:3px solid var(--ink);border-radius:0;padding:16px;background:var(--yellow);
+  box-shadow:6px 6px 0 var(--ink);margin-bottom:20px}
+.top h1{font-size:26px;font-weight:900;text-transform:uppercase;letter-spacing:-.02em}
+.top .sub{font-size:12px;font-weight:700;margin-top:4px}
+
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px}
+.stat{border:3px solid var(--ink);padding:12px;text-align:center;box-shadow:4px 4px 0 var(--ink)}
+.stat.p1{background:var(--pink)} .stat.p2{background:var(--lime)} .stat.p3{background:var(--blue);color:#fff}
+.stat .n{font-size:26px;font-weight:900}
+.stat .l{font-size:10px;font-weight:800;text-transform:uppercase}
+
+.nav{display:flex;gap:8px;margin-bottom:20px;overflow-x:auto}
+.nav-item{flex:0 0 auto;font-size:12px;font-weight:800;text-transform:uppercase;padding:8px 14px;
+  border:3px solid var(--ink);background:#fff;box-shadow:3px 3px 0 var(--ink)}
+.nav-item.on{background:var(--ink);color:var(--yellow)}
+
+.job{border:3px solid var(--ink);padding:16px;margin-bottom:16px;background:#fff;
+  box-shadow:6px 6px 0 var(--ink);position:relative}
+.job-grade{position:absolute;top:-14px;right:-10px;width:44px;height:44px;border:3px solid var(--ink);
+  background:var(--pink);display:grid;place-items:center;font-weight:900;font-size:18px;
+  box-shadow:3px 3px 0 var(--ink)}
+.job-title{font-size:18px;font-weight:900;text-transform:uppercase}
+.job-co{font-size:12px;font-weight:700;margin:4px 0 10px}
+.tag{display:inline-block;font-size:10px;font-weight:800;text-transform:uppercase;
+  border:2px solid var(--ink);padding:2px 8px;margin:0 4px 4px 0}
+.cta{display:flex;gap:8px;margin-top:12px}
+.btn{flex:1;text-align:center;font-size:12px;font-weight:900;text-transform:uppercase;padding:10px;
+  border:3px solid var(--ink);background:var(--lime);box-shadow:3px 3px 0 var(--ink)}
+.btn.alt{background:#fff}
+
+@media (min-width:720px){
+  .wrap{max-width:900px;padding-top:30px}
+  .jobs-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .job{margin-bottom:0}
+}
+@media (min-width:1100px){.wrap{max-width:1140px}.jobs-grid{grid-template-columns:1fr 1fr 1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><h1>Career Radar</h1><div class="sub">TRACK B (REMOTE) + TRACK C (EUROPE)</div></div>
+  <div class="stats">
+    <div class="stat p1"><div class="n">44</div><div class="l">Total</div></div>
+    <div class="stat p2"><div class="n">0</div><div class="l">A-Grade</div></div>
+    <div class="stat p3"><div class="n">4</div><div class="l">B-Grade</div></div>
+  </div>
+  <nav class="nav">
+    <div class="nav-item on">Dashboard</div><div class="nav-item">Europe</div>
+    <div class="nav-item">Remote</div><div class="nav-item">Match JD</div><div class="nav-item">Saved</div>
+  </nav>
+  <div class="jobs-grid">
+    <div class="job"><div class="job-grade">B</div>
+      <div class="job-title">Staff SRE</div><div class="job-co">Replit / Remote</div>
+      <div><span class="tag">K8s</span><span class="tag">Observability</span></div>
+      <div class="cta"><span class="btn">Open</span><span class="btn alt">Tailor</span></div>
+    </div>
+    <div class="job"><div class="job-grade">B</div>
+      <div class="job-title">Senior SRE</div><div class="job-co">Replit / Remote</div>
+      <div><span class="tag">Terraform</span><span class="tag">CI/CD</span></div>
+      <div class="cta"><span class="btn">Open</span><span class="btn alt">Tailor</span></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
