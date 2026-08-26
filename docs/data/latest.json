@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26 19:17 UTC",
-  "sources_ok": 5,
+  "generated": "2026-08-26 19:20 UTC",
+  "sources_ok": 7,
   "sources_total": 7,
   "stats": {
     "total": 44,
@@ -696,12 +696,7 @@
       "url": "https://careers.walmart.com/technology"
     }
   ],
-  "warnings": [
-    "greenhouse:hashicorp:HTTPError",
-    "lever:netlify:HTTPError",
-    "lever:retool:HTTPError",
-    "lever:sourcegraph:HTTPError"
-  ],
+  "warnings": [],
   "profile_lite": {
     "target_titles": [
       "site reliability",
