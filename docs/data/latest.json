@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-27 03:52 UTC",
-  "sources_ok": 7,
+  "generated": "2026-08-27 05:04 UTC",
+  "sources_ok": 5,
   "sources_total": 7,
   "stats": {
     "total": 40,
@@ -792,7 +792,19 @@
       "url": "https://careers.walmart.com/technology"
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "greenhouse:factorialhr:HTTPError",
+    "greenhouse:freepikcompany:HTTPError",
+    "greenhouse:genially:HTTPError",
+    "greenhouse:glovo:HTTPError",
+    "greenhouse:holded:HTTPError",
+    "greenhouse:redpoints:HTTPError",
+    "greenhouse:seedtag:HTTPError",
+    "greenhouse:spotahome:HTTPError",
+    "greenhouse:travelperk:HTTPError",
+    "lever:adevinta:HTTPError",
+    "lever:kantox:HTTPError"
+  ],
   "profile_lite": {
     "target_titles": [
       "site reliability",
