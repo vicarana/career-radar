@@ -113,6 +113,7 @@ main{padding-top:8px}
   padding:2px 8px;border-radius:999px}
 .chip.visa{background:rgba(52,211,153,.14);color:#86efac;border-color:rgba(52,211,153,.3)}
 .chip.comp{background:rgba(96,165,250,.14);color:#93c5fd;border-color:rgba(96,165,250,.3)}
+.chip.us-sponsor{background:rgba(251,191,36,.14);color:#fcd34d;border-color:rgba(251,191,36,.3)}
 .cta{display:flex;gap:6px;flex-wrap:wrap}
 .btn{flex:1;text-align:center;font-size:12px;font-weight:700;border-radius:12px;
   padding:9px 6px;border:1px solid var(--glass-line);background:rgba(255,255,255,.06);
@@ -175,6 +176,7 @@ main{padding-top:8px}
     <button class="tab" role="tab" data-t="dash" aria-selected="true">Dashboard</button>
     <button class="tab" role="tab" data-t="C" aria-selected="false">Europe</button>
     <button class="tab" role="tab" data-t="B" aria-selected="false">Remote</button>
+    <button class="tab" role="tab" data-t="D" aria-selected="false">US Visa</button>
     <button class="tab" role="tab" data-t="match" aria-selected="false">Match JD</button>
     <button class="tab" role="tab" data-t="saved" aria-selected="false">
       Pipeline<span class="badge" id="saved-badge" style="display:none">0</span>
@@ -184,7 +186,7 @@ main{padding-top:8px}
     <div class="hero">
       <h1>Career Radar</h1>
       <div class="hero-row">
-        <div class="sub">Remote &amp; Europe, daily</div>
+        <div class="sub">Remote, Europe &amp; US Sponsor, daily</div>
         <div style="display:flex;align-items:center;gap:8px">
           <span class="pill" id="meta">loading...</span>
           <button class="refresh-btn" onclick="load(true)">Refresh</button>
@@ -304,7 +306,7 @@ function matchesQuery(j){
   const hay=[j.title,j.company,j.location,...(j.reasons||[])].join(' ').toLowerCase();
   return hay.includes(QUERY);
 }
-function allJobs(){return [...((DATA&&DATA.tracks&&DATA.tracks.B)||[]),...((DATA&&DATA.tracks&&DATA.tracks.C)||[])]}
+function allJobs(){return [...((DATA&&DATA.tracks&&DATA.tracks.B)||[]),...((DATA&&DATA.tracks&&DATA.tracks.C)||[]),...((DATA&&DATA.tracks&&DATA.tracks.D)||[])]}
 
 /* ─── Match JD tab ─── */
 function matchView(){
@@ -385,7 +387,8 @@ function dashboard(){
     <div class="stat glass"><div class="n" style="color:var(--a)">${s.grade_a||0}</div><div class="l">A-grade · apply now</div></div>
     <div class="stat glass"><div class="n" style="color:var(--b)">${s.grade_b||0}</div><div class="l">B-grade · apply this week</div></div>
     <div class="stat glass"><div class="n" style="color:var(--cyan)">${s.visa||0}</div><div class="l">visa sponsor (Europe)</div></div>
-    <div class="stat glass"><div class="n">${s.track_c||0}/${s.track_b||0}</div><div class="l">Europe / Remote split</div></div>
+    <div class="stat glass"><div class="n" style="color:var(--cyan)">${s.track_d||0}</div><div class="l">US, visa+relocation confirmed</div></div>
+    <div class="stat glass wide"><div class="n">${s.track_c||0}/${s.track_b||0}/${s.track_d||0}</div><div class="l">Europe / Remote / US-sponsor split</div></div>
   </div>`;
 }
 function quickLinks(){
@@ -402,6 +405,7 @@ function jobCard(j,i){
   const saved=crIsSaved(id);
   const chips=(j.reasons||[]).map(r=>`<span class="chip">${esc(r)}</span>`).join('')
     +(j.visa?'<span class="chip visa">VISA SPONSOR</span>':'')
+    +(j.us_sponsor?'<span class="chip us-sponsor">US VISA + RELOCATION</span>':'')
     +(j.comp_disclosed&&j.salary_min?`<span class="chip comp">$${Math.round(j.salary_min/1000)}k+</span>`:'');
   return `<div class="job glass">
     <div class="grade-box g-${esc(j.grade||'F')}">${esc(j.grade||'?')}</div>
@@ -431,6 +435,7 @@ function statusOptions(current){
 function pipelineCard(id,entry,job){
   const chips=(job.reasons||[]).map(r=>`<span class="chip">${esc(r)}</span>`).join('')
     +(job.visa?'<span class="chip visa">VISA SPONSOR</span>':'')
+    +(job.us_sponsor?'<span class="chip us-sponsor">US VISA + RELOCATION</span>':'')
     +(job.comp_disclosed&&job.salary_min?`<span class="chip comp">$${Math.round(job.salary_min/1000)}k+</span>`:'');
   const applied=entry.appliedAt?`<div class="job-co">Applied ${esc(new Date(entry.appliedAt).toLocaleDateString())}</div>`:'';
   return `<div class="job glass">
@@ -486,7 +491,7 @@ function render(){
       v.innerHTML=note+dashboard()+quickLinks();
     }
   }
-  else if(TAB==='C'||TAB==='B'){
+  else if(TAB==='C'||TAB==='B'||TAB==='D'){
     TRACK=((DATA.tracks&&DATA.tracks[TAB])||[]).filter(matchesQuery);
     v.innerHTML=note+(TRACK.length?TRACK.map(jobCard).join('')
       :'<div class="empty">No matches here.<br>Try clearing your search, or re-run on personal WiFi.</div>');
