@@ -1,6 +1,9 @@
 {
-  "_note": "Seed watchlist for public ATS job-board adapters (Greenhouse/Lever/Ashby). Verified against a live run on 2026-08-26: gitlab/cloudflare/elastic/datadog/circleci (Greenhouse) and replit/vanta (Ashby) all resolve. hashicorp (Greenhouse) and netlify/sourcegraph/retool (Lever) returned HTTPError that run, likely moved ATS or changed slug, dropped for now. Check docs/data/latest.json 'warnings' after future runs and tune here, no code changes needed.",
-  "greenhouse": ["gitlab", "cloudflare", "elastic", "datadog", "circleci"],
-  "lever": [],
-  "ashby": ["replit", "vanta"]
+  "_note": "Seed watchlist for public ATS job-board adapters (Greenhouse/Lever/Ashby). Verified against a live run on 2026-08-26: gitlab/cloudflare/elastic/datadog/circleci (Greenhouse) and replit/vanta (Ashby) all resolve. hashicorp (Greenhouse) and netlify/sourcegraph/retool (Lever) returned HTTPError that run, likely moved ATS or changed slug, dropped for now. 2026-08-27: added a second batch, unverified (Walmart's proxy blocks outbound calls to these APIs from a local dev machine, so this can only be checked from the GitHub Actions runner itself, which has open egress). Check docs/data/latest.json 'warnings' after the next run and prune dead slugs here, no code changes needed.",
+  "greenhouse": ["gitlab", "cloudflare", "elastic", "datadog", "circleci",
+    "stripe", "doordash", "pinterest", "twilio", "squarespace", "asana", "figma",
+    "notion", "brex", "plaid", "mongodb", "pagerduty", "digitalocean", "robinhood",
+    "instacart", "gusto", "checkr", "gitpod", "newrelic", "sentry", "launchdarkly", "samsara"],
+  "lever": ["palantir", "eventbrite", "grammarly", "amplitude", "mixpanel"],
+  "ashby": ["replit", "vanta", "ramp", "linear", "mercury", "hex", "pinecone"]
 }
