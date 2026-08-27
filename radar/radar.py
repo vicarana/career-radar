@@ -233,7 +233,7 @@ def src_adzuna(qs):
                 loc = (j.get("location") or {}).get("display_name", "")
                 out.append(_job(j.get("title"), (j.get("company") or {}).get("display_name"),
                                 loc, j.get("redirect_url"), "remote" in loc.lower(),
-                                (j.get("description") or "")[:400],
+                                (j.get("description") or "")[:800],
                                 salary_min=j.get("salary_min"), salary_max=j.get("salary_max")))
         except Exception as e:
             WARN.append(f"adzuna:{type(e).__name__}")
@@ -355,7 +355,19 @@ def main():
             + src_greenhouse(companies.get("greenhouse", []))
             + src_lever(companies.get("lever", []))
             + src_ashby(companies.get("ashby", []))
-            + src_adzuna(["site reliability engineer", "devops engineer", "platform engineer"]))
+            # The last 4 queries specifically target sponsorship-friendly
+            # postings for Track D. Raw ATS feeds (Greenhouse/Lever/Ashby)
+            # almost never spell out sponsorship in the posting text, that's
+            # usually discussed in an interview, not the JSON payload. Adzuna
+            # aggregates recruiter-written postings that more often call out
+            # sponsorship explicitly as a selling point, and its `what=`
+            # param free-text searches title+description, so searching for
+            # the term itself surfaces postings that already contain it.
+            + src_adzuna(["site reliability engineer", "devops engineer", "platform engineer",
+                         "site reliability engineer visa sponsorship",
+                         "platform engineer H1B sponsorship",
+                         "devops manager relocation sponsorship",
+                         "engineering manager visa sponsorship"]))
 
     seen, uniq = set(), []
     for j in jobs:
