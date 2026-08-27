@@ -1,15 +1,16 @@
 {
-  "generated": "2026-08-27 12:32 UTC",
+  "generated": "2026-08-27 20:39 UTC",
   "sources_ok": 7,
   "sources_total": 7,
   "stats": {
-    "total": 40,
+    "total": 68,
     "track_b": 40,
-    "track_c": 0,
-    "track_d": 0,
+    "track_c": 6,
+    "track_d": 22,
     "grade_a": 0,
-    "grade_b": 3,
-    "visa": 0
+    "grade_b": 5,
+    "visa": 0,
+    "us_sponsor_confirmed": 0
   },
   "tracks": {
     "B": [
@@ -122,6 +123,44 @@
           "Title match: engineering manager",
           "Platform",
           "Python"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Staff DevOps Engineer",
+        "company": "Hubstaff",
+        "location": "LATAM,  Brazil,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/151872-staff-devops-engineer",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Customer Success Manager - DevOps",
+        "company": "Sonatype",
+        "location": "UK",
+        "url": "https://jobicy.com/jobs/151830-customer-success-manager-devops",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -352,18 +391,18 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager - MLOps & Analytics",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149521-engineering-manager-mlops-analytics",
-        "score": 5,
+        "title": "Senior DevOps Engineer",
+        "company": "Lemon.io",
+        "location": "LATAM, Europe, USA, Canada, APAC",
+        "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099",
+        "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: mlops",
-          "Mlops"
+          "Title match: devops",
+          "Devops"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -371,9 +410,9 @@
       },
       {
         "title": "Senior DevOps Engineer",
-        "company": "Lemon.io",
-        "location": "LATAM, Europe, USA, Canada, APAC",
-        "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099",
+        "company": "Cision",
+        "location": "Bulgaria",
+        "url": "https://jobicy.com/jobs/151871-senior-devops-engineer-4",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -507,24 +546,6 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "VP, Platform Engineering",
-        "company": "Frontify",
-        "location": "Europe",
-        "url": "https://jobicy.com/jobs/151398-vp-platform-engineering",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
           "Platform"
         ],
         "salary_min": null,
@@ -675,42 +696,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "OpenStack Engineering Manager",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149573-openstack-engineering-manager",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Managed Services",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149528-engineering-manager-managed-services",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager, Build",
         "company": "gitlab",
         "location": "Remote, United Kingdom",
@@ -745,10 +730,541 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Dedicated Integrations",
+        "company": "gitlab",
+        "location": "Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636648002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       }
     ],
-    "C": [],
-    "D": []
+    "C": [
+      {
+        "title": "Senior Site Reliability Engineer - Software Logistics",
+        "company": "n26",
+        "location": "Barcelona",
+        "url": "https://n26.com/en-eu/careers/positions/8002486?gh_jid=8002486",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Team Lead - Site Reliability Engineering (all genders)",
+        "company": "FactFinder",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/factfinder/team-lead-site-reliability-engineering-all-genders-berlin-478205",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Head of Platform Engineering",
+        "company": "dLocal",
+        "location": "LATAM,  Argentina,  Brazil,  Spain",
+        "url": "https://jobicy.com/jobs/151735-head-of-platform-engineering",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager - Content API (f/m/d)",
+        "company": "contentful",
+        "location": "Dublin, Dublin, Ireland",
+        "url": "https://job-boards.greenhouse.io/contentful/jobs/8050574",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform",
+          "Observability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Optimize Interfaces",
+        "company": "adyen",
+        "location": "Amsterdam",
+        "url": "https://job-boards.greenhouse.io/adyen/jobs/7721510",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Database Engineering Team Manager",
+        "company": "squarespace",
+        "location": "Dublin",
+        "url": "http://www.squarespace.com/about/careers?gh_jid=7962046",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Platform",
+          "Kafka"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      }
+    ],
+    "D": [
+      {
+        "title": "Director, Engineering - Cloud Observability",
+        "company": "datadog",
+        "location": "Boston, Massachusetts, USA; New York, New York, USA",
+        "url": "https://careers.datadoghq.com/detail/8069508/?gh_jid=8069508",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: cto",
+          "Observability",
+          "Aws"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager - Public Cloud, Python, Golang",
+        "company": "Canonical",
+        "location": "EMEA,  LATAM,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
+        "score": 7,
+        "grade": "C",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform",
+          "Python"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Staff DevOps Engineer",
+        "company": "Hubstaff",
+        "location": "LATAM,  Brazil,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/151872-staff-devops-engineer",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior DevOps / DevEx Engineer",
+        "company": "RevenueCat",
+        "location": "APAC,  EMEA,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/149932-senior-devops-devex-engineer",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Embedded Linux Field Engineering Manager (Americas only)",
+        "company": "Canonical",
+        "location": "LATAM,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/149559-embedded-linux-field-engineering-manager-americas-only",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform",
+          "Linux"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior DevOps Engineer",
+        "company": "Lemon.io",
+        "location": "LATAM, Europe, USA, Canada, APAC",
+        "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Principal DevOps Engineer",
+        "company": "NBCUniversal",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/148200-principal-devops-engineer-2",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Engineering Manager, Platform Delivery",
+        "company": "Upstart",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/142530-senior-engineering-manager-platform-delivery",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Database Reliability Engineer (DBRE)",
+        "company": "Branch",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/151712-senior-database-reliability-engineer-dbre",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: reliability engineer",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Data Platform Engineer",
+        "company": "Medium",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/151664-senior-data-platform-engineer-2",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Revenue",
+        "company": "Discord",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/151763-engineering-manager-revenue",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Notifications",
+        "company": "Discord",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/151756-engineering-manager-notifications",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Head of AI Engineering - NCT",
+        "company": "Banyan Software",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/151636-head-of-ai-engineering-nct",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, RC Capital",
+        "company": "RevenueCat",
+        "location": "EMEA,  LATAM,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/151629-engineering-manager-rc-capital",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Data Foundations",
+        "company": "gitlab",
+        "location": "Remote, US",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592950002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Growth",
+        "company": "gitlab",
+        "location": "Remote, Canada; Remote, US",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592891002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Tenant Scale:Git",
+        "company": "gitlab",
+        "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617538002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Service Platform",
+        "company": "instacart",
+        "location": "United States - Remote",
+        "url": "https://instacart.careers/job/?gh_jid=7960958",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Director, Field Sales Engineering",
+        "company": "samsara",
+        "location": "Remote - US",
+        "url": "https://www.samsara.com/company/careers/roles/7695309?gh_jid=7695309",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: cto",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager II - Platform Firmware",
+        "company": "samsara",
+        "location": "Remote - US",
+        "url": "https://www.samsara.com/company/careers/roles/7801077?gh_jid=7801077",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Core Platform",
+        "company": "vanta",
+        "location": "Remote U.S.",
+        "url": "https://jobs.ashbyhq.com/vanta/cb97ac48-29a5-49da-a804-f19b907a8163",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, AgentControl",
+        "company": "launchdarkly",
+        "location": "Remote - US",
+        "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7977701003",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Llm"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      }
+    ]
   },
   "linkedin": [
     {
