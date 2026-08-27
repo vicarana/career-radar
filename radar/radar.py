@@ -376,27 +376,33 @@ def is_us_based(job, us_cfg):
 
 
 def tracks_of(job, p):
-    """Tags are additive, not exclusive: a remote sponsor-confirmed role can
-    be B+C or B+D at once. Both Track C (Europe) and Track D (US) are hard
-    ANDs, requiring region match AND confirmed sponsorship, not just a soft
-    priority tag, a role with no sponsorship offer genuinely isn't viable
-    for a relocation-dependent search, not just lower-priority. Checks the
-    full text (not just location) since sponsorship language and country
-    mentions often live in the description, not the structured location
-    field."""
+    """Tags are additive, not exclusive: a role can be B+C or B+D at once.
+    Changed 2026-08-27 per Vic: Track C (Europe) and Track D (US) used to
+    hard-require confirmed sponsorship language in the posting text itself,
+    which meant a job only qualified if a recruiter happened to spell out
+    sponsorship in the ad, something almost no posting outside Adzuna's feed
+    ever does. With ADZUNA_APP_ID/APP_KEY still unset, that made both tracks
+    structurally empty regardless of company/title breadth. Vic's explicit
+    ask: 'no visa or sponsorship guaranteed, I just need to reach companies
+    that will hire me'. Region/country match is now sufficient on its own,
+    sponsorship (visa/us_sponsor flags) is preserved as an informational
+    badge when the text happens to confirm it, not a filter. Real tradeoff,
+    stated plainly: these lists can now include roles whose actual
+    sponsorship policy is unknown until you ask in the interview, that's
+    the cost of reach over certainty, a deliberate choice, not an oversight.
+    Checks the full text (not just location) since country mentions often
+    live in the description, not the structured location field."""
     t, tks = job["text"], set()
     if job["remote"] or "remote" in t or "anywhere" in t:
         tks.add("B")
     eu = p["track_c_europe"]
-    if any(c in t for c in eu["countries"]) and sponsor_confirmed(t, eu["visa_terms"]):
+    if any(c in t for c in eu["countries"]):
         tks.add("C")
-        job["visa"] = True
+        job["visa"] = sponsor_confirmed(t, eu["visa_terms"])
     us = p.get("track_d_us_sponsor", {})
-    if us and is_us_based(job, us) \
-            and sponsor_confirmed(t, eu["visa_terms"]) \
-            and us_geo_ok(job, us):
+    if us and is_us_based(job, us) and us_geo_ok(job, us):
         tks.add("D")
-        job["us_sponsor"] = True
+        job["us_sponsor"] = sponsor_confirmed(t, eu["visa_terms"])
     return tks
 
 
@@ -509,6 +515,7 @@ def main():
         "grade_a": sum(1 for r in allrows if r["grade"] == "A"),
         "grade_b": sum(1 for r in allrows if r["grade"] == "B"),
         "visa": sum(1 for r in C if r["visa"]),
+        "us_sponsor_confirmed": sum(1 for r in D if r["us_sponsor"]),
     }
     payload = {
         "generated": date,
@@ -535,8 +542,8 @@ def main():
         json.dump(payload, f, ensure_ascii=False)
 
     lines = [f"# career-radar - {date}", f"Sources OK: {sources_ok}/{total_attempted}\n"]
-    for tk, name in [("D", "Track D - US (visa + relocation sponsor required)"),
-                     ("C", "Track C - Europe (visa + relocation sponsor required)"), ("B", "Track B - Remote/income")]:
+    for tk, name in [("D", "Track D - US (sponsorship not guaranteed, check per-role)"),
+                     ("C", "Track C - Europe (sponsorship not guaranteed, check per-role)"), ("B", "Track B - Remote/income")]:
         lines.append(f"\n## {name} ({len(buckets[tk])})")
         for j in buckets[tk][:20]:
             v = " [VISA]" if j.get("visa") else ""
