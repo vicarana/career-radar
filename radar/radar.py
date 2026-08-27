@@ -414,51 +414,52 @@ def linkedin_searches():
     return [{"label": l, "url": b + urllib.parse.quote(k) + s} for l, k, s in combos]
 
 
+def sponsor_queries(titles):
+    """Build one 'visa sponsorship' Adzuna search phrase per title. Adzuna's
+    `what=` param is a single free-text field, not separate title/keyword
+    fields, so pairing each title with the sponsorship suffix in one string
+    is how we search for both at once."""
+    return [f"{t} visa sponsorship" for t in titles]
+
+
 def main():
     with open(PROFILE, encoding="utf-8") as f:
         p = json.load(f)
     companies = _load_companies()
 
     ATTEMPTED.extend(["remotive", "jobicy", "arbeitnow", "remoteok"])
-    jobs = (src_remotive(["sre", "devops", "platform engineer", "automation", "reliability"])
+    search_titles = p.get("search_titles", {}).get("queries",
+        ["sre", "devops", "platform engineer", "automation", "reliability"])
+    sponsor_qs = sponsor_queries(search_titles)
+    jobs = (src_remotive(search_titles)
             + src_jobicy(["devops", "engineering", "python"])
             + src_arbeitnow()
             + src_remoteok(["sre", "devops", "platform"])
             + src_greenhouse(companies.get("greenhouse", []))
             + src_lever(companies.get("lever", []))
             + src_ashby(companies.get("ashby", []))
-            # The last 4 queries specifically target sponsorship-friendly
-            # postings for Track D. Raw ATS feeds (Greenhouse/Lever/Ashby)
-            # almost never spell out sponsorship in the posting text, that's
-            # usually discussed in an interview, not the JSON payload. Adzuna
-            # aggregates recruiter-written postings that more often call out
-            # sponsorship explicitly as a selling point, and its `what=`
-            # param free-text searches title+description, so searching for
-            # the term itself surfaces postings that already contain it.
-            + src_adzuna(["site reliability engineer", "devops engineer", "platform engineer",
-                         "site reliability engineer visa sponsorship",
-                         "platform engineer H1B sponsorship",
-                         "devops manager relocation sponsorship",
-                         "engineering manager visa sponsorship"], country="us")
-            # Same sponsorship-search logic, but for Track C (Europe). Adzuna
-            # has no single global search, every call is scoped to one
-            # country's job market, so this only covers Germany + Netherlands,
-            # the two countries most likely to have Adzuna coverage from
-            # Vic's target list (Finland/Norway/Switzerland/Ireland/Iceland/
-            # Sweden/Denmark/Portugal may not be covered at all, unverified
-            # until a live run confirms which country codes actually work).
-            + src_adzuna(["site reliability engineer visa sponsorship",
-                         "platform engineer relocation sponsorship",
-                         "devops engineer blue card sponsorship"], country="de")
-            + src_adzuna(["site reliability engineer visa sponsorship",
-                         "platform engineer relocation sponsorship",
-                         "devops engineer blue card sponsorship"], country="nl")
-            # Same pattern, Spain. Adzuna's country coverage list includes
-            # 'es', unverified until a live run confirms it actually returns
-            # results (see the de/nl comment above, same caveat applies).
-            + src_adzuna(["site reliability engineer visa sponsorship",
-                         "platform engineer relocation sponsorship",
-                         "devops engineer blue card sponsorship"], country="es"))
+            # Track D (US sponsor) and Track C (Europe sponsor) both hard-
+            # require literal visa/sponsor language in the posting text.
+            # Raw ATS feeds (Greenhouse/Lever/Ashby) almost never spell that
+            # out, it's usually an interview conversation, not JSON payload
+            # text. Adzuna aggregates recruiter-written postings that more
+            # often call out sponsorship explicitly, and its `what=` param
+            # free-text searches title+description, so pairing every title
+            # in search_titles with 'visa sponsorship' (see sponsor_queries)
+            # surfaces postings that already contain both. Every US query
+            # here now covers the FULL search_titles list, not a hardcoded
+            # 3-4 term subset, per Vic 2026-08-27: previously CTO/CIO/Head of
+            # AI/Senior AI Engineer/SRE Manager/Senior SRE Lead/Senior AI
+            # Lead were never searched for anywhere in this file.
+            + src_adzuna(search_titles + sponsor_qs, country="us")
+            # Same sponsor-query logic, Track C. Adzuna has no single global
+            # search, every call is scoped to one country's job market.
+            # DE/NL confirmed working from earlier runs; ES added 2026-08-27
+            # (Spain widen), unverified until a live run confirms it
+            # actually returns results, same caveat as DE/NL originally had.
+            + src_adzuna(sponsor_qs, country="de")
+            + src_adzuna(sponsor_qs, country="nl")
+            + src_adzuna(sponsor_qs, country="es"))
 
     seen, uniq = set(), []
     for j in jobs:
