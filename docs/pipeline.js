@@ -133,13 +133,17 @@ function crStatusLabel(key) {
  * way for a browser to hold a write-capable token for a private repo, that
  * would expose it to anyone inspecting the page. So sync is manual and
  * explicit: export a snapshot, hand it to wherever it needs to be archived,
- * on your own terms, on your own schedule. */
+ * on your own terms, on your own schedule. Bundles resume text alongside
+ * pipeline entries (crGetResume lives in match.js, loaded before this file,
+ * see index.html script order) so one Export click, one paste, one MClaude
+ * commit covers both, rather than two separate sync flows to remember. */
 function crExportSnapshot() {
   const p = crGetPipeline();
   const snapshot = {
     exportedAt: new Date().toISOString(),
-    source: "career-radar pipeline tab",
+    source: "career-radar pipeline + resume",
     entries: Object.entries(p).map(([id, e]) => ({ id, ...e })),
+    resumeText: crGetResume(),
   };
   localStorage.setItem("cr_last_export", snapshot.exportedAt);
   return JSON.stringify(snapshot, null, 2);
