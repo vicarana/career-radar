@@ -267,7 +267,11 @@ function updateSavedBadge(){
 }
 
 /* ─── Helpers ─── */
-function esc(s){return(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function esc(s){return(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function safeUrl(u){
+  try{ const p=new URL(u,location.href); return (p.protocol==='http:'||p.protocol==='https:')?u:'#'; }
+  catch{ return '#'; }
+}
 function toast(m){const t=document.getElementById('toast');t.textContent=m;
   t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}
 function copyPrompt(type,j){
@@ -400,17 +404,17 @@ function jobCard(j,i){
       </div>
       <div class="chips">${chips}</div>
       <div class="cta">
-        <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Open</a>
+        <a class="btn primary" href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener">Open</a>
         <button class="btn" onclick='copyPrompt("cv",TRACK[${i}])'>Tailor CV</button>
         <button class="btn" onclick='copyPrompt("out",TRACK[${i}])'>Outreach</button>
-        <button class="btn heart ${saved?'on':''}" onclick='toggleSave(${JSON.stringify(id)})'>${saved?'Saved':'Save'}</button>
+        <button class="btn heart ${saved?'on':''}" data-save-id="${esc(id)}">${saved?'Saved':'Save'}</button>
       </div>
     </div>
   </div>`;
 }
 
 /* ─── Link / saved ─── */
-function linkCard(l){return`<div class="link-card glass"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label||l.market)} &rarr;</a></div>`}
+function linkCard(l){return`<div class="link-card glass"><a href="${esc(safeUrl(l.url))}" target="_blank" rel="noopener">${esc(l.label||l.market)} &rarr;</a></div>`}
 function savedView(){
   const ids=getSaved(); if(!ids.length) return '<div class="empty">No saved jobs yet.<br>Tap Save on any card.</div>';
   const all=allJobs();
@@ -462,6 +466,10 @@ document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
   document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected','false'));
   t.setAttribute('aria-selected','true'); TAB=t.dataset.t; render();
 }));
+document.getElementById('view').addEventListener('click',(e)=>{
+  const btn=e.target.closest('[data-save-id]');
+  if(btn) toggleSave(btn.dataset.saveId);
+});
 if('serviceWorker'in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
 updateSavedBadge();
 load();

@@ -13,6 +13,13 @@ up as an **installable iPhone app** (PWA).
 MClaude (private brain) --sync-profile.yml--> career-radar --daily-radar.yml--> docs/data/latest.json --> iPhone PWA
 ```
 
+## Security
+This app renders data from public, third-party job-board APIs that are not
+under my control. A security review was performed and findings were
+addressed. Full threat model and details are kept in a private record, not
+here, publishing exact attack surface details for a client-rendered app
+helps attackers more than it helps anyone else.
+
 ## Pieces
 - `design/README.md` - full UI redesign process log: 21 design mockups
   considered, the decision, and a real Chromium engine bug found + fixed
