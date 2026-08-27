@@ -67,7 +67,9 @@ function crGradeOf(score) {
 }
 
 /* The actual "what's the ATS/hiring manager looking for" gap analysis:
- * dictionary terms present in the JD but absent from Vic's own skill lists. */
+ * dictionary terms present in the JD but absent from Vic's own skill lists.
+ * This is a fallback used only when no resume text is on file, see
+ * crResumeGapAnalysis() below for the real ATS-relevant check. */
 function crGapAnalysis(text, profile) {
   const t = (text || "").toLowerCase();
   const known = new Set([
@@ -84,11 +86,51 @@ function crGapAnalysis(text, profile) {
   return { matched, gap };
 }
 
-/* Public entry point used by index.html. */
-function crAnalyzeJD(rawText, title, company, profile) {
+/* Client-side only, mirrors pipeline.js's localStorage pattern exactly.
+ * Resume text NEVER leaves the browser: no network call, no git commit,
+ * nothing in the public JSON output. Gone if the user clears site data. */
+const CR_RESUME_KEY = "cr_resume_text";
+function crGetResume() {
+  return localStorage.getItem(CR_RESUME_KEY) || "";
+}
+function crSaveResume(text) {
+  localStorage.setItem(CR_RESUME_KEY, text || "");
+}
+
+/* The real ATS-relevant check: does the JD's keyword literally appear in
+ * Vic's actual resume TEXT, not just in his hand-typed profile.json skill
+ * list. Those are genuinely different signals: profile.json says "I have
+ * this skill", the resume document is what an ATS parser actually scans.
+ * A skill can be true and still be an ATS miss if the resume phrases it
+ * differently (e.g. "container orchestration" instead of "Kubernetes"). */
+function crResumeGapAnalysis(jdText, resumeText, profile) {
+  const jd = (jdText || "").toLowerCase();
+  const resume = (resumeText || "").toLowerCase();
+  const universe = new Set([
+    ...CR_KEYWORD_DICT,
+    ...(profile.strong_skills || []),
+    ...(profile.good_skills || []),
+  ]);
+  const inResume = [];
+  const missing = [];
+  for (const kw of universe) {
+    if (!jd.includes(kw)) continue;
+    (resume.includes(kw) ? inResume : missing).push(kw);
+  }
+  return { inResume, missing };
+}
+
+/* Public entry point used by index.html. resumeText is optional: when
+ * present, the gap analysis checks literal presence in the resume itself
+ * (the real ATS-relevant signal), falling back to the profile.json skill
+ * list comparison when no resume is on file yet. */
+function crAnalyzeJD(rawText, title, company, profile, resumeText) {
   const cleaned = crCleanJD(rawText);
   const score = crScore(cleaned, title, profile);
   const { g, pct } = crGradeOf(score);
   const { matched, gap } = crGapAnalysis(cleaned, profile);
-  return { cleaned, score, grade: g, match: pct, matched, gap };
+  const resumeCheck = (resumeText && resumeText.trim())
+    ? crResumeGapAnalysis(cleaned, resumeText, profile)
+    : null;
+  return { cleaned, score, grade: g, match: pct, matched, gap, resumeCheck };
 }
