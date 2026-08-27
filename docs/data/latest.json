@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-27 03:13 UTC",
+  "generated": "2026-08-27 03:16 UTC",
   "sources_ok": 7,
   "sources_total": 7,
   "stats": {
-    "total": 51,
+    "total": 42,
     "track_b": 40,
-    "track_c": 11,
+    "track_c": 2,
     "grade_a": 0,
     "grade_b": 3,
     "visa": 0
@@ -314,24 +314,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Director, Data Science",
-        "company": "Gopuff",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151618-director-data-science-2",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: cto",
-          "Platform",
-          "Llm"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Senior DevOps Engineer",
         "company": "Experian",
         "location": "Costa Rica",
@@ -620,57 +602,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior Software Engineer - Python/MongoDB",
-        "company": "Canonical",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/149974-senior-software-engineer-python-mongodb",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Python"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Director, Strategic Partnerships",
-        "company": "gitlab",
-        "location": "Remote, US",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615811002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: cto",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Director, Support (EMEA)",
-        "company": "gitlab",
-        "location": "Remote, United Kingdom",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8629005002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: cto",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager, Build",
         "company": "gitlab",
         "location": "Remote, United Kingdom",
@@ -703,6 +634,74 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Dedicated Integrations",
+        "company": "gitlab",
+        "location": "Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636648002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Growth",
+        "company": "gitlab",
+        "location": "Remote, Canada; Remote, US",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592891002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Switchboard",
+        "company": "gitlab",
+        "location": "Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586632002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Tenant Scale:Git",
+        "company": "gitlab",
+        "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617538002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       }
     ],
     "C": [
@@ -718,159 +717,6 @@
         "reasons": [
           "Title match: platform engineer",
           "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Director of Product, International",
-        "company": "Toast",
-        "location": "London",
-        "url": "https://www.arbeitnow.co.uk/jobs/companies/toast/senior-director-of-product-international-london-498568",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: cto",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Director, CPG Sales (DACH)",
-        "company": "pinterest",
-        "location": "Berlin, DE",
-        "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7953645",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: cto",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Director, Strategic Sales (Berlin, Germany)",
-        "company": "figma",
-        "location": "Berlin, Germany",
-        "url": "https://boards.greenhouse.io/figma/jobs/6143018004?gh_jid=6143018004",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: cto",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Director, Escalation Management",
-        "company": "mongodb",
-        "location": "Dublin, Ireland",
-        "url": "https://www.mongodb.com/careers/job/?gh_jid=8060669",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: cto",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Associate Technical Success Manager",
-        "company": "newrelic",
-        "location": "Dublin, Ireland",
-        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5283522008",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Observability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Partner Sales Manager - French Speaking",
-        "company": "newrelic",
-        "location": "Dublin, Ireland; London, United Kingdom; Paris, France",
-        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5159020008",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Observability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Account Executive - Enterprise Sales - New Business (Nordics)",
-        "company": "newrelic",
-        "location": "Dublin, Ireland; London, United Kingdom",
-        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5223326008",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Observability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Solutions Consultant",
-        "company": "newrelic",
-        "location": "Berlin, Germany; Munich, Germany",
-        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5267253008",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Observability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Technical Support Manager",
-        "company": "newrelic",
-        "location": "Dublin, Ireland",
-        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5404728008",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Observability"
         ],
         "salary_min": null,
         "salary_max": null,

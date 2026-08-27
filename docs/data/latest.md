@@ -1,21 +1,12 @@
-# career-radar - 2026-08-27 03:13 UTC
+# career-radar - 2026-08-27 03:16 UTC
 Sources OK: 7/7
 
 
-## Track C - Europe (visa-first) (11)
+## Track C - Europe (visa-first) (2)
 - VP, Platform Engineering @ Frontify (Europe) s4 https://jobicy.com/jobs/151398-vp-platform-engineering
-- Senior Director of Product, International @ Toast (London) s4 https://www.arbeitnow.co.uk/jobs/companies/toast/senior-director-of-product-international-london-498568
-- Director, CPG Sales (DACH) @ pinterest (Berlin, DE) s4 https://www.pinterestcareers.com/jobs/?gh_jid=7953645
-- Director, Strategic Sales (Berlin, Germany) @ figma (Berlin, Germany) s4 https://boards.greenhouse.io/figma/jobs/6143018004?gh_jid=6143018004
-- Director, Escalation Management @ mongodb (Dublin, Ireland) s4 https://www.mongodb.com/careers/job/?gh_jid=8060669
-- Associate Technical Success Manager @ newrelic (Dublin, Ireland) s4 https://job-boards.greenhouse.io/newrelic/jobs/5283522008
-- Partner Sales Manager - French Speaking @ newrelic (Dublin, Ireland; London, United Kingdom; Paris, France) s4 https://job-boards.greenhouse.io/newrelic/jobs/5159020008
-- Senior Account Executive - Enterprise Sales - New Business (Nordics) @ newrelic (Dublin, Ireland; London, United Kingdom) s4 https://job-boards.greenhouse.io/newrelic/jobs/5223326008
-- Senior Solutions Consultant @ newrelic (Berlin, Germany; Munich, Germany) s4 https://job-boards.greenhouse.io/newrelic/jobs/5267253008
-- Technical Support Manager @ newrelic (Dublin, Ireland) s4 https://job-boards.greenhouse.io/newrelic/jobs/5404728008
 - Database Engineering Team Manager @ squarespace (Dublin) s3 http://www.squarespace.com/about/careers?gh_jid=7962046
 
-## Track B - Remote/income (71)
+## Track B - Remote/income (55)
 - Staff Site Reliability Engineer @ replit (Remote - Europe) s12 https://jobs.ashbyhq.com/replit/f35042a1-b016-4811-9597-b98facf5eb4d
 - Senior Site Reliability Engineer @ Canonical (Anywhere) s10 https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5
 - Senior Site Reliability Engineer @ replit (Remote - Europe) s10 https://jobs.ashbyhq.com/replit/ca50a435-72b4-4092-b957-31d29ede1c00
@@ -33,6 +24,6 @@ Sources OK: 7/7
 - Embedded Linux Field Engineering Manager (Americas only) @ Canonical (LATAM,  Canada,  USA) s5 https://jobicy.com/jobs/149559-embedded-linux-field-engineering-manager-americas-only
 - Engineering Manager - Data Platform @ Canonical (Anywhere) s5 https://jobicy.com/jobs/149561-engineering-manager-data-platform
 - Engineering Manager - MLOps & Analytics @ Canonical (Anywhere) s5 https://jobicy.com/jobs/149521-engineering-manager-mlops-analytics
-- Director, Data Science @ Gopuff (USA) s5 https://jobicy.com/jobs/151618-director-data-science-2
 - Senior DevOps Engineer @ Experian (Costa Rica) s4 https://jobicy.com/jobs/144464-senior-devops-engineer-5
 - Principal DevOps Engineer @ NBCUniversal (USA) s4 https://jobicy.com/jobs/148200-principal-devops-engineer-2
+- DevOps Senior Engineer @ Experian (Costa Rica) s4 https://jobicy.com/jobs/148202-devops-senior-engineer
