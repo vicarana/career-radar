@@ -9,12 +9,20 @@
   "target_titles": [
     "site reliability", "sre", "devops", "platform engineer",
     "automation engineer", "reliability engineer", "cloud engineer",
-    "ai engineer", "mlops", "infrastructure engineer",
+    "ai engineer", "mlops", "infrastructure engineer", "ai lead",
     "engineering manager", "sre manager", "platform manager",
     "devops manager", "head of engineering", "head of platform",
     "head of sre", "head of ai", "director of engineering",
     "director of platform", "vp of engineering", "cto", "cio"
   ],
+  "search_titles": {
+    "_note": "Single source of truth for what actually gets SENT to search APIs (Remotive/Adzuna's free-text query params). Separate from target_titles above, which is used for downstream scoring/filtering only, a job can score well on target_titles but never even enter the pool if nothing here ever searched for it. Set 2026-08-27 per Vic: previously radar.py hardcoded 3-4 infra-only phrases duplicated 4x across US/DE/NL/ES Adzuna calls, so CTO/CIO/Head of AI/Senior AI Engineer/SRE Manager/Senior SRE Lead/Senior AI Lead were NEVER searched for anywhere, no matter how well profile.json's own scoring would have ranked them if they'd shown up. Kept deliberately as literal multi-word phrases (not the shorter fragments in target_titles) since these get sent verbatim to external free-text search params.",
+    "queries": [
+      "site reliability engineer", "devops engineer", "platform engineer",
+      "sre manager", "senior sre lead", "cto", "head of ai",
+      "senior ai engineer", "cio", "senior ai lead"
+    ]
+  },
   "min_comp_monthly_usd": 10400,
   "comp_targets": {
     "_note": "Vic's real targets are AFTER-TAX (net), set 2026-08-27: baseline 90,000, desired 150,000, USD or EUR treated interchangeably. Job boards (Greenhouse/Lever/Ashby/Adzuna/RemoteOK) only ever disclose GROSS salary, and this codebase has no per-country tax model (US federal+state, Spain's Beckham Law flat 24%, standard EU progressive brackets are all wildly different). min_comp_monthly_usd above is a rough GROSS proxy for the 90k net floor, using a conservative blended ~28% effective tax assumption (90000 / 0.72 / 12 rounded), NOT a real per-country calculation. As of 2026-08-27, 0 of 40 live matches disclose salary at all, so this floor currently has zero practical effect, it only starts filtering once Adzuna/RemoteOK salary data actually flows in. Revisit with real per-country tax modeling if/when comp_disclosed postings become common enough to matter.",
