@@ -452,7 +452,13 @@ def main():
                          "devops engineer blue card sponsorship"], country="de")
             + src_adzuna(["site reliability engineer visa sponsorship",
                          "platform engineer relocation sponsorship",
-                         "devops engineer blue card sponsorship"], country="nl"))
+                         "devops engineer blue card sponsorship"], country="nl")
+            # Same pattern, Spain. Adzuna's country coverage list includes
+            # 'es', unverified until a live run confirms it actually returns
+            # results (see the de/nl comment above, same caveat applies).
+            + src_adzuna(["site reliability engineer visa sponsorship",
+                         "platform engineer relocation sponsorship",
+                         "devops engineer blue card sponsorship"], country="es"))
 
     seen, uniq = set(), []
     for j in jobs:
