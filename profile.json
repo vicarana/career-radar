@@ -48,7 +48,13 @@
       "denver", "atlanta", "raleigh", "los angeles", "california", "washington state",
       "texas", "colorado", "massachusetts", "illinois", "georgia, us"
     ],
-    "_note": "Deliberately no 2-letter state codes (CA/NY/TX/WA), those false-hit constantly inside ordinary words. Location field is short and structured, full state/city names are enough."
+    "preferred_states": [
+      "texas",
+      "new hampshire", "vermont", "maine", "massachusetts", "connecticut", "rhode island",
+      "minnesota", "iowa", "wisconsin", "nebraska", "north dakota", "south dakota",
+      "utah", "idaho", "montana", "wyoming"
+    ],
+    "_note": "Deliberately no 2-letter state codes (CA/NY/TX/WA), those false-hit constantly inside ordinary words. Location field is short and structured, full state/city names are enough. preferred_states set 2026-08-26 per Vic: Texas (named explicitly) + New England + Upper Midwest + Mountain West, chosen for lower violent crime / higher standard of living over a 30-year horizon. Hard filter: a job pinned to a non-preferred state is excluded even if otherwise remote-tagged. A job with no pinned state at all (generic 'Remote, US') passes if genuinely remote, since the employer isn't dictating a location, that's compatible with living in Texas."
   },
   "track_a_walmart_markets": {
     "portals": [
