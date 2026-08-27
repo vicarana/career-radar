@@ -126,3 +126,26 @@ function crStatusLabel(key) {
   const s = CR_STATUSES.find((x) => x.key === key);
   return s ? s.label : key;
 }
+
+/* ─── Export (manual, no backend) ───
+ * This app has zero backend by design (it runs as a static site so it can
+ * run in GitHub Actions, away from Walmart's DNS block). There is no safe
+ * way for a browser to hold a write-capable token for a private repo, that
+ * would expose it to anyone inspecting the page. So sync is manual and
+ * explicit: export a snapshot, hand it to wherever it needs to be archived,
+ * on your own terms, on your own schedule. */
+function crExportSnapshot() {
+  const p = crGetPipeline();
+  const snapshot = {
+    exportedAt: new Date().toISOString(),
+    source: "career-radar pipeline tab",
+    entries: Object.entries(p).map(([id, e]) => ({ id, ...e })),
+  };
+  localStorage.setItem("cr_last_export", snapshot.exportedAt);
+  return JSON.stringify(snapshot, null, 2);
+}
+function crDaysSinceLastExport() {
+  const last = localStorage.getItem("cr_last_export");
+  if (!last) return Infinity;
+  return (Date.now() - new Date(last).getTime()) / 86400000;
+}
