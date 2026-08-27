@@ -214,9 +214,13 @@ def src_ashby(slugs):
     return out
 
 
-def src_adzuna(qs):
+def src_adzuna(qs, country="us"):
     """Free-tier aggregator API. Skips cleanly if creds aren't set - no crash,
-    just fewer sources, same graceful-degrade pattern as sync-profile.yml."""
+    just fewer sources, same graceful-degrade pattern as sync-profile.yml.
+    Adzuna has no single global search, every query is scoped to one
+    country in the URL path itself, so covering multiple geographies means
+    calling this once per country code, not just adding more search terms
+    to one call."""
     app_id = os.environ.get("ADZUNA_APP_ID")
     app_key = os.environ.get("ADZUNA_APP_KEY")
     if not app_id or not app_key:
@@ -225,7 +229,7 @@ def src_adzuna(qs):
     out = []
     for q in qs:
         try:
-            url = ("https://api.adzuna.com/v1/api/jobs/us/search/1"
+            url = (f"https://api.adzuna.com/v1/api/jobs/{country}/search/1"
                    f"?app_id={app_id}&app_key={app_key}&results_per_page=40"
                    f"&what={urllib.parse.quote(q)}&content-type=application/json")
             d = _get(url)
@@ -236,7 +240,7 @@ def src_adzuna(qs):
                                 (j.get("description") or "")[:800],
                                 salary_min=j.get("salary_min"), salary_max=j.get("salary_max")))
         except Exception as e:
-            WARN.append(f"adzuna:{type(e).__name__}")
+            WARN.append(f"adzuna:{country}:{type(e).__name__}")
     return out
 
 
@@ -368,7 +372,20 @@ def main():
                          "site reliability engineer visa sponsorship",
                          "platform engineer H1B sponsorship",
                          "devops manager relocation sponsorship",
-                         "engineering manager visa sponsorship"]))
+                         "engineering manager visa sponsorship"], country="us")
+            # Same sponsorship-search logic, but for Track C (Europe). Adzuna
+            # has no single global search, every call is scoped to one
+            # country's job market, so this only covers Germany + Netherlands,
+            # the two countries most likely to have Adzuna coverage from
+            # Vic's target list (Finland/Norway/Switzerland/Ireland/Iceland/
+            # Sweden/Denmark/Portugal may not be covered at all, unverified
+            # until a live run confirms which country codes actually work).
+            + src_adzuna(["site reliability engineer visa sponsorship",
+                         "platform engineer relocation sponsorship",
+                         "devops engineer blue card sponsorship"], country="de")
+            + src_adzuna(["site reliability engineer visa sponsorship",
+                         "platform engineer relocation sponsorship",
+                         "devops engineer blue card sponsorship"], country="nl"))
 
     seen, uniq = set(), []
     for j in jobs:
