@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-26 19:20 UTC",
-  "sources_ok": 7,
+  "generated": "2026-08-27 02:47 UTC",
+  "sources_ok": 5,
   "sources_total": 7,
   "stats": {
-    "total": 44,
+    "total": 57,
     "track_b": 40,
-    "track_c": 4,
+    "track_c": 17,
     "grade_a": 0,
     "grade_b": 4,
     "visa": 0
@@ -223,6 +223,21 @@
         ]
       },
       {
+        "title": "DevOps Engineer (Observability)",
+        "company": "twilio",
+        "location": "Remote - Ireland",
+        "url": "https://job-boards.greenhouse.io/twilio/jobs/8108771",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Observability"
+        ]
+      },
+      {
         "title": "Staff Infrastructure Engineer",
         "company": "replit",
         "location": "Foster City, CA",
@@ -265,21 +280,6 @@
           "Platform",
           "Python",
           "Golang"
-        ]
-      },
-      {
-        "title": "Senior Consultant Microsoft Dynamics 365 (gn)",
-        "company": "Ifblueprint",
-        "location": "München oder deutschlandweit remote",
-        "url": "https://www.arbeitnow.com/jobs/companies/ifblueprint/remote-senior-consultant-microsoft-dynamics-365-gn-167438",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Automation",
-          "Power Automate"
         ]
       },
       {
@@ -608,18 +608,48 @@
         ]
       },
       {
-        "title": "Working Student / Intern: Offensive Security Engineer (Red Team & AppSec) (f/m/x)",
-        "company": "ilert GmbH",
-        "location": "Cologne",
-        "url": "https://www.arbeitnow.com/jobs/companies/ilert-gmbh/working-student-intern-offensive-security-engineer-red-team-appsec-cologne-335470",
+        "title": "DevOps Engineer (Observability)",
+        "company": "twilio",
+        "location": "Remote - Ireland",
+        "url": "https://job-boards.greenhouse.io/twilio/jobs/8108771",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
+          "Title match: devops",
           "Devops",
+          "Observability"
+        ]
+      },
+      {
+        "title": "Security Engineer - Incident Response",
+        "company": "squarespace",
+        "location": "Dublin",
+        "url": "http://www.squarespace.com/about/careers?gh_jid=8013777",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
           "Platform",
-          "Incident"
+          "Incident",
+          "Monitoring"
+        ]
+      },
+      {
+        "title": "Systems Engineer, Support Platform",
+        "company": "squarespace",
+        "location": "Dublin",
+        "url": "http://www.squarespace.com/about/careers?gh_jid=8064159",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Automation",
+          "Llm"
         ]
       },
       {
@@ -637,17 +667,171 @@
         ]
       },
       {
-        "title": "Full Stack Developer (m/w/d)",
-        "company": "Ess Energy Sales Services Gmbh",
-        "location": "Berlin - Hybrid",
-        "url": "https://www.arbeitnow.com/jobs/companies/ess-energy-sales-services-gmbh/full-stack-developer-berlin-hybrid-437698",
+        "title": "Working Student / Intern: Offensive Security Engineer (Red Team & AppSec) (f/m/x)",
+        "company": "ilert GmbH",
+        "location": "Cologne",
+        "url": "https://www.arbeitnow.com/jobs/companies/ilert-gmbh/working-student-intern-offensive-security-engineer-red-team-appsec-cologne-335470",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Incident"
+        ]
+      },
+      {
+        "title": "Account Executive - Enterprise Sales",
+        "company": "newrelic",
+        "location": "Berlin, Germany; Munich, Germany",
+        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5121001008",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Observability"
+        ]
+      },
+      {
+        "title": "Account Executive - Enterprise Sales - New Business",
+        "company": "newrelic",
+        "location": "Munich, Germany",
+        "url": "https://job-boards.greenhouse.io/newrelic/jobs/4975648008",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Observability"
+        ]
+      },
+      {
+        "title": "Associate Technical Success Manager",
+        "company": "newrelic",
+        "location": "Dublin, Ireland",
+        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5283522008",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Observability"
+        ]
+      },
+      {
+        "title": "GTM Enablement Leader, EMEA",
+        "company": "newrelic",
+        "location": "Belfast, Ireland; Dublin, Ireland",
+        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5288143008",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Observability"
+        ]
+      },
+      {
+        "title": "Partner Sales Manager - French Speaking",
+        "company": "newrelic",
+        "location": "Dublin, Ireland; London, United Kingdom; Paris, France",
+        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5159020008",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Observability"
+        ]
+      },
+      {
+        "title": "Senior Account Executive - Enterprise Sales - New Business (Nordics)",
+        "company": "newrelic",
+        "location": "Dublin, Ireland; London, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5223326008",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Observability"
+        ]
+      },
+      {
+        "title": "Senior Solutions Consultant",
+        "company": "newrelic",
+        "location": "Berlin, Germany; Munich, Germany",
+        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5267253008",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Observability"
+        ]
+      },
+      {
+        "title": "Technical Support Engineer",
+        "company": "newrelic",
+        "location": "Dublin, Ireland",
+        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5158685008",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Observability"
+        ]
+      },
+      {
+        "title": "Technical Support Manager",
+        "company": "newrelic",
+        "location": "Dublin, Ireland",
+        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5404728008",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Observability"
+        ]
+      },
+      {
+        "title": "Working Student Application Software Engineer",
+        "company": "Isarsoft",
+        "location": "Munich",
+        "url": "https://www.arbeitnow.com/jobs/companies/isarsoft/working-student-application-software-engineer-munich-302019",
         "score": 3,
         "grade": "F",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Ci/Cd",
+          "Python",
           "Sql"
+        ]
+      },
+      {
+        "title": "Database Engineering Team Manager",
+        "company": "squarespace",
+        "location": "Dublin",
+        "url": "http://www.squarespace.com/about/careers?gh_jid=7962046",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Platform",
+          "Kafka"
         ]
       }
     ]
@@ -696,7 +880,18 @@
       "url": "https://careers.walmart.com/technology"
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "greenhouse:digitalocean:HTTPError",
+    "greenhouse:doordash:HTTPError",
+    "greenhouse:gitpod:HTTPError",
+    "greenhouse:notion:HTTPError",
+    "greenhouse:plaid:HTTPError",
+    "greenhouse:sentry:HTTPError",
+    "lever:amplitude:HTTPError",
+    "lever:eventbrite:HTTPError",
+    "lever:grammarly:HTTPError",
+    "lever:mixpanel:HTTPError"
+  ],
   "profile_lite": {
     "target_titles": [
       "site reliability",
