@@ -112,6 +112,7 @@ main{padding-top:8px}
 .chip{font-size:10px;color:var(--dim);background:rgba(255,255,255,.07);border:1px solid var(--glass-line);
   padding:2px 8px;border-radius:999px}
 .chip.visa{background:rgba(52,211,153,.14);color:#86efac;border-color:rgba(52,211,153,.3)}
+.chip.comp{background:rgba(96,165,250,.14);color:#93c5fd;border-color:rgba(96,165,250,.3)}
 .cta{display:flex;gap:6px;flex-wrap:wrap}
 .btn{flex:1;text-align:center;font-size:12px;font-weight:700;border-radius:12px;
   padding:9px 6px;border:1px solid var(--glass-line);background:rgba(255,255,255,.06);
@@ -400,7 +401,8 @@ function jobCard(j,i){
   const id=j.title+'|'+j.company;
   const saved=crIsSaved(id);
   const chips=(j.reasons||[]).map(r=>`<span class="chip">${esc(r)}</span>`).join('')
-    +(j.visa?'<span class="chip visa">VISA SPONSOR</span>':'');
+    +(j.visa?'<span class="chip visa">VISA SPONSOR</span>':'')
+    +(j.comp_disclosed&&j.salary_min?`<span class="chip comp">$${Math.round(j.salary_min/1000)}k+</span>`:'');
   return `<div class="job glass">
     <div class="grade-box g-${esc(j.grade||'F')}">${esc(j.grade||'?')}</div>
     <div class="job-body">
@@ -428,7 +430,8 @@ function statusOptions(current){
 }
 function pipelineCard(id,entry,job){
   const chips=(job.reasons||[]).map(r=>`<span class="chip">${esc(r)}</span>`).join('')
-    +(job.visa?'<span class="chip visa">VISA SPONSOR</span>':'');
+    +(job.visa?'<span class="chip visa">VISA SPONSOR</span>':'')
+    +(job.comp_disclosed&&job.salary_min?`<span class="chip comp">$${Math.round(job.salary_min/1000)}k+</span>`:'');
   const applied=entry.appliedAt?`<div class="job-co">Applied ${esc(new Date(entry.appliedAt).toLocaleDateString())}</div>`:'';
   return `<div class="job glass">
     <div class="grade-box g-${esc(job.grade||'F')}">${esc(job.grade||'?')}</div>

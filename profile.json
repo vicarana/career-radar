@@ -2,11 +2,20 @@
   "name": "Victor Arana",
   "headline": "SRE IV / DevOps / Automation & AI Engineer",
   "seniority": ["senior", "staff", "lead", "principal", "iv", "iii"],
+  "leadership_titles": [
+    "manager", "head of", "director", "vp", "vice president",
+    "cto", "cio", "chief technology officer", "chief information officer"
+  ],
   "target_titles": [
     "site reliability", "sre", "devops", "platform engineer",
     "automation engineer", "reliability engineer", "cloud engineer",
-    "ai engineer", "mlops", "infrastructure engineer"
+    "ai engineer", "mlops", "infrastructure engineer",
+    "engineering manager", "sre manager", "platform manager",
+    "devops manager", "head of engineering", "head of platform",
+    "head of sre", "head of ai", "director of engineering",
+    "director of platform", "vp of engineering", "cto", "cio"
   ],
+  "min_comp_monthly_usd": 8000,
   "strong_skills": [
     "sre", "site reliability", "reliability", "devops", "platform",
     "automation", "rpa", "kubernetes", "k8s", "observability",
