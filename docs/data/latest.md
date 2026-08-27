@@ -1,12 +1,12 @@
-# career-radar - 2026-08-27 10:28 UTC
-Sources OK: 6/7
+# career-radar - 2026-08-27 12:32 UTC
+Sources OK: 7/7
 
 
 ## Track D - US (visa + relocation sponsor required) (0)
 
 ## Track C - Europe (visa + relocation sponsor required) (0)
 
-## Track B - Remote/income (57)
+## Track B - Remote/income (58)
 - Staff Site Reliability Engineer @ replit (Remote - Europe) s12 https://jobs.ashbyhq.com/replit/f35042a1-b016-4811-9597-b98facf5eb4d
 - Senior Site Reliability Engineer @ Canonical (Anywhere) s10 https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5
 - Senior Site Reliability Engineer @ replit (Remote - Europe) s10 https://jobs.ashbyhq.com/replit/ca50a435-72b4-4092-b957-31d29ede1c00
@@ -26,4 +26,4 @@ Sources OK: 6/7
 - Embedded Linux Field Engineering Manager (Americas only) @ Canonical (LATAM,  Canada,  USA) s5 https://jobicy.com/jobs/149559-embedded-linux-field-engineering-manager-americas-only
 - Engineering Manager - Data Platform @ Canonical (Anywhere) s5 https://jobicy.com/jobs/149561-engineering-manager-data-platform
 - Engineering Manager - MLOps & Analytics @ Canonical (Anywhere) s5 https://jobicy.com/jobs/149521-engineering-manager-mlops-analytics
-- Senior DevOps Engineer @ Experian (Costa Rica) s4 https://jobicy.com/jobs/144464-senior-devops-engineer-5
+- Senior DevOps Engineer @ Lemon.io (LATAM, Europe, USA, Canada, APAC) s4 https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099

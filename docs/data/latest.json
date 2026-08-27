@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-27 10:28 UTC",
-  "sources_ok": 6,
+  "generated": "2026-08-27 12:32 UTC",
+  "sources_ok": 7,
   "sources_total": 7,
   "stats": {
     "total": 40,
@@ -371,6 +371,24 @@
       },
       {
         "title": "Senior DevOps Engineer",
+        "company": "Lemon.io",
+        "location": "LATAM, Europe, USA, Canada, APAC",
+        "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior DevOps Engineer",
         "company": "Experian",
         "location": "Costa Rica",
         "url": "https://jobicy.com/jobs/144464-senior-devops-engineer-5",
@@ -727,24 +745,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Dedicated Integrations",
-        "company": "gitlab",
-        "location": "Remote, United Kingdom",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636648002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
       }
     ],
     "C": [],
@@ -794,13 +794,7 @@
       "url": "https://careers.walmart.com/technology"
     }
   ],
-  "warnings": [
-    "greenhouse:automattic:HTTPError",
-    "greenhouse:deel:HTTPError",
-    "greenhouse:klarna:HTTPError",
-    "greenhouse:miro:HTTPError",
-    "greenhouse:personio:HTTPError"
-  ],
+  "warnings": [],
   "profile_lite": {
     "target_titles": [
       "site reliability",
@@ -813,6 +807,7 @@
       "ai engineer",
       "mlops",
       "infrastructure engineer",
+      "ai lead",
       "engineering manager",
       "sre manager",
       "platform manager",
