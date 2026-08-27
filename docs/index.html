@@ -131,6 +131,9 @@ main{padding-top:8px}
 .status-select{-webkit-appearance:none;appearance:none;font-weight:700;cursor:pointer;
   background-image:url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="12" height="8"%3E%3Cpath d="M1 1l5 5 5-5" stroke="%238b98b8" stroke-width="2" fill="none" stroke-linecap="round"/%3E%3C/svg%3E');
   background-repeat:no-repeat;background-position:right 14px center;padding-right:34px}
+.export-bar{border-radius:16px;padding:11px 14px;margin-bottom:10px;display:flex;
+  align-items:center;justify-content:space-between;gap:10px;font-size:12px;color:var(--dim)}
+.export-bar .btn{flex:0 0 auto;padding:7px 14px}
 .note-field{min-height:56px;resize:vertical}
 
 /* ── Misc ── */
@@ -447,9 +450,14 @@ function pipelineView(){
   const p=crGetPipeline();
   const ids=Object.keys(p);
   if(!ids.length) return '<div class="empty">No tracked jobs yet.<br>Tap Save on any card to start your pipeline.</div>';
+  const stale=crDaysSinceLastExport()>=7;
+  const exportBar=`<div class="export-bar glass">
+    <span>${stale?'Not archived in 7+ days':'Archive this to MClaude for cross-device history'}</span>
+    <button class="btn" id="export-btn">Export</button>
+  </div>`;
   const liveById={};
   for(const j of allJobs()) liveById[j.title+'|'+j.company]=j;
-  let out='';
+  let out=exportBar;
   for(const s of CR_STATUSES){
     const inStatus=ids.filter(id=>p[id].status===s.key);
     if(!inStatus.length) continue;
@@ -511,6 +519,14 @@ document.getElementById('view').addEventListener('click',(e)=>{
   }
   const rmBtn=e.target.closest('[data-remove-id]');
   if(rmBtn){ crRemoveFromPipeline(rmBtn.dataset.removeId); updateSavedBadge(); render(); return; }
+  if(e.target.closest('#export-btn')){
+    const json=crExportSnapshot();
+    navigator.clipboard.writeText(json)
+      .then(()=>toast('Copied. Paste it to Claude/MClaude to archive.'))
+      .catch(()=>toast('Copy failed, check clipboard permissions'));
+    render();
+    return;
+  }
 });
 document.getElementById('view').addEventListener('change',(e)=>{
   const sel=e.target.closest('[data-status-id]');
