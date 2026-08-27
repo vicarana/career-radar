@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-27 05:07 UTC",
-  "sources_ok": 5,
+  "generated": "2026-08-27 10:28 UTC",
+  "sources_ok": 6,
   "sources_total": 7,
   "stats": {
     "total": 40,
@@ -257,6 +257,44 @@
         "comp_disclosed": false
       },
       {
+        "title": "Engineering Manager - Content API (f/m/d)",
+        "company": "contentful",
+        "location": "London, London, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/contentful/jobs/8023842",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform",
+          "Observability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager - Content API (f/m/d)",
+        "company": "contentful",
+        "location": "Dublin, Dublin, Ireland",
+        "url": "https://job-boards.greenhouse.io/contentful/jobs/8050574",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform",
+          "Observability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Staff Infrastructure Engineer",
         "company": "replit",
         "location": "Foster City, CA",
@@ -380,6 +418,24 @@
         "reasons": [
           "Title match: devops",
           "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Engineering Manager, Platform Delivery",
+        "company": "Upstart",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/142530-senior-engineering-manager-platform-delivery",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -689,60 +745,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Growth",
-        "company": "gitlab",
-        "location": "Remote, Canada; Remote, US",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592891002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Switchboard",
-        "company": "gitlab",
-        "location": "Remote, United Kingdom",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586632002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Tenant Scale:Git",
-        "company": "gitlab",
-        "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617538002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
       }
     ],
     "C": [],
@@ -793,16 +795,11 @@
     }
   ],
   "warnings": [
-    "ashby:genially:HTTPError",
-    "ashby:redpoints:HTTPError",
-    "ashby:seedtag:HTTPError",
-    "ashby:spotahome:HTTPError",
-    "ashby:travelperk:HTTPError",
-    "ashby:wallbox:HTTPError",
-    "greenhouse:factorial:HTTPError",
-    "greenhouse:freepik:HTTPError",
-    "greenhouse:glovoapp:HTTPError",
-    "greenhouse:holdedhq:HTTPError"
+    "greenhouse:automattic:HTTPError",
+    "greenhouse:deel:HTTPError",
+    "greenhouse:klarna:HTTPError",
+    "greenhouse:miro:HTTPError",
+    "greenhouse:personio:HTTPError"
   ],
   "profile_lite": {
     "target_titles": [
