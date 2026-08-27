@@ -1,4 +1,4 @@
-# career-radar - 2026-08-27 20:39 UTC
+# career-radar - 2026-08-27 20:51 UTC
 Sources OK: 7/7
 
 
