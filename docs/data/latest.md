@@ -1,5 +1,5 @@
-# career-radar - 2026-08-27 03:52 UTC
-Sources OK: 7/7
+# career-radar - 2026-08-27 05:04 UTC
+Sources OK: 5/7
 
 
 ## Track D - US (visa + relocation sponsor required) (0)
