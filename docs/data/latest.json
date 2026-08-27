@@ -1,11 +1,12 @@
 {
-  "generated": "2026-08-27 03:16 UTC",
+  "generated": "2026-08-27 03:26 UTC",
   "sources_ok": 7,
   "sources_total": 7,
   "stats": {
     "total": 42,
     "track_b": 40,
     "track_c": 2,
+    "track_d": 0,
     "grade_a": 0,
     "grade_b": 3,
     "visa": 0
@@ -21,6 +22,7 @@
         "grade": "B",
         "match": 60,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: site reliability",
           "SRE",
@@ -39,6 +41,7 @@
         "grade": "B",
         "match": 50,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: site reliability",
           "Site Reliability",
@@ -57,6 +60,7 @@
         "grade": "B",
         "match": 50,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: site reliability",
           "Site Reliability",
@@ -75,6 +79,7 @@
         "grade": "C",
         "match": 40,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: site reliability",
           "Site Reliability",
@@ -93,6 +98,7 @@
         "grade": "C",
         "match": 40,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform",
@@ -111,6 +117,7 @@
         "grade": "C",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform",
@@ -129,6 +136,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: devops",
           "Devops",
@@ -147,6 +155,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: devops",
           "Devops",
@@ -165,6 +174,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: platform engineer",
           "Platform"
@@ -182,6 +192,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: cloud engineer",
           "Platform"
@@ -199,6 +210,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform",
@@ -217,6 +229,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: director of engineering",
           "Platform"
@@ -234,6 +247,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: ai engineer",
           "Platform"
@@ -251,6 +265,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: infrastructure engineer",
           "Reliability",
@@ -269,6 +284,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform",
@@ -287,6 +303,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform",
@@ -305,6 +322,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: mlops",
           "Mlops"
@@ -322,6 +340,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: devops",
           "Devops"
@@ -339,6 +358,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: devops",
           "Devops"
@@ -356,6 +376,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: devops",
           "Devops"
@@ -373,6 +394,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: reliability engineer",
           "Reliability"
@@ -390,6 +412,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: platform engineer",
           "Platform"
@@ -407,6 +430,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -424,6 +448,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: platform engineer",
           "Platform"
@@ -441,6 +466,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -458,6 +484,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -475,6 +502,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -492,6 +520,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: ai engineer"
         ],
@@ -508,6 +537,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -525,6 +555,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -542,6 +573,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -559,6 +591,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -576,6 +609,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -593,6 +627,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -610,6 +645,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -627,6 +663,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -644,6 +681,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -661,6 +699,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -678,6 +717,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -695,6 +735,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
           "Platform"
@@ -714,6 +755,7 @@
         "grade": "D",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Title match: platform engineer",
           "Platform"
@@ -731,6 +773,7 @@
         "grade": "F",
         "match": 35,
         "visa": false,
+        "us_sponsor": false,
         "reasons": [
           "Platform",
           "Kafka"
@@ -739,7 +782,8 @@
         "salary_max": null,
         "comp_disclosed": false
       }
-    ]
+    ],
+    "D": []
   },
   "linkedin": [
     {
