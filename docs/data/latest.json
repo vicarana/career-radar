@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27 05:04 UTC",
+  "generated": "2026-08-27 05:07 UTC",
   "sources_ok": 5,
   "sources_total": 7,
   "stats": {
@@ -793,17 +793,16 @@
     }
   ],
   "warnings": [
-    "greenhouse:factorialhr:HTTPError",
-    "greenhouse:freepikcompany:HTTPError",
-    "greenhouse:genially:HTTPError",
-    "greenhouse:glovo:HTTPError",
-    "greenhouse:holded:HTTPError",
-    "greenhouse:redpoints:HTTPError",
-    "greenhouse:seedtag:HTTPError",
-    "greenhouse:spotahome:HTTPError",
-    "greenhouse:travelperk:HTTPError",
-    "lever:adevinta:HTTPError",
-    "lever:kantox:HTTPError"
+    "ashby:genially:HTTPError",
+    "ashby:redpoints:HTTPError",
+    "ashby:seedtag:HTTPError",
+    "ashby:spotahome:HTTPError",
+    "ashby:travelperk:HTTPError",
+    "ashby:wallbox:HTTPError",
+    "greenhouse:factorial:HTTPError",
+    "greenhouse:freepik:HTTPError",
+    "greenhouse:glovoapp:HTTPError",
+    "greenhouse:holdedhq:HTTPError"
   ],
   "profile_lite": {
     "target_titles": [
