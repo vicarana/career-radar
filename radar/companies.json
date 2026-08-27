@@ -4,7 +4,9 @@
     "stripe", "pinterest", "twilio", "squarespace", "asana", "figma", "brex",
     "mongodb", "pagerduty", "robinhood", "instacart", "gusto", "checkr",
     "newrelic", "launchdarkly", "samsara",
-    "cabify", "typeform", "wallapop"],
+    "cabify", "typeform", "wallapop",
+    "adyen", "n26", "klarna", "deel", "remote", "automattic", "miro",
+    "contentful", "personio", "wise"],
   "lever": ["palantir", "jobandtalent"],
   "ashby": ["replit", "vanta", "ramp", "linear", "mercury", "hex", "pinecone"]
 }
