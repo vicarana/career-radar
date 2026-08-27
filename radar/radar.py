@@ -306,20 +306,21 @@ def sponsor_confirmed(text, visa_terms):
 
 
 def tracks_of(job, p):
-    """Tags are additive, not exclusive: a remote US role can be both B and D.
-    Track D (US + sponsor) is a hard AND, unlike Track C's soft visa tag,
-    because a US role with no sponsorship offer genuinely isn't viable, not
-    just a lower-priority one. Checks the full text (not just location)
-    since 'Remote, US-only' postings often put the US detail in the
-    description rather than the structured location field."""
+    """Tags are additive, not exclusive: a remote sponsor-confirmed role can
+    be B+C or B+D at once. Both Track C (Europe) and Track D (US) are hard
+    ANDs, requiring region match AND confirmed sponsorship, not just a soft
+    priority tag, a role with no sponsorship offer genuinely isn't viable
+    for a relocation-dependent search, not just lower-priority. Checks the
+    full text (not just location) since sponsorship language and country
+    mentions often live in the description, not the structured location
+    field."""
     t, tks = job["text"], set()
     if job["remote"] or "remote" in t or "anywhere" in t:
         tks.add("B")
     eu = p["track_c_europe"]
-    if any(c in t for c in eu["countries"]):
+    if any(c in t for c in eu["countries"]) and sponsor_confirmed(t, eu["visa_terms"]):
         tks.add("C")
-        if any(v in t for v in eu["visa_terms"]):
-            job["visa"] = True
+        job["visa"] = True
     us = p.get("track_d_us_sponsor", {})
     if us and any(ind in t for ind in us.get("us_indicators", [])) \
             and sponsor_confirmed(t, eu["visa_terms"]):
@@ -444,7 +445,7 @@ def main():
 
     lines = [f"# career-radar - {date}", f"Sources OK: {sources_ok}/{total_attempted}\n"]
     for tk, name in [("D", "Track D - US (visa + relocation sponsor required)"),
-                     ("C", "Track C - Europe (visa-first)"), ("B", "Track B - Remote/income")]:
+                     ("C", "Track C - Europe (visa + relocation sponsor required)"), ("B", "Track B - Remote/income")]:
         lines.append(f"\n## {name} ({len(buckets[tk])})")
         for j in buckets[tk][:20]:
             v = " [VISA]" if j.get("visa") else ""

@@ -227,7 +227,7 @@ const SAMPLE = {
        match:77, visa:true, reasons:["DevOps","Terraform","Automation","EU Blue Card"]},
       {title:"SRE Engineer", company:"Visma",
        location:"Oslo, Norway", url:"https://www.visma.com/careers/", grade:"B",
-       match:73, visa:false, reasons:["SRE","Cloud infra","Norway skilled-worker permit"]},
+       match:73, visa:true, reasons:["SRE","Cloud infra","Norway skilled-worker permit"]},
       {title:"Infrastructure Engineer", company:"Personio",
        location:"Munich, Germany", url:"https://www.personio.com/about-personio/jobs/", grade:"C",
        match:64, visa:true, reasons:["Infrastructure","Python","HR-tech scale","Blue Card eligible"]}
@@ -360,7 +360,7 @@ function nextAction(s){
   if((s.grade_b||0)>0) return `<div class="action-card glass">
     <div class="icon" style="color:var(--b)">Apply this week</div>
     <div class="label">Recommended action</div>
-    <div class="msg">${s.grade_b} B-grade matches worth applying. Check Europe tab first (visa-sponsor priority).</div>
+    <div class="msg">${s.grade_b} B-grade matches worth applying. Check Europe tab first (sponsor confirmed).</div>
   </div>`;
   return `<div class="action-card glass">
     <div class="icon" style="color:var(--dim)">Keep searching</div>
@@ -386,7 +386,7 @@ function dashboard(){
     </div>
     <div class="stat glass"><div class="n" style="color:var(--a)">${s.grade_a||0}</div><div class="l">A-grade · apply now</div></div>
     <div class="stat glass"><div class="n" style="color:var(--b)">${s.grade_b||0}</div><div class="l">B-grade · apply this week</div></div>
-    <div class="stat glass"><div class="n" style="color:var(--cyan)">${s.visa||0}</div><div class="l">visa sponsor (Europe)</div></div>
+    <div class="stat glass"><div class="n" style="color:var(--cyan)">${(s.track_c||0)+(s.track_d||0)}</div><div class="l">sponsor-confirmed (EU + US)</div></div>
     <div class="stat glass"><div class="n" style="color:var(--cyan)">${s.track_d||0}</div><div class="l">US, visa+relocation confirmed</div></div>
     <div class="stat glass wide"><div class="n">${s.track_c||0}/${s.track_b||0}/${s.track_d||0}</div><div class="l">Europe / Remote / US-sponsor split</div></div>
   </div>`;
