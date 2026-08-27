@@ -309,6 +309,72 @@ def sponsor_confirmed(text, visa_terms):
     return not _SPONSOR_NEGATION.search(text)
 
 
+# Full state list is an invariant geography fact, not a preference, so it
+# lives here rather than duplicated in profile.json. Only preferred_states
+# (which specific states matter to Vic) is config.
+US_STATE_ABBREVS = {
+    "al": "alabama", "ak": "alaska", "az": "arizona", "ar": "arkansas",
+    "ca": "california", "co": "colorado", "ct": "connecticut", "de": "delaware",
+    "fl": "florida", "ga": "georgia", "hi": "hawaii", "id": "idaho",
+    "il": "illinois", "in": "indiana", "ia": "iowa", "ks": "kansas",
+    "ky": "kentucky", "la": "louisiana", "me": "maine", "md": "maryland",
+    "ma": "massachusetts", "mi": "michigan", "mn": "minnesota", "ms": "mississippi",
+    "mo": "missouri", "mt": "montana", "ne": "nebraska", "nv": "nevada",
+    "nh": "new hampshire", "nj": "new jersey", "nm": "new mexico", "ny": "new york",
+    "nc": "north carolina", "nd": "north dakota", "oh": "ohio", "ok": "oklahoma",
+    "or": "oregon", "pa": "pennsylvania", "ri": "rhode island", "sc": "south carolina",
+    "sd": "south dakota", "tn": "tennessee", "tx": "texas", "ut": "utah",
+    "vt": "vermont", "va": "virginia", "wa": "washington", "wv": "west virginia",
+    "wi": "wisconsin", "wy": "wyoming",
+}
+_STATE_CODE_RE = re.compile(r",\s*([a-z]{2})\b")
+
+
+def location_state(location):
+    """Resolve a free-text location to a full state name, or None if it
+    can't be determined. 2-letter codes ('me', 'id', 'mt', 'nd'...) are
+    common English words/fragments, unsafe to substring-match anywhere in
+    text, so they're only matched via the comma-adjacent 'City, ST' pattern
+    real location strings actually use, never as a bare substring."""
+    loc = location.lower()
+    for name in US_STATE_ABBREVS.values():
+        if name in loc:
+            return name
+    m = _STATE_CODE_RE.search(loc)
+    if m and m.group(1) in US_STATE_ABBREVS:
+        return US_STATE_ABBREVS[m.group(1)]
+    return None
+
+
+def us_geo_ok(job, us_cfg):
+    """True if the job's location doesn't conflict with Vic's preferred
+    states. A job explicitly pinned to a non-preferred state (e.g. 'New
+    York, NY') is excluded even if also remote-tagged, the posting is still
+    telling you where the role is based. A job with NO pinned state at all
+    ('Remote, US') passes if genuinely remote, since the employer isn't
+    dictating a location there, that's compatible with living in Texas (or
+    any other preferred state) regardless of where the company is HQ'd."""
+    preferred = us_cfg.get("preferred_states", [])
+    if not preferred:
+        return True
+    st = location_state(job["location"])
+    if st is not None:
+        return st in preferred
+    return bool(job["remote"] or "remote" in job["text"])
+
+
+def is_us_based(job, us_cfg):
+    """True if this job is plausibly US-based at all, checked upstream of
+    the preferred_states narrowing. A specific US state resolved from the
+    location field (e.g. 'Boise, ID' -> idaho) is definitive proof on its
+    own, doesn't need to also appear in us_indicators, that list exists
+    only to catch generic phrasing ('Remote, US') where no city/state is
+    named at all."""
+    if location_state(job["location"]) is not None:
+        return True
+    return any(ind in job["text"] for ind in us_cfg.get("us_indicators", []))
+
+
 def tracks_of(job, p):
     """Tags are additive, not exclusive: a remote sponsor-confirmed role can
     be B+C or B+D at once. Both Track C (Europe) and Track D (US) are hard
@@ -326,8 +392,9 @@ def tracks_of(job, p):
         tks.add("C")
         job["visa"] = True
     us = p.get("track_d_us_sponsor", {})
-    if us and any(ind in t for ind in us.get("us_indicators", [])) \
-            and sponsor_confirmed(t, eu["visa_terms"]):
+    if us and is_us_based(job, us) \
+            and sponsor_confirmed(t, eu["visa_terms"]) \
+            and us_geo_ok(job, us):
         tks.add("D")
         job["us_sponsor"] = True
     return tks
