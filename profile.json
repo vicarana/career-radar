@@ -15,7 +15,13 @@
     "head of sre", "head of ai", "director of engineering",
     "director of platform", "vp of engineering", "cto", "cio"
   ],
-  "min_comp_monthly_usd": 8000,
+  "min_comp_monthly_usd": 10400,
+  "comp_targets": {
+    "_note": "Vic's real targets are AFTER-TAX (net), set 2026-08-27: baseline 90,000, desired 150,000, USD or EUR treated interchangeably. Job boards (Greenhouse/Lever/Ashby/Adzuna/RemoteOK) only ever disclose GROSS salary, and this codebase has no per-country tax model (US federal+state, Spain's Beckham Law flat 24%, standard EU progressive brackets are all wildly different). min_comp_monthly_usd above is a rough GROSS proxy for the 90k net floor, using a conservative blended ~28% effective tax assumption (90000 / 0.72 / 12 rounded), NOT a real per-country calculation. As of 2026-08-27, 0 of 40 live matches disclose salary at all, so this floor currently has zero practical effect, it only starts filtering once Adzuna/RemoteOK salary data actually flows in. Revisit with real per-country tax modeling if/when comp_disclosed postings become common enough to matter.",
+    "after_tax_baseline_annual": 90000,
+    "after_tax_desired_annual": 150000,
+    "currency": "USD_or_EUR"
+  },
   "strong_skills": [
     "sre", "site reliability", "reliability", "devops", "platform",
     "automation", "rpa", "kubernetes", "k8s", "observability",
