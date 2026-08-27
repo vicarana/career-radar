@@ -121,9 +121,17 @@ main{padding-top:8px}
 .btn.heart{color:var(--dim)}
 .btn.heart.on{color:var(--save);border-color:rgba(251,113,133,.5);background:rgba(251,113,133,.12)}
 
-/* ── Link card ── */
+/* ─── Link card ─── */
 .link-card{border-radius:16px;padding:13px 15px;margin:8px 0}
 .link-card a{color:var(--cyan);text-decoration:none;font-weight:600;font-size:14px}
+
+/* ─── Form fields (Match JD textareas, Pipeline status/notes) ─── */
+.field{width:100%;padding:10px;border-radius:14px;color:var(--ink);font:13px/1.4 inherit;
+  background:var(--glass-bg);border:1px solid var(--glass-line);margin-bottom:6px}
+.status-select{-webkit-appearance:none;appearance:none;font-weight:700;cursor:pointer;
+  background-image:url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="12" height="8"%3E%3Cpath d="M1 1l5 5 5-5" stroke="%238b98b8" stroke-width="2" fill="none" stroke-linecap="round"/%3E%3C/svg%3E');
+  background-repeat:no-repeat;background-position:right 14px center;padding-right:34px}
+.note-field{min-height:56px;resize:vertical}
 
 /* ── Misc ── */
 .empty{color:var(--dim);text-align:center;padding:32px 16px;font-size:14px;line-height:1.6}
@@ -165,7 +173,7 @@ main{padding-top:8px}
     <button class="tab" role="tab" data-t="B" aria-selected="false">Remote</button>
     <button class="tab" role="tab" data-t="match" aria-selected="false">Match JD</button>
     <button class="tab" role="tab" data-t="saved" aria-selected="false">
-      Saved<span class="badge" id="saved-badge" style="display:none">0</span>
+      Pipeline<span class="badge" id="saved-badge" style="display:none">0</span>
     </button>
   </nav>
   <div class="content">
@@ -189,6 +197,7 @@ main{padding-top:8px}
 <div class="toast" id="toast"></div>
 
 <script src="match.js"></script>
+<script src="pipeline.js"></script>
 <script>
 /* ─── Sample data (10 real-looking roles) ─── */
 const SAMPLE = {
@@ -253,16 +262,12 @@ const SAMPLE = {
   }
 };
 
-/* ─── Saved jobs ─── */
-function getSaved(){try{return JSON.parse(localStorage.getItem('cr_saved')||'[]')}catch{return[]}}
-function setSaved(s){localStorage.setItem('cr_saved',JSON.stringify(s))}
-function toggleSave(id){
-  let s=getSaved();
-  s.includes(id)?s=s.filter(x=>x!==id):s.push(id);
-  setSaved(s); updateSavedBadge(); render();
+/* ─── Saved jobs (delegates to pipeline.js for storage) ─── */
+function toggleSave(id,jobSnapshot){
+  crToggleSaved(id,jobSnapshot); updateSavedBadge(); render();
 }
 function updateSavedBadge(){
-  const n=getSaved().length, el=document.getElementById('saved-badge');
+  const n=crPipelineCount(), el=document.getElementById('saved-badge');
   el.textContent=n; el.style.display=n?'inline':'none';
 }
 
@@ -314,9 +319,9 @@ function matchView(){
       </div>
     </div>`:'';
   return `<div class="section-title">Paste a job description</div>
-    <textarea id="jd-title" placeholder="Job title (optional)" class="glass" style="width:100%;margin-bottom:6px;padding:10px;border-radius:14px;color:var(--ink);font:13px/1.4 inherit">${LAST_MATCH?esc(LAST_MATCH.title||''):''}</textarea>
-    <textarea id="jd-company" placeholder="Company (optional)" class="glass" style="width:100%;margin-bottom:6px;padding:10px;border-radius:14px;color:var(--ink);font:13px/1.4 inherit">${LAST_MATCH?esc(LAST_MATCH.company||''):''}</textarea>
-    <textarea id="jd-text" placeholder="Paste the job description here (bookmarklet or manual copy)" rows="8" class="glass" style="width:100%;padding:10px;border-radius:14px;color:var(--ink);font:13px/1.4 inherit">${LAST_MATCH?esc(LAST_MATCH.rawText||''):''}</textarea>
+    <textarea id="jd-title" placeholder="Job title (optional)" class="glass field">${LAST_MATCH?esc(LAST_MATCH.title||''):''}</textarea>
+    <textarea id="jd-company" placeholder="Company (optional)" class="glass field">${LAST_MATCH?esc(LAST_MATCH.company||''):''}</textarea>
+    <textarea id="jd-text" placeholder="Paste the job description here (bookmarklet or manual copy)" rows="8" class="glass field">${LAST_MATCH?esc(LAST_MATCH.rawText||''):''}</textarea>
     <div class="cta" style="margin-top:8px">
       <button class="btn primary" onclick="runJdMatch()">Analyze</button>
     </div>
@@ -390,7 +395,7 @@ function quickLinks(){
 /* ─── Job card ─── */
 function jobCard(j,i){
   const id=j.title+'|'+j.company;
-  const saved=getSaved().includes(id);
+  const saved=crIsSaved(id);
   const chips=(j.reasons||[]).map(r=>`<span class="chip">${esc(r)}</span>`).join('')
     +(j.visa?'<span class="chip visa">VISA SPONSOR</span>':'');
   return `<div class="job glass">
@@ -407,20 +412,51 @@ function jobCard(j,i){
         <a class="btn primary" href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener">Open</a>
         <button class="btn" onclick='copyPrompt("cv",TRACK[${i}])'>Tailor CV</button>
         <button class="btn" onclick='copyPrompt("out",TRACK[${i}])'>Outreach</button>
-        <button class="btn heart ${saved?'on':''}" data-save-id="${esc(id)}">${saved?'Saved':'Save'}</button>
+        <button class="btn heart ${saved?'on':''}" data-save-idx="${i}">${saved?'Saved':'Save'}</button>
       </div>
     </div>
   </div>`;
 }
 
-/* ─── Link / saved ─── */
+/* ─── Link / pipeline ─── */
 function linkCard(l){return`<div class="link-card glass"><a href="${esc(safeUrl(l.url))}" target="_blank" rel="noopener">${esc(l.label||l.market)} &rarr;</a></div>`}
-function savedView(){
-  const ids=getSaved(); if(!ids.length) return '<div class="empty">No saved jobs yet.<br>Tap Save on any card.</div>';
-  const all=allJobs();
-  const jobs=all.filter(j=>ids.includes(j.title+'|'+j.company));
-  TRACK=jobs;
-  return jobs.length?jobs.map(jobCard).join(''):'<div class="empty">Saved jobs not found in current data. Re-run radar to reload.</div>';
+function statusOptions(current){
+  return CR_STATUSES.map(s=>`<option value="${s.key}" ${s.key===current?'selected':''}>${esc(s.label)}</option>`).join('');
+}
+function pipelineCard(id,entry,job){
+  const chips=(job.reasons||[]).map(r=>`<span class="chip">${esc(r)}</span>`).join('')
+    +(job.visa?'<span class="chip visa">VISA SPONSOR</span>':'');
+  const applied=entry.appliedAt?`<div class="job-co">Applied ${esc(new Date(entry.appliedAt).toLocaleDateString())}</div>`:'';
+  return `<div class="job glass">
+    <div class="grade-box g-${esc(job.grade||'F')}">${esc(job.grade||'?')}</div>
+    <div class="job-body">
+      <div class="job-title">${esc(job.title)}</div>
+      <div class="job-co">${esc(job.company)} · ${esc(job.location||'')}</div>
+      ${applied}
+      <div class="chips">${chips}</div>
+      <select class="field status-select" data-status-id="${esc(id)}">${statusOptions(entry.status)}</select>
+      <textarea class="field note-field" data-note-id="${esc(id)}" placeholder="Notes (recruiter name, next step, salary talk...)">${esc(entry.note||'')}</textarea>
+      <div class="cta">
+        <a class="btn primary" href="${esc(safeUrl(job.url))}" target="_blank" rel="noopener">Open</a>
+        <button class="btn" data-remove-id="${esc(id)}">Remove</button>
+      </div>
+    </div>
+  </div>`;
+}
+function pipelineView(){
+  const p=crGetPipeline();
+  const ids=Object.keys(p);
+  if(!ids.length) return '<div class="empty">No tracked jobs yet.<br>Tap Save on any card to start your pipeline.</div>';
+  const liveById={};
+  for(const j of allJobs()) liveById[j.title+'|'+j.company]=j;
+  let out='';
+  for(const s of CR_STATUSES){
+    const inStatus=ids.filter(id=>p[id].status===s.key);
+    if(!inStatus.length) continue;
+    out+=`<div class="section-title">${esc(s.label)} (${inStatus.length})</div>`;
+    out+=inStatus.map(id=>pipelineCard(id,p[id],crResolveJob(id,p[id],liveById))).join('');
+  }
+  return out;
 }
 
 /* ─── Render ─── */
@@ -445,7 +481,7 @@ function render(){
       :'<div class="empty">No matches here.<br>Try clearing your search, or re-run on personal WiFi.</div>');
   }
   else if(TAB==='match') v.innerHTML=matchView();
-  else if(TAB==='saved') v.innerHTML=note+savedView();
+  else if(TAB==='saved') v.innerHTML=pipelineView();
   updateSavedBadge();
 }
 
@@ -467,8 +503,22 @@ document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
   t.setAttribute('aria-selected','true'); TAB=t.dataset.t; render();
 }));
 document.getElementById('view').addEventListener('click',(e)=>{
-  const btn=e.target.closest('[data-save-id]');
-  if(btn) toggleSave(btn.dataset.saveId);
+  const saveBtn=e.target.closest('[data-save-idx]');
+  if(saveBtn){
+    const j=TRACK[Number(saveBtn.dataset.saveIdx)];
+    if(j) toggleSave(j.title+'|'+j.company,j);
+    return;
+  }
+  const rmBtn=e.target.closest('[data-remove-id]');
+  if(rmBtn){ crRemoveFromPipeline(rmBtn.dataset.removeId); updateSavedBadge(); render(); return; }
+});
+document.getElementById('view').addEventListener('change',(e)=>{
+  const sel=e.target.closest('[data-status-id]');
+  if(sel){ crSetStatus(sel.dataset.statusId, sel.value); render(); }
+});
+document.getElementById('view').addEventListener('input',(e)=>{
+  const note=e.target.closest('[data-note-id]');
+  if(note) crSetNote(note.dataset.noteId, note.value);
 });
 if('serviceWorker'in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
 updateSavedBadge();
