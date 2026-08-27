@@ -1,6 +1,8 @@
-# career-radar - 2026-08-27 03:16 UTC
+# career-radar - 2026-08-27 03:26 UTC
 Sources OK: 7/7
 
+
+## Track D - US (visa + relocation sponsor required) (0)
 
 ## Track C - Europe (visa-first) (2)
 - VP, Platform Engineering @ Frontify (Europe) s4 https://jobicy.com/jobs/151398-vp-platform-engineering
