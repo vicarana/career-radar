@@ -48,14 +48,29 @@ def _title_has_term(title, term):
 
 
 def is_senior_or_leadership(job, p):
-    """Hard filter: only Senior+ IC roles or Manager/Director/VP/CTO/CIO
-    leadership roles survive, regardless of keyword score. Applied on top
-    of, not instead of, the existing score() filter."""
+    """Hard filter, requires BOTH: (a) a Senior+ IC or leadership-tier title,
+    AND (b) genuine domain signal in the title itself. (b) is not optional:
+    an earlier version of this filter checked tier alone, and non-technical
+    Sales/Product/Support Director and Manager titles at tech companies
+    leaked through, because score() can accumulate points from buzzwords
+    anywhere in a company's boilerplate job description text (e.g. a
+    Sales Director posting at a cloud company mentioning 'Kubernetes' in
+    passing), even though the role itself has nothing to do with
+    engineering. Requiring the domain term to be in the TITLE itself,
+    not just the description, closes that leak."""
     title = job["title"].lower()
     seniority = p.get("seniority", [])
     leadership = p.get("leadership_titles", [])
-    return (any(_title_has_term(title, s) for s in seniority)
-            or any(_title_has_term(title, s) for s in leadership))
+    tier_ok = (any(_title_has_term(title, s) for s in seniority)
+               or any(_title_has_term(title, s) for s in leadership))
+    if not tier_ok:
+        return False
+    # Bare CTO/CIO is unambiguous on its own, no further domain check needed.
+    csuite = ["cto", "cio", "chief technology officer", "chief information officer"]
+    if any(_title_has_term(title, t) for t in csuite):
+        return True
+    domain_terms = p.get("target_titles", []) + ["engineering"]
+    return any(_title_has_term(title, t) for t in domain_terms)
 
 
 def meets_comp_floor(job, p):
