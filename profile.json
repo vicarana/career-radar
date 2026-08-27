@@ -41,6 +41,15 @@
     ],
     "visa_terms": ["visa", "sponsor", "relocation", "relocate", "blue card", "work permit"]
   },
+  "track_d_us_sponsor": {
+    "us_indicators": [
+      "united states", "usa", "u.s.", "remote - us", "remote, us", "remote (us)",
+      "san francisco", "new york", "seattle", "austin", "boston", "chicago",
+      "denver", "atlanta", "raleigh", "los angeles", "california", "washington state",
+      "texas", "colorado", "massachusetts", "illinois", "georgia, us"
+    ],
+    "_note": "Deliberately no 2-letter state codes (CA/NY/TX/WA), those false-hit constantly inside ordinary words. Location field is short and structured, full state/city names are enough."
+  },
   "track_a_walmart_markets": {
     "portals": [
       {"market": "Walmart Global Tech (US)", "url": "https://careers.walmart.com/results?q=site%20reliability"},

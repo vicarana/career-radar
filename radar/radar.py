@@ -284,7 +284,34 @@ def reasons_for(job, p):
     return out[:3]
 
 
+_SPONSOR_NEGATION = re.compile(
+    r"(no|not|without|cannot|can.t|unable to|does not|doesn.t|do not|don.t|won.t|will not)"
+    r"[\w\s]{0,20}(sponsor\w*|visa|work permit)"
+    r"|(sponsor\w*)[\w\s]{0,15}(not (provided|available|offered)|unavailable)",
+    re.I,
+)
+
+
+def sponsor_confirmed(text, visa_terms):
+    """True only if a visa/relocation term appears AND isn't immediately
+    negated. 'sponsorship' is a substring of both 'we offer sponsorship'
+    and 'no sponsorship provided', a bare substring match would tag the
+    second as a yes, inverting the actual meaning. This is a hard-gate
+    feature (Track D only exists because sponsorship makes a US role
+    viable at all), so a false positive here is worse than a false
+    negative, if any negated mention is found anywhere, we don't confirm."""
+    if not any(v in text for v in visa_terms):
+        return False
+    return not _SPONSOR_NEGATION.search(text)
+
+
 def tracks_of(job, p):
+    """Tags are additive, not exclusive: a remote US role can be both B and D.
+    Track D (US + sponsor) is a hard AND, unlike Track C's soft visa tag,
+    because a US role with no sponsorship offer genuinely isn't viable, not
+    just a lower-priority one. Checks the full text (not just location)
+    since 'Remote, US-only' postings often put the US detail in the
+    description rather than the structured location field."""
     t, tks = job["text"], set()
     if job["remote"] or "remote" in t or "anywhere" in t:
         tks.add("B")
@@ -293,6 +320,11 @@ def tracks_of(job, p):
         tks.add("C")
         if any(v in t for v in eu["visa_terms"]):
             job["visa"] = True
+    us = p.get("track_d_us_sponsor", {})
+    if us and any(ind in t for ind in us.get("us_indicators", [])) \
+            and sponsor_confirmed(t, eu["visa_terms"]):
+        tks.add("D")
+        job["us_sponsor"] = True
     return tks
 
 
@@ -332,7 +364,7 @@ def main():
             seen.add(k)
             uniq.append(j)
 
-    buckets = {"B": [], "C": []}
+    buckets = {"B": [], "C": [], "D": []}
     for j in uniq:
         s = score(j, p)
         if s < p.get("min_score", 3):
@@ -353,7 +385,8 @@ def main():
             g, pct = grade_of(j["_score"])
             rows.append({"title": j["title"], "company": j["company"], "location": j["location"],
                          "url": j["url"], "score": j["_score"], "grade": g, "match": pct,
-                         "visa": j.get("visa", False), "reasons": reasons_for(j, p),
+                         "visa": j.get("visa", False), "us_sponsor": j.get("us_sponsor", False),
+                         "reasons": reasons_for(j, p),
                          "salary_min": j.get("salary_min"), "salary_max": j.get("salary_max"),
                          "comp_disclosed": j.get("salary_min") is not None})
         return rows
@@ -362,12 +395,13 @@ def main():
     date = now.strftime("%Y-%m-%d %H:%M UTC")
     total_attempted = len(set(ATTEMPTED))
     sources_ok = total_attempted - len({w.split(":")[0] for w in WARN})
-    B, C = clean(buckets["B"]), clean(buckets["C"])
-    allrows = B + C
+    B, C, D = clean(buckets["B"]), clean(buckets["C"]), clean(buckets["D"])
+    allrows = B + C + D
     stats = {
         "total": len(allrows),
         "track_b": len(B),
         "track_c": len(C),
+        "track_d": len(D),
         "grade_a": sum(1 for r in allrows if r["grade"] == "A"),
         "grade_b": sum(1 for r in allrows if r["grade"] == "B"),
         "visa": sum(1 for r in C if r["visa"]),
@@ -377,7 +411,7 @@ def main():
         "sources_ok": sources_ok,
         "sources_total": total_attempted,
         "stats": stats,
-        "tracks": {"B": B, "C": C},
+        "tracks": {"B": B, "C": C, "D": D},
         "linkedin": linkedin_searches(),
         "walmart_markets": p["track_a_walmart_markets"]["portals"],
         "warnings": sorted(set(WARN)),
@@ -397,7 +431,8 @@ def main():
         json.dump(payload, f, ensure_ascii=False)
 
     lines = [f"# career-radar - {date}", f"Sources OK: {sources_ok}/{total_attempted}\n"]
-    for tk, name in [("C", "Track C - Europe (visa-first)"), ("B", "Track B - Remote/income")]:
+    for tk, name in [("D", "Track D - US (visa + relocation sponsor required)"),
+                     ("C", "Track C - Europe (visa-first)"), ("B", "Track B - Remote/income")]:
         lines.append(f"\n## {name} ({len(buckets[tk])})")
         for j in buckets[tk][:20]:
             v = " [VISA]" if j.get("visa") else ""
