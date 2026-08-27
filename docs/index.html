@@ -471,15 +471,17 @@ function pipelineCard(id,entry,job){
 function pipelineView(){
   const p=crGetPipeline();
   const ids=Object.keys(p);
-  if(!ids.length) return '<div class="empty">No tracked jobs yet.<br>Tap Save on any card to start your pipeline.</div>';
+  const hasResume=crGetResume().trim().length>0;
+  if(!ids.length&&!hasResume) return '<div class="empty">No tracked jobs yet.<br>Tap Save on any card to start your pipeline.</div>';
   const stale=crDaysSinceLastExport()>=7;
   const exportBar=`<div class="export-bar glass">
-    <span>${stale?'Not archived in 7+ days':'Archive this to MClaude for cross-device history'}</span>
+    <span>${stale?'Not archived in 7+ days':'Archive pipeline + resume to MClaude for cross-device history'}</span>
     <button class="btn" id="export-btn">Export</button>
   </div>`;
   const liveById={};
   for(const j of allJobs()) liveById[j.title+'|'+j.company]=j;
   let out=exportBar;
+  if(!ids.length) out+='<div class="empty">No tracked jobs yet.<br>Tap Save on any card to start your pipeline.</div>';
   for(const s of CR_STATUSES){
     const inStatus=ids.filter(id=>p[id].status===s.key);
     if(!inStatus.length) continue;
