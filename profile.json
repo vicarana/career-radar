@@ -37,7 +37,8 @@
       "germany", "berlin", "munich", "hamburg",
       "norway", "oslo", "switzerland", "zurich", "geneva",
       "ireland", "dublin", "iceland", "reykjavik",
-      "sweden", "stockholm", "denmark", "copenhagen", "portugal", "lisbon"
+      "sweden", "stockholm", "denmark", "copenhagen", "portugal", "lisbon",
+      "spain", "madrid", "barcelona", "valencia", "seville", "sevilla", "bilbao", "malaga"
     ],
     "visa_terms": ["visa", "sponsor", "relocation", "relocate", "blue card", "work permit"]
   },

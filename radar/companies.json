@@ -3,7 +3,9 @@
   "greenhouse": ["gitlab", "cloudflare", "elastic", "datadog", "circleci",
     "stripe", "pinterest", "twilio", "squarespace", "asana", "figma", "brex",
     "mongodb", "pagerduty", "robinhood", "instacart", "gusto", "checkr",
-    "newrelic", "launchdarkly", "samsara"],
-  "lever": ["palantir"],
+    "newrelic", "launchdarkly", "samsara",
+    "glovo", "cabify", "travelperk", "typeform", "factorialhr", "seedtag",
+    "redpoints", "holded", "genially", "spotahome", "freepikcompany", "wallapop"],
+  "lever": ["palantir", "jobandtalent", "kantox", "adevinta"],
   "ashby": ["replit", "vanta", "ramp", "linear", "mercury", "hex", "pinecone"]
 }
