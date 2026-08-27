@@ -17,6 +17,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 import os
+import re
 import urllib.parse
 import urllib.request
 
@@ -36,7 +37,42 @@ def _get(url, timeout=20):
         return json.loads(r.read().decode("utf-8", "replace"))
 
 
-def _job(title, company, location, url, remote, desc):
+def _title_has_term(title, term):
+    """Plain substring match for long terms; word-boundary match for short
+    ones (<=4 chars) so e.g. 'iv' or 'cio' don't false-hit inside unrelated
+    words like 'Creative' or 'Director'."""
+    t = term.lower()
+    if len(t) <= 4:
+        return re.search(r"\b" + re.escape(t) + r"\b", title) is not None
+    return t in title
+
+
+def is_senior_or_leadership(job, p):
+    """Hard filter: only Senior+ IC roles or Manager/Director/VP/CTO/CIO
+    leadership roles survive, regardless of keyword score. Applied on top
+    of, not instead of, the existing score() filter."""
+    title = job["title"].lower()
+    seniority = p.get("seniority", [])
+    leadership = p.get("leadership_titles", [])
+    return (any(_title_has_term(title, s) for s in seniority)
+            or any(_title_has_term(title, s) for s in leadership))
+
+
+def meets_comp_floor(job, p):
+    """Only excludes when comp is actually disclosed and clearly below the
+    floor. Most public ATS boards (Greenhouse/Lever/Ashby) never disclose
+    salary at all, those pass through untouched, comp_disclosed=False, so
+    the UI can be honest about what wasn't actually checked. Adzuna and
+    RemoteOK, the only two sources that disclose salary, both report it as
+    annual USD, so no monthly-vs-annual guessing needed."""
+    floor = p.get("min_comp_monthly_usd", 0)
+    lo = job.get("salary_min")
+    if not floor or lo is None:
+        return True
+    return (lo / 12) >= floor
+
+
+def _job(title, company, location, url, remote, desc, salary_min=None, salary_max=None):
     return {
         "title": (title or "").strip(),
         "company": (company or "").strip(),
@@ -44,6 +80,8 @@ def _job(title, company, location, url, remote, desc):
         "url": (url or "").strip(),
         "remote": bool(remote),
         "text": " ".join(filter(None, [title, company, location, desc])).lower(),
+        "salary_min": salary_min,
+        "salary_max": salary_max,
     }
 
 
@@ -95,7 +133,8 @@ def src_remoteok(qs):
         for j in [r for r in d if isinstance(r, dict) and r.get("position")][:120]:
             tags = " ".join(j.get("tags", []) or [])
             out.append(_job(j.get("position"), j.get("company"), j.get("location") or "Remote",
-                            j.get("url"), True, (j.get("description", "") or "")[:300] + " " + tags))
+                            j.get("url"), True, (j.get("description", "") or "")[:300] + " " + tags,
+                            salary_min=j.get("salary_min"), salary_max=j.get("salary_max")))
     except Exception as e:
         WARN.append(f"remoteok:{type(e).__name__}")
     return out
@@ -179,7 +218,8 @@ def src_adzuna(qs):
                 loc = (j.get("location") or {}).get("display_name", "")
                 out.append(_job(j.get("title"), (j.get("company") or {}).get("display_name"),
                                 loc, j.get("redirect_url"), "remote" in loc.lower(),
-                                (j.get("description") or "")[:400]))
+                                (j.get("description") or "")[:400],
+                                salary_min=j.get("salary_min"), salary_max=j.get("salary_max")))
         except Exception as e:
             WARN.append(f"adzuna:{type(e).__name__}")
     return out
@@ -282,6 +322,10 @@ def main():
         s = score(j, p)
         if s < p.get("min_score", 3):
             continue
+        if not is_senior_or_leadership(j, p):
+            continue
+        if not meets_comp_floor(j, p):
+            continue
         j["_score"] = s
         for tk in tracks_of(j, p):
             buckets[tk].append(j)
@@ -294,7 +338,9 @@ def main():
             g, pct = grade_of(j["_score"])
             rows.append({"title": j["title"], "company": j["company"], "location": j["location"],
                          "url": j["url"], "score": j["_score"], "grade": g, "match": pct,
-                         "visa": j.get("visa", False), "reasons": reasons_for(j, p)})
+                         "visa": j.get("visa", False), "reasons": reasons_for(j, p),
+                         "salary_min": j.get("salary_min"), "salary_max": j.get("salary_max"),
+                         "comp_disclosed": j.get("salary_min") is not None})
         return rows
 
     now = dt.datetime.now(dt.timezone.utc)
