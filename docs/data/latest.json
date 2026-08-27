@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-27 03:26 UTC",
+  "generated": "2026-08-27 03:36 UTC",
   "sources_ok": 7,
   "sources_total": 7,
   "stats": {
-    "total": 42,
+    "total": 40,
     "track_b": 40,
-    "track_c": 2,
+    "track_c": 0,
     "track_d": 0,
     "grade_a": 0,
     "grade_b": 3,
@@ -745,44 +745,7 @@
         "comp_disclosed": false
       }
     ],
-    "C": [
-      {
-        "title": "VP, Platform Engineering",
-        "company": "Frontify",
-        "location": "Europe",
-        "url": "https://jobicy.com/jobs/151398-vp-platform-engineering",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Database Engineering Team Manager",
-        "company": "squarespace",
-        "location": "Dublin",
-        "url": "http://www.squarespace.com/about/careers?gh_jid=7962046",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Platform",
-          "Kafka"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      }
-    ],
+    "C": [],
     "D": []
   },
   "linkedin": [

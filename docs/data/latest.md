@@ -1,12 +1,10 @@
-# career-radar - 2026-08-27 03:26 UTC
+# career-radar - 2026-08-27 03:36 UTC
 Sources OK: 7/7
 
 
 ## Track D - US (visa + relocation sponsor required) (0)
 
-## Track C - Europe (visa-first) (2)
-- VP, Platform Engineering @ Frontify (Europe) s4 https://jobicy.com/jobs/151398-vp-platform-engineering
-- Database Engineering Team Manager @ squarespace (Dublin) s3 http://www.squarespace.com/about/careers?gh_jid=7962046
+## Track C - Europe (visa + relocation sponsor required) (0)
 
 ## Track B - Remote/income (55)
 - Staff Site Reliability Engineer @ replit (Remote - Europe) s12 https://jobs.ashbyhq.com/replit/f35042a1-b016-4811-9597-b98facf5eb4d
