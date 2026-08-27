@@ -1,13 +1,13 @@
 {
-  "generated": "2026-08-27 02:47 UTC",
-  "sources_ok": 5,
+  "generated": "2026-08-27 03:13 UTC",
+  "sources_ok": 7,
   "sources_total": 7,
   "stats": {
-    "total": 57,
+    "total": 51,
     "track_b": 40,
-    "track_c": 17,
+    "track_c": 11,
     "grade_a": 0,
-    "grade_b": 4,
+    "grade_b": 3,
     "visa": 0
   },
   "tracks": {
@@ -25,7 +25,10 @@
           "Title match: site reliability",
           "SRE",
           "Site Reliability"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Senior Site Reliability Engineer",
@@ -40,22 +43,10 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
-        ]
-      },
-      {
-        "title": "Site Reliability Engineer",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149547-site-reliability-engineer",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
-        "visa": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Senior Site Reliability Engineer",
@@ -70,7 +61,10 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Senior Site Reliability Engineer",
@@ -85,7 +79,46 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager - Python and K8s",
+        "company": "Canonical",
+        "location": "APAC,  EMEA",
+        "url": "https://jobicy.com/jobs/150121-engineering-manager-python-and-k8s",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform",
+          "K8S"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager - Public Cloud, Python, Golang",
+        "company": "Canonical",
+        "location": "EMEA,  LATAM,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
+        "score": 7,
+        "grade": "C",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform",
+          "Python"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Manager DevOps Engineering (Observability & Developer Experience)",
@@ -100,22 +133,10 @@
           "Title match: devops",
           "Devops",
           "Observability"
-        ]
-      },
-      {
-        "title": "DevOps Engineer",
-        "company": "Launchpad Technologies",
-        "location": "LATAM",
-        "url": "https://jobicy.com/jobs/151148-devops-engineer",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Ci/Cd"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Senior DevOps / DevEx Engineer",
@@ -130,112 +151,96 @@
           "Title match: devops",
           "Devops",
           "Platform"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Developer Advocate - Service Management",
-        "company": "Datadog",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151723-developer-advocate-service-management",
+        "title": "Head of Platform Engineering",
+        "company": "dLocal",
+        "location": "LATAM,  Argentina,  Brazil,  Spain",
+        "url": "https://jobicy.com/jobs/151735-head-of-platform-engineering",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "SRE",
-          "Devops",
-          "Incident"
-        ]
+          "Title match: platform engineer",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
+        "title": "Cloud Engineering Manager",
         "company": "Canonical",
         "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics",
+        "url": "https://jobicy.com/jobs/149569-cloud-engineering-manager",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Kubernetes",
-          "Python"
-        ]
+          "Title match: cloud engineer",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager - Python and K8s",
+        "title": "Python Engineering Manager, Commercial Systems",
         "company": "Canonical",
-        "location": "APAC,  EMEA",
-        "url": "https://jobicy.com/jobs/150121-engineering-manager-python-and-k8s",
+        "location": "EMEA",
+        "url": "https://jobicy.com/jobs/149989-python-engineering-manager-commercial-systems",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
+          "Title match: engineering manager",
           "Platform",
-          "K8S",
           "Python"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "DESARROLLADOR FULL STACK",
-        "company": "Kruger NearShore LLC - Rekluti",
-        "location": "Remote",
-        "url": "https://remoteOK.com/remote-jobs/remote-desarrollador-full-stack-kruger-nearshore-llc-rekluti-1137062",
+        "title": "Director of Engineering, Security Factory",
+        "company": "gitlab",
+        "location": "Remote, Israel; Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8607104002",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Devops",
-          "Python",
-          "Golang"
-        ]
+          "Title match: director of engineering",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Backend Engineer (Ruby), AI Engineering: Agent Observability",
+        "title": "Engineering Manager, AI Engineering: Chat",
         "company": "gitlab",
-        "location": "Remote, Canada",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8620720002",
+        "location": "Remote, Americas; Remote, Canada; Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8603824002",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
           "Title match: ai engineer",
-          "Platform",
-          "Observability"
-        ]
-      },
-      {
-        "title": "Developer Advocate - Service Management",
-        "company": "datadog",
-        "location": "California, USA, Remote; New York, USA, Remote",
-        "url": "https://careers.datadoghq.com/detail/8139662/?gh_jid=8139662",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "SRE",
-          "Devops",
-          "Incident"
-        ]
-      },
-      {
-        "title": "DevOps Engineer (Observability)",
-        "company": "twilio",
-        "location": "Remote - Ireland",
-        "url": "https://job-boards.greenhouse.io/twilio/jobs/8108771",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Observability"
-        ]
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Staff Infrastructure Engineer",
@@ -250,37 +255,81 @@
           "Title match: infrastructure engineer",
           "Reliability",
           "Platform"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Azure DevOps Engineer (Cloud & AI Delivery)",
-        "company": "Oowlish Technology",
-        "location": "LATAM,  Argentina,  Brazil,  Mexico",
-        "url": "https://jobicy.com/jobs/151481-azure-devops-engineer-cloud-ai-delivery",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Azure"
-        ]
-      },
-      {
-        "title": "Engineering Manager - Public Cloud, Python, Golang",
+        "title": "Embedded Linux Field Engineering Manager (Americas only)",
         "company": "Canonical",
-        "location": "EMEA,  LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
+        "location": "LATAM,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/149559-embedded-linux-field-engineering-manager-americas-only",
         "score": 5,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
+          "Title match: engineering manager",
           "Platform",
-          "Python",
-          "Golang"
-        ]
+          "Linux"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager - Data Platform",
+        "company": "Canonical",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149561-engineering-manager-data-platform",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform",
+          "Sql"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager - MLOps & Analytics",
+        "company": "Canonical",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149521-engineering-manager-mlops-analytics",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: mlops",
+          "Mlops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Director, Data Science",
+        "company": "Gopuff",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/151618-director-data-science-2",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: cto",
+          "Platform",
+          "Llm"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Senior DevOps Engineer",
@@ -294,7 +343,10 @@
         "reasons": [
           "Title match: devops",
           "Devops"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Principal DevOps Engineer",
@@ -308,7 +360,10 @@
         "reasons": [
           "Title match: devops",
           "Devops"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "DevOps Senior Engineer",
@@ -322,7 +377,10 @@
         "reasons": [
           "Title match: devops",
           "Devops"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Senior Database Reliability Engineer (DBRE)",
@@ -336,7 +394,10 @@
         "reasons": [
           "Title match: reliability engineer",
           "Reliability"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Senior Data Platform Engineer",
@@ -350,7 +411,27 @@
         "reasons": [
           "Title match: platform engineer",
           "Platform"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager - Solutions Engineering",
+        "company": "Canonical",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149556-engineering-manager-solutions-engineering",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "VP, Platform Engineering",
@@ -364,105 +445,179 @@
         "reasons": [
           "Title match: platform engineer",
           "Platform"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Technical Product Marketer, k0rdent AI - remote in the US",
-        "company": "Mirantis",
+        "title": "Engineering Manager, Revenue",
+        "company": "Discord",
         "location": "USA",
-        "url": "https://jobicy.com/jobs/146688-technical-product-marketer-k0rdent-ai-remote-in-the-us",
+        "url": "https://jobicy.com/jobs/151763-engineering-manager-revenue",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Kubernetes"
-        ]
-      },
-      {
-        "title": "Head of Platform Engineering",
-        "company": "dLocal",
-        "location": "LATAM,  Argentina,  Brazil,  Spain",
-        "url": "https://jobicy.com/jobs/151735-head-of-platform-engineering",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: platform engineer",
+          "Title match: engineering manager",
           "Platform"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Cloud Engineering Manager",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149569-cloud-engineering-manager",
+        "title": "Engineering Manager, Notifications",
+        "company": "Discord",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/151756-engineering-manager-notifications",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: cloud engineer",
+          "Title match: engineering manager",
           "Platform"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Python Engineer",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149543-python-engineer",
+        "title": "Engineering Manager, Service Platform",
+        "company": "Instacart",
+        "location": "Canada",
+        "url": "https://jobicy.com/jobs/147603-engineering-manager-service-platform",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Python"
-        ]
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Distributed Systems Testing Software Engineer, Python / Go",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/151013-distributed-systems-testing-software-engineer-python-go",
+        "title": "Head of AI Engineering - NCT",
+        "company": "Banyan Software",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/151636-head-of-ai-engineering-nct",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Python"
-        ]
+          "Title match: ai engineer"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Software Engineer - Python - Container Images",
-        "company": "Canonical",
-        "location": "APAC,  EMEA,  LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/150364-software-engineer-python-container-images",
+        "title": "Engineering Manager, RC Capital",
+        "company": "RevenueCat",
+        "location": "EMEA,  LATAM,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/151629-engineering-manager-rc-capital",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Python"
-        ]
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Python Engineering Manager, Commercial Systems",
-        "company": "Canonical",
+        "title": "Engineering Manager, EMEA (Core)",
+        "company": "Testlio",
         "location": "EMEA",
-        "url": "https://jobicy.com/jobs/149989-python-engineering-manager-commercial-systems",
+        "url": "https://jobicy.com/jobs/151450-engineering-manager-emea-core",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Python"
-        ]
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Support Engineering Manager",
+        "company": "Canonical",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149554-support-engineering-manager",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager",
+        "company": "Canonical",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149575-engineering-manager",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "OpenStack Engineering Manager",
+        "company": "Canonical",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149573-openstack-engineering-manager",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Managed Services",
+        "company": "Canonical",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/149528-engineering-manager-managed-services",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Senior Software Engineer - Python/MongoDB",
@@ -476,182 +631,81 @@
         "reasons": [
           "Platform",
           "Python"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "AI Engineer",
+        "title": "Director, Strategic Partnerships",
         "company": "gitlab",
-        "location": "Remote, Bangalore",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8556658002",
+        "location": "Remote, US",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615811002",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: ai engineer",
+          "Title match: cto",
           "Platform"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Backend Engineer, AI Engineering: Duo Chat",
+        "title": "Director, Support (EMEA)",
         "company": "gitlab",
-        "location": "Remote, Canada; Remote, United States",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8698314002",
+        "location": "Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8629005002",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: ai engineer",
+          "Title match: cto",
           "Platform"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager, AI Engineering: Chat",
+        "title": "Engineering Manager, Build",
         "company": "gitlab",
-        "location": "Remote, Americas; Remote, Canada; Remote, United Kingdom",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8603824002",
+        "location": "Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586667002",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: ai engineer",
+          "Title match: engineering manager",
           "Platform"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Fullstack Engineer (TypeScript), AI Engineering: Duo Client SDK",
+        "title": "Engineering Manager, Data Foundations",
         "company": "gitlab",
-        "location": "Remote, Canada; Remote, United States",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8698330002",
+        "location": "Remote, US",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592950002",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Title match: ai engineer",
+          "Title match: engineering manager",
           "Platform"
-        ]
-      },
-      {
-        "title": "Product Security Engineer (PSIRT - Product Security Incident Response Team)",
-        "company": "replit",
-        "location": "Foster City, CA",
-        "url": "https://jobs.ashbyhq.com/replit/1634b879-80c7-4064-be0a-8a4aecc81923",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Incident"
-        ]
-      },
-      {
-        "title": "Embedded Linux Field Engineering Manager (Americas only)",
-        "company": "Canonical",
-        "location": "LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/149559-embedded-linux-field-engineering-manager-americas-only",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Linux"
-        ]
-      },
-      {
-        "title": "Engineering Manager - Data Platform",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149561-engineering-manager-data-platform",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Sql"
-        ]
-      },
-      {
-        "title": "Rust Engineering Lead - Linux and Open Source",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149566-rust-engineering-lead-linux-and-open-source",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Linux"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       }
     ],
     "C": [
-      {
-        "title": "Data Engineer",
-        "company": "Platoapp",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/platoapp/data-engineer-berlin-6005",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Terraform",
-          "Python"
-        ]
-      },
-      {
-        "title": "DevOps Engineer (Observability)",
-        "company": "twilio",
-        "location": "Remote - Ireland",
-        "url": "https://job-boards.greenhouse.io/twilio/jobs/8108771",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Observability"
-        ]
-      },
-      {
-        "title": "Security Engineer - Incident Response",
-        "company": "squarespace",
-        "location": "Dublin",
-        "url": "http://www.squarespace.com/about/careers?gh_jid=8013777",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Incident",
-          "Monitoring"
-        ]
-      },
-      {
-        "title": "Systems Engineer, Support Platform",
-        "company": "squarespace",
-        "location": "Dublin",
-        "url": "http://www.squarespace.com/about/careers?gh_jid=8064159",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Automation",
-          "Llm"
-        ]
-      },
       {
         "title": "VP, Platform Engineering",
         "company": "Frontify",
@@ -664,49 +718,78 @@
         "reasons": [
           "Title match: platform engineer",
           "Platform"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Working Student / Intern: Offensive Security Engineer (Red Team & AppSec) (f/m/x)",
-        "company": "ilert GmbH",
-        "location": "Cologne",
-        "url": "https://www.arbeitnow.com/jobs/companies/ilert-gmbh/working-student-intern-offensive-security-engineer-red-team-appsec-cologne-335470",
+        "title": "Senior Director of Product, International",
+        "company": "Toast",
+        "location": "London",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/toast/senior-director-of-product-international-london-498568",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Incident"
-        ]
+          "Title match: cto",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Account Executive - Enterprise Sales",
-        "company": "newrelic",
-        "location": "Berlin, Germany; Munich, Germany",
-        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5121001008",
+        "title": "Director, CPG Sales (DACH)",
+        "company": "pinterest",
+        "location": "Berlin, DE",
+        "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7953645",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Observability"
-        ]
+          "Title match: cto",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Account Executive - Enterprise Sales - New Business",
-        "company": "newrelic",
-        "location": "Munich, Germany",
-        "url": "https://job-boards.greenhouse.io/newrelic/jobs/4975648008",
+        "title": "Director, Strategic Sales (Berlin, Germany)",
+        "company": "figma",
+        "location": "Berlin, Germany",
+        "url": "https://boards.greenhouse.io/figma/jobs/6143018004?gh_jid=6143018004",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "reasons": [
-          "Platform",
-          "Observability"
-        ]
+          "Title match: cto",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Director, Escalation Management",
+        "company": "mongodb",
+        "location": "Dublin, Ireland",
+        "url": "https://www.mongodb.com/careers/job/?gh_jid=8060669",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "reasons": [
+          "Title match: cto",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Associate Technical Success Manager",
@@ -720,21 +803,10 @@
         "reasons": [
           "Platform",
           "Observability"
-        ]
-      },
-      {
-        "title": "GTM Enablement Leader, EMEA",
-        "company": "newrelic",
-        "location": "Belfast, Ireland; Dublin, Ireland",
-        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5288143008",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Observability"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Partner Sales Manager - French Speaking",
@@ -748,7 +820,10 @@
         "reasons": [
           "Platform",
           "Observability"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Senior Account Executive - Enterprise Sales - New Business (Nordics)",
@@ -762,7 +837,10 @@
         "reasons": [
           "Platform",
           "Observability"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Senior Solutions Consultant",
@@ -776,21 +854,10 @@
         "reasons": [
           "Platform",
           "Observability"
-        ]
-      },
-      {
-        "title": "Technical Support Engineer",
-        "company": "newrelic",
-        "location": "Dublin, Ireland",
-        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5158685008",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Platform",
-          "Observability"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Technical Support Manager",
@@ -804,21 +871,10 @@
         "reasons": [
           "Platform",
           "Observability"
-        ]
-      },
-      {
-        "title": "Working Student Application Software Engineer",
-        "company": "Isarsoft",
-        "location": "Munich",
-        "url": "https://www.arbeitnow.com/jobs/companies/isarsoft/working-student-application-software-engineer-munich-302019",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "reasons": [
-          "Python",
-          "Sql"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Database Engineering Team Manager",
@@ -832,7 +888,10 @@
         "reasons": [
           "Platform",
           "Kafka"
-        ]
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       }
     ]
   },
@@ -880,18 +939,7 @@
       "url": "https://careers.walmart.com/technology"
     }
   ],
-  "warnings": [
-    "greenhouse:digitalocean:HTTPError",
-    "greenhouse:doordash:HTTPError",
-    "greenhouse:gitpod:HTTPError",
-    "greenhouse:notion:HTTPError",
-    "greenhouse:plaid:HTTPError",
-    "greenhouse:sentry:HTTPError",
-    "lever:amplitude:HTTPError",
-    "lever:eventbrite:HTTPError",
-    "lever:grammarly:HTTPError",
-    "lever:mixpanel:HTTPError"
-  ],
+  "warnings": [],
   "profile_lite": {
     "target_titles": [
       "site reliability",
@@ -903,7 +951,20 @@
       "cloud engineer",
       "ai engineer",
       "mlops",
-      "infrastructure engineer"
+      "infrastructure engineer",
+      "engineering manager",
+      "sre manager",
+      "platform manager",
+      "devops manager",
+      "head of engineering",
+      "head of platform",
+      "head of sre",
+      "head of ai",
+      "director of engineering",
+      "director of platform",
+      "vp of engineering",
+      "cto",
+      "cio"
     ],
     "strong_skills": [
       "sre",
