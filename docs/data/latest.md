@@ -1,4 +1,4 @@
-# career-radar - 2026-08-27 20:51 UTC
+# career-radar - 2026-08-28 03:58 UTC
 Sources OK: 7/7
 
 
@@ -32,7 +32,7 @@ Sources OK: 7/7
 - Engineering Manager, Optimize Interfaces @ adyen (Amsterdam) s4 https://job-boards.greenhouse.io/adyen/jobs/7721510
 - Database Engineering Team Manager @ squarespace (Dublin) s3 http://www.squarespace.com/about/careers?gh_jid=7962046
 
-## Track B - Remote/income (56)
+## Track B - Remote/income (57)
 - Staff Site Reliability Engineer @ replit (Remote - Europe) s12 https://jobs.ashbyhq.com/replit/f35042a1-b016-4811-9597-b98facf5eb4d
 - Senior Site Reliability Engineer @ Canonical (Anywhere) s10 https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5
 - Senior Site Reliability Engineer @ replit (Remote - Europe) s10 https://jobs.ashbyhq.com/replit/ca50a435-72b4-4092-b957-31d29ede1c00
