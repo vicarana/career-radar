@@ -18,6 +18,7 @@ import datetime as dt
 import json
 import os
 import re
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -239,6 +240,17 @@ def src_adzuna(qs, country="us"):
                                 loc, j.get("redirect_url"), "remote" in loc.lower(),
                                 (j.get("description") or "")[:800],
                                 salary_min=j.get("salary_min"), salary_max=j.get("salary_max")))
+        except urllib.error.HTTPError as e:
+            # Capture the real status + a short body snippet, not just the
+            # exception class name, "HTTPError" alone hides whether this is
+            # bad creds (401), a malformed request (400), or a rate limit
+            # (429), each needs a different fix and a bare class name can't
+            # tell them apart.
+            try:
+                body = e.read().decode("utf-8", "replace")[:150]
+            except Exception:
+                body = ""
+            WARN.append(f"adzuna:{country}:HTTP{e.code}:{body}")
         except Exception as e:
             WARN.append(f"adzuna:{country}:{type(e).__name__}")
     return out
