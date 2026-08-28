@@ -1,15 +1,15 @@
 {
-  "generated": "2026-08-28 03:58 UTC",
+  "generated": "2026-08-28 04:04 UTC",
   "sources_ok": 7,
-  "sources_total": 7,
+  "sources_total": 8,
   "stats": {
-    "total": 68,
+    "total": 74,
     "track_b": 40,
-    "track_c": 6,
-    "track_d": 22,
+    "track_c": 7,
+    "track_d": 27,
     "grade_a": 0,
-    "grade_b": 5,
-    "visa": 0,
+    "grade_b": 6,
+    "visa": 1,
     "us_sponsor_confirmed": 0
   },
   "tracks": {
@@ -410,6 +410,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior Platform Engineer",
+        "company": "Tigerdata Llc",
+        "location": "US",
+        "url": "https://www.adzuna.com/land/ad/5857721933?se=wOlpf5Wi8RGfx5bEd-nhPg&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Sql"
+        ],
+        "salary_min": 218829.7,
+        "salary_max": 218829.7,
+        "comp_disclosed": true
+      },
+      {
         "title": "Senior DevOps Engineer",
         "company": "Lemon.io",
         "location": "LATAM, Europe, USA, Canada, APAC",
@@ -731,24 +750,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Data Foundations",
-        "company": "gitlab",
-        "location": "Remote, US",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592950002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
       }
     ],
     "C": [
@@ -846,6 +847,24 @@
         "comp_disclosed": false
       },
       {
+        "title": "CTO - Web3 Payments & Fintech Platform (Germany)",
+        "company": "blockchaincapital.com",
+        "location": "US",
+        "url": "https://www.adzuna.com/details/5823276010?utm_medium=api&utm_source=4076fe36",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": true,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: cto",
+          "Platform"
+        ],
+        "salary_min": 204825,
+        "salary_max": 295859,
+        "comp_disclosed": true
+      },
+      {
         "title": "Database Engineering Team Manager",
         "company": "squarespace",
         "location": "Dublin",
@@ -866,6 +885,25 @@
     ],
     "D": [
       {
+        "title": "Senior Site Reliability Engineer",
+        "company": "Digicert, Inc.",
+        "location": "Lehi, Utah County",
+        "url": "https://www.adzuna.com/land/ad/5854860015?se=Ih57fZWi8RGhLffPfv7Txw&utm_medium=api&utm_source=4076fe36&v=FA1165FF7B438B40D6A8131C6595FCBC4B9C4413",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": 128015.27,
+        "salary_max": 128015.27,
+        "comp_disclosed": true
+      },
+      {
         "title": "Director, Engineering - Cloud Observability",
         "company": "datadog",
         "location": "Boston, Massachusetts, USA; New York, New York, USA",
@@ -883,6 +921,25 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "Senior Site Reliability Engineer",
+        "company": "Accenture Federal Services",
+        "location": "Texas, US",
+        "url": "https://www.adzuna.com/land/ad/5857722090?se=Ih57fZWi8RGhLffPfv7Txw&utm_medium=api&utm_source=4076fe36&v=8B129028ED84524701E8A5DCAE87EDBC75542020",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": 241795.89,
+        "salary_max": 241795.89,
+        "comp_disclosed": true
       },
       {
         "title": "Engineering Manager - Public Cloud, Python, Golang",
@@ -942,6 +999,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior AI Platform Engineer",
+        "company": "Arrowstreet Capital",
+        "location": "Massachusetts, US",
+        "url": "https://www.adzuna.com/land/ad/5857722000?se=wOlpf5Wi8RGfx5bEd-nhPg&utm_medium=api&utm_source=4076fe36&v=078EF7D60D65232CCFB9BD1835858AB61154DC00",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Observability"
+        ],
+        "salary_min": 159494.98,
+        "salary_max": 159494.98,
+        "comp_disclosed": true
+      },
+      {
         "title": "Embedded Linux Field Engineering Manager (Americas only)",
         "company": "Canonical",
         "location": "LATAM,  Canada,  USA",
@@ -959,6 +1035,25 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "Senior Platform Engineer",
+        "company": "Tigerdata Llc",
+        "location": "US",
+        "url": "https://www.adzuna.com/land/ad/5857721933?se=wOlpf5Wi8RGfx5bEd-nhPg&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Sql"
+        ],
+        "salary_min": 218829.7,
+        "salary_max": 218829.7,
+        "comp_disclosed": true
       },
       {
         "title": "Senior DevOps Engineer",
@@ -1248,6 +1343,24 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior Platform Engineer",
+        "company": "Seven AI",
+        "location": "Massachusetts, US",
+        "url": "https://www.adzuna.com/land/ad/5857724173?se=wOlpf5Wi8RGfx5bEd-nhPg&utm_medium=api&utm_source=4076fe36&v=1677FB00CA5D005CD99DE15675E12B400929B986",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
+        ],
+        "salary_min": 229521.48,
+        "salary_max": 229521.48,
+        "comp_disclosed": true
+      },
+      {
         "title": "Engineering Manager, AgentControl",
         "company": "launchdarkly",
         "location": "Remote - US",
@@ -1311,7 +1424,12 @@
       "url": "https://careers.walmart.com/technology"
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "adzuna:de:HTTPError",
+    "adzuna:es:HTTPError",
+    "adzuna:nl:HTTPError",
+    "adzuna:us:HTTPError"
+  ],
   "profile_lite": {
     "target_titles": [
       "site reliability",
