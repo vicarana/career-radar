@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27 20:51 UTC",
+  "generated": "2026-08-28 03:58 UTC",
   "sources_ok": 7,
   "sources_total": 7,
   "stats": {
@@ -391,6 +391,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior AI Engineer – Notebooks",
+        "company": "Datadog",
+        "location": "Remote",
+        "url": "https://www.arbeitnow.com/jobs/companies/datadog/remote-senior-ai-engineer-notebooks-14285",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Incident",
+          "Ai Agent"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Senior DevOps Engineer",
         "company": "Lemon.io",
         "location": "LATAM, Europe, USA, Canada, APAC",
@@ -718,24 +737,6 @@
         "company": "gitlab",
         "location": "Remote, US",
         "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592950002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Dedicated Integrations",
-        "company": "gitlab",
-        "location": "Remote, United Kingdom",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636648002",
         "score": 4,
         "grade": "D",
         "match": 35,
