@@ -1,14 +1,14 @@
 {
-  "generated": "2026-08-29 15:22 UTC",
+  "generated": "2026-08-30 15:07 UTC",
   "sources_ok": 8,
   "sources_total": 8,
   "stats": {
-    "total": 77,
+    "total": 76,
     "track_b": 40,
     "track_c": 9,
-    "track_d": 28,
+    "track_d": 27,
     "grade_a": 1,
-    "grade_b": 4,
+    "grade_b": 5,
     "visa": 0,
     "us_sponsor_confirmed": 0
   },
@@ -18,7 +18,7 @@
         "title": "Senior SRE Observability & Reliability Engineer",
         "company": "ENIN SYSTEMS INC",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5832647744?se=gDiweb2j8RGEeLI7Dotn4Q&utm_medium=api&utm_source=4076fe36&v=C00785218A845AECDBBC0FB8CA6CF850BCEE813E",
+        "url": "https://www.adzuna.com/land/ad/5832647744?se=7LtvdoSk8RG1f-rbPQGLCA&utm_medium=api&utm_source=4076fe36&v=C00785218A845AECDBBC0FB8CA6CF850BCEE813E",
         "score": 15,
         "grade": "A",
         "match": 75,
@@ -241,6 +241,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior QA Automation Engineer (Boosters)",
+        "company": "Playson",
+        "location": "Europe",
+        "url": "https://jobicy.com/jobs/152043-senior-qa-automation-engineer-boosters",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: automation engineer",
+          "Platform",
+          "Automation"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Director of Engineering, Security Factory",
         "company": "gitlab",
         "location": "Remote, Israel; Remote, United Kingdom",
@@ -337,7 +356,7 @@
         "title": "Senior DevOps Engineer",
         "company": "Huzzle",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5857722443?se=8LuaeL2j8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=4925143C85DC013ACB1383D91259931C8C903ECF",
+        "url": "https://www.adzuna.com/land/ad/5857722443?se=5uhsdYSk8RGlmtDmtvUD5A&utm_medium=api&utm_source=4076fe36&v=4925143C85DC013ACB1383D91259931C8C903ECF",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -394,7 +413,7 @@
         "title": "Senior Platform Engineer",
         "company": "Tigerdata Llc",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5857721933?se=MG4beb2j8RGyfuVvzgh9Jg&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D",
+        "url": "https://www.adzuna.com/land/ad/5857721933?se=mvXndYSk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D",
         "score": 5,
         "grade": "D",
         "match": 35,
@@ -475,42 +494,6 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Database Reliability Engineer (DBRE)",
-        "company": "Branch",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151712-senior-database-reliability-engineer-dbre",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: reliability engineer",
-          "Reliability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Data Platform Engineer",
-        "company": "Medium",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151664-senior-data-platform-engineer-2",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
           "Platform"
         ],
         "salary_min": null,
@@ -749,6 +732,24 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Tenant Scale:Git",
+        "company": "gitlab",
+        "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617538002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       }
     ],
     "C": [
@@ -772,19 +773,38 @@
         "comp_disclosed": false
       },
       {
-        "title": "Head of AI Engineering (f/m/x)",
-        "company": "neoshare",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/neoshare/head-of-ai-engineering-berlin-80787",
-        "score": 7,
-        "grade": "C",
-        "match": 35,
+        "title": "Site Reliability Engineering Manager, Security - Apple Services Engineering",
+        "company": "Apple",
+        "location": "Dublin, Alameda County",
+        "url": "https://www.adzuna.com/details/5779753554?utm_medium=api&utm_source=4076fe36",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: ai engineer",
-          "Platform",
-          "Llm"
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": 185699.06,
+        "salary_max": 185699.06,
+        "comp_disclosed": true
+      },
+      {
+        "title": "Interim project - Senior DevOps Consultant (f/m/d)",
+        "company": "Climate",
+        "location": "Berlin HQ",
+        "url": "https://www.arbeitnow.com/jobs/companies/climate/interim-project-senior-devops-consultant-berlin-hq-72100",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -822,24 +842,6 @@
           "Title match: engineering manager",
           "Platform",
           "Observability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Platform Engineer (d/f/m)",
-        "company": "Taxfix",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/taxfix/senior-platform-engineer-berlin-67083",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -923,7 +925,7 @@
         "title": "Senior Site Reliability Engineer",
         "company": "Digicert, Inc.",
         "location": "Lehi, Utah County",
-        "url": "https://www.adzuna.com/land/ad/5854860015?se=yFcOeL2j8RGyfuVvzgh9Jg&utm_medium=api&utm_source=4076fe36&v=FA1165FF7B438B40D6A8131C6595FCBC4B9C4413",
+        "url": "https://www.adzuna.com/land/ad/5854860015?se=0kbndISk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=FA1165FF7B438B40D6A8131C6595FCBC4B9C4413",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -959,9 +961,28 @@
       },
       {
         "title": "Senior Site Reliability Engineer",
+        "company": "Federal Reserve Bank of Philadelphia",
+        "location": "Massachusetts, US",
+        "url": "https://www.adzuna.com/land/ad/5861885174?se=0kbndISk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=0B89A3768502E2374034D3BF57BB8828A8CBB93C",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": 130130.96,
+        "salary_max": 130130.96,
+        "comp_disclosed": true
+      },
+      {
+        "title": "Senior Site Reliability Engineer",
         "company": "Accenture Federal Services",
         "location": "Texas, US",
-        "url": "https://www.adzuna.com/land/ad/5857722090?se=yFcOeL2j8RGyfuVvzgh9Jg&utm_medium=api&utm_source=4076fe36&v=8B129028ED84524701E8A5DCAE87EDBC75542020",
+        "url": "https://www.adzuna.com/land/ad/5857722090?se=0kbndISk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=8B129028ED84524701E8A5DCAE87EDBC75542020",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -1037,7 +1058,7 @@
         "title": "Senior DevOps Engineer",
         "company": "Huzzle",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5857722443?se=8LuaeL2j8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=4925143C85DC013ACB1383D91259931C8C903ECF",
+        "url": "https://www.adzuna.com/land/ad/5857722443?se=5uhsdYSk8RGlmtDmtvUD5A&utm_medium=api&utm_source=4076fe36&v=4925143C85DC013ACB1383D91259931C8C903ECF",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1056,7 +1077,7 @@
         "title": "Senior AI Platform Engineer",
         "company": "Arrowstreet Capital",
         "location": "Massachusetts, US",
-        "url": "https://www.adzuna.com/land/ad/5857722000?se=MG4beb2j8RGyfuVvzgh9Jg&utm_medium=api&utm_source=4076fe36&v=078EF7D60D65232CCFB9BD1835858AB61154DC00",
+        "url": "https://www.adzuna.com/land/ad/5857722000?se=mvXndYSk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=078EF7D60D65232CCFB9BD1835858AB61154DC00",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1094,7 +1115,7 @@
         "title": "Senior Platform Engineer",
         "company": "Tigerdata Llc",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5857721933?se=MG4beb2j8RGyfuVvzgh9Jg&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D",
+        "url": "https://www.adzuna.com/land/ad/5857721933?se=mvXndYSk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D",
         "score": 5,
         "grade": "D",
         "match": 35,
@@ -1157,42 +1178,6 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Database Reliability Engineer (DBRE)",
-        "company": "Branch",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151712-senior-database-reliability-engineer-dbre",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: reliability engineer",
-          "Reliability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Data Platform Engineer",
-        "company": "Medium",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151664-senior-data-platform-engineer-2",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
           "Platform"
         ],
         "salary_min": null,
@@ -1400,7 +1385,7 @@
         "title": "Senior Platform Engineer",
         "company": "Seven AI",
         "location": "Massachusetts, US",
-        "url": "https://www.adzuna.com/land/ad/5857724173?se=MG4beb2j8RGyfuVvzgh9Jg&utm_medium=api&utm_source=4076fe36&v=1677FB00CA5D005CD99DE15675E12B400929B986",
+        "url": "https://www.adzuna.com/land/ad/5857724173?se=mvXndYSk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=1677FB00CA5D005CD99DE15675E12B400929B986",
         "score": 4,
         "grade": "D",
         "match": 35,
