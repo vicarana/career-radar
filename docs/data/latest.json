@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-30 15:07 UTC",
+  "generated": "2026-08-31 17:16 UTC",
   "sources_ok": 8,
   "sources_total": 8,
   "stats": {
-    "total": 76,
+    "total": 77,
     "track_b": 40,
     "track_c": 9,
-    "track_d": 27,
+    "track_d": 28,
     "grade_a": 1,
     "grade_b": 5,
     "visa": 0,
@@ -18,7 +18,7 @@
         "title": "Senior SRE Observability & Reliability Engineer",
         "company": "ENIN SYSTEMS INC",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5832647744?se=7LtvdoSk8RG1f-rbPQGLCA&utm_medium=api&utm_source=4076fe36&v=C00785218A845AECDBBC0FB8CA6CF850BCEE813E",
+        "url": "https://www.adzuna.com/land/ad/5832647744?se=NDwgrl-l8RGZNvmSNlwMxA&utm_medium=api&utm_source=4076fe36&v=C00785218A845AECDBBC0FB8CA6CF850BCEE813E",
         "score": 15,
         "grade": "A",
         "match": 75,
@@ -60,6 +60,25 @@
         "score": 10,
         "grade": "B",
         "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Manager, Site Reliability Engineering (Auth0)",
+        "company": "Okta",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152068-manager-site-reliability-engineering-auth0",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
@@ -204,24 +223,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Cloud Engineering Manager",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149569-cloud-engineering-manager",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: cloud engineer",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Python Engineering Manager, Commercial Systems",
         "company": "Canonical",
         "location": "EMEA",
@@ -271,24 +272,6 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: director of engineering",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, AI Engineering: Chat",
-        "company": "gitlab",
-        "location": "Remote, Americas; Remote, Canada; Remote, United Kingdom",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8603824002",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
           "Platform"
         ],
         "salary_min": null,
@@ -353,25 +336,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior DevOps Engineer",
-        "company": "Huzzle",
-        "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5857722443?se=5uhsdYSk8RGlmtDmtvUD5A&utm_medium=api&utm_source=4076fe36&v=4925143C85DC013ACB1383D91259931C8C903ECF",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
-        ],
-        "salary_min": 130300.97,
-        "salary_max": 130300.97,
-        "comp_disclosed": true
-      },
-      {
         "title": "Embedded Linux Field Engineering Manager (Americas only)",
         "company": "Canonical",
         "location": "LATAM,  Canada,  USA",
@@ -391,29 +355,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager - Data Platform",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149561-engineering-manager-data-platform",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform",
-          "Sql"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Senior Platform Engineer",
         "company": "Tigerdata Llc",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5857721933?se=mvXndYSk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D",
+        "url": "https://www.adzuna.com/land/ad/5857721933?se=TnS1rV-l8RGEeLI7Dotn4Q&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D",
         "score": 5,
         "grade": "D",
         "match": 35,
@@ -433,6 +378,24 @@
         "company": "Lemon.io",
         "location": "LATAM, Europe, USA, Canada, APAC",
         "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Federal Customer Success Manager - DevOps",
+        "company": "Sonatype",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152105-federal-customer-success-manager-devops",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -477,6 +440,42 @@
         "reasons": [
           "Title match: devops",
           "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager - Data Platform",
+        "company": "Spotify",
+        "location": "UK",
+        "url": "https://jobicy.com/jobs/152147-engineering-manager-data-platform-2",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager",
+        "company": "Teachable",
+        "location": "Brazil",
+        "url": "https://jobicy.com/jobs/152085-engineering-manager-6",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -792,25 +791,6 @@
         "comp_disclosed": true
       },
       {
-        "title": "Interim project - Senior DevOps Consultant (f/m/d)",
-        "company": "Climate",
-        "location": "Berlin HQ",
-        "url": "https://www.arbeitnow.com/jobs/companies/climate/interim-project-senior-devops-consultant-berlin-hq-72100",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Head of Platform Engineering",
         "company": "dLocal",
         "location": "LATAM,  Argentina,  Brazil,  Spain",
@@ -823,6 +803,25 @@
         "reasons": [
           "Title match: platform engineer",
           "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager - Data Platform",
+        "company": "n26",
+        "location": "Barcelona",
+        "url": "https://n26.com/en-eu/careers/positions/7841923?gh_jid=7841923",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform",
+          "Automation"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -925,7 +924,7 @@
         "title": "Senior Site Reliability Engineer",
         "company": "Digicert, Inc.",
         "location": "Lehi, Utah County",
-        "url": "https://www.adzuna.com/land/ad/5854860015?se=0kbndISk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=FA1165FF7B438B40D6A8131C6595FCBC4B9C4413",
+        "url": "https://www.adzuna.com/land/ad/5854860015?se=fD7SrF-l8RGhXo-3oms7qA&utm_medium=api&utm_source=4076fe36&v=FA1165FF7B438B40D6A8131C6595FCBC4B9C4413",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -939,6 +938,25 @@
         "salary_min": 128015.27,
         "salary_max": 128015.27,
         "comp_disclosed": true
+      },
+      {
+        "title": "Manager, Site Reliability Engineering (Auth0)",
+        "company": "Okta",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152068-manager-site-reliability-engineering-auth0",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Director, Engineering - Cloud Observability",
@@ -963,7 +981,7 @@
         "title": "Senior Site Reliability Engineer",
         "company": "Federal Reserve Bank of Philadelphia",
         "location": "Massachusetts, US",
-        "url": "https://www.adzuna.com/land/ad/5861885174?se=0kbndISk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=0B89A3768502E2374034D3BF57BB8828A8CBB93C",
+        "url": "https://www.adzuna.com/land/ad/5861885174?se=fD7SrF-l8RGhXo-3oms7qA&utm_medium=api&utm_source=4076fe36&v=0B89A3768502E2374034D3BF57BB8828A8CBB93C",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -982,7 +1000,7 @@
         "title": "Senior Site Reliability Engineer",
         "company": "Accenture Federal Services",
         "location": "Texas, US",
-        "url": "https://www.adzuna.com/land/ad/5857722090?se=0kbndISk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=8B129028ED84524701E8A5DCAE87EDBC75542020",
+        "url": "https://www.adzuna.com/land/ad/5857722090?se=fD7SrF-l8RGhXo-3oms7qA&utm_medium=api&utm_source=4076fe36&v=8B129028ED84524701E8A5DCAE87EDBC75542020",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -1055,29 +1073,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior DevOps Engineer",
-        "company": "Huzzle",
-        "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5857722443?se=5uhsdYSk8RGlmtDmtvUD5A&utm_medium=api&utm_source=4076fe36&v=4925143C85DC013ACB1383D91259931C8C903ECF",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
-        ],
-        "salary_min": 130300.97,
-        "salary_max": 130300.97,
-        "comp_disclosed": true
-      },
-      {
         "title": "Senior AI Platform Engineer",
         "company": "Arrowstreet Capital",
         "location": "Massachusetts, US",
-        "url": "https://www.adzuna.com/land/ad/5857722000?se=mvXndYSk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=078EF7D60D65232CCFB9BD1835858AB61154DC00",
+        "url": "https://www.adzuna.com/land/ad/5857722000?se=TnS1rV-l8RGEeLI7Dotn4Q&utm_medium=api&utm_source=4076fe36&v=078EF7D60D65232CCFB9BD1835858AB61154DC00",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1115,7 +1114,7 @@
         "title": "Senior Platform Engineer",
         "company": "Tigerdata Llc",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5857721933?se=mvXndYSk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D",
+        "url": "https://www.adzuna.com/land/ad/5857721933?se=TnS1rV-l8RGEeLI7Dotn4Q&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D",
         "score": 5,
         "grade": "D",
         "match": 35,
@@ -1135,6 +1134,24 @@
         "company": "Lemon.io",
         "location": "LATAM, Europe, USA, Canada, APAC",
         "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Federal Customer Success Manager - DevOps",
+        "company": "Sonatype",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152105-federal-customer-success-manager-devops",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -1385,7 +1402,7 @@
         "title": "Senior Platform Engineer",
         "company": "Seven AI",
         "location": "Massachusetts, US",
-        "url": "https://www.adzuna.com/land/ad/5857724173?se=mvXndYSk8RGcfKYe_cIpvA&utm_medium=api&utm_source=4076fe36&v=1677FB00CA5D005CD99DE15675E12B400929B986",
+        "url": "https://www.adzuna.com/land/ad/5857724173?se=TnS1rV-l8RGEeLI7Dotn4Q&utm_medium=api&utm_source=4076fe36&v=1677FB00CA5D005CD99DE15675E12B400929B986",
         "score": 4,
         "grade": "D",
         "match": 35,
