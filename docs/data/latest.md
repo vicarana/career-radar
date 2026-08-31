@@ -1,19 +1,19 @@
-# career-radar - 2026-08-31 17:16 UTC
+# career-radar - 2026-08-31 17:45 UTC
 Sources OK: 8/8
 
 
 ## Track D - US (sponsorship not guaranteed, check per-role) (28)
-- Senior Site Reliability Engineer @ Digicert, Inc. (Lehi, Utah County) s10 https://www.adzuna.com/land/ad/5854860015?se=fD7SrF-l8RGhXo-3oms7qA&utm_medium=api&utm_source=4076fe36&v=FA1165FF7B438B40D6A8131C6595FCBC4B9C4413
+- Senior Site Reliability Engineer @ Digicert, Inc. (Lehi, Utah County) s10 https://www.adzuna.com/land/ad/5854860015?se=vkpcy2Ol8RGxSf1iGXKoQA&utm_medium=api&utm_source=4076fe36&v=FA1165FF7B438B40D6A8131C6595FCBC4B9C4413
 - Manager, Site Reliability Engineering (Auth0) @ Okta (USA) s8 https://jobicy.com/jobs/152068-manager-site-reliability-engineering-auth0
 - Director, Engineering - Cloud Observability @ datadog (Boston, Massachusetts, USA; New York, New York, USA) s8 https://careers.datadoghq.com/detail/8069508/?gh_jid=8069508
-- Senior Site Reliability Engineer @ Federal Reserve Bank of Philadelphia (Massachusetts, US) s8 https://www.adzuna.com/land/ad/5861885174?se=fD7SrF-l8RGhXo-3oms7qA&utm_medium=api&utm_source=4076fe36&v=0B89A3768502E2374034D3BF57BB8828A8CBB93C
-- Senior Site Reliability Engineer @ Accenture Federal Services (Texas, US) s8 https://www.adzuna.com/land/ad/5857722090?se=fD7SrF-l8RGhXo-3oms7qA&utm_medium=api&utm_source=4076fe36&v=8B129028ED84524701E8A5DCAE87EDBC75542020
+- Senior Site Reliability Engineer @ Federal Reserve Bank of Philadelphia (Massachusetts, US) s8 https://www.adzuna.com/land/ad/5861885174?se=vkpcy2Ol8RGxSf1iGXKoQA&utm_medium=api&utm_source=4076fe36&v=0B89A3768502E2374034D3BF57BB8828A8CBB93C
+- Senior Site Reliability Engineer @ Accenture Federal Services (Texas, US) s8 https://www.adzuna.com/land/ad/5857722090?se=vkpcy2Ol8RGxSf1iGXKoQA&utm_medium=api&utm_source=4076fe36&v=8B129028ED84524701E8A5DCAE87EDBC75542020
 - Engineering Manager - Public Cloud, Python, Golang @ Canonical (EMEA,  LATAM,  Canada,  USA) s7 https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang
 - Staff DevOps Engineer @ Hubstaff (LATAM,  Brazil,  Canada,  USA) s6 https://jobicy.com/jobs/151872-staff-devops-engineer
 - Senior DevOps / DevEx Engineer @ RevenueCat (APAC,  EMEA,  Canada,  USA) s6 https://jobicy.com/jobs/149932-senior-devops-devex-engineer
-- Senior AI Platform Engineer @ Arrowstreet Capital (Massachusetts, US) s6 https://www.adzuna.com/land/ad/5857722000?se=TnS1rV-l8RGEeLI7Dotn4Q&utm_medium=api&utm_source=4076fe36&v=078EF7D60D65232CCFB9BD1835858AB61154DC00
+- Senior AI Platform Engineer @ Arrowstreet Capital (Massachusetts, US) s6 https://www.adzuna.com/land/ad/5857722000?se=bNIHzGOl8RGhXo-3oms7qA&utm_medium=api&utm_source=4076fe36&v=078EF7D60D65232CCFB9BD1835858AB61154DC00
 - Embedded Linux Field Engineering Manager (Americas only) @ Canonical (LATAM,  Canada,  USA) s5 https://jobicy.com/jobs/149559-embedded-linux-field-engineering-manager-americas-only
-- Senior Platform Engineer @ Tigerdata Llc (US) s5 https://www.adzuna.com/land/ad/5857721933?se=TnS1rV-l8RGEeLI7Dotn4Q&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D
+- Senior Platform Engineer @ Tigerdata Llc (US) s5 https://www.adzuna.com/land/ad/5857721933?se=bNIHzGOl8RGhXo-3oms7qA&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D
 - Senior DevOps Engineer @ Lemon.io (LATAM, Europe, USA, Canada, APAC) s4 https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099
 - Federal Customer Success Manager - DevOps @ Sonatype (USA) s4 https://jobicy.com/jobs/152105-federal-customer-success-manager-devops
 - Principal DevOps Engineer @ NBCUniversal (USA) s4 https://jobicy.com/jobs/148200-principal-devops-engineer-2
@@ -36,7 +36,7 @@ Sources OK: 8/8
 - Database Engineering Team Manager @ squarespace (Dublin) s3 http://www.squarespace.com/about/careers?gh_jid=7962046
 
 ## Track B - Remote/income (53)
-- Senior SRE Observability & Reliability Engineer @ ENIN SYSTEMS INC (US) s15 https://www.adzuna.com/land/ad/5832647744?se=NDwgrl-l8RGZNvmSNlwMxA&utm_medium=api&utm_source=4076fe36&v=C00785218A845AECDBBC0FB8CA6CF850BCEE813E
+- Senior SRE Observability & Reliability Engineer @ ENIN SYSTEMS INC (US) s15 https://www.adzuna.com/land/ad/5832647744?se=iAlVzGOl8RGEeLI7Dotn4Q&utm_medium=api&utm_source=4076fe36&v=C00785218A845AECDBBC0FB8CA6CF850BCEE813E
 - Staff Site Reliability Engineer @ replit (Remote - Europe) s12 https://jobs.ashbyhq.com/replit/f35042a1-b016-4811-9597-b98facf5eb4d
 - Senior Site Reliability Engineer @ replit (Remote - Europe) s10 https://jobs.ashbyhq.com/replit/ca50a435-72b4-4092-b957-31d29ede1c00
 - Manager, Site Reliability Engineering (Auth0) @ Okta (USA) s8 https://jobicy.com/jobs/152068-manager-site-reliability-engineering-auth0
@@ -54,5 +54,5 @@ Sources OK: 8/8
 - Engineering Manager - Content API (f/m/d) @ contentful (Dublin, Dublin, Ireland) s6 https://job-boards.greenhouse.io/contentful/jobs/8050574
 - Staff Infrastructure Engineer @ replit (Foster City, CA) s6 https://jobs.ashbyhq.com/replit/6481ec1e-527c-4c1f-a041-2fb5021e7bd5
 - Embedded Linux Field Engineering Manager (Americas only) @ Canonical (LATAM,  Canada,  USA) s5 https://jobicy.com/jobs/149559-embedded-linux-field-engineering-manager-americas-only
-- Senior Platform Engineer @ Tigerdata Llc (US) s5 https://www.adzuna.com/land/ad/5857721933?se=TnS1rV-l8RGEeLI7Dotn4Q&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D
+- Senior Platform Engineer @ Tigerdata Llc (US) s5 https://www.adzuna.com/land/ad/5857721933?se=bNIHzGOl8RGhXo-3oms7qA&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D
 - Senior DevOps Engineer @ Lemon.io (LATAM, Europe, USA, Canada, APAC) s4 https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099
