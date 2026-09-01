@@ -1,15 +1,15 @@
 {
-  "generated": "2026-08-31 17:45 UTC",
+  "generated": "2026-09-01 15:18 UTC",
   "sources_ok": 8,
   "sources_total": 8,
   "stats": {
-    "total": 77,
+    "total": 76,
     "track_b": 40,
-    "track_c": 9,
-    "track_d": 28,
+    "track_c": 11,
+    "track_d": 25,
     "grade_a": 1,
-    "grade_b": 5,
-    "visa": 0,
+    "grade_b": 8,
+    "visa": 1,
     "us_sponsor_confirmed": 0
   },
   "tracks": {
@@ -18,7 +18,7 @@
         "title": "Senior SRE Observability & Reliability Engineer",
         "company": "ENIN SYSTEMS INC",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5832647744?se=iAlVzGOl8RGEeLI7Dotn4Q&utm_medium=api&utm_source=4076fe36&v=C00785218A845AECDBBC0FB8CA6CF850BCEE813E",
+        "url": "https://www.adzuna.com/land/ad/5832647744?se=hLfxYRim8RGZIYnnnxq3_g&utm_medium=api&utm_source=4076fe36&v=C00785218A845AECDBBC0FB8CA6CF850BCEE813E",
         "score": 15,
         "grade": "A",
         "match": 75,
@@ -47,6 +47,44 @@
           "Title match: site reliability",
           "SRE",
           "Site Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Site Reliability Engineer",
+        "company": "Govcio LLC",
+        "location": "Crystal, Arlington County",
+        "url": "https://www.adzuna.com/land/ad/5864191279?se=8lHMYBim8RGIHueiKMFZRw&utm_medium=api&utm_source=4076fe36&v=AB900E2E4514FDBAAC9C32B035D610D113ECA473",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "SRE",
+          "Site Reliability"
+        ],
+        "salary_min": 159585.52,
+        "salary_max": 159585.52,
+        "comp_disclosed": true
+      },
+      {
+        "title": "Director of Production Engineering",
+        "company": "Legion",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152228-director-of-production-engineering",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: cto",
+          "SRE",
+          "Reliability"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -104,6 +142,44 @@
           "Title match: engineering manager",
           "Platform",
           "K8S"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "AWS DevOps Engineer (Senior) - Migration Project (VMware to AWS)",
+        "company": "Mactores",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/152284-aws-devops-engineer-senior-migration-project-vmware-to-aws",
+        "score": 7,
+        "grade": "C",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "AWS DevOps Engineer (Senior)",
+        "company": "Mactores",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/152282-aws-devops-engineer-senior",
+        "score": 7,
+        "grade": "C",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -242,25 +318,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior QA Automation Engineer (Boosters)",
-        "company": "Playson",
-        "location": "Europe",
-        "url": "https://jobicy.com/jobs/152043-senior-qa-automation-engineer-boosters",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: automation engineer",
-          "Platform",
-          "Automation"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Director of Engineering, Security Factory",
         "company": "gitlab",
         "location": "Remote, Israel; Remote, United Kingdom",
@@ -336,42 +393,23 @@
         "comp_disclosed": false
       },
       {
-        "title": "Embedded Linux Field Engineering Manager (Americas only)",
-        "company": "Canonical",
-        "location": "LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/149559-embedded-linux-field-engineering-manager-americas-only",
+        "title": "Senior DevOps Engineer",
+        "company": "Alma",
+        "location": "France",
+        "url": "https://jobicy.com/jobs/152233-senior-devops-engineer-6",
         "score": 5,
         "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: engineering manager",
-          "Platform",
-          "Linux"
+          "Title match: devops",
+          "Devops",
+          "Llm"
         ],
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Senior Platform Engineer",
-        "company": "Tigerdata Llc",
-        "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5857721933?se=bNIHzGOl8RGhXo-3oms7qA&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Sql"
-        ],
-        "salary_min": 218829.7,
-        "salary_max": 218829.7,
-        "comp_disclosed": true
       },
       {
         "title": "Senior DevOps Engineer",
@@ -440,6 +478,24 @@
         "reasons": [
           "Title match: devops",
           "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Director, Specialist Sales Engineering - Data Security",
+        "company": "Zscaler",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152257-director-specialist-sales-engineering-data-security",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: cto",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -607,28 +663,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager - Solutions Engineering",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149556-engineering-manager-solutions-engineering",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Support Engineering Manager",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149554-support-engineering-manager",
+        "title": "Engineering Manager, Agent Foundations: Agent Execution",
+        "company": "gitlab",
+        "location": "Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8759592002",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -713,42 +751,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Switchboard",
-        "company": "gitlab",
-        "location": "Remote, United Kingdom",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586632002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Tenant Scale:Git",
-        "company": "gitlab",
-        "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617538002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
       }
     ],
     "C": [
@@ -772,10 +774,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Site Reliability Engineering Manager, Security - Apple Services Engineering",
-        "company": "Apple",
-        "location": "Dublin, Alameda County",
-        "url": "https://www.adzuna.com/details/5779753554?utm_medium=api&utm_source=4076fe36",
+        "title": "Senior Site Reliability Engineer - Access Team",
+        "company": "n26",
+        "location": "Barcelona",
+        "url": "https://n26.com/en-eu/careers/positions/7774526?gh_jid=7774526",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -786,9 +788,28 @@
           "Site Reliability",
           "Reliability"
         ],
-        "salary_min": 185699.06,
-        "salary_max": 185699.06,
-        "comp_disclosed": true
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Site Reliability Engineer - Access Team",
+        "company": "n26",
+        "location": "Berlin",
+        "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Head of Platform Engineering",
@@ -847,7 +868,7 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager - Customer Data Platform",
+        "title": "Engineering Manager - Data Delivery Platform",
         "company": "adyen",
         "location": "Amsterdam",
         "url": "https://job-boards.greenhouse.io/adyen/jobs/8110805",
@@ -901,6 +922,24 @@
         "comp_disclosed": false
       },
       {
+        "title": "CTO - Web3 Payments & Fintech Platform (Germany)",
+        "company": "blockchaincapital.com",
+        "location": "US",
+        "url": "https://www.adzuna.com/land/ad/5823276010?se=xkiqYhim8RGIHueiKMFZRw&utm_medium=api&utm_source=4076fe36&v=201BDF15EFD12D36B22D7F476A2B56087B326408",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": true,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: cto",
+          "Platform"
+        ],
+        "salary_min": 204825,
+        "salary_max": 295859,
+        "comp_disclosed": true
+      },
+      {
         "title": "Database Engineering Team Manager",
         "company": "squarespace",
         "location": "Dublin",
@@ -921,23 +960,23 @@
     ],
     "D": [
       {
-        "title": "Senior Site Reliability Engineer",
-        "company": "Digicert, Inc.",
-        "location": "Lehi, Utah County",
-        "url": "https://www.adzuna.com/land/ad/5854860015?se=vkpcy2Ol8RGxSf1iGXKoQA&utm_medium=api&utm_source=4076fe36&v=FA1165FF7B438B40D6A8131C6595FCBC4B9C4413",
+        "title": "Director of Production Engineering",
+        "company": "Legion",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152228-director-of-production-engineering",
         "score": 10,
         "grade": "B",
         "match": 50,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
+          "Title match: cto",
+          "SRE",
           "Reliability"
         ],
-        "salary_min": 128015.27,
-        "salary_max": 128015.27,
-        "comp_disclosed": true
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Manager, Site Reliability Engineering (Auth0)",
@@ -976,44 +1015,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Senior Site Reliability Engineer",
-        "company": "Federal Reserve Bank of Philadelphia",
-        "location": "Massachusetts, US",
-        "url": "https://www.adzuna.com/land/ad/5861885174?se=vkpcy2Ol8RGxSf1iGXKoQA&utm_medium=api&utm_source=4076fe36&v=0B89A3768502E2374034D3BF57BB8828A8CBB93C",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ],
-        "salary_min": 130130.96,
-        "salary_max": 130130.96,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Senior Site Reliability Engineer",
-        "company": "Accenture Federal Services",
-        "location": "Texas, US",
-        "url": "https://www.adzuna.com/land/ad/5857722090?se=vkpcy2Ol8RGxSf1iGXKoQA&utm_medium=api&utm_source=4076fe36&v=8B129028ED84524701E8A5DCAE87EDBC75542020",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ],
-        "salary_min": 241795.89,
-        "salary_max": 241795.89,
-        "comp_disclosed": true
       },
       {
         "title": "Engineering Manager - Public Cloud, Python, Golang",
@@ -1073,63 +1074,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior AI Platform Engineer",
-        "company": "Arrowstreet Capital",
-        "location": "Massachusetts, US",
-        "url": "https://www.adzuna.com/land/ad/5857722000?se=bNIHzGOl8RGhXo-3oms7qA&utm_medium=api&utm_source=4076fe36&v=078EF7D60D65232CCFB9BD1835858AB61154DC00",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Observability"
-        ],
-        "salary_min": 159494.98,
-        "salary_max": 159494.98,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Embedded Linux Field Engineering Manager (Americas only)",
-        "company": "Canonical",
-        "location": "LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/149559-embedded-linux-field-engineering-manager-americas-only",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform",
-          "Linux"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Platform Engineer",
-        "company": "Tigerdata Llc",
-        "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5857721933?se=bNIHzGOl8RGhXo-3oms7qA&utm_medium=api&utm_source=4076fe36&v=8C8FE383BBA93F35138D542699B7D01ACFAD6B8D",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Sql"
-        ],
-        "salary_min": 218829.7,
-        "salary_max": 218829.7,
-        "comp_disclosed": true
-      },
-      {
         "title": "Senior DevOps Engineer",
         "company": "Lemon.io",
         "location": "LATAM, Europe, USA, Canada, APAC",
@@ -1178,6 +1122,24 @@
         "reasons": [
           "Title match: devops",
           "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Director, Specialist Sales Engineering - Data Security",
+        "company": "Zscaler",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152257-director-specialist-sales-engineering-data-security",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: cto",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -1259,6 +1221,24 @@
         "company": "RevenueCat",
         "location": "EMEA,  LATAM,  Canada,  USA",
         "url": "https://jobicy.com/jobs/151629-engineering-manager-rc-capital",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Agent Foundations: Agent Execution",
+        "company": "gitlab",
+        "location": "Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8759592002",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -1399,22 +1379,22 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior Platform Engineer",
-        "company": "Seven AI",
-        "location": "Massachusetts, US",
-        "url": "https://www.adzuna.com/land/ad/5857724173?se=bNIHzGOl8RGhXo-3oms7qA&utm_medium=api&utm_source=4076fe36&v=1677FB00CA5D005CD99DE15675E12B400929B986",
-        "score": 4,
-        "grade": "D",
+        "title": "Senior Engineering Manager, Enterprise Fulfillment",
+        "company": "instacart",
+        "location": "United States - Remote",
+        "url": "https://instacart.careers/job/?gh_jid=8084349",
+        "score": 3,
+        "grade": "F",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: platform engineer",
-          "Platform"
+          "Title match: engineering manager",
+          "Llm"
         ],
-        "salary_min": 229521.48,
-        "salary_max": 229521.48,
-        "comp_disclosed": true
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Engineering Manager, AgentControl",
