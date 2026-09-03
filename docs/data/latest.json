@@ -1,14 +1,14 @@
 {
-  "generated": "2026-09-02 14:48 UTC",
+  "generated": "2026-09-03 14:48 UTC",
   "sources_ok": 8,
   "sources_total": 8,
   "stats": {
-    "total": 75,
+    "total": 78,
     "track_b": 40,
-    "track_c": 9,
-    "track_d": 26,
+    "track_c": 10,
+    "track_d": 28,
     "grade_a": 0,
-    "grade_b": 6,
+    "grade_b": 7,
     "visa": 0,
     "us_sponsor_confirmed": 0
   },
@@ -51,25 +51,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Senior Site Reliability Engineer",
-        "company": "Govcio LLC",
-        "location": "Crystal, Arlington County",
-        "url": "https://www.adzuna.com/land/ad/5864191279?se=QpRgYN2m8RG5FtUw0eF-8g&utm_medium=api&utm_source=4076fe36&v=AB900E2E4514FDBAAC9C32B035D610D113ECA473",
-        "score": 12,
-        "grade": "B",
-        "match": 60,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "SRE",
-          "Site Reliability"
-        ],
-        "salary_min": 159716.16,
-        "salary_max": 159716.16,
-        "comp_disclosed": true
       },
       {
         "title": "Director of Production Engineering",
@@ -243,25 +224,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Manager DevOps Engineering (Observability & Developer Experience)",
-        "company": "Cision",
-        "location": "Bulgaria,  Hungary",
-        "url": "https://jobicy.com/jobs/151548-manager-devops-engineering-observability-developer-experience",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Observability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "GitOps Engineering Manager",
         "company": "Canonical",
         "location": "APAC,  EMEA",
@@ -355,24 +317,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager — Remote, Path to CTO",
-        "company": "Benchstack Ai",
-        "location": "Hayes Valley, San Francisco",
-        "url": "https://www.adzuna.com/land/ad/5865123737?se=kuW8Yt2m8RGSgcR4uY3NKw&utm_medium=api&utm_source=4076fe36&v=A35816E6F3AB93C346F6FA4FA569BA2E49D4E08F",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Python"
-        ],
-        "salary_min": 408023.38,
-        "salary_max": 408023.38,
-        "comp_disclosed": true
-      },
-      {
         "title": "Golang Engineering Manager, Commercial Systems",
         "company": "Canonical",
         "location": "EMEA",
@@ -458,6 +402,24 @@
         "reasons": [
           "Title match: devops",
           "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Growth",
+        "company": "Fleetio",
+        "location": "Canada,  Mexico,  USA",
+        "url": "https://jobicy.com/jobs/152396-engineering-manager-growth",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -679,24 +641,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager, RC Capital",
-        "company": "RevenueCat",
-        "location": "EMEA,  LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/151629-engineering-manager-rc-capital",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager, Agent Foundations: Agent Execution",
         "company": "gitlab",
         "location": "Remote, United States",
@@ -749,9 +693,101 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Dedicated Integrations",
+        "company": "gitlab",
+        "location": "Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636648002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Switchboard",
+        "company": "gitlab",
+        "location": "Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586632002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Tenant Scale:Git",
+        "company": "gitlab",
+        "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617538002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       }
     ],
     "C": [
+      {
+        "title": "Senior Site Reliability Engineer - Access Team",
+        "company": "n26",
+        "location": "Berlin",
+        "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Site Reliability Engineer - Access Team",
+        "company": "n26",
+        "location": "Barcelona",
+        "url": "https://n26.com/en-eu/careers/positions/7774526?gh_jid=7774526",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
       {
         "title": "Head of Platform Engineering",
         "company": "dLocal",
@@ -783,24 +819,6 @@
         "reasons": [
           "Title match: engineering manager",
           "Platform",
-          "Automation"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager",
-        "company": "Nelly Solutions",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/nelly-solutions/engineering-manager-berlin-264919",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
           "Automation"
         ],
         "salary_min": null,
@@ -1013,24 +1031,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager — Remote, Path to CTO",
-        "company": "Benchstack Ai",
-        "location": "Hayes Valley, San Francisco",
-        "url": "https://www.adzuna.com/land/ad/5865123737?se=kuW8Yt2m8RGSgcR4uY3NKw&utm_medium=api&utm_source=4076fe36&v=A35816E6F3AB93C346F6FA4FA569BA2E49D4E08F",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Python"
-        ],
-        "salary_min": 408023.38,
-        "salary_max": 408023.38,
-        "comp_disclosed": true
-      },
-      {
         "title": "Senior DevOps Engineer",
         "company": "Lemon.io",
         "location": "LATAM, Europe, USA, Canada, APAC",
@@ -1079,6 +1079,24 @@
         "reasons": [
           "Title match: devops",
           "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Growth",
+        "company": "Fleetio",
+        "location": "Canada,  Mexico,  USA",
+        "url": "https://jobicy.com/jobs/152396-engineering-manager-growth",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -1210,24 +1228,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager, RC Capital",
-        "company": "RevenueCat",
-        "location": "EMEA,  LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/151629-engineering-manager-rc-capital",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager, Agent Foundations: Agent Execution",
         "company": "gitlab",
         "location": "Remote, United States",
@@ -1352,6 +1352,60 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "AI Engineering Lead",
+        "company": "hex",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/hex/dd80a8a1-0ed1-412a-88c4-16c851752826",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Director, Agent Context",
+        "company": "hex",
+        "location": "US Timezones",
+        "url": "https://jobs.ashbyhq.com/hex/3a16c7fa-e72b-488c-ba00-58e09be36b0e",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: cto",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior DevOps Engineer",
+        "company": "PAR Technology",
+        "location": "Minnesota, US",
+        "url": "https://www.adzuna.com/land/ad/5868257988?se=Nre-iqan8RGzEp-eIl8cbw&utm_medium=api&utm_source=4076fe36&v=A76133E808B07561495376F67799ABA1EDC7AA54",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ],
+        "salary_min": 176899.62,
+        "salary_max": 176899.62,
+        "comp_disclosed": true
       },
       {
         "title": "Senior Engineering Manager, Enterprise Fulfillment",
