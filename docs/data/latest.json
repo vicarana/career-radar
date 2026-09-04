@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-03 14:48 UTC",
+  "generated": "2026-09-04 14:37 UTC",
   "sources_ok": 8,
   "sources_total": 8,
   "stats": {
-    "total": 78,
+    "total": 79,
     "track_b": 40,
-    "track_c": 10,
-    "track_d": 28,
+    "track_c": 8,
+    "track_d": 31,
     "grade_a": 0,
     "grade_b": 7,
     "visa": 0,
@@ -91,25 +91,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Manager, Site Reliability Engineering (Auth0)",
-        "company": "Okta",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/152068-manager-site-reliability-engineering-auth0",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager - Python and K8s",
         "company": "Canonical",
         "location": "APAC,  EMEA",
@@ -123,6 +104,44 @@
           "Title match: engineering manager",
           "Platform",
           "K8S"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Director of Engineering, Cloud & Reliability",
+        "company": "Boulevard",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152496-director-of-engineering-cloud-reliability-2",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: director of engineering",
+          "Reliability",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Manager, Site Reliability Engineering (Auth0)",
+        "company": "Okta",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152068-manager-site-reliability-engineering-auth0",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -186,29 +205,29 @@
         "comp_disclosed": false
       },
       {
-        "title": "Staff DevOps Engineer",
-        "company": "Hubstaff",
-        "location": "LATAM,  Brazil,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/151872-staff-devops-engineer",
-        "score": 6,
-        "grade": "D",
+        "title": "Senior GTM Systems AI and Automation Engineer",
+        "company": "Camunda",
+        "location": "Remote",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/camunda/remote-senior-gtm-systems-ai-and-automation-engineer-447360",
+        "score": 7,
+        "grade": "C",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
+          "Title match: automation engineer",
+          "Platform",
+          "Automation"
         ],
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
       },
       {
-        "title": "Customer Success Manager - DevOps",
-        "company": "Sonatype",
-        "location": "UK",
-        "url": "https://jobicy.com/jobs/151830-customer-success-manager-devops",
+        "title": "Staff DevOps Engineer",
+        "company": "Hubstaff",
+        "location": "LATAM,  Brazil,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/151872-staff-devops-engineer",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -280,6 +299,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior QA Automation Engineer (Platform)",
+        "company": "Upgrade",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152407-senior-qa-automation-engineer-platform",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: automation engineer",
+          "Platform",
+          "Automation"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Director of Engineering, Security Factory",
         "company": "gitlab",
         "location": "Remote, Israel; Remote, United Kingdom",
@@ -311,6 +349,44 @@
           "Title match: infrastructure engineer",
           "Reliability",
           "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Sr. Manager, SRE & Performance",
+        "company": "Omnissa",
+        "location": "Mountain View, Santa Clara County",
+        "url": "https://www.adzuna.com/details/5870617039?utm_medium=api&utm_source=4076fe36",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: sre",
+          "SRE",
+          "Platform"
+        ],
+        "salary_min": 223000,
+        "salary_max": 310000,
+        "comp_disclosed": true
+      },
+      {
+        "title": "AI/ML Engineering Manager",
+        "company": "Caylent",
+        "location": "Argentina",
+        "url": "https://jobicy.com/jobs/152435-ai-ml-engineering-manager",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform",
+          "Aws"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -402,6 +478,60 @@
         "reasons": [
           "Title match: devops",
           "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Platform Engineer",
+        "company": "saas.group",
+        "location": "Europe",
+        "url": "https://jobicy.com/jobs/150132-senior-platform-engineer-2",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Web Strategy, SEO & AI Lead",
+        "company": "Harness",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152486-web-strategy-seo-ai-lead",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai lead",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Engineering Manager",
+        "company": "Nextiva",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152465-senior-engineering-manager",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -606,135 +736,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager, Service Platform",
-        "company": "Instacart",
-        "location": "Canada",
-        "url": "https://jobicy.com/jobs/147603-engineering-manager-service-platform",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Head of AI Engineering - NCT",
-        "company": "Banyan Software",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151636-head-of-ai-engineering-nct",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager, Agent Foundations: Agent Execution",
         "company": "gitlab",
         "location": "Remote, United States",
         "url": "https://job-boards.greenhouse.io/gitlab/jobs/8759592002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Build",
-        "company": "gitlab",
-        "location": "Remote, United Kingdom",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586667002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Data Foundations",
-        "company": "gitlab",
-        "location": "Remote, US",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592950002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Dedicated Integrations",
-        "company": "gitlab",
-        "location": "Remote, United Kingdom",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636648002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Switchboard",
-        "company": "gitlab",
-        "location": "Remote, United Kingdom",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586632002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Tenant Scale:Git",
-        "company": "gitlab",
-        "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617538002",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -753,8 +758,8 @@
       {
         "title": "Senior Site Reliability Engineer - Access Team",
         "company": "n26",
-        "location": "Berlin",
-        "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
+        "location": "Barcelona",
+        "url": "https://n26.com/en-eu/careers/positions/7774526?gh_jid=7774526",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -772,8 +777,8 @@
       {
         "title": "Senior Site Reliability Engineer - Access Team",
         "company": "n26",
-        "location": "Barcelona",
-        "url": "https://n26.com/en-eu/careers/positions/7774526?gh_jid=7774526",
+        "location": "Berlin",
+        "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -807,47 +812,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager - Data Platform",
-        "company": "n26",
-        "location": "Barcelona",
-        "url": "https://n26.com/en-eu/careers/positions/7841923?gh_jid=7841923",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform",
-          "Automation"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager - Data Delivery Platform",
         "company": "adyen",
         "location": "Amsterdam",
         "url": "https://job-boards.greenhouse.io/adyen/jobs/8110805",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Optimize Interfaces",
-        "company": "adyen",
-        "location": "Amsterdam",
-        "url": "https://job-boards.greenhouse.io/adyen/jobs/7721510",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -880,36 +848,36 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager - Runtime Platform",
-        "company": "n26",
-        "location": "Berlin",
-        "url": "https://n26.com/en-eu/careers/positions/8076631?gh_jid=8076631",
-        "score": 4,
-        "grade": "D",
+        "title": "Senior Cloud Consultant - Data & AI Engineer (f/m/d, 4-Days-Week), German Speaking",
+        "company": "Auvaria",
+        "location": "München",
+        "url": "https://www.arbeitnow.com/jobs/companies/auvaria/senior-cloud-consultant-data-ai-engineer-4-days-week-german-speaking-munchen-281793",
+        "score": 3,
+        "grade": "F",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: engineering manager",
-          "Platform"
+          "Title match: ai engineer",
+          "Aws"
         ],
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager - Runtime Platform",
-        "company": "n26",
-        "location": "Barcelona",
-        "url": "https://n26.com/en-eu/careers/positions/8077056?gh_jid=8077056",
-        "score": 4,
-        "grade": "D",
+        "title": "Senior Cloud Consultant - Data & AI Engineer (f/m/d, 4-Days-Week), German Speaking",
+        "company": "Auvaria",
+        "location": "Hamburg",
+        "url": "https://www.arbeitnow.com/jobs/companies/auvaria/senior-cloud-consultant-data-ai-engineer-4-days-week-german-speaking-hamburg-357295",
+        "score": 3,
+        "grade": "F",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: engineering manager",
-          "Platform"
+          "Title match: ai engineer",
+          "Aws"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -955,6 +923,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Director of Engineering, Cloud & Reliability",
+        "company": "Boulevard",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152496-director-of-engineering-cloud-reliability-2",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: director of engineering",
+          "Reliability",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Manager, Site Reliability Engineering (Auth0)",
         "company": "Okta",
         "location": "USA",
@@ -993,6 +980,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Sr Lead Site Reliability Engineer",
+        "company": "Lumen",
+        "location": "Orem, Utah County",
+        "url": "https://www.adzuna.com/land/ad/5869677640?se=vv3pGG6o8RGcn4B2xVwBNw&utm_medium=api&utm_source=4076fe36&v=A406FB77D0D565EDF649E664BA0D986786EB6B68",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": 160239,
+        "salary_max": 160239,
+        "comp_disclosed": true
+      },
+      {
         "title": "Engineering Manager - Public Cloud, Python, Golang",
         "company": "Canonical",
         "location": "EMEA,  LATAM,  Canada,  USA",
@@ -1025,6 +1031,25 @@
           "Title match: devops",
           "Devops",
           "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior QA Automation Engineer (Platform)",
+        "company": "Upgrade",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152407-senior-qa-automation-engineer-platform",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: automation engineer",
+          "Platform",
+          "Automation"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -1079,6 +1104,42 @@
         "reasons": [
           "Title match: devops",
           "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Web Strategy, SEO & AI Lead",
+        "company": "Harness",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152486-web-strategy-seo-ai-lead",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai lead",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Engineering Manager",
+        "company": "Nextiva",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152465-senior-engineering-manager",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -1205,23 +1266,6 @@
         "reasons": [
           "Title match: engineering manager",
           "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Head of AI Engineering - NCT",
-        "company": "Banyan Software",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151636-head-of-ai-engineering-nct",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -1388,24 +1432,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Senior DevOps Engineer",
-        "company": "PAR Technology",
-        "location": "Minnesota, US",
-        "url": "https://www.adzuna.com/land/ad/5868257988?se=Nre-iqan8RGzEp-eIl8cbw&utm_medium=api&utm_source=4076fe36&v=A76133E808B07561495376F67799ABA1EDC7AA54",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ],
-        "salary_min": 176899.62,
-        "salary_max": 176899.62,
-        "comp_disclosed": true
       },
       {
         "title": "Senior Engineering Manager, Enterprise Fulfillment",
