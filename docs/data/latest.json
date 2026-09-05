@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-04 14:37 UTC",
+  "generated": "2026-09-05 13:36 UTC",
   "sources_ok": 8,
   "sources_total": 8,
   "stats": {
-    "total": 79,
+    "total": 80,
     "track_b": 40,
     "track_c": 8,
-    "track_d": 31,
+    "track_d": 32,
     "grade_a": 0,
     "grade_b": 7,
     "visa": 0,
@@ -79,6 +79,25 @@
         "score": 10,
         "grade": "B",
         "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Site Reliability Engineer I",
+        "company": "Braze",
+        "location": "Canada",
+        "url": "https://jobicy.com/jobs/152549-senior-site-reliability-engineer-i",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
@@ -208,7 +227,7 @@
         "title": "Senior GTM Systems AI and Automation Engineer",
         "company": "Camunda",
         "location": "Remote",
-        "url": "https://www.arbeitnow.co.uk/jobs/companies/camunda/remote-senior-gtm-systems-ai-and-automation-engineer-447360",
+        "url": "https://www.arbeitnow.com/jobs/companies/camunda/remote-senior-gtm-systems-ai-and-automation-engineer-43415",
         "score": 7,
         "grade": "C",
         "match": 35,
@@ -520,6 +539,24 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior Manager, AI Engineering",
+        "company": "HackerOne",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152504-senior-manager-ai-engineering",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Senior Engineering Manager",
         "company": "Nextiva",
         "location": "USA",
@@ -716,42 +753,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Notifications",
-        "company": "Discord",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151756-engineering-manager-notifications",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Agent Foundations: Agent Execution",
-        "company": "gitlab",
-        "location": "Remote, United States",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8759592002",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
       }
     ],
     "C": [
@@ -788,6 +789,44 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Site Reliability Engineer",
+        "company": "cabify",
+        "location": "Madrid",
+        "url": "https://job-boards.greenhouse.io/cabify/jobs/8367951002",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior DevOps Engineer (all genders)",
+        "company": "Sunday Natural",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/sunday-natural/senior-devops-engineer-all-genders-berlin-413735",
+        "score": 7,
+        "grade": "C",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -842,42 +881,6 @@
         "reasons": [
           "Title match: engineering manager",
           "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Cloud Consultant - Data & AI Engineer (f/m/d, 4-Days-Week), German Speaking",
-        "company": "Auvaria",
-        "location": "München",
-        "url": "https://www.arbeitnow.com/jobs/companies/auvaria/senior-cloud-consultant-data-ai-engineer-4-days-week-german-speaking-munchen-281793",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Aws"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Cloud Consultant - Data & AI Engineer (f/m/d, 4-Days-Week), German Speaking",
-        "company": "Auvaria",
-        "location": "Hamburg",
-        "url": "https://www.arbeitnow.com/jobs/companies/auvaria/senior-cloud-consultant-data-ai-engineer-4-days-week-german-speaking-hamburg-357295",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Aws"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -983,7 +986,7 @@
         "title": "Sr Lead Site Reliability Engineer",
         "company": "Lumen",
         "location": "Orem, Utah County",
-        "url": "https://www.adzuna.com/land/ad/5869677640?se=vv3pGG6o8RGcn4B2xVwBNw&utm_medium=api&utm_source=4076fe36&v=A406FB77D0D565EDF649E664BA0D986786EB6B68",
+        "url": "https://www.adzuna.com/land/ad/5869677640?se=9t7Mzi6p8RGlI_dq_IL75Q&utm_medium=api&utm_source=4076fe36&v=A406FB77D0D565EDF649E664BA0D986786EB6B68",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -1121,6 +1124,24 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: ai lead",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Manager, AI Engineering",
+        "company": "HackerOne",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152504-senior-manager-ai-engineering",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
           "Platform"
         ],
         "salary_min": null,
