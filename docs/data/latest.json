@@ -1,14 +1,14 @@
 {
-  "generated": "2026-09-05 13:36 UTC",
+  "generated": "2026-09-06 13:51 UTC",
   "sources_ok": 8,
   "sources_total": 8,
   "stats": {
-    "total": 80,
+    "total": 83,
     "track_b": 40,
-    "track_c": 8,
+    "track_c": 11,
     "track_d": 32,
     "grade_a": 0,
-    "grade_b": 7,
+    "grade_b": 9,
     "visa": 0,
     "us_sponsor_confirmed": 0
   },
@@ -51,6 +51,25 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "Senior Site Reliability Engineer",
+        "company": "Govcio LLC",
+        "location": "Crystal, Arlington County",
+        "url": "https://www.adzuna.com/land/ad/5864191279?se=VGj_Afqp8RGogquEo3zAlQ&utm_medium=api&utm_source=4076fe36&v=AB900E2E4514FDBAAC9C32B035D610D113ECA473",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "SRE",
+          "Site Reliability"
+        ],
+        "salary_min": 159716.16,
+        "salary_max": 159716.16,
+        "comp_disclosed": true
       },
       {
         "title": "Director of Production Engineering",
@@ -167,6 +186,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Salesforce Marketing Cloud Platform Manager (Pharmaceutical Sector)",
+        "company": "Omega CRM",
+        "location": "Spain",
+        "url": "https://jobicy.com/jobs/145494-salesforce-marketing-cloud-platform-manager-pharmaceutical-sector",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform manager",
+          "Platform",
+          "Automation"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "AWS DevOps Engineer (Senior) - Migration Project (VMware to AWS)",
         "company": "Mactores",
         "location": "Anywhere",
@@ -218,25 +256,6 @@
           "Title match: engineering manager",
           "Platform",
           "Python"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior GTM Systems AI and Automation Engineer",
-        "company": "Camunda",
-        "location": "Remote",
-        "url": "https://www.arbeitnow.com/jobs/companies/camunda/remote-senior-gtm-systems-ai-and-automation-engineer-43415",
-        "score": 7,
-        "grade": "C",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: automation engineer",
-          "Platform",
-          "Automation"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -300,37 +319,19 @@
         "comp_disclosed": false
       },
       {
-        "title": "Head of Platform Engineering",
-        "company": "dLocal",
-        "location": "LATAM,  Argentina,  Brazil,  Spain",
-        "url": "https://jobicy.com/jobs/151735-head-of-platform-engineering",
+        "title": "Senior DevOps Engineer (all genders) | Data Platform",
+        "company": "Real Digital",
+        "location": "Remote oder Köln / Darmstadt / Düsseldorf / Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/real-digital/remote-senior-devops-engineer-all-genders-data-platform-426742",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: platform engineer",
+          "Title match: devops",
+          "Devops",
           "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior QA Automation Engineer (Platform)",
-        "company": "Upgrade",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/152407-senior-qa-automation-engineer-platform",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: automation engineer",
-          "Platform",
-          "Automation"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -449,6 +450,24 @@
         "comp_disclosed": false
       },
       {
+        "title": "Principal DevOps Engineer",
+        "company": "NBCUniversal",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/148200-principal-devops-engineer-2",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Federal Customer Success Manager - DevOps",
         "company": "Sonatype",
         "location": "USA",
@@ -471,24 +490,6 @@
         "company": "Cision",
         "location": "Bulgaria",
         "url": "https://jobicy.com/jobs/151871-senior-devops-engineer-4",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Principal DevOps Engineer",
-        "company": "NBCUniversal",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/148200-principal-devops-engineer-2",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -532,6 +533,24 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: ai lead",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Manager, IT Platform Engineering - FIXED TERM",
+        "company": "ŌURA",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/148338-senior-manager-it-platform-engineering-fixed-term",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
           "Platform"
         ],
         "salary_min": null,
@@ -735,27 +754,28 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
+      }
+    ],
+    "C": [
       {
-        "title": "Engineering Manager, Revenue",
-        "company": "Discord",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151763-engineering-manager-revenue",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
+        "title": "(Senior) DevOps Engineer (m/f/x)",
+        "company": "Aer Group",
+        "location": "Berlin Boppstr.",
+        "url": "https://www.arbeitnow.com/jobs/companies/aer-group/senior-devops-engineer-berlin-boppstr-258760",
+        "score": 11,
+        "grade": "B",
+        "match": 55,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: engineering manager",
+          "Title match: devops",
+          "Devops",
           "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      }
-    ],
-    "C": [
+      },
       {
         "title": "Senior Site Reliability Engineer - Access Team",
         "company": "n26",
@@ -795,6 +815,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Salesforce Marketing Cloud Platform Manager (Pharmaceutical Sector)",
+        "company": "Omega CRM",
+        "location": "Spain",
+        "url": "https://jobicy.com/jobs/145494-salesforce-marketing-cloud-platform-manager-pharmaceutical-sector",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform manager",
+          "Platform",
+          "Automation"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Senior Site Reliability Engineer",
         "company": "cabify",
         "location": "Madrid",
@@ -814,12 +853,12 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior DevOps Engineer (all genders)",
-        "company": "Sunday Natural",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/sunday-natural/senior-devops-engineer-all-genders-berlin-413735",
-        "score": 7,
-        "grade": "C",
+        "title": "Senior DevOps Engineer (all genders) | Data Platform",
+        "company": "Real Digital",
+        "location": "Remote oder Köln / Darmstadt / Düsseldorf / Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/real-digital/remote-senior-devops-engineer-all-genders-data-platform-426742",
+        "score": 6,
+        "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
@@ -833,11 +872,29 @@
         "comp_disclosed": false
       },
       {
-        "title": "Head of Platform Engineering",
-        "company": "dLocal",
-        "location": "LATAM,  Argentina,  Brazil,  Spain",
-        "url": "https://jobicy.com/jobs/151735-head-of-platform-engineering",
+        "title": "Software Engineering Manager (SRE) - Apple Services Engineering, Dublin",
+        "company": "Apple",
+        "location": "Dublin, Alameda County",
+        "url": "https://www.adzuna.com/details/5873060316?utm_medium=api&utm_source=4076fe36",
         "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: sre",
+          "SRE"
+        ],
+        "salary_min": 213316.98,
+        "salary_max": 213316.98,
+        "comp_disclosed": true
+      },
+      {
+        "title": "Senior Data Platform Engineer, Intelligent Platforms (all genders)",
+        "company": "hellofresh",
+        "location": "Berlin, Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/senior-data-platform-engineer-intelligent-platforms-all-genders-berlin-berlin-372321",
+        "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
@@ -986,7 +1043,7 @@
         "title": "Sr Lead Site Reliability Engineer",
         "company": "Lumen",
         "location": "Orem, Utah County",
-        "url": "https://www.adzuna.com/land/ad/5869677640?se=9t7Mzi6p8RGlI_dq_IL75Q&utm_medium=api&utm_source=4076fe36&v=A406FB77D0D565EDF649E664BA0D986786EB6B68",
+        "url": "https://www.adzuna.com/land/ad/5869677640?se=RjMiBPqp8RGS9tX3gPU9Ng&utm_medium=api&utm_source=4076fe36&v=A406FB77D0D565EDF649E664BA0D986786EB6B68",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -1040,47 +1097,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior QA Automation Engineer (Platform)",
-        "company": "Upgrade",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/152407-senior-qa-automation-engineer-platform",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: automation engineer",
-          "Platform",
-          "Automation"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Senior DevOps Engineer",
         "company": "Lemon.io",
         "location": "LATAM, Europe, USA, Canada, APAC",
         "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Federal Customer Success Manager - DevOps",
-        "company": "Sonatype",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/152105-federal-customer-success-manager-devops",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -1113,6 +1133,24 @@
         "comp_disclosed": false
       },
       {
+        "title": "Federal Customer Success Manager - DevOps",
+        "company": "Sonatype",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152105-federal-customer-success-manager-devops",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Web Strategy, SEO & AI Lead",
         "company": "Harness",
         "location": "USA",
@@ -1124,6 +1162,24 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: ai lead",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Manager, IT Platform Engineering - FIXED TERM",
+        "company": "ŌURA",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/148338-senior-manager-it-platform-engineering-fixed-term",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
           "Platform"
         ],
         "salary_min": null,
