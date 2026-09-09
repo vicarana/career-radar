@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-08 14:49 UTC",
+  "generated": "2026-09-09 14:55 UTC",
   "sources_ok": 8,
   "sources_total": 8,
   "stats": {
-    "total": 78,
+    "total": 75,
     "track_b": 40,
-    "track_c": 7,
-    "track_d": 31,
+    "track_c": 6,
+    "track_d": 29,
     "grade_a": 0,
     "grade_b": 7,
     "visa": 0,
@@ -224,25 +224,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Staff DevOps Engineer",
-        "company": "Hubstaff",
-        "location": "LATAM,  Brazil,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/151872-staff-devops-engineer",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Python Engineering Manager, Commercial Systems",
         "company": "Canonical",
         "location": "EMEA",
@@ -318,63 +299,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Staff DevOps Engineer",
-        "company": "Omnissa",
-        "location": "California, US",
-        "url": "https://www.adzuna.com/land/ad/5874442578?se=otvxf5Sr8RG_XcVPRIW5Uw&utm_medium=api&utm_source=4076fe36&v=5DBEADA23D8FC9138CE58ADF76C05BD3AFEC1164",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
-        ],
-        "salary_min": 129442.28,
-        "salary_max": 129442.28,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Staff DevOps Engineer",
-        "company": "Omnissa",
-        "location": "Mountain View, Santa Clara County",
-        "url": "https://www.adzuna.com/land/ad/5874460107?se=otvxf5Sr8RG_XcVPRIW5Uw&utm_medium=api&utm_source=4076fe36&v=806057A577D41755B2582E2CEE980EDDCE857FE1",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
-        ],
-        "salary_min": 127627.15,
-        "salary_max": 127627.15,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Sr. Manager, SRE & Performance",
-        "company": "Omnissa",
-        "location": "Mountain View, Santa Clara County",
-        "url": "https://www.adzuna.com/land/ad/5869017974?se=eOj5gJSr8RG_XcVPRIW5Uw&utm_medium=api&utm_source=4076fe36&v=B96F3BA0392FEAB479FC983A07B397A9C4CED960",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: sre",
-          "SRE",
-          "Platform"
-        ],
-        "salary_min": 195648.02,
-        "salary_max": 195648.02,
-        "comp_disclosed": true
-      },
-      {
         "title": "AI/ML Engineering Manager",
         "company": "Caylent",
         "location": "Argentina",
@@ -436,6 +360,24 @@
         "company": "Lemon.io",
         "location": "LATAM, Europe, USA, Canada, APAC",
         "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "B2B Senior DevOps Engineer",
+        "company": "Jamf",
+        "location": "Poland",
+        "url": "https://jobicy.com/jobs/152809-b2b-senior-devops-engineer",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -533,6 +475,24 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: ai lead",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager",
+        "company": "Tremendous",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152855-engineering-manager-7",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
           "Platform"
         ],
         "salary_min": null,
@@ -754,28 +714,45 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      }
-    ],
-    "C": [
+      },
       {
-        "title": "Senior Site Reliability Engineer - Access Team",
-        "company": "n26",
-        "location": "Berlin",
-        "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
+        "title": "Engineering Manager",
+        "company": "Teachable",
+        "location": "Brazil",
+        "url": "https://jobicy.com/jobs/152085-engineering-manager-6",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
+          "Title match: engineering manager",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
       },
+      {
+        "title": "Engineering Manager, Agent Foundations: Agent Execution",
+        "company": "gitlab",
+        "location": "Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8759592002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      }
+    ],
+    "C": [
       {
         "title": "Senior Site Reliability Engineer - Access Team",
         "company": "n26",
@@ -796,19 +773,19 @@
         "comp_disclosed": false
       },
       {
-        "title": "Interim project - Senior DevOps Consultant (f/m/d)",
-        "company": "Climate",
-        "location": "Berlin HQ",
-        "url": "https://www.arbeitnow.com/jobs/companies/climate/interim-project-senior-devops-consultant-berlin-hq-412295",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
+        "title": "Senior Site Reliability Engineer - Access Team",
+        "company": "n26",
+        "location": "Berlin",
+        "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -946,25 +923,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Director, Engineering - Cloud Observability",
-        "company": "datadog",
-        "location": "Boston, Massachusetts, USA; New York, New York, USA",
-        "url": "https://careers.datadoghq.com/detail/8069508/?gh_jid=8069508",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: cto",
-          "Observability",
-          "Aws"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager - Public Cloud, Python, Golang",
         "company": "Canonical",
         "location": "EMEA,  LATAM,  Canada,  USA",
@@ -984,29 +942,28 @@
         "comp_disclosed": false
       },
       {
-        "title": "Staff DevOps Engineer",
-        "company": "Hubstaff",
-        "location": "LATAM,  Brazil,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/151872-staff-devops-engineer",
-        "score": 6,
+        "title": "Senior DevOps Engineer",
+        "company": "Lemon.io",
+        "location": "LATAM, Europe, USA, Canada, APAC",
+        "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099",
+        "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
           "Title match: devops",
-          "Devops",
-          "Platform"
+          "Devops"
         ],
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
       },
       {
-        "title": "Senior DevOps Engineer",
-        "company": "Lemon.io",
-        "location": "LATAM, Europe, USA, Canada, APAC",
-        "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099",
+        "title": "B2B Senior DevOps Engineer",
+        "company": "Jamf",
+        "location": "Poland",
+        "url": "https://jobicy.com/jobs/152809-b2b-senior-devops-engineer",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -1068,6 +1025,24 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: ai lead",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager",
+        "company": "Tremendous",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/152855-engineering-manager-7",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
           "Platform"
         ],
         "salary_min": null,
@@ -1219,24 +1194,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Staff AI Engineer - AI Platform",
-        "company": "ClickUp",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/152638-staff-ai-engineer-ai-platform",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager, Agent Foundations: Agent Execution",
         "company": "gitlab",
         "location": "Remote, United States",
@@ -1374,24 +1331,6 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: ai engineer",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Director, Agent Context",
-        "company": "hex",
-        "location": "US Timezones",
-        "url": "https://jobs.ashbyhq.com/hex/3a16c7fa-e72b-488c-ba00-58e09be36b0e",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: cto",
           "Platform"
         ],
         "salary_min": null,
