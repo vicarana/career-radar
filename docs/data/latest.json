@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11 14:42 UTC",
+  "generated": "2026-09-12 13:48 UTC",
   "sources_ok": 8,
   "sources_total": 8,
   "stats": {
@@ -8,7 +8,7 @@
     "track_c": 6,
     "track_d": 30,
     "grade_a": 0,
-    "grade_b": 7,
+    "grade_b": 6,
     "visa": 0,
     "us_sponsor_confirmed": 0
   },
@@ -34,25 +34,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Staff Site Reliability Engineer",
-        "company": "replit",
-        "location": "Remote - Europe",
-        "url": "https://jobs.ashbyhq.com/replit/f35042a1-b016-4811-9597-b98facf5eb4d",
-        "score": 12,
-        "grade": "B",
-        "match": 60,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "SRE",
-          "Site Reliability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Director of Production Engineering",
         "company": "Legion",
         "location": "USA",
@@ -65,25 +46,6 @@
         "reasons": [
           "Title match: cto",
           "SRE",
-          "Reliability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Site Reliability Engineer",
-        "company": "replit",
-        "location": "Remote - Europe",
-        "url": "https://jobs.ashbyhq.com/replit/ca50a435-72b4-4092-b957-31d29ede1c00",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
           "Reliability"
         ],
         "salary_min": null,
@@ -165,6 +127,25 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "Senior Site Reliability Engineer II  Remote EST Preferred",
+        "company": "LexisNexis",
+        "location": "Horsham, Montgomery County",
+        "url": "https://www.adzuna.com/land/ad/5880948126?se=OtoimbCu8RG-FLx_YfIXKQ&utm_medium=api&utm_source=4076fe36&v=AB1B308A1DA7E58DD7A4C0D410849D4A06D2D27C",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": 134024.06,
+        "salary_max": 134024.06,
+        "comp_disclosed": true
       },
       {
         "title": "AWS DevOps Engineer (Senior) - Migration Project (VMware to AWS)",
@@ -262,6 +243,24 @@
         "comp_disclosed": false
       },
       {
+        "title": "Engineering Manager, SRE",
+        "company": "Remote",
+        "location": "APAC,  EMEA",
+        "url": "https://jobicy.com/jobs/153081-engineering-manager-sre",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: sre",
+          "SRE"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Python Engineering Manager, Commercial Systems",
         "company": "Canonical",
         "location": "EMEA",
@@ -294,6 +293,25 @@
           "Title match: engineering manager",
           "Platform",
           "Gitops"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior DevOps Engineer (m/f/d)",
+        "company": "Auxmoney Gmbh",
+        "location": "Remote / Düsseldorf",
+        "url": "https://www.arbeitnow.com/jobs/companies/auxmoney-gmbh/remote-senior-devops-engineer-340622",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -448,24 +466,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior DevOps Engineer",
-        "company": "Cision",
-        "location": "Bulgaria",
-        "url": "https://jobicy.com/jobs/151871-senior-devops-engineer-4",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Senior Platform Engineer",
         "company": "saas.group",
         "location": "Europe",
@@ -477,24 +477,6 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: platform engineer",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Web Strategy, SEO & AI Lead",
-        "company": "Harness",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/152486-web-strategy-seo-ai-lead",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai lead",
           "Platform"
         ],
         "salary_min": null,
@@ -752,14 +734,32 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager",
+        "company": "Teachable",
+        "location": "Brazil",
+        "url": "https://jobicy.com/jobs/152085-engineering-manager-6",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       }
     ],
     "C": [
       {
-        "title": "Senior Site Reliability Engineer - Access Team",
-        "company": "n26",
+        "title": "Senior Site Reliability Engineer",
+        "company": "planetlabs",
         "location": "Berlin",
-        "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
+        "url": "https://www.arbeitnow.com/jobs/companies/planetlabs/senior-site-reliability-engineer-berlin-322482",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -794,22 +794,23 @@
         "comp_disclosed": false
       },
       {
-        "title": "SRE Software Engineering Manager - Apple Services Engineering, Dublin",
-        "company": "Apple",
-        "location": "Dublin, Alameda County",
-        "url": "https://www.adzuna.com/details/5873060316?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
+        "title": "Senior Site Reliability Engineer - Access Team",
+        "company": "n26",
+        "location": "Berlin",
+        "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: sre",
-          "SRE"
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
         ],
-        "salary_min": 225110.69,
-        "salary_max": 225110.69,
-        "comp_disclosed": true
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Engineering Manager - Data Delivery Platform",
@@ -925,10 +926,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Sr Lead Site Reliability Engineer",
-        "company": "Lumen",
-        "location": "Bonnie, Utah County",
-        "url": "https://www.adzuna.com/land/ad/5871828998?se=sLYc--6t8RGwr9wpHSYvKQ&utm_medium=api&utm_source=4076fe36&v=47AA553CBBB128F1651BC5379C0F26EBF3DDE52A",
+        "title": "Senior Site Reliability Engineer II  Remote EST Preferred",
+        "company": "LexisNexis",
+        "location": "Horsham, Montgomery County",
+        "url": "https://www.adzuna.com/land/ad/5880948126?se=OtoimbCu8RG-FLx_YfIXKQ&utm_medium=api&utm_source=4076fe36&v=AB1B308A1DA7E58DD7A4C0D410849D4A06D2D27C",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -939,27 +940,8 @@
           "Site Reliability",
           "Reliability"
         ],
-        "salary_min": 142682.84,
-        "salary_max": 142682.84,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Sr Lead Site Reliability Engineer",
-        "company": "Lumen",
-        "location": "Wyoming, Kent County",
-        "url": "https://www.adzuna.com/land/ad/5871405667?se=sLYc--6t8RGwr9wpHSYvKQ&utm_medium=api&utm_source=4076fe36&v=AE8141A9F306E879140D173C2D9034702ED77A36",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ],
-        "salary_min": 174839.36,
-        "salary_max": 174839.36,
+        "salary_min": 134024.06,
+        "salary_max": 134024.06,
         "comp_disclosed": true
       },
       {
@@ -1030,24 +1012,6 @@
         "reasons": [
           "Title match: devops",
           "Devops"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Web Strategy, SEO & AI Lead",
-        "company": "Harness",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/152486-web-strategy-seo-ai-lead",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai lead",
-          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -1274,6 +1238,42 @@
         "company": "instacart",
         "location": "United States - Remote",
         "url": "https://instacart.careers/job/?gh_jid=7960958",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Data Platform",
+        "company": "launchdarkly",
+        "location": "Remote - US",
+        "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7992639003",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Engineering Manager, SDKs",
+        "company": "launchdarkly",
+        "location": "Remote - US",
+        "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7992077003",
         "score": 4,
         "grade": "D",
         "match": 35,
