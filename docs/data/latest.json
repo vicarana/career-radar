@@ -1,14 +1,14 @@
 {
-  "generated": "2026-09-12 13:48 UTC",
+  "generated": "2026-09-13 14:44 UTC",
   "sources_ok": 8,
   "sources_total": 8,
   "stats": {
-    "total": 76,
+    "total": 80,
     "track_b": 40,
-    "track_c": 6,
-    "track_d": 30,
+    "track_c": 11,
+    "track_d": 29,
     "grade_a": 0,
-    "grade_b": 6,
+    "grade_b": 7,
     "visa": 0,
     "us_sponsor_confirmed": 0
   },
@@ -19,6 +19,25 @@
         "company": "Canonical",
         "location": "APAC,  EMEA",
         "url": "https://jobicy.com/jobs/149986-site-reliability-engineering-manager",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Site Reliability Engineer (Hardware Automation)",
+        "company": "Nebius",
+        "location": "Europe,  Netherlands",
+        "url": "https://jobicy.com/jobs/149057-senior-site-reliability-engineer-hardware-automation",
         "score": 12,
         "grade": "B",
         "match": 60,
@@ -110,44 +129,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Manager, Site Reliability Engineering (Auth0)",
-        "company": "Okta",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/152068-manager-site-reliability-engineering-auth0",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Site Reliability Engineer II  Remote EST Preferred",
-        "company": "LexisNexis",
-        "location": "Horsham, Montgomery County",
-        "url": "https://www.adzuna.com/land/ad/5880948126?se=OtoimbCu8RG-FLx_YfIXKQ&utm_medium=api&utm_source=4076fe36&v=AB1B308A1DA7E58DD7A4C0D410849D4A06D2D27C",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ],
-        "salary_min": 134024.06,
-        "salary_max": 134024.06,
-        "comp_disclosed": true
-      },
-      {
         "title": "AWS DevOps Engineer (Senior) - Migration Project (VMware to AWS)",
         "company": "Mactores",
         "location": "Anywhere",
@@ -199,6 +180,25 @@
           "Title match: engineering manager",
           "Platform",
           "Python"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Staff DevOps Engineer (Platform)",
+        "company": "Phantom",
+        "location": "Europe,  USA",
+        "url": "https://jobicy.com/jobs/153130-staff-devops-engineer-platform",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -293,25 +293,6 @@
           "Title match: engineering manager",
           "Platform",
           "Gitops"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior DevOps Engineer (m/f/d)",
-        "company": "Auxmoney Gmbh",
-        "location": "Remote / Düsseldorf",
-        "url": "https://www.arbeitnow.com/jobs/companies/auxmoney-gmbh/remote-senior-devops-engineer-340622",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -460,24 +441,6 @@
         "reasons": [
           "Title match: devops",
           "Devops"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Platform Engineer",
-        "company": "saas.group",
-        "location": "Europe",
-        "url": "https://jobicy.com/jobs/150132-senior-platform-engineer-2",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -736,10 +699,46 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager",
-        "company": "Teachable",
-        "location": "Brazil",
-        "url": "https://jobicy.com/jobs/152085-engineering-manager-6",
+        "title": "Senior Platform Engineer",
+        "company": "Senior Full-Stack Engineer - AI Cost Visibility - Greenhouse",
+        "location": "",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/senior-full-stack-engineer-ai-cost-visibility-greenhouse/senior-platform-engineer-34986",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Agent Foundations: Agent Execution",
+        "company": "gitlab",
+        "location": "Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8759592002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Build",
+        "company": "gitlab",
+        "location": "Remote, United Kingdom",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586667002",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -756,13 +755,13 @@
     ],
     "C": [
       {
-        "title": "Senior Site Reliability Engineer",
-        "company": "planetlabs",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/planetlabs/senior-site-reliability-engineer-berlin-322482",
-        "score": 10,
+        "title": "Senior Site Reliability Engineer (Hardware Automation)",
+        "company": "Nebius",
+        "location": "Europe,  Netherlands",
+        "url": "https://jobicy.com/jobs/149057-senior-site-reliability-engineer-hardware-automation",
+        "score": 12,
         "grade": "B",
-        "match": 50,
+        "match": 60,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
@@ -813,6 +812,62 @@
         "comp_disclosed": false
       },
       {
+        "title": "Interim project - Senior DevOps Consultant (f/m/d)",
+        "company": "Climate",
+        "location": "Berlin HQ",
+        "url": "https://www.arbeitnow.com/jobs/companies/climate/interim-project-senior-devops-consultant-berlin-hq-325249",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior DevOps Support Engineer",
+        "company": "Job Application for Senior DevOps Support Engineer at Buildkite",
+        "location": "Ireland or Poland",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/job-application-for-senior-devops-support-engineer-at-buildkite/senior-devops-support-engineer-ireland-or-poland-152092",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Platform Engineer",
+        "company": "Senior Full-Stack Engineer - AI Cost Visibility - Greenhouse",
+        "location": "",
+        "url": "https://www.arbeitnow.co.uk/jobs/companies/senior-full-stack-engineer-ai-cost-visibility-greenhouse/senior-platform-engineer-34986",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Engineering Manager - Data Delivery Platform",
         "company": "adyen",
         "location": "Amsterdam",
@@ -843,6 +898,42 @@
         "reasons": [
           "Title match: engineering manager",
           "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Cloud Consultant - Data & AI Engineer (f/m/d, 4-Days-Week), German Speaking",
+        "company": "Auvaria",
+        "location": "München",
+        "url": "https://www.arbeitnow.com/jobs/companies/auvaria/senior-cloud-consultant-data-ai-engineer-4-days-week-german-speaking-munchen-183706",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Aws"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Cloud Consultant - Data & AI Engineer (f/m/d, 4-Days-Week), German Speaking",
+        "company": "Auvaria",
+        "location": "Hamburg",
+        "url": "https://www.arbeitnow.com/jobs/companies/auvaria/senior-cloud-consultant-data-ai-engineer-4-days-week-german-speaking-hamburg-340121",
+        "score": 3,
+        "grade": "F",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Aws"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -907,44 +998,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Manager, Site Reliability Engineering (Auth0)",
-        "company": "Okta",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/152068-manager-site-reliability-engineering-auth0",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Site Reliability Engineer II  Remote EST Preferred",
-        "company": "LexisNexis",
-        "location": "Horsham, Montgomery County",
-        "url": "https://www.adzuna.com/land/ad/5880948126?se=OtoimbCu8RG-FLx_YfIXKQ&utm_medium=api&utm_source=4076fe36&v=AB1B308A1DA7E58DD7A4C0D410849D4A06D2D27C",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability"
-        ],
-        "salary_min": 134024.06,
-        "salary_max": 134024.06,
-        "comp_disclosed": true
-      },
-      {
         "title": "Engineering Manager - Public Cloud, Python, Golang",
         "company": "Canonical",
         "location": "EMEA,  LATAM,  Canada,  USA",
@@ -958,6 +1011,25 @@
           "Title match: engineering manager",
           "Platform",
           "Python"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Staff DevOps Engineer (Platform)",
+        "company": "Phantom",
+        "location": "Europe,  USA",
+        "url": "https://jobicy.com/jobs/153130-staff-devops-engineer-platform",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform"
         ],
         "salary_min": null,
         "salary_max": null,
