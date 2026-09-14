@@ -358,33 +358,34 @@ def location_state(location):
     return None
 
 
-def us_geo_ok(job, us_cfg):
-    """True if the job's location doesn't conflict with Vic's preferred
-    states. A job explicitly pinned to a non-preferred state (e.g. 'New
-    York, NY') is excluded even if also remote-tagged, the posting is still
-    telling you where the role is based. A job with NO pinned state at all
-    ('Remote, US') passes if genuinely remote, since the employer isn't
-    dictating a location there, that's compatible with living in Texas (or
-    any other preferred state) regardless of where the company is HQ'd."""
-    preferred = us_cfg.get("preferred_states", [])
+def country_geo_ok(job, cfg, resolve_us_state=False):
+    """Generic preferred-sub-region gate, reused by Track D (US states) and
+    Track F (Canada provinces). A job pinned to a non-preferred sub-region
+    is excluded even if also remote-tagged, the posting is still telling
+    you where the role is based. A job with NO pinned sub-region passes if
+    genuinely remote, since the employer isn't dictating a location there.
+    resolve_us_state mirrors is_country_based: only the US has a structured
+    2-letter-code field worth resolving here."""
+    preferred = cfg.get("preferred_regions", [])
     if not preferred:
         return True
-    st = location_state(job["location"])
-    if st is not None:
-        return st in preferred
+    if resolve_us_state:
+        st = location_state(job["location"])
+        if st is not None:
+            return st in preferred
     return bool(job["remote"] or "remote" in job["text"])
 
 
-def is_us_based(job, us_cfg):
-    """True if this job is plausibly US-based at all, checked upstream of
-    the preferred_states narrowing. A specific US state resolved from the
-    location field (e.g. 'Boise, ID' -> idaho) is definitive proof on its
-    own, doesn't need to also appear in us_indicators, that list exists
-    only to catch generic phrasing ('Remote, US') where no city/state is
-    named at all."""
-    if location_state(job["location"]) is not None:
+def is_country_based(job, cfg, resolve_us_state=False):
+    """Generic country/region membership check, reused by Track D (US) and
+    Track F (Canada) so the country-indicator pattern isn't duplicated per
+    track. resolve_us_state=True additionally trusts a resolved US state
+    name as definitive proof on its own (e.g. 'Boise, ID' -> idaho), no
+    other country here has an equivalent structured 2-letter-code field to
+    resolve, so that path only applies to Track D."""
+    if resolve_us_state and location_state(job["location"]) is not None:
         return True
-    return any(ind in job["text"] for ind in us_cfg.get("us_indicators", []))
+    return any(ind in job["text"] for ind in cfg.get("country_indicators", []))
 
 
 def tracks_of(job, p):
@@ -403,18 +404,30 @@ def tracks_of(job, p):
     sponsorship policy is unknown until you ask in the interview, that's
     the cost of reach over certainty, a deliberate choice, not an oversight.
     Checks the full text (not just location) since country mentions often
-    live in the description, not the structured location field."""
+    live in the description, not the structured location field.
+
+    Extended 2026-09-13 per Vic (career-radar scope widen): Track E (LatAm,
+    no relocation needed) is a plain region-list match like Track C, just
+    without a sponsorship badge (not applicable, home region). Track F
+    (Canada) reuses the exact same country-indicator/preferred-region
+    pattern Track D already had, generalized into is_country_based() and
+    country_geo_ok() instead of copy-pasting a second US-shaped block."""
     t, tks = job["text"], set()
     if job["remote"] or "remote" in t or "anywhere" in t:
         tks.add("B")
-    eu = p["track_c_europe"]
-    if any(c in t for c in eu["countries"]):
-        tks.add("C")
-        job["visa"] = sponsor_confirmed(t, eu["visa_terms"])
+    for tk, region_cfg in (("C", p.get("track_c_europe", {})), ("E", p.get("track_e_latam", {}))):
+        if region_cfg and any(c in t for c in region_cfg.get("countries", [])):
+            tks.add(tk)
+            if region_cfg.get("visa_terms"):
+                job["visa"] = sponsor_confirmed(t, region_cfg["visa_terms"])
     us = p.get("track_d_us_sponsor", {})
-    if us and is_us_based(job, us) and us_geo_ok(job, us):
+    if us and is_country_based(job, us, resolve_us_state=True) and country_geo_ok(job, us, resolve_us_state=True):
         tks.add("D")
-        job["us_sponsor"] = sponsor_confirmed(t, eu["visa_terms"])
+        job["us_sponsor"] = sponsor_confirmed(t, us.get("visa_terms", []))
+    ca = p.get("track_f_canada", {})
+    if ca and is_country_based(job, ca) and country_geo_ok(job, ca):
+        tks.add("F")
+        job["ca_sponsor"] = sponsor_confirmed(t, ca.get("visa_terms", []))
     return tks
 
 
@@ -486,7 +499,7 @@ def main():
             seen.add(k)
             uniq.append(j)
 
-    buckets = {"B": [], "C": [], "D": []}
+    buckets = {"B": [], "C": [], "D": [], "E": [], "F": []}
     for j in uniq:
         s = score(j, p)
         if s < p.get("min_score", 3):
@@ -508,6 +521,7 @@ def main():
             rows.append({"title": j["title"], "company": j["company"], "location": j["location"],
                          "url": j["url"], "score": j["_score"], "grade": g, "match": pct,
                          "visa": j.get("visa", False), "us_sponsor": j.get("us_sponsor", False),
+                         "ca_sponsor": j.get("ca_sponsor", False),
                          "reasons": reasons_for(j, p),
                          "salary_min": j.get("salary_min"), "salary_max": j.get("salary_max"),
                          "comp_disclosed": j.get("salary_min") is not None})
@@ -517,26 +531,31 @@ def main():
     date = now.strftime("%Y-%m-%d %H:%M UTC")
     total_attempted = len(set(ATTEMPTED))
     sources_ok = total_attempted - len({w.split(":")[0] for w in WARN})
-    B, C, D = clean(buckets["B"]), clean(buckets["C"]), clean(buckets["D"])
-    allrows = B + C + D
+    B, C, D, E, F = (clean(buckets["B"]), clean(buckets["C"]), clean(buckets["D"]),
+                     clean(buckets["E"]), clean(buckets["F"]))
+    allrows = B + C + D + E + F
     stats = {
         "total": len(allrows),
         "track_b": len(B),
         "track_c": len(C),
         "track_d": len(D),
+        "track_e": len(E),
+        "track_f": len(F),
         "grade_a": sum(1 for r in allrows if r["grade"] == "A"),
         "grade_b": sum(1 for r in allrows if r["grade"] == "B"),
         "visa": sum(1 for r in C if r["visa"]),
         "us_sponsor_confirmed": sum(1 for r in D if r["us_sponsor"]),
+        "ca_sponsor_confirmed": sum(1 for r in F if r["ca_sponsor"]),
     }
     payload = {
         "generated": date,
         "sources_ok": sources_ok,
         "sources_total": total_attempted,
         "stats": stats,
-        "tracks": {"B": B, "C": C, "D": D},
+        "tracks": {"B": B, "C": C, "D": D, "E": E, "F": F},
         "linkedin": linkedin_searches(),
         "walmart_markets": p["track_a_walmart_markets"]["portals"],
+        "direct_portals": p.get("direct_portals", {}).get("portals", []),
         "warnings": sorted(set(WARN)),
         "profile_lite": {
             "target_titles": p["target_titles"],
@@ -555,12 +574,20 @@ def main():
 
     lines = [f"# career-radar - {date}", f"Sources OK: {sources_ok}/{total_attempted}\n"]
     for tk, name in [("D", "Track D - US (sponsorship not guaranteed, check per-role)"),
-                     ("C", "Track C - Europe (sponsorship not guaranteed, check per-role)"), ("B", "Track B - Remote/income")]:
+                     ("C", "Track C - Europe (sponsorship not guaranteed, check per-role)"),
+                     ("F", "Track F - Canada (sponsorship not guaranteed, check per-role)"),
+                     ("E", "Track E - LatAm/Chile (no relocation needed)"),
+                     ("B", "Track B - Remote/income")]:
         lines.append(f"\n## {name} ({len(buckets[tk])})")
         for j in buckets[tk][:20]:
             v = " [VISA]" if j.get("visa") else ""
             lines.append(f"- {j['title']} @ {j['company'] or '?'} ({j['location'] or 'n/a'}) "
                          f"s{j['_score']}{v} {j['url']}")
+    portals = p.get("direct_portals", {}).get("portals", [])
+    if portals:
+        lines.append("\n## Direct portals - no public ATS feed, check manually")
+        for pt in portals:
+            lines.append(f"- {pt['company']}: {pt['url']}")
     with open(os.path.join(DATA, "latest.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
