@@ -54,6 +54,13 @@
     "langchain", "langgraph", "vector database", "pinecone", "weaviate",
     "huggingface", "pytorch", "fine-tuning", "openai", "anthropic"
   ],
+  "differentiator_skills": [
+    "pci-dss", "pci dss", "cardholder data", "payment compliance",
+    "iot", "ot security", "fleet management", "device fleet",
+    "edge computing", "point of sale", "point-of-sale",
+    "identity", "oauth", "sso", "single sign-on"
+  ],
+  "_differentiator_note": "Added 2026-09-14 per Vic ('tech sectors where my experience can make the difference'). Scored the same as strong_skills (2pts) rather than good_skills (1pt) in radar.py's score(), since these represent real hands-on background (PCI-DSS/CDE ownership on FlexPOS, IoT/OT device+peripheral governance via the TCA framework, PingFederate/OAuth/SSO ownership), not just familiarity. A posting mentioning these alongside SRE/DevOps/AI titles signals a role where Vic's specific cross-domain background is a genuine edge over a typical candidate, not just another qualified applicant. See session summary for the full sector breakdown (payments/fintech, industrial IoT/mining-adjacent, agentic AI platforms, identity/security, observability tooling vendors).",
   "avoid_skills": [
     "react native", "ios developer", "android developer", "salesforce developer",
     "wordpress", "php developer", "unity", "game developer", "recruiter", "sales representative"

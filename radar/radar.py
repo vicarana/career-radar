@@ -263,6 +263,7 @@ def score(job, p):
     sc = 0
     sc += sum(2 for s in p["target_titles"] if s in title)
     sc += sum(2 for s in p["strong_skills"] if s in t)
+    sc += sum(2 for s in p.get("differentiator_skills", []) if s in t)
     sc += sum(1 for s in p["good_skills"] if s in t)
     return sc
 
@@ -284,13 +285,21 @@ def grade_of(score):
 
 
 def reasons_for(job, p):
-    """Top human-readable 'why it fits' reasons from matched strong/good skills."""
+    """Top human-readable 'why it fits' reasons from matched skills.
+    differentiator_skills are checked ahead of strong/good skills and
+    labeled distinctly, they represent real cross-domain background (PCI-
+    DSS/CDE, IoT/OT device governance, identity/OAuth) that's a genuine
+    edge over a typical candidate, worth surfacing first, not buried behind
+    generic tooling matches."""
     t, title = job["text"], job["title"].lower()
     out = []
     for s in p["target_titles"]:
         if s in title:
             out.append("Title match: " + s)
             break
+    for s in p.get("differentiator_skills", []):
+        if s in t and len(out) < 3:
+            out.append("Differentiator: " + s.strip().title())
     for s in p["strong_skills"]:
         if s in t and len(out) < 3:
             out.append(s.strip().upper() if len(s) <= 4 else s.strip().title())
@@ -568,6 +577,7 @@ def main():
         "profile_lite": {
             "target_titles": p["target_titles"],
             "strong_skills": p["strong_skills"],
+            "differentiator_skills": p.get("differentiator_skills", []),
             "good_skills": p["good_skills"],
             "avoid_skills": p["avoid_skills"],
         },
