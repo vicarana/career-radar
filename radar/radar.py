@@ -563,6 +563,7 @@ def main():
         "linkedin": linkedin_searches(),
         "walmart_markets": p["track_a_walmart_markets"]["portals"],
         "direct_portals": p.get("direct_portals", {}).get("portals", []),
+        "direct_portals_chile": p.get("direct_portals_chile", {}).get("portals", []),
         "warnings": sorted(set(WARN)),
         "profile_lite": {
             "target_titles": p["target_titles"],
@@ -594,6 +595,11 @@ def main():
     if portals:
         lines.append("\n## Direct portals - no public ATS feed, check manually")
         for pt in portals:
+            lines.append(f"- {pt['company']}: {pt['url']}")
+    cl_portals = p.get("direct_portals_chile", {}).get("portals", [])
+    if cl_portals:
+        lines.append("\n## Chile sector portals (mining/energy/telecom) - no public ATS feed, check manually")
+        for pt in cl_portals:
             lines.append(f"- {pt['company']}: {pt['url']}")
     with open(os.path.join(DATA, "latest.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines))

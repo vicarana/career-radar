@@ -128,5 +128,19 @@
       {"company": "Anthropic", "url": "https://www.anthropic.com/jobs"}
     ]
   },
+  "direct_portals_chile": {
+    "_note": "Added 2026-09-14 per Vic (mining sector + Chile sectors above 7,500 USD/month). Real research via web-retriever, not guessed: mining is a credible high-pay sector for senior automation/AI/OT/digital-transformation talent in Chile (autonomous trucks, digital twins, predictive maintenance are real active investment areas), but NONE of the majors run a Greenhouse/Lever/Ashby public feed. BHP and Teck are confirmed on SAP SuccessFactors (verified from page script references), Codelco/SQM/Antofagasta Minerals/Anglo American/Albemarle/Glencore's exact platforms are unverified/custom, none have a documented public JSON board API the way Stripe or Datadog do. Same for banking (Banco de Chile, Santander Chile, BCI, Itau), energy (Enel Chile, AES Andes), and telecom (Entel, Movistar, Claro), all plausible for Director/Head-of/CTO-level comp above the threshold, none automatable. Only URLs actually confirmed reachable during research are listed below, same honest standard as direct_portals above, no guessed/unverified links included. IMPORTANT LIMITATION: unlike Tracks B-F, nothing here is scored, graded, or comp-filtered, radar.py cannot evaluate these against the 80k/year (or any) floor since there's no JSON feed to read salary from, this is a pure manual-check list surfaced in the daily digest.",
+    "target_comp_context": "Vic's ask 2026-09-14: sectors clearing 7,500 USD/month (~90,000 USD/year) in Chile specifically. Real finding: this is NOT typical for an ordinary local senior IC hire in Chile, even in mining, it's realistic mainly at Director/Head-of/CTO/regional-technology-leadership level, or for expatriate/regional packages with allowances layered on top of base salary. This is a DIFFERENT number from the global 80,000 USD/year floor set for profile.json's comp_targets (that one applies to remote/global-band roles across Tracks B-F), not a change to it, flagging the distinction rather than silently conflating the two.",
+    "portals": [
+      {"company": "BHP (mining, Chile filter)", "url": "https://careers.bhp.com/search/?createNewAlert=false&q=&optionsFacetsDD_location=Chile"},
+      {"company": "Teck Resources (mining, Chile filter)", "url": "https://jobs.teck.com/go/Chile/9698200/"},
+      {"company": "Anglo American (mining)", "url": "https://jobs.angloamerican.com/"},
+      {"company": "Glencore (mining)", "url": "https://www.glencore.com/en/careers/jobs"},
+      {"company": "Enel Chile (energy)", "url": "https://www.enel.com/company/careers"},
+      {"company": "AES Andes (energy)", "url": "https://www.aesandes.com/en/careers"},
+      {"company": "Entel (telecom)", "url": "https://www.entel.cl/"},
+      {"company": "Movistar/Telefonica (telecom)", "url": "https://www.telefonica.com/en/careers/"}
+    ]
+  },
   "min_score": 3
 }
