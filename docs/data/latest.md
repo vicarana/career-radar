@@ -1,5 +1,5 @@
-# career-radar - 2026-09-14 00:58 UTC
-Sources OK: 5/8
+# career-radar - 2026-09-14 01:02 UTC
+Sources OK: 8/8
 
 
 ## Track D - US (sponsorship not guaranteed, check per-role) (39)
@@ -11,7 +11,7 @@ Sources OK: 5/8
 - Staff DevOps Engineer (Platform) @ Phantom (Europe,  USA) s6 https://jobicy.com/jobs/153130-staff-devops-engineer-platform
 - Senior Manager, AI Engineering @ HackerOne (USA) s6 https://jobicy.com/jobs/152504-senior-manager-ai-engineering
 - Engineering Manager- Ceph & Distributed Storage @ Canonical (EMEA,  LATAM,  Canada,  USA) s6 https://jobicy.com/jobs/149970-engineering-manager-ceph-distributed-storage
-- Lead Cloud & Agentic AI Engineer @ Vanguard (Dallas, Texas) s6 https://www.adzuna.com/land/ad/5871901547?se=dPDRYtev8RGwr_RguuB92Q&utm_medium=api&utm_source=4076fe36&v=EBE374AFEAB933DEA30E7C39DDD20F5F4A7225BA
+- Lead Cloud & Agentic AI Engineer @ Vanguard (Dallas, Texas) s6 https://www.adzuna.com/land/ad/5871901547?se=JOnR69ev8RGn6fae0elnwA&utm_medium=api&utm_source=4076fe36&v=EBE374AFEAB933DEA30E7C39DDD20F5F4A7225BA
 - Senior DevOps Engineer @ Lemon.io (LATAM, Europe, USA, Canada, APAC) s4 https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099
 - B2B Senior DevOps Engineer @ Jamf (Poland) s4 https://jobicy.com/jobs/152809-b2b-senior-devops-engineer
 - Federal Customer Success Manager - DevOps @ Sonatype (USA) s4 https://jobicy.com/jobs/152105-federal-customer-success-manager-devops
@@ -26,7 +26,7 @@ Sources OK: 5/8
 
 ## Track C - Europe (sponsorship not guaranteed, check per-role) (17)
 - Senior Site Reliability Engineer (Hardware Automation) @ Nebius (Europe,  Netherlands) s12 https://jobicy.com/jobs/149057-senior-site-reliability-engineer-hardware-automation
-- Senior AI Agent Engineer @ Oracle (Baton Rouge, East Baton Rouge Parish) s11 https://www.adzuna.com/land/ad/5831454484?se=WuEtYtev8RGFeM5ALoHquw&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4
+- Senior AI Agent Engineer @ Oracle (Baton Rouge, East Baton Rouge Parish) s11 https://www.adzuna.com/land/ad/5831454484?se=st5d69ev8RGUwN914EqgHQ&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4
 - Senior Site Reliability Engineer - Access Team @ n26 (Barcelona) s10 https://n26.com/en-eu/careers/positions/7774526?gh_jid=7774526
 - Senior Site Reliability Engineer - Access Team @ n26 (Berlin) s10 https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035
 - Manager, Solutions Engineering | NorBen | Remote @ grafanalabs (Netherlands (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004
@@ -38,7 +38,7 @@ Sources OK: 5/8
 - Engineering Manager, Trusted Agentic Development @ gitlab (Remote, Poland) s4 https://job-boards.greenhouse.io/gitlab/jobs/8782040002
 - Engineering Manager - Data Delivery Platform @ adyen (Amsterdam) s4 https://job-boards.greenhouse.io/adyen/jobs/8110805
 - Engineering Manager - Regulatory Reporting Data @ adyen (Amsterdam) s4 https://job-boards.greenhouse.io/adyen/jobs/8110803
-- Forward Deployed Engineer, Legal [Office of the CTO] @ Coinbase (Baton Rouge, East Baton Rouge Parish) s4 https://www.adzuna.com/land/ad/5832857799?se=wkY2X9ev8RGUwN914EqgHQ&utm_medium=api&utm_source=4076fe36&v=5206AF0143B779B57D674857EFBEB6D22D9AF001
+- Forward Deployed Engineer, Legal [Office of the CTO] @ Coinbase (Baton Rouge, East Baton Rouge Parish) s4 https://www.adzuna.com/land/ad/5832857799?se=CBlD6dev8RGFeM5ALoHquw&utm_medium=api&utm_source=4076fe36&v=5206AF0143B779B57D674857EFBEB6D22D9AF001
 - Senior Cloud Consultant - Data & AI Engineer (f/m/d, 4-Days-Week), German Speaking @ Auvaria (München) s3 https://www.arbeitnow.com/jobs/companies/auvaria/senior-cloud-consultant-data-ai-engineer-4-days-week-german-speaking-munchen-183706
 - Senior Cloud Consultant - Data & AI Engineer (f/m/d, 4-Days-Week), German Speaking @ Auvaria (Hamburg) s3 https://www.arbeitnow.com/jobs/companies/auvaria/senior-cloud-consultant-data-ai-engineer-4-days-week-german-speaking-hamburg-340121
 - Database Engineering Team Manager @ squarespace (Dublin) s3 http://www.squarespace.com/about/careers?gh_jid=7962046
