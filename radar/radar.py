@@ -490,18 +490,14 @@ def main():
             # actually returns results, same caveat as DE/NL originally had.
             + src_adzuna(sponsor_qs, country="de")
             + src_adzuna(sponsor_qs, country="nl")
-            + src_adzuna(sponsor_qs, country="es")
-            # CL added 2026-09-14 per Vic (real Chile sourcing gap found:
-            # Track E was only catching generic 'LATAM' text on companies
-            # already in the global watchlist, zero Chile-specific results).
-            # Adzuna's publicly documented country coverage historically has
-            # NOT included Chile [OPINION, from training knowledge, not
-            # independently re-verified this session], so this call may
-            # 400/404, check WARN for 'adzuna:cl:...' after the next run to
-            # confirm one way or the other. Also still fully dormant
-            # regardless until ADZUNA_APP_ID/APP_KEY secrets exist (see
-            # src_adzuna's early-return), same blocker as always.
-            + src_adzuna(search_titles, country="cl"))
+            + src_adzuna(sponsor_qs, country="es"))
+            # CL tried 2026-09-14, CONFIRMED unsupported: Adzuna returned a
+            # real HTTP404 UNSUPPORTED_COUNTRY response, its documented
+            # coverage is at/au/be/br/ca/ch/de/es/fr/gb/in/it/mx/nl/nz/pl/
+            # sg/us/za, no Chile. Removed rather than left in as permanent
+            # warning noise. Brazil (br) and Mexico (mx) ARE supported if
+            # broader LatAm-via-Adzuna reach is ever wanted later, that's a
+            # separate ask, not built here.
 
     seen, uniq = set(), []
     for j in jobs:
