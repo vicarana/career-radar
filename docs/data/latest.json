@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14 02:31 UTC",
+  "generated": "2026-09-14 02:57 UTC",
   "sources_ok": 8,
   "sources_total": 8,
   "stats": {
@@ -55,7 +55,7 @@
       },
       {
         "title": "Senior Director, Solutions Engineering | Americas | Remote",
-        "company": "grafanalabs",
+        "company": "Grafana Labs",
         "location": "United States (Remote)",
         "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6126959004",
         "score": 12,
@@ -112,7 +112,7 @@
       },
       {
         "title": "Manager, Solutions Engineering | AMER | Remote",
-        "company": "grafanalabs",
+        "company": "Grafana Labs",
         "location": "United States (Remote)",
         "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6163556004",
         "score": 10,
@@ -131,7 +131,7 @@
       },
       {
         "title": "Manager, Solutions Engineering | NorBen | Remote",
-        "company": "grafanalabs",
+        "company": "Grafana Labs",
         "location": "Netherlands (Remote)",
         "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004",
         "score": 10,
@@ -150,7 +150,7 @@
       },
       {
         "title": "Manager, Solutions Engineering | NorBen | Remote",
-        "company": "grafanalabs",
+        "company": "Grafana Labs",
         "location": "Sweden (Remote)",
         "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004",
         "score": 10,
@@ -169,7 +169,7 @@
       },
       {
         "title": "Manager, Solutions Engineering | SEMEA | Remote",
-        "company": "grafanalabs",
+        "company": "Grafana Labs",
         "location": "Israel (Remote)",
         "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6121609004",
         "score": 10,
@@ -567,7 +567,7 @@
       },
       {
         "title": "Director of Engineering, Security Factory",
-        "company": "gitlab",
+        "company": "GitLab",
         "location": "Remote, Israel; Remote, United Kingdom",
         "url": "https://job-boards.greenhouse.io/gitlab/jobs/8607104002",
         "score": 6,
@@ -585,7 +585,7 @@
       },
       {
         "title": "Director, Field Sales Engineering",
-        "company": "samsara",
+        "company": "Samsara",
         "location": "Remote - US",
         "url": "https://www.samsara.com/company/careers/roles/7695309?gh_jid=7695309",
         "score": 6,
@@ -604,7 +604,7 @@
       },
       {
         "title": "Engineering Manager II - Platform Firmware",
-        "company": "samsara",
+        "company": "Samsara",
         "location": "Remote - US",
         "url": "https://www.samsara.com/company/careers/roles/7801077?gh_jid=7801077",
         "score": 6,
@@ -623,7 +623,7 @@
       },
       {
         "title": "Staff Infrastructure Engineer",
-        "company": "replit",
+        "company": "Replit",
         "location": "Foster City, CA",
         "url": "https://jobs.ashbyhq.com/replit/6481ec1e-527c-4c1f-a041-2fb5021e7bd5",
         "score": 6,
@@ -642,7 +642,7 @@
       },
       {
         "title": "Engineering Manager, Enterprise",
-        "company": "harvey",
+        "company": "Harvey",
         "location": "Toronto",
         "url": "https://jobs.ashbyhq.com/harvey/e2976ecf-f785-4524-8545-bbd519ffdaae",
         "score": 6,
@@ -682,7 +682,7 @@
         "title": "Senior AI Engineer",
         "company": "Apex Systems",
         "location": "Lafayette, Boulder County",
-        "url": "https://www.adzuna.com/land/ad/5857364075?se=0G7RYuSv8RGhe8--YZ_w9w&utm_medium=api&utm_source=4076fe36&v=38D36004A545D4C8DE13E57044D3DEBCD01A5833",
+        "url": "https://www.adzuna.com/land/ad/5857364075?se=0DfC-uev8RGQCqo3hlJMDA&utm_medium=api&utm_source=4076fe36&v=38D36004A545D4C8DE13E57044D3DEBCD01A5833",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -701,7 +701,7 @@
         "title": "Director, AI Engineering (Remote - eligible)",
         "company": "Capital One",
         "location": "Pimmit, Fairfax County",
-        "url": "https://www.adzuna.com/land/ad/5881956201?se=KjbtZuSv8RGw3foOHxJxCQ&utm_medium=api&utm_source=4076fe36&v=31833908B9D929D309CF2863B6F65781563DA05A",
+        "url": "https://www.adzuna.com/land/ad/5881956201?se=lh7F_-ev8RGw3foOHxJxCQ&utm_medium=api&utm_source=4076fe36&v=31833908B9D929D309CF2863B6F65781563DA05A",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -794,7 +794,7 @@
         "title": "Senior AI Agent Engineer",
         "company": "Oracle",
         "location": "Baton Rouge, East Baton Rouge Parish",
-        "url": "https://www.adzuna.com/land/ad/5831454484?se=BrBTZOSv8RGJQ97g0Byd4A&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4",
+        "url": "https://www.adzuna.com/land/ad/5831454484?se=hsi6_Oev8RGQCqo3hlJMDA&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4",
         "score": 11,
         "grade": "B",
         "match": 55,
@@ -811,7 +811,7 @@
       },
       {
         "title": "Senior Site Reliability Engineer - Access Team",
-        "company": "n26",
+        "company": "N26",
         "location": "Barcelona",
         "url": "https://n26.com/en-eu/careers/positions/7774526?gh_jid=7774526",
         "score": 10,
@@ -830,7 +830,7 @@
       },
       {
         "title": "Senior Site Reliability Engineer - Access Team",
-        "company": "n26",
+        "company": "N26",
         "location": "Berlin",
         "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
         "score": 10,
@@ -849,7 +849,7 @@
       },
       {
         "title": "Manager, Solutions Engineering | NorBen | Remote",
-        "company": "grafanalabs",
+        "company": "Grafana Labs",
         "location": "Netherlands (Remote)",
         "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004",
         "score": 10,
@@ -868,7 +868,7 @@
       },
       {
         "title": "Manager, Solutions Engineering | NorBen | Remote",
-        "company": "grafanalabs",
+        "company": "Grafana Labs",
         "location": "Sweden (Remote)",
         "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004",
         "score": 10,
@@ -887,7 +887,7 @@
       },
       {
         "title": "Engineering Manager, Platform Reliability",
-        "company": "asana",
+        "company": "Asana",
         "location": "Warsaw",
         "url": "https://www.asana.com/jobs/apply/7586980?gh_jid=7586980",
         "score": 6,
@@ -906,7 +906,7 @@
       },
       {
         "title": "Director, Engineering - Digital Experience Monitoring",
-        "company": "datadog",
+        "company": "Datadog",
         "location": "Paris, France",
         "url": "https://careers.datadoghq.com/detail/8050591/?gh_jid=8050591",
         "score": 5,
@@ -943,7 +943,7 @@
       },
       {
         "title": "Engineering Manager - Git & Gitaly Operations",
-        "company": "gitlab",
+        "company": "GitLab",
         "location": "Bangalore, India",
         "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626740002",
         "score": 4,
@@ -961,7 +961,7 @@
       },
       {
         "title": "Engineering Manager, Trusted Agentic Development",
-        "company": "gitlab",
+        "company": "GitLab",
         "location": "Remote, Poland",
         "url": "https://job-boards.greenhouse.io/gitlab/jobs/8782040002",
         "score": 4,
@@ -979,7 +979,7 @@
       },
       {
         "title": "Engineering Manager - Data Delivery Platform",
-        "company": "adyen",
+        "company": "Adyen",
         "location": "Amsterdam",
         "url": "https://job-boards.greenhouse.io/adyen/jobs/8110805",
         "score": 4,
@@ -997,7 +997,7 @@
       },
       {
         "title": "Engineering Manager - Regulatory Reporting Data",
-        "company": "adyen",
+        "company": "Adyen",
         "location": "Amsterdam",
         "url": "https://job-boards.greenhouse.io/adyen/jobs/8110803",
         "score": 4,
@@ -1017,7 +1017,7 @@
         "title": "Forward Deployed Engineer, Legal [Office of the CTO]",
         "company": "Coinbase",
         "location": "Baton Rouge, East Baton Rouge Parish",
-        "url": "https://www.adzuna.com/land/ad/5832857799?se=5s7KYeSv8RGJQ97g0Byd4A&utm_medium=api&utm_source=4076fe36&v=5206AF0143B779B57D674857EFBEB6D22D9AF001",
+        "url": "https://www.adzuna.com/land/ad/5832857799?se=ZDak-eev8RGQCqo3hlJMDA&utm_medium=api&utm_source=4076fe36&v=5206AF0143B779B57D674857EFBEB6D22D9AF001",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -1069,7 +1069,7 @@
       },
       {
         "title": "Database Engineering Team Manager",
-        "company": "squarespace",
+        "company": "Squarespace",
         "location": "Dublin",
         "url": "http://www.squarespace.com/about/careers?gh_jid=7962046",
         "score": 3,
@@ -1089,7 +1089,7 @@
     "D": [
       {
         "title": "Senior Director, Solutions Engineering | Americas | Remote",
-        "company": "grafanalabs",
+        "company": "Grafana Labs",
         "location": "United States (Remote)",
         "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6126959004",
         "score": 12,
@@ -1127,7 +1127,7 @@
       },
       {
         "title": "Manager, Solutions Engineering | AMER | Remote",
-        "company": "grafanalabs",
+        "company": "Grafana Labs",
         "location": "United States (Remote)",
         "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6163556004",
         "score": 10,
@@ -1279,7 +1279,7 @@
       },
       {
         "title": "Director, Field Sales Engineering",
-        "company": "samsara",
+        "company": "Samsara",
         "location": "Remote - US",
         "url": "https://www.samsara.com/company/careers/roles/7695309?gh_jid=7695309",
         "score": 6,
@@ -1298,7 +1298,7 @@
       },
       {
         "title": "Engineering Manager II - Platform Firmware",
-        "company": "samsara",
+        "company": "Samsara",
         "location": "Remote - US",
         "url": "https://www.samsara.com/company/careers/roles/7801077?gh_jid=7801077",
         "score": 6,
@@ -1319,7 +1319,7 @@
         "title": "Senior AI Engineer",
         "company": "Apex Systems",
         "location": "Lafayette, Boulder County",
-        "url": "https://www.adzuna.com/land/ad/5857364075?se=0G7RYuSv8RGhe8--YZ_w9w&utm_medium=api&utm_source=4076fe36&v=38D36004A545D4C8DE13E57044D3DEBCD01A5833",
+        "url": "https://www.adzuna.com/land/ad/5857364075?se=0DfC-uev8RGQCqo3hlJMDA&utm_medium=api&utm_source=4076fe36&v=38D36004A545D4C8DE13E57044D3DEBCD01A5833",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1338,7 +1338,7 @@
         "title": "Lead Cloud & Agentic AI Engineer",
         "company": "Vanguard",
         "location": "Dallas, Texas",
-        "url": "https://www.adzuna.com/land/ad/5871901547?se=EOnOZOSv8RGw3foOHxJxCQ&utm_medium=api&utm_source=4076fe36&v=EBE374AFEAB933DEA30E7C39DDD20F5F4A7225BA",
+        "url": "https://www.adzuna.com/land/ad/5871901547?se=JGxa_eev8RGw3foOHxJxCQ&utm_medium=api&utm_source=4076fe36&v=EBE374AFEAB933DEA30E7C39DDD20F5F4A7225BA",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1356,7 +1356,7 @@
         "title": "Principal, AI Platform Engineer",
         "company": "Vivint",
         "location": "Cedar Pass, Utah County",
-        "url": "https://www.adzuna.com/land/ad/5870499012?se=zsRRZuSv8RG-FLx_YfIXKQ&utm_medium=api&utm_source=4076fe36&v=B80F49AB21344725DAD3F8DF9B89592DBFBA64D3",
+        "url": "https://www.adzuna.com/land/ad/5870499012?se=QA81_-ev8RGw3foOHxJxCQ&utm_medium=api&utm_source=4076fe36&v=B80F49AB21344725DAD3F8DF9B89592DBFBA64D3",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1551,7 +1551,7 @@
       },
       {
         "title": "Engineering Manager, Agent Foundations: Agent Execution",
-        "company": "gitlab",
+        "company": "GitLab",
         "location": "Remote, United States",
         "url": "https://job-boards.greenhouse.io/gitlab/jobs/8759592002",
         "score": 4,
@@ -1569,7 +1569,7 @@
       },
       {
         "title": "Engineering Manager, Data Foundations",
-        "company": "gitlab",
+        "company": "GitLab",
         "location": "Remote, US",
         "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592950002",
         "score": 4,
@@ -1587,7 +1587,7 @@
       },
       {
         "title": "Engineering Manager, Tenant Scale:Git",
-        "company": "gitlab",
+        "company": "GitLab",
         "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
         "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617538002",
         "score": 4,
@@ -1605,7 +1605,7 @@
       },
       {
         "title": "Engineering Manager, Service Platform",
-        "company": "instacart",
+        "company": "Instacart",
         "location": "United States - Remote",
         "url": "https://instacart.careers/job/?gh_jid=7960958",
         "score": 4,
@@ -1623,7 +1623,7 @@
       },
       {
         "title": "Senior Engineering Manager, Enterprise Fulfillment",
-        "company": "instacart",
+        "company": "Instacart",
         "location": "United States - Remote",
         "url": "https://instacart.careers/job/?gh_jid=8084349",
         "score": 4,
@@ -1641,7 +1641,7 @@
       },
       {
         "title": "Senior Machine Learning Engineer, Digital Twin Platform",
-        "company": "instacart",
+        "company": "Instacart",
         "location": "United States - Remote",
         "url": "https://instacart.careers/job/?gh_jid=8143145",
         "score": 4,
@@ -1659,7 +1659,7 @@
       },
       {
         "title": "Engineering Manager, AgentControl",
-        "company": "launchdarkly",
+        "company": "LaunchDarkly",
         "location": "Remote - US",
         "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7977701003",
         "score": 4,
@@ -1677,7 +1677,7 @@
       },
       {
         "title": "Engineering Manager, Data Platform",
-        "company": "launchdarkly",
+        "company": "LaunchDarkly",
         "location": "Remote - US",
         "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7992639003",
         "score": 4,
@@ -1695,7 +1695,7 @@
       },
       {
         "title": "Senior Engineering Manager, SDKs",
-        "company": "launchdarkly",
+        "company": "LaunchDarkly",
         "location": "Remote - US",
         "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7992077003",
         "score": 4,
@@ -1713,7 +1713,7 @@
       },
       {
         "title": "Engineering Manager - Platform (FinHub - Financial Intelligence)",
-        "company": "coinbase",
+        "company": "Coinbase",
         "location": "Remote - USA",
         "url": "https://www.coinbase.com/careers/positions/8138031?gh_jid=8138031",
         "score": 4,
@@ -1731,7 +1731,7 @@
       },
       {
         "title": "Ads Conversion Modeling, Machine Learning Engineering Manager",
-        "company": "reddit",
+        "company": "Reddit",
         "location": "Remote - United States",
         "url": "https://job-boards.greenhouse.io/reddit/jobs/7792848",
         "score": 4,
@@ -1748,7 +1748,7 @@
       },
       {
         "title": "Engineering Manager, Notifications Platform",
-        "company": "reddit",
+        "company": "Reddit",
         "location": "Remote - United States",
         "url": "https://job-boards.greenhouse.io/reddit/jobs/8095476",
         "score": 4,
@@ -1766,7 +1766,7 @@
       },
       {
         "title": "Machine Learning Engineering Manager - Ads Engagement Modeling",
-        "company": "reddit",
+        "company": "Reddit",
         "location": "Remote - United States",
         "url": "https://job-boards.greenhouse.io/reddit/jobs/7993514",
         "score": 4,
@@ -1783,7 +1783,7 @@
       },
       {
         "title": "Engineering Manager, Core Platform",
-        "company": "vanta",
+        "company": "Vanta",
         "location": "Remote U.S.",
         "url": "https://jobs.ashbyhq.com/vanta/cb97ac48-29a5-49da-a804-f19b907a8163",
         "score": 4,
@@ -1801,7 +1801,7 @@
       },
       {
         "title": "AI Engineering Lead",
-        "company": "hex",
+        "company": "Hex",
         "location": "San Francisco",
         "url": "https://jobs.ashbyhq.com/hex/dd80a8a1-0ed1-412a-88c4-16c851752826",
         "score": 4,
@@ -2068,6 +2068,84 @@
     {
       "market": "Walmart Technology (all)",
       "url": "https://careers.walmart.com/technology"
+    }
+  ],
+  "company_career_pages": [
+    {
+      "company": "Adyen",
+      "url": "https://job-boards.greenhouse.io/adyen"
+    },
+    {
+      "company": "Affirm",
+      "url": "https://job-boards.greenhouse.io/affirm"
+    },
+    {
+      "company": "Asana",
+      "url": "https://job-boards.greenhouse.io/asana"
+    },
+    {
+      "company": "Coinbase",
+      "url": "https://job-boards.greenhouse.io/coinbase"
+    },
+    {
+      "company": "Datadog",
+      "url": "https://job-boards.greenhouse.io/datadog"
+    },
+    {
+      "company": "Discord",
+      "url": "https://job-boards.greenhouse.io/discord"
+    },
+    {
+      "company": "GitLab",
+      "url": "https://job-boards.greenhouse.io/gitlab"
+    },
+    {
+      "company": "Grafana Labs",
+      "url": "https://job-boards.greenhouse.io/grafanalabs"
+    },
+    {
+      "company": "Harvey",
+      "url": "https://jobs.ashbyhq.com/harvey"
+    },
+    {
+      "company": "Hex",
+      "url": "https://jobs.ashbyhq.com/hex"
+    },
+    {
+      "company": "Instacart",
+      "url": "https://job-boards.greenhouse.io/instacart"
+    },
+    {
+      "company": "LaunchDarkly",
+      "url": "https://job-boards.greenhouse.io/launchdarkly"
+    },
+    {
+      "company": "N26",
+      "url": "https://job-boards.greenhouse.io/n26"
+    },
+    {
+      "company": "Pinterest",
+      "url": "https://job-boards.greenhouse.io/pinterest"
+    },
+    {
+      "company": "Reddit",
+      "url": "https://job-boards.greenhouse.io/reddit"
+    },
+    {
+      "company": "Replit",
+      "url": "https://jobs.ashbyhq.com/replit"
+    },
+    {
+      "company": "Samsara",
+      "url": "https://job-boards.greenhouse.io/samsara"
+    },
+    {
+      "company": "Squarespace",
+      "url": "https://job-boards.greenhouse.io/squarespace"
+    },
+    {
+      "company": "Vanta",
+      "url": "https://jobs.ashbyhq.com/vanta"
     }
   ],
   "direct_portals": [
