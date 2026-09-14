@@ -156,6 +156,23 @@ function allJobs(){
   if(!DATA||!DATA.tracks) return [];
   return TRACK_KEYS.flatMap(k=>DATA.tracks[k]||[]);
 }
+function strongMatches(){
+  /* Dedupe A/B-grade jobs across tracks (the same posting can appear in
+     more than one, e.g. remote AND Europe) and surface the actual cards
+     here, not just a count. The stat grid used to promise "apply now"
+     and then leave you to go hunt through tabs to find the one job it
+     meant, that's the bug Vic flagged. */
+  const seen=new Set(), out=[];
+  for(const j of allJobs()){
+    if(j.grade!=='A' && j.grade!=='B') continue;
+    const id=j.title+'|'+j.company;
+    if(seen.has(id)) continue;
+    seen.add(id);
+    out.push(j);
+  }
+  out.sort((a,b)=> a.grade!==b.grade ? (a.grade==='A'?-1:1) : (b.match||0)-(a.match||0));
+  return out;
+}
 
 /* ─── Match JD tab ─── */
 function resumeCheckHtml(rc){
@@ -218,12 +235,12 @@ function nextAction(s){
   if((s.grade_a||0)>0) return `<div class="action-card glass">
     <div class="icon" style="color:var(--a)">Apply now</div>
     <div class="label">Recommended action</div>
-    <div class="msg">${s.grade_a} A-grade match${s.grade_a>1?'es':''} found. Apply today – open the Europe or Remote tab and use the Tailor CV button.</div>
+    <div class="msg">${s.grade_a} A-grade match${s.grade_a>1?'es':''} found, see below. Apply today, use the Tailor CV button on the card.</div>
   </div>`;
   if((s.grade_b||0)>0) return `<div class="action-card glass">
     <div class="icon" style="color:var(--b)">Apply this week</div>
     <div class="label">Recommended action</div>
-    <div class="msg">${s.grade_b} B-grade matches worth applying. Check Europe tab first (sponsorship not guaranteed, verify per-role).</div>
+    <div class="msg">${s.grade_b} B-grade match${s.grade_b>1?'es':''} worth applying, see below (sponsorship not guaranteed, verify per-role).</div>
   </div>`;
   return `<div class="action-card glass">
     <div class="icon" style="color:var(--dim)">Keep searching</div>
@@ -252,7 +269,8 @@ function dashboard(){
     <div class="stat glass"><div class="n" style="color:var(--cyan)">${(s.track_c||0)+(s.track_d||0)+(s.track_e||0)}</div><div class="l">Location-based reach (sponsor varies by track)</div></div>
     <div class="stat glass"><div class="n" style="color:var(--cyan)">${(s.visa||0)+(s.us_sponsor_confirmed||0)}</div><div class="l">of those, sponsor language confirmed</div></div>
     <div class="stat glass wide"><div class="n">${s.track_c||0}/${s.track_b||0}/${s.track_d||0}/${s.track_e||0}</div><div class="l">Europe / Remote / US / LatAm split</div></div>
-  </div>`;
+  </div>
+  ${TRACK.length?`<div class="section-title">Your strongest matches, apply from here</div>`+TRACK.map(jobCard).join(''):''}`;
 }
 function quickLinks(){
   const li=(DATA.linkedin||[]);
@@ -418,6 +436,7 @@ function render(){
       v.innerHTML=note+`<div class="section-title">Search results for "${esc(QUERY)}"</div>`
         +(TRACK.length?TRACK.map(jobCard).join(''):'<div class="empty">No matches for that search.</div>');
     } else {
+      TRACK=strongMatches();
       v.innerHTML=note+dashboard()+quickLinks();
     }
   }
