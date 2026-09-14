@@ -490,7 +490,18 @@ def main():
             # actually returns results, same caveat as DE/NL originally had.
             + src_adzuna(sponsor_qs, country="de")
             + src_adzuna(sponsor_qs, country="nl")
-            + src_adzuna(sponsor_qs, country="es"))
+            + src_adzuna(sponsor_qs, country="es")
+            # CL added 2026-09-14 per Vic (real Chile sourcing gap found:
+            # Track E was only catching generic 'LATAM' text on companies
+            # already in the global watchlist, zero Chile-specific results).
+            # Adzuna's publicly documented country coverage historically has
+            # NOT included Chile [OPINION, from training knowledge, not
+            # independently re-verified this session], so this call may
+            # 400/404, check WARN for 'adzuna:cl:...' after the next run to
+            # confirm one way or the other. Also still fully dormant
+            # regardless until ADZUNA_APP_ID/APP_KEY secrets exist (see
+            # src_adzuna's early-return), same blocker as always.
+            + src_adzuna(search_titles, country="cl"))
 
     seen, uniq = set(), []
     for j in jobs:
