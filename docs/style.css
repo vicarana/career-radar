@@ -101,7 +101,6 @@ main{padding-top:8px}
 .chip.visa{background:rgba(52,211,153,.14);color:#86efac;border-color:rgba(52,211,153,.3)}
 .chip.comp{background:rgba(96,165,250,.14);color:#93c5fd;border-color:rgba(96,165,250,.3)}
 .chip.us-sponsor{background:rgba(251,191,36,.14);color:#fcd34d;border-color:rgba(251,191,36,.3)}
-.chip.ca-sponsor{background:rgba(34,211,238,.14);color:#67e8f9;border-color:rgba(34,211,238,.3)}
 .chip.differentiator{background:rgba(167,139,250,.16);color:#c4b5fd;border-color:rgba(167,139,250,.35);font-weight:700}
 .cta{display:flex;gap:6px;flex-wrap:wrap}
 .btn{flex:1;text-align:center;font-size:12px;font-weight:700;border-radius:12px;
@@ -138,7 +137,7 @@ main{padding-top:8px}
   pointer-events:none;z-index:100}
 .toast.show{opacity:1}
 
-/* ── Responsive: mobile tabbar scroll safety (8 tabs, avoid squeeze/wrap) ── */
+/* ── Responsive: mobile tabbar scroll safety (7 tabs, avoid squeeze/wrap) ── */
 @media (max-width:959px){
   .tabbar{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
   .tabbar::-webkit-scrollbar{display:none}
