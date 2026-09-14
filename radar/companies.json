@@ -13,5 +13,12 @@
     "nubank", "quintoandar"],
   "lever": ["palantir", "jobandtalent"],
   "ashby": ["replit", "vanta", "ramp", "linear", "mercury", "hex", "pinecone",
-    "openai", "sierra", "harvey", "vercel", "loom"]
+    "openai", "sierra", "harvey", "vercel", "loom"],
+  "display_names": {
+    "_note": "Optional slug -> proper-cased display name overrides. Every ATS board slug is plain lowercase (that's the URL path segment, e.g. job-boards.greenhouse.io/grafanalabs), so without this a job card would show the company as 'grafanalabs' instead of 'Grafana Labs'. Only slugs where plain .title() gets it wrong need an entry here, anything absent just falls back to slug.replace('-',' ').title() in humanize_company(), see radar.py.",
+    "gitlab": "GitLab", "circleci": "CircleCI", "mongodb": "MongoDB",
+    "pagerduty": "PagerDuty", "newrelic": "New Relic", "launchdarkly": "LaunchDarkly",
+    "scaleai": "Scale AI", "grafanalabs": "Grafana Labs", "quintoandar": "QuintoAndar",
+    "openai": "OpenAI", "jobandtalent": "Jobandtalent"
+  }
 }

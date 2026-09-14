@@ -165,7 +165,17 @@ def _load_companies():
         return {}
 
 
-def src_greenhouse(slugs):
+def humanize_company(slug, companies):
+    """ATS board slugs are plain lowercase URL segments ('grafanalabs',
+    'gitlab'), not display names. Prefer an explicit override from
+    companies.json's display_names map, fall back to a plain title-case
+    for anything not listed there (works fine for most single-word
+    slugs, e.g. 'samsara' -> 'Samsara')."""
+    overrides = companies.get("display_names", {})
+    return overrides.get(slug) or slug.replace("-", " ").title()
+
+
+def src_greenhouse(slugs, companies):
     """Public, unauthenticated ATS board API. Companies opt into this feed
     on purpose so their own careers page can render it."""
     ATTEMPTED.append("greenhouse")
@@ -175,14 +185,16 @@ def src_greenhouse(slugs):
             d = _get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true")
             for j in d.get("jobs", [])[:60]:
                 loc = (j.get("location") or {}).get("name", "")
-                out.append(_job(j.get("title"), slug, loc, j.get("absolute_url"),
-                                "remote" in loc.lower(), (j.get("content") or "")[:400]))
+                row = _job(j.get("title"), humanize_company(slug, companies), loc, j.get("absolute_url"),
+                           "remote" in loc.lower(), (j.get("content") or "")[:400])
+                row["_career_root"] = f"https://job-boards.greenhouse.io/{slug}"
+                out.append(row)
         except Exception as e:
             WARN.append(f"greenhouse:{slug}:{type(e).__name__}")
     return out
 
 
-def src_lever(slugs):
+def src_lever(slugs, companies):
     """Public, unauthenticated ATS board API (same opt-in pattern as Greenhouse)."""
     ATTEMPTED.append("lever")
     out = []
@@ -192,14 +204,16 @@ def src_lever(slugs):
             for j in d[:60]:
                 cats = j.get("categories", {}) or {}
                 loc = cats.get("location", "")
-                out.append(_job(j.get("text"), slug, loc, j.get("hostedUrl"),
-                                "remote" in loc.lower(), (j.get("descriptionPlain") or "")[:400]))
+                row = _job(j.get("text"), humanize_company(slug, companies), loc, j.get("hostedUrl"),
+                           "remote" in loc.lower(), (j.get("descriptionPlain") or "")[:400])
+                row["_career_root"] = f"https://jobs.lever.co/{slug}"
+                out.append(row)
         except Exception as e:
             WARN.append(f"lever:{slug}:{type(e).__name__}")
     return out
 
 
-def src_ashby(slugs):
+def src_ashby(slugs, companies):
     """Public, unauthenticated ATS board API (same opt-in pattern as Greenhouse)."""
     ATTEMPTED.append("ashby")
     out = []
@@ -208,8 +222,10 @@ def src_ashby(slugs):
             d = _get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}")
             for j in d.get("jobs", [])[:60]:
                 loc = j.get("location", "")
-                out.append(_job(j.get("title"), slug, loc, j.get("jobUrl"),
-                                bool(j.get("isRemote")), (j.get("descriptionPlain") or "")[:400]))
+                row = _job(j.get("title"), humanize_company(slug, companies), loc, j.get("jobUrl"),
+                           bool(j.get("isRemote")), (j.get("descriptionPlain") or "")[:400])
+                row["_career_root"] = f"https://jobs.ashbyhq.com/{slug}"
+                out.append(row)
         except Exception as e:
             WARN.append(f"ashby:{slug}:{type(e).__name__}")
     return out
@@ -282,6 +298,25 @@ def grade_of(score):
         g = "F"
     pct = max(35, min(99, round(score / 20 * 100)))
     return g, pct
+
+
+def company_career_pages(buckets):
+    """Direct 'browse every opening at this company' links, built only for
+    companies that actually produced a real match today (a job that passed
+    score/seniority/comp filters and landed in a track via tracks_of()),
+    not the full companies.json watchlist. Only Greenhouse/Lever/Ashby jobs
+    carry a _career_root (the ATS board's own root URL, set in
+    src_greenhouse/src_lever/src_ashby), the other sources are cross-
+    company aggregators with no single 'this company's board' concept to
+    link to. Per Vic 2026-09-14: surface direct links from career
+    opportunities actually detected, not a static list."""
+    pages = {}
+    for tk in buckets:
+        for j in buckets[tk]:
+            root = j.get("_career_root")
+            if root:
+                pages[j["company"]] = root
+    return [{"company": c, "url": u} for c, u in sorted(pages.items())]
 
 
 def reasons_for(job, p):
@@ -474,9 +509,9 @@ def main():
             + src_jobicy(["devops", "engineering", "python"])
             + src_arbeitnow()
             + src_remoteok(["sre", "devops", "platform"])
-            + src_greenhouse(companies.get("greenhouse", []))
-            + src_lever(companies.get("lever", []))
-            + src_ashby(companies.get("ashby", []))
+            + src_greenhouse(companies.get("greenhouse", []), companies)
+            + src_lever(companies.get("lever", []), companies)
+            + src_ashby(companies.get("ashby", []), companies)
             # Track D (US sponsor) and Track C (Europe sponsor) both hard-
             # require literal visa/sponsor language in the posting text.
             # Raw ATS feeds (Greenhouse/Lever/Ashby) almost never spell that
@@ -567,6 +602,7 @@ def main():
         "tracks": {"B": B, "C": C, "D": D, "E": E},
         "linkedin": linkedin_searches(),
         "walmart_markets": p["track_a_walmart_markets"]["portals"],
+        "company_career_pages": company_career_pages(buckets),
         "direct_portals": p.get("direct_portals", {}).get("portals", []),
         "direct_portals_chile": p.get("direct_portals_chile", {}).get("portals", []),
         "warnings": sorted(set(WARN)),
@@ -597,6 +633,11 @@ def main():
             lines.append(f"- {j['title']} @ {j['company'] or '?'} ({j['location'] or 'n/a'}) "
                          f"s{j['_score']}{v} {j['url']}")
     portals = p.get("direct_portals", {}).get("portals", [])
+    ccp = payload["company_career_pages"]
+    if ccp:
+        lines.append("\n## Companies with a real match today - browse their full career page")
+        for pt in ccp:
+            lines.append(f"- {pt['company']}: {pt['url']}")
     if portals:
         lines.append("\n## Direct portals - no public ATS feed, check manually")
         for pt in portals:

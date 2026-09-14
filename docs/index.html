@@ -257,11 +257,14 @@ function dashboard(){
 function quickLinks(){
   const li=(DATA.linkedin||[]);
   const wm=(DATA.walmart_markets||[]);
+  const ccp=(DATA.company_career_pages||[]);
   const dp=(DATA.direct_portals||[]);
   const dpc=(DATA.direct_portals_chile||[]);
   let out='';
   if(li.length||wm.length) out+=`<div class="section-title">Quick links</div>`
     + li.map(linkCard).join('') + wm.map(linkCard).join('');
+  if(ccp.length) out+=`<div class="section-title">Real matches today, browse their full career page</div>`
+    + ccp.map(linkCard).join('');
   if(dp.length) out+=`<div class="section-title">Big Tech &amp; AI labs (no public ATS feed, search manually)</div>`
     + dp.map(linkCard).join('');
   if(dpc.length) out+=`<div class="section-title">Chile mining, energy &amp; telecom (no public ATS feed, check manually)</div>`
