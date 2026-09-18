@@ -1,35 +1,34 @@
-# career-radar - 2026-09-17 15:22 UTC
-Sources OK: 8/8
+# career-radar - 2026-09-18 14:42 UTC
+Sources OK: 7/8
 
 
 ## Track D - US (sponsorship not guaranteed, check per-role) (44)
 - Senior Director, Solutions Engineering | Americas | Remote @ Grafana Labs (United States (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6126959004
 - Manager, Solutions Engineering | AMER | Remote @ Grafana Labs (United States (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6163556004
 - Manager, Solutions Engineering | West Coast | Remote @ Grafana Labs (United States (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6191900004
-- Senior Lead Software Engineer- SRE @ J.P. Morgan (Dallas, Texas) s10 https://www.adzuna.com/land/ad/5883561501?se=7o-Xjquy8RGFcf6CuUYj3g&utm_medium=api&utm_source=4076fe36&v=DEE1FCA89243DD2BEEBA4072228ED8465292AC08
+- Site Reliability Engineer III @ J.P. Morgan (Dallas, Texas) s10 https://www.adzuna.com/land/ad/5884583201?se=AAYOIW-z8RGYJLSu3UQVDA&utm_medium=api&utm_source=4076fe36&v=36E0C2EDC0B0CB364EE794222A6088A3E1EEEBBD
+- Senior Lead Software Engineer- SRE @ J.P. Morgan (Dallas, Texas) s10 https://www.adzuna.com/land/ad/5883561501?se=3ivlIm-z8RGVWt4ESit2Sw&utm_medium=api&utm_source=4076fe36&v=DEE1FCA89243DD2BEEBA4072228ED8465292AC08
 - Engineering Manager - Public Cloud, Python, Golang @ Canonical (EMEA,  LATAM,  Canada,  USA) s9 https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang
 - Senior DevOps Engineer - Storage Platforms @ Five9 (USA) s8 https://jobicy.com/jobs/153466-senior-devops-engineer-storage-platforms
 - Director of Engineering, Leverage @ Fleetio (Canada,  Mexico,  USA) s8 https://jobicy.com/jobs/150772-director-of-engineering-leverage
 - Director of Engineering, Cloud & Reliability @ Boulevard (USA) s8 https://jobicy.com/jobs/152496-director-of-engineering-cloud-reliability-2
 - Engineering Manager- Ceph & Distributed Storage @ Canonical (EMEA,  LATAM,  Canada,  USA) s8 https://jobicy.com/jobs/149970-engineering-manager-ceph-distributed-storage
 - Engineering Manager for IAM (Identity and Access Management) @ Canonical (EMEA,  LATAM,  Canada,  USA) s8 https://jobicy.com/jobs/149980-engineering-manager-for-iam-identity-and-access-management
-- Engineering Manager, DevOps @ GitLab (Remote, Canada; Remote, United States) s8 https://job-boards.greenhouse.io/gitlab/jobs/8789547002
+- Engineering Manager, Core DevOps @ GitLab (Remote, Canada; Remote, United States) s8 https://job-boards.greenhouse.io/gitlab/jobs/8789547002
 - Staff DevOps Engineer (Platform) @ Phantom (Europe,  USA) s6 https://jobicy.com/jobs/153130-staff-devops-engineer-platform
 - Senior Cloud Architect (Network & SRE) @ LivePerson (USA) s6 https://jobicy.com/jobs/153429-senior-cloud-architect-network-sre
 - Senior Manager, AI Engineering @ HackerOne (USA) s6 https://jobicy.com/jobs/153461-senior-manager-ai-engineering-2
 - Software Engineering Manager - Container and Virtualisation Infrastructure @ Canonical (EMEA,  LATAM,  Canada,  USA) s6 https://jobicy.com/jobs/149973-software-engineering-manager-container-and-virtualisation-infrastructure
 - Director, Field Sales Engineering @ Samsara (Remote - US) s6 https://www.samsara.com/company/careers/roles/7695309?gh_jid=7695309
-- Engineering Manager, Embedded Experience @ Harvey (San Francisco) s6 https://jobs.ashbyhq.com/harvey/ab7758a9-b09e-4d9c-9f6a-4da79836ea5e
-- Senior AI Engineer @ Apex Systems (Lafayette, Boulder County) s6 https://www.adzuna.com/land/ad/5857364075?se=YKQ8kKuy8RGc5KgkGQlIJw&utm_medium=api&utm_source=4076fe36&v=38D36004A545D4C8DE13E57044D3DEBCD01A5833
-- Lead Cloud & Agentic AI Engineer @ Vanguard (Dallas, Texas) s6 https://www.adzuna.com/land/ad/5871901547?se=Jgjjkquy8RG2D9vMuepRVA&utm_medium=api&utm_source=4076fe36&v=EBE374AFEAB933DEA30E7C39DDD20F5F4A7225BA
-- Senior AI Platform Engineer @ Judge Group, Inc. (Bee Cave, Travis County) s6 https://www.adzuna.com/land/ad/5887002464?se=CArklKuy8RGeX64IzcI5Jg&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E
+- Senior AI Engineer @ Apex Systems (Lafayette, Boulder County) s6 https://www.adzuna.com/land/ad/5857364075?se=5AMaJG-z8RG88uD2ohwOjw&utm_medium=api&utm_source=4076fe36&v=38D36004A545D4C8DE13E57044D3DEBCD01A5833
+- Lead Cloud & Agentic AI Engineer @ Vanguard (Dallas, Texas) s6 https://www.adzuna.com/land/ad/5871901547?se=kHDhJW-z8RGYJLSu3UQVDA&utm_medium=api&utm_source=4076fe36&v=EBE374AFEAB933DEA30E7C39DDD20F5F4A7225BA
+- Senior AI Platform Engineer @ Judge Group, Inc. (Bee Cave, Travis County) s6 https://www.adzuna.com/land/ad/5887002464?se=rIxcJ2-z8RGk6dCvHcHp9g&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E
 
-## Track C - Europe (sponsorship not guaranteed, check per-role) (14)
-- Senior AI Agent Engineer @ Oracle (Baton Rouge, East Baton Rouge Parish) s11 https://www.adzuna.com/land/ad/5831454484?se=9iBGkquy8RGbT_HZnV2BXQ&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4
-- Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Netherlands (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004
+## Track C - Europe (sponsorship not guaranteed, check per-role) (13)
+- Senior AI Agent Engineer @ Oracle (Baton Rouge, East Baton Rouge Parish) s11 https://www.adzuna.com/land/ad/5831454484?se=vAd0JW-z8RG88uD2ohwOjw&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4
 - Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Sweden (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004
+- Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Netherlands (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004
 - Senior DevOps Lead @ LivePerson (Germany) s6 https://jobicy.com/jobs/153313-senior-devops-lead
-- Senior Applied AI Engineer, AI Platform (f/m/d) @ bunch (Berlin) s6 https://www.arbeitnow.com/jobs/companies/bunch/senior-applied-ai-engineer-ai-platform-berlin-162773
 - Director, Engineering - Digital Experience Monitoring @ Datadog (Paris, France) s5 https://careers.datadoghq.com/detail/8050591/?gh_jid=8050591
 - B2B Senior DevOps Engineer @ Jamf (Poland) s4 https://jobicy.com/jobs/152809-b2b-senior-devops-engineer
 - Poland - Director of Software Engineering (Experiences) @ Tripadvisor (Poland) s4 https://jobicy.com/jobs/153377-poland-director-of-software-engineering-experiences
@@ -37,10 +36,10 @@ Sources OK: 8/8
 - Engineering Manager, Trusted Agentic Development @ GitLab (Remote, Poland) s4 https://job-boards.greenhouse.io/gitlab/jobs/8782040002
 - Engineering Manager - Data Delivery Platform @ Adyen (Amsterdam) s4 https://job-boards.greenhouse.io/adyen/jobs/8110805
 - Engineering Manager - Regulatory Reporting Data @ Adyen (Amsterdam) s4 https://job-boards.greenhouse.io/adyen/jobs/8110803
-- Forward Deployed Engineer, Legal [Office of the CTO] @ Coinbase (Baton Rouge, East Baton Rouge Parish) s4 https://www.adzuna.com/land/ad/5832857799?se=xOUBj6uy8RGbT_HZnV2BXQ&utm_medium=api&utm_source=4076fe36&v=5206AF0143B779B57D674857EFBEB6D22D9AF001
 - Database Engineering Team Manager @ Squarespace (Dublin) s3 http://www.squarespace.com/about/careers?gh_jid=7962046
+- Forward Deployed Engineer, Compliance [Office of the CTO] @ Coinbase (Baton Rouge, East Baton Rouge Parish) s3 https://www.adzuna.com/land/ad/5832857712?se=OF8vI2-z8RGSI57gYuD12g&utm_medium=api&utm_source=4076fe36&v=8222A99A6DDAAF8F4675B92E877D60ED5CECCA7E
 
-## Track E - LatAm/Chile (no relocation needed) (12)
+## Track E - LatAm/Chile (no relocation needed) (13)
 - Engineering Manager - Public Cloud, Python, Golang @ Canonical (EMEA,  LATAM,  Canada,  USA) s9 https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang
 - Director of Engineering, Leverage @ Fleetio (Canada,  Mexico,  USA) s8 https://jobicy.com/jobs/150772-director-of-engineering-leverage
 - Engineering Manager- Ceph & Distributed Storage @ Canonical (EMEA,  LATAM,  Canada,  USA) s8 https://jobicy.com/jobs/149970-engineering-manager-ceph-distributed-storage
@@ -52,15 +51,16 @@ Sources OK: 8/8
 - Senior DevOps Engineer @ Lemon.io (LATAM, Europe, USA, Canada, APAC) s4 https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091099
 - Staff DevOps Engineer @ Cision (Brazil,  Mexico) s4 https://jobicy.com/jobs/153477-staff-devops-engineer-3
 - Engineering Manager, Payments @ Fleetio (Canada,  Mexico,  USA) s4 https://jobicy.com/jobs/152709-engineering-manager-payments
+- Grupo QuintoAndar | Senior Platform Engineer (Women Applicants Only) @ QuintoAndar (Brasil) s4 https://job-boards.greenhouse.io/quintoandar/jobs/4288328009
 - Engineering Manager - Linux Hardware Enablement @ Canonical (APAC,  EMEA,  LATAM,  Canada,  USA) s3 https://jobicy.com/jobs/148702-engineering-manager-linux-hardware-enablement
 
-## Track B - Remote/income (88)
+## Track B - Remote/income (87)
 - Site Reliability Engineering Manager @ Canonical (APAC,  EMEA) s14 https://jobicy.com/jobs/149986-site-reliability-engineering-manager
 - Senior Director, Solutions Engineering | Americas | Remote @ Grafana Labs (United States (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6126959004
 - Engineering Manager - Python and K8s @ Canonical (APAC,  EMEA) s10 https://jobicy.com/jobs/150121-engineering-manager-python-and-k8s
 - Manager, Solutions Engineering | AMER | Remote @ Grafana Labs (United States (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6163556004
-- Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Netherlands (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004
 - Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Sweden (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004
+- Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Netherlands (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004
 - Manager, Solutions Engineering | SEMEA | Remote @ Grafana Labs (Israel (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6121609004
 - Manager, Solutions Engineering | West Coast | Remote @ Grafana Labs (United States (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6191900004
 - Engineering Manager - Public Cloud, Python, Golang @ Canonical (EMEA,  LATAM,  Canada,  USA) s9 https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang
@@ -70,7 +70,7 @@ Sources OK: 8/8
 - Python Engineering Manager, Commercial Systems @ Canonical (EMEA) s8 https://jobicy.com/jobs/149989-python-engineering-manager-commercial-systems
 - Engineering Manager- Ceph & Distributed Storage @ Canonical (EMEA,  LATAM,  Canada,  USA) s8 https://jobicy.com/jobs/149970-engineering-manager-ceph-distributed-storage
 - Engineering Manager for IAM (Identity and Access Management) @ Canonical (EMEA,  LATAM,  Canada,  USA) s8 https://jobicy.com/jobs/149980-engineering-manager-for-iam-identity-and-access-management
-- Engineering Manager, DevOps @ GitLab (Remote, Canada; Remote, United States) s8 https://job-boards.greenhouse.io/gitlab/jobs/8789547002
+- Engineering Manager, Core DevOps @ GitLab (Remote, Canada; Remote, United States) s8 https://job-boards.greenhouse.io/gitlab/jobs/8789547002
 - Engineering Manager @ CircleCI (Ontario, Canada (Remote)) s8 http://www.circleci.com/careers/jobs/8801099002/?gh_jid=8801099002
 - AWS DevOps Engineer (Senior) - Migration Project (VMware to AWS) @ Mactores (Anywhere) s7 https://jobicy.com/jobs/152284-aws-devops-engineer-senior-migration-project-vmware-to-aws
 - AWS DevOps Engineer (Senior) @ Mactores (Anywhere) s7 https://jobicy.com/jobs/152282-aws-devops-engineer-senior
@@ -89,6 +89,7 @@ Sources OK: 8/8
 - Instacart: https://job-boards.greenhouse.io/instacart
 - LaunchDarkly: https://job-boards.greenhouse.io/launchdarkly
 - Pinterest: https://job-boards.greenhouse.io/pinterest
+- QuintoAndar: https://job-boards.greenhouse.io/quintoandar
 - Reddit: https://job-boards.greenhouse.io/reddit
 - Replit: https://jobs.ashbyhq.com/replit
 - Samsara: https://job-boards.greenhouse.io/samsara
