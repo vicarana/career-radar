@@ -119,7 +119,7 @@
     ]
   },
   "direct_portals": {
-    "_note": "Added 2026-09-13 per Vic (career-radar scope widen, Big Tech + some AI-native companies). radar.py can only automate Greenhouse/Lever/Ashby (public opt-in ATS JSON feeds) plus the Adzuna aggregator, see radar/radar.py's src_greenhouse/src_lever/src_ashby. Google, Amazon, Meta, Microsoft, and Apple all run custom in-house career sites with no public JSON feed, they cannot be added to radar/companies.json the same way Stripe or Datadog can, doing so would just silently fail (same HTTPError pattern already documented there for Spain scaleups on Workday). Rather than pretend these are automated, they're listed here as direct search-portal links, same honest pattern as track_a_walmart_markets above: surfaced in the daily digest for a manual check, not scored/graded like Tracks B-F.",
+    "_note": "Added 2026-09-13 per Vic (career-radar scope widen, Big Tech + some AI-native companies). radar.py can only automate Greenhouse/Lever/Ashby (public opt-in ATS JSON feeds) plus the Adzuna aggregator, see radar/radar.py's src_greenhouse/src_lever/src_ashby. Google, Amazon, Meta, Microsoft, and Apple all run custom in-house career sites with no public JSON feed, they cannot be added to radar/companies.json the same way Stripe or Datadog can, doing so would just silently fail (same HTTPError pattern already documented there for Spain scaleups on Workday). Rather than pretend these are automated, they're listed here as direct search-portal links, same honest pattern as track_a_walmart_markets above: surfaced in the daily digest for a manual check, not scored/graded like Tracks B-F. GoFractional added 2026-09-23 per Vic's explicit request (https://www.gofractional.com/): it's a fractional-executive marketplace/matching platform, not a traditional company career page, no evidence of a public Greenhouse/Lever/Ashby feed, and the listing model (match with companies wanting fractional CTO/exec talent) doesn't fit the scored-posting shape Tracks B-F assume anyway, so it's added here as a manual-check portal, same honest treatment as the rest of this list, not silently scored as if it were a normal job board.",
     "portals": [
       {"company": "Google", "url": "https://www.google.com/about/careers/applications/jobs/results?q=site%20reliability%20engineer"},
       {"company": "Amazon", "url": "https://www.amazon.jobs/en/search?base_query=site+reliability+engineer"},
@@ -127,7 +127,8 @@
       {"company": "Meta", "url": "https://www.metacareers.com/jobs?q=site%20reliability%20engineer"},
       {"company": "Apple", "url": "https://jobs.apple.com/en-us/search?search=site+reliability+engineer"},
       {"company": "OpenAI", "url": "https://openai.com/careers/search/?q=agent"},
-      {"company": "Anthropic", "url": "https://www.anthropic.com/jobs"}
+      {"company": "Anthropic", "url": "https://www.anthropic.com/jobs"},
+      {"company": "GoFractional", "url": "https://www.gofractional.com/"}
     ]
   },
   "direct_portals_chile": {
