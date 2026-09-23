@@ -300,6 +300,17 @@ def grade_of(score):
     return g, pct
 
 
+def high_confidence_matches(allrows, threshold):
+    """Rows whose computed match pct clears `threshold` (Vic's literal ask,
+    2026-09-23: 'companies where I can score 75 or more as a candidate').
+    grade_of()'s existing A/B/C/D/F letters are a coarser bucket (A starts
+    at match>=70), they don't answer a specific numeric floor. This is a
+    plain filter over rows the pipeline already computed, no new scoring
+    logic, sorted by score descending so the strongest fits lead."""
+    return sorted((r for r in allrows if r["match"] >= threshold),
+                  key=lambda r: r["score"], reverse=True)
+
+
 def company_career_pages(buckets):
     """Direct 'browse every opening at this company' links, built only for
     companies that actually produced a real match today (a job that passed
@@ -583,6 +594,8 @@ def main():
     B, C, D, E = (clean(buckets["B"]), clean(buckets["C"]), clean(buckets["D"]),
                   clean(buckets["E"]))
     allrows = B + C + D + E
+    high_conf_pct = p.get("high_confidence_match_pct", 75)
+    high_conf = high_confidence_matches(allrows, high_conf_pct)
     stats = {
         "total": len(allrows),
         "track_b": len(B),
@@ -593,6 +606,7 @@ def main():
         "grade_b": sum(1 for r in allrows if r["grade"] == "B"),
         "visa": sum(1 for r in C if r["visa"]),
         "us_sponsor_confirmed": sum(1 for r in D if r["us_sponsor"]),
+        f"match_{high_conf_pct}plus": len(high_conf),
     }
     payload = {
         "generated": date,
@@ -603,6 +617,8 @@ def main():
         "linkedin": linkedin_searches(),
         "walmart_markets": p["track_a_walmart_markets"]["portals"],
         "company_career_pages": company_career_pages(buckets),
+        "high_confidence_matches": high_conf,
+        "high_confidence_threshold": high_conf_pct,
         "direct_portals": p.get("direct_portals", {}).get("portals", []),
         "direct_portals_chile": p.get("direct_portals_chile", {}).get("portals", []),
         "warnings": sorted(set(WARN)),
@@ -623,6 +639,17 @@ def main():
         json.dump(payload, f, ensure_ascii=False)
 
     lines = [f"# career-radar - {date}", f"Sources OK: {sources_ok}/{total_attempted}\n"]
+    if high_conf:
+        lines.append(f"\n## {high_conf_pct}%+ match, strongest-fit postings ({len(high_conf)})")
+        for r in high_conf[:15]:
+            v = " [VISA]" if r.get("visa") else ""
+            lines.append(f"- {r['match']}% {r['title']} @ {r['company'] or '?'} "
+                         f"({r['location'] or 'n/a'}){v} {r['url']}")
+    else:
+        lines.append(f"\n## {high_conf_pct}%+ match: none today")
+        lines.append("No posting currently clears the threshold. This is watchlist/market "
+                     "supply, not a scoring bug, see companies.json's dated notes for the "
+                     "established pattern (breadth adds volume, not automatically top-end score).")
     for tk, name in [("D", "Track D - US (sponsorship not guaranteed, check per-role)"),
                      ("C", "Track C - Europe (sponsorship not guaranteed, check per-role)"),
                      ("E", "Track E - LatAm/Chile (no relocation needed)"),

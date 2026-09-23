@@ -76,5 +76,31 @@ class CompanyCareerPagesTests(unittest.TestCase):
         self.assertEqual(radar.company_career_pages(buckets), [])
 
 
+class HighConfidenceMatchesTests(unittest.TestCase):
+    """Added 2026-09-23 per Vic's ask for a real, computed 'score 75+' filter,
+    distinct from grade_of()'s coarser A/B/C letters (grade A starts at 70)."""
+
+    def _row(self, match, score, company="X"):
+        return {"match": match, "score": score, "company": company, "title": "t",
+                "location": "remote", "url": f"https://x/{company}", "visa": False}
+
+    def test_filters_by_threshold_inclusive(self):
+        rows = [self._row(70, 14), self._row(75, 15), self._row(80, 16)]
+        result = radar.high_confidence_matches(rows, 75)
+        self.assertEqual([r["match"] for r in result], [80, 75])
+
+    def test_sorted_by_score_descending(self):
+        rows = [self._row(75, 15, "A"), self._row(90, 18, "B"), self._row(80, 16, "C")]
+        result = radar.high_confidence_matches(rows, 75)
+        self.assertEqual([r["company"] for r in result], ["B", "C", "A"])
+
+    def test_empty_when_nothing_clears_threshold(self):
+        rows = [self._row(60, 12), self._row(70, 14)]
+        self.assertEqual(radar.high_confidence_matches(rows, 75), [])
+
+    def test_empty_input_yields_empty_list(self):
+        self.assertEqual(radar.high_confidence_matches([], 75), [])
+
+
 if __name__ == "__main__":
     unittest.main()

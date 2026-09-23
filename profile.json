@@ -144,5 +144,7 @@
       {"company": "Movistar/Telefonica (telecom)", "url": "https://www.telefonica.com/en/careers/"}
     ]
   },
-  "min_score": 3
+  "min_score": 3,
+  "high_confidence_match_pct": 75,
+  "_high_confidence_note": "Added 2026-09-23 per Vic's literal ask: 'companies where I can score 75 or more as a candidate'. This is radar's own cheap keyword-based match pct (grade_of() in radar.py, 0-99 range from raw skill/title keyword hits), NOT the same instrument as career-assessment's deep per-requirement 0-100 ATS fit score (that one needs a human/agent JD-fit pass against MASTER_CAREER_FACTS.md, can't run at radar's every-job-every-day automated scale). Treat radar's 75%+ list as a first-pass shortlist filter: postings worth taking to the real ATS evaluator for a full fit-score and probability read, not a substitute for it. Checked against live data the day this was added: current top score across the whole watchlist was only 70% (1 job), so 75%+ is a real, currently-unmet bar today, not a rubber stamp."
 }
