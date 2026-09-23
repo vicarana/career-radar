@@ -75,10 +75,15 @@
       "spain", "madrid", "barcelona", "valencia", "seville", "sevilla", "bilbao", "malaga",
       "france", "paris", "austria", "vienna", "belgium", "brussels",
       "italy", "milan", "poland", "warsaw", "czech republic", "prague",
-      "estonia", "tallinn", "luxembourg"
+      "estonia", "tallinn", "luxembourg",
+      "malta", "valletta", "cyprus", "nicosia", "limassol"
     ],
     "visa_terms": ["visa", "sponsor", "relocation", "relocate", "blue card", "work permit"],
-    "_note": "Widened 2026-09-13 per Vic (career-radar scope review): added France/Austria/Belgium/Italy/Poland/Czech Republic/Estonia/Luxembourg. Same caveat as the earlier Spain widen, adding a country here only helps once a company on the watchlist (radar/companies.json) or Adzuna actually has an opening there, country breadth alone is necessary but not sufficient."
+    "neutral_countries": [
+      "ireland", "austria", "switzerland", "malta", "cyprus"
+    ],
+    "_neutral_note": "Added 2026-09-23 per Vic (geopolitical hedge: EU/EEA states with a formal policy of military non-alignment, i.e. not NATO members, kept distinct from a frontline-exposure read). Ireland, Austria, Malta, and Cyprus are EU members with constitutional or long-standing neutrality; Switzerland is EEA-adjacent (EFTA/Schengen, not EU) but the same neutrality profile, kept in this list for the same reason. Malta and Cyprus added to the country list above for the first time this session, they were previously absent from track_c_europe entirely. This is a tagging list for downstream shortlisting/filtering only, not a radar.py scoring change, non-neutral countries already in track_c_europe (Finland/Estonia border Russia directly, Poland/the Baltics are frontline NATO states) are left in place, unchanged, this only adds an additional lower-exposure option, it does not remove or deprioritize existing ones.",
+    "_note": "Widened 2026-09-13 per Vic (career-radar scope review): added France/Austria/Belgium/Italy/Poland/Czech Republic/Estonia/Luxembourg. Widened again 2026-09-23 (Malta/Cyprus, neutral-country hedge). Same caveat as the earlier Spain widen, adding a country here only helps once a company on the watchlist (radar/companies.json) or Adzuna actually has an opening there, country breadth alone is necessary but not sufficient."
   },
   "track_e_latam": {
     "countries": [
