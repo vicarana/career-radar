@@ -44,5 +44,24 @@ jobs:
             echo "No changes."
           else
             git commit -m "radar: data $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            # 2026-09-23: run 35879966916 failed here on a transient GitHub
+            # "Internal Server Error" from the git backend during push, not
+            # anything wrong with this repo or the data (radar.py itself had
+            # already finished cleanly, sources_ok 8/8, before the push even
+            # started). Confirmed self-resolving: two runs dispatched right
+            # after that failure both pushed fine with zero changes here.
+            # A couple of retries covers exactly that kind of blip without
+            # masking a real, persistent failure (auth/branch-protection
+            # issues will still fail all 3 attempts and surface loudly).
+            attempt=1
+            max_attempts=3
+            until git push; do
+              if [ "$attempt" -ge "$max_attempts" ]; then
+                echo "::error::git push failed after $max_attempts attempts"
+                exit 1
+              fi
+              echo "git push attempt $attempt failed, retrying in $((attempt * 5))s..."
+              sleep $((attempt * 5))
+              attempt=$((attempt + 1))
+            done
           fi
