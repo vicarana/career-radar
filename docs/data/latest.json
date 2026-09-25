@@ -1,15 +1,15 @@
 {
-  "generated": "2026-09-24 15:37 UTC",
-  "sources_ok": 7,
+  "generated": "2026-09-25 15:41 UTC",
+  "sources_ok": 8,
   "sources_total": 8,
   "stats": {
-    "total": 108,
+    "total": 112,
     "track_b": 40,
-    "track_c": 15,
+    "track_c": 21,
     "track_d": 40,
-    "track_e": 13,
+    "track_e": 11,
     "grade_a": 1,
-    "grade_b": 35,
+    "grade_b": 45,
     "visa": 0,
     "us_sponsor_confirmed": 0,
     "match_75plus": 0
@@ -20,7 +20,7 @@
         "title": "Requirement for SRE Manager  Remote",
         "company": "Kairos",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5896106968?se=jsW8ti248RGgMY43NiMBEQ&utm_medium=api&utm_source=4076fe36&v=5DC9504A0D00B949024FBB50951D9496CEA39B54",
+        "url": "https://www.adzuna.com/land/ad/5896106968?se=qDVNfPe48RGFmc25Bd2jsw&utm_medium=api&utm_source=4076fe36&v=5DC9504A0D00B949024FBB50951D9496CEA39B54",
         "score": 14,
         "grade": "A",
         "match": 70,
@@ -226,6 +226,82 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior Engineering Manager, Grafana Frontend | Germany | Remote",
+        "company": "Grafana Labs",
+        "location": "Germany (Remote)",
+        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6200726004",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Reliability",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Engineering Manager, Grafana Frontend | Ireland | Remote",
+        "company": "Grafana Labs",
+        "location": "Republic of Ireland (Remote)",
+        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6200731004",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Reliability",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Engineering Manager, Grafana Frontend | Spain | Remote",
+        "company": "Grafana Labs",
+        "location": "Spain (Remote)",
+        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6200725004",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Reliability",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Engineering Manager, Grafana Frontend | Sweden | Remote",
+        "company": "Grafana Labs",
+        "location": "Sweden (Remote)",
+        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6200798004",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Reliability",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Senior Site Reliability Engineer - US",
         "company": "Goteleport",
         "location": "United States (Remote)",
@@ -261,25 +337,6 @@
         ],
         "salary_min": 147146.67,
         "salary_max": 147146.67,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Lead Agentic AI Engineer",
-        "company": "ARK Infotech Spectrum",
-        "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5894311194?se=UsANuy248RG_LevdjZ8dqA&utm_medium=api&utm_source=4076fe36&v=4FD92372DE5933A9ED69BA1EBE953688C1CF122C",
-        "score": 11,
-        "grade": "B",
-        "match": 55,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Python",
-          "Agentic Ai"
-        ],
-        "salary_min": 146258.83,
-        "salary_max": 146258.83,
         "comp_disclosed": true
       },
       {
@@ -435,6 +492,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Engineering Manager, Cloud Engineering",
+        "company": "LaunchDarkly",
+        "location": "Remote - US",
+        "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/8004607003",
+        "score": 9,
+        "grade": "C",
+        "match": 45,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: cloud engineer",
+          "Kubernetes",
+          "Terraform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Senior DevOps Engineer - Storage Platforms",
         "company": "Five9",
         "location": "USA",
@@ -448,6 +524,24 @@
           "Title match: devops",
           "Devops",
           "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Head of AI Engineering - NCT",
+        "company": "Banyan Software",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/151636-head-of-ai-engineering-nct",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "RAG"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -680,99 +774,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "OpenStack Engineering Manager",
-        "company": "Canonical",
-        "location": "Anywhere",
-        "url": "https://jobicy.com/jobs/149573-openstack-engineering-manager",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Differentiator: Iot",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Director of Engineering, Data",
-        "company": "Boulevard",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151326-director-of-engineering-data",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: director of engineering",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager (Platform - Application Excellence)",
-        "company": "Paddle",
-        "location": "Ireland,  Portugal,  UK",
-        "url": "https://jobicy.com/jobs/153641-engineering-manager-platform-application-excellence",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform",
-          "RAG"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Devices & IOT Field Engineering Manager (Americas)",
-        "company": "Canonical",
-        "location": "LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/151016-devices-iot-field-engineering-manager-americas-2",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Differentiator: Iot",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Director of Engineering, Security Factory",
-        "company": "GitLab",
-        "location": "Remote, Israel; Remote, United Kingdom",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8607104002",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: director of engineering",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
       }
     ],
     "C": [
@@ -853,10 +854,86 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior Engineering Manager, Grafana Frontend | Germany | Remote",
+        "company": "Grafana Labs",
+        "location": "Germany (Remote)",
+        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6200726004",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Reliability",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Engineering Manager, Grafana Frontend | Ireland | Remote",
+        "company": "Grafana Labs",
+        "location": "Republic of Ireland (Remote)",
+        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6200731004",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Reliability",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Engineering Manager, Grafana Frontend | Spain | Remote",
+        "company": "Grafana Labs",
+        "location": "Spain (Remote)",
+        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6200725004",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Reliability",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Engineering Manager, Grafana Frontend | Sweden | Remote",
+        "company": "Grafana Labs",
+        "location": "Sweden (Remote)",
+        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6200798004",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Reliability",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Senior AI Agent Engineer",
         "company": "Oracle",
         "location": "Baton Rouge, East Baton Rouge Parish",
-        "url": "https://www.adzuna.com/land/ad/5831454484?se=DnN8ui248RGgMY43NiMBEQ&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4",
+        "url": "https://www.adzuna.com/land/ad/5831454484?se=7rJigPe48RGFmc25Bd2jsw&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4",
         "score": 11,
         "grade": "B",
         "match": 55,
@@ -870,6 +947,44 @@
         "salary_min": 127181.23,
         "salary_max": 127181.23,
         "comp_disclosed": true
+      },
+      {
+        "title": "Senior Site Reliability Engineer - Access Team",
+        "company": "N26",
+        "location": "Barcelona",
+        "url": "https://n26.com/en-eu/careers/positions/7774526?gh_jid=7774526",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Site Reliability Engineer - Access Team",
+        "company": "N26",
+        "location": "Berlin",
+        "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Manager, Solutions Engineering | NorBen | Remote",
@@ -966,42 +1081,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior Machine Learning Engineer, Ads - Quora",
-        "company": "Quora",
-        "location": "Canada,  Ireland,  USA",
-        "url": "https://jobicy.com/jobs/153939-senior-machine-learning-engineer-ads-quora",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: machine learning engineer",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior DevOps Engineer (m/w/d)",
-        "company": "Collaboration Betters The World GmbH",
-        "location": "Munich",
-        "url": "https://www.arbeitnow.com/jobs/companies/collaboration-betters-the-world-gmbh/senior-devops-engineer-munich-445707",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager - Git & Gitaly Operations",
         "company": "GitLab",
         "location": "Bangalore, India",
@@ -1024,6 +1103,42 @@
         "company": "GitLab",
         "location": "Remote, Poland",
         "url": "https://job-boards.greenhouse.io/gitlab/jobs/8782040002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager - Data Delivery Platform",
+        "company": "Adyen",
+        "location": "Amsterdam",
+        "url": "https://job-boards.greenhouse.io/adyen/jobs/8110805",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager - Regulatory Reporting Data",
+        "company": "Adyen",
+        "location": "Amsterdam",
+        "url": "https://job-boards.greenhouse.io/adyen/jobs/8110803",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -1194,7 +1309,7 @@
         "title": "Senior Lead Software Engineer- SRE",
         "company": "J.P. Morgan",
         "location": "Dallas, Texas",
-        "url": "https://www.adzuna.com/land/ad/5883561501?se=5iNCty248RGqqJ23Mt790Q&utm_medium=api&utm_source=4076fe36&v=DEE1FCA89243DD2BEEBA4072228ED8465292AC08",
+        "url": "https://www.adzuna.com/land/ad/5883561501?se=uk3XfPe48RGGQ9u1mQKVdw&utm_medium=api&utm_source=4076fe36&v=DEE1FCA89243DD2BEEBA4072228ED8465292AC08",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -1229,6 +1344,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Engineering Manager, Cloud Engineering",
+        "company": "LaunchDarkly",
+        "location": "Remote - US",
+        "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/8004607003",
+        "score": 9,
+        "grade": "C",
+        "match": 45,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: cloud engineer",
+          "Kubernetes",
+          "Terraform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Senior DevOps Engineer - Storage Platforms",
         "company": "Five9",
         "location": "USA",
@@ -1242,6 +1376,24 @@
           "Title match: devops",
           "Devops",
           "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Head of AI Engineering - NCT",
+        "company": "Banyan Software",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/151636-head-of-ai-engineering-nct",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "RAG"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -1297,25 +1449,6 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: director of engineering",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Devices & IOT Field Engineering Manager (Americas)",
-        "company": "Canonical",
-        "location": "LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/151016-devices-iot-field-engineering-manager-americas-2",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Differentiator: Iot",
           "Platform"
         ],
         "salary_min": null,
@@ -1383,7 +1516,7 @@
         "title": "Lead Cloud & Agentic AI Engineer",
         "company": "Vanguard",
         "location": "Dallas, Texas",
-        "url": "https://www.adzuna.com/land/ad/5871901547?se=UsANuy248RG_LevdjZ8dqA&utm_medium=api&utm_source=4076fe36&v=EBE374AFEAB933DEA30E7C39DDD20F5F4A7225BA",
+        "url": "https://www.adzuna.com/land/ad/5871901547?se=RIEBgfe48RGGQ9u1mQKVdw&utm_medium=api&utm_source=4076fe36&v=EBE374AFEAB933DEA30E7C39DDD20F5F4A7225BA",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1401,7 +1534,7 @@
         "title": "Senior AI Platform Engineer",
         "company": "Judge Group, Inc.",
         "location": "Bee Cave, Travis County",
-        "url": "https://www.adzuna.com/land/ad/5887002464?se=KlquvC248RGqqJ23Mt790Q&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E",
+        "url": "https://www.adzuna.com/land/ad/5887002464?se=JuT2gve48RG3jpCv9xpWmA&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1414,6 +1547,25 @@
         "salary_min": 159015.52,
         "salary_max": 159015.52,
         "comp_disclosed": true
+      },
+      {
+        "title": "Engineering Manager, RC Capital",
+        "company": "RevenueCat",
+        "location": "EMEA,  LATAM,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/151629-engineering-manager-rc-capital",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform",
+          "Openai"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Senior DevOps Engineer",
@@ -1577,60 +1729,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior Manager, Sales Engineering - Majors, New England",
-        "company": "Zscaler",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151050-senior-manager-sales-engineering-majors-new-england",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Platform",
-          "RAG"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Manager, Sales Engineering - Majors, NY/NJ",
-        "company": "Zscaler",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/151048-senior-manager-sales-engineering-majors-ny-nj",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Platform",
-          "RAG"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Machine Learning Engineer, Ads - Quora",
-        "company": "Quora",
-        "location": "Canada,  Ireland,  USA",
-        "url": "https://jobicy.com/jobs/153939-senior-machine-learning-engineer-ads-quora",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: machine learning engineer",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager, Agent Foundations: Agent Execution",
         "company": "GitLab",
         "location": "Remote, United States",
@@ -1721,24 +1819,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior Engineering Manager, Enterprise Fulfillment",
-        "company": "Instacart",
-        "location": "United States - Remote",
-        "url": "https://instacart.careers/job/?gh_jid=8084349",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "LLM"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Senior Machine Learning Engineer, Digital Twin Platform",
         "company": "Instacart",
         "location": "United States - Remote",
@@ -1751,24 +1831,6 @@
         "reasons": [
           "Title match: machine learning engineer",
           "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, AgentControl",
-        "company": "LaunchDarkly",
-        "location": "Remote - US",
-        "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7977701003",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "LLM"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -1791,9 +1853,81 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "Senior Engineering Manager, SDKs",
+        "company": "LaunchDarkly",
+        "location": "Remote - US",
+        "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7992077003",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, FinHub - Financial Intelligence (Platform)",
+        "company": "Coinbase",
+        "location": "Remote - USA",
+        "url": "https://www.coinbase.com/careers/positions/8138031?gh_jid=8138031",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Ads Conversion Modeling, Machine Learning Engineering Manager",
+        "company": "Reddit",
+        "location": "Remote - United States",
+        "url": "https://job-boards.greenhouse.io/reddit/jobs/7792848",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: machine learning engineer"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       }
     ],
     "E": [
+      {
+        "title": "Grupo QuintoAndar | Senior Site Reliability Engineer - AI Platform",
+        "company": "QuintoAndar",
+        "location": "Brasil",
+        "url": "https://job-boards.greenhouse.io/quintoandar/jobs/4249527009",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
       {
         "title": "Engineering Manager - Public Cloud, Python, Golang",
         "company": "Canonical",
@@ -1852,131 +1986,59 @@
         "comp_disclosed": false
       },
       {
-        "title": "Devices & IOT Field Engineering Manager (Americas)",
-        "company": "Canonical",
-        "location": "LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/151016-devices-iot-field-engineering-manager-americas-2",
+        "title": "Agentic AI Engineer Lead",
+        "company": "Carrier",
+        "location": "West Indianapolis, Marion County",
+        "url": "https://www.adzuna.com/land/ad/5897761955?se=7rJigPe48RGFmc25Bd2jsw&utm_medium=api&utm_source=4076fe36&v=CDCB0B92EDA3C89A297A36E2E8E750596AF11F8B",
         "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Agentic Ai"
+        ],
+        "salary_min": 135374.03,
+        "salary_max": 135374.03,
+        "comp_disclosed": true
+      },
+      {
+        "title": "Agentic AI Engineer Lead",
+        "company": "Carrier",
+        "location": "West Indianapolis, Marion County",
+        "url": "https://www.adzuna.com/land/ad/5897761955?se=RIEBgfe48RGGQ9u1mQKVdw&utm_medium=api&utm_source=4076fe36&v=CDCB0B92EDA3C89A297A36E2E8E750596AF11F8B",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Agentic Ai"
+        ],
+        "salary_min": 135374.03,
+        "salary_max": 135374.03,
+        "comp_disclosed": true
+      },
+      {
+        "title": "Engineering Manager, RC Capital",
+        "company": "RevenueCat",
+        "location": "EMEA,  LATAM,  Canada,  USA",
+        "url": "https://jobicy.com/jobs/151629-engineering-manager-rc-capital",
+        "score": 5,
         "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
           "Title match: engineering manager",
-          "Differentiator: Iot",
-          "Platform"
+          "Platform",
+          "Openai"
         ],
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Agentic AI Engineer Lead",
-        "company": "Carrier",
-        "location": "Kennesaw, Cobb County",
-        "url": "https://www.adzuna.com/land/ad/5895727441?se=DnN8ui248RGgMY43NiMBEQ&utm_medium=api&utm_source=4076fe36&v=A2957348C9E8B6425FA4BB0D260696CBE0B06620",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Agentic Ai"
-        ],
-        "salary_min": 112637.44,
-        "salary_max": 112637.44,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Agentic AI Engineer Lead",
-        "company": "Carrier",
-        "location": "Indianapolis, Marion County",
-        "url": "https://www.adzuna.com/land/ad/5895644862?se=DnN8ui248RGgMY43NiMBEQ&utm_medium=api&utm_source=4076fe36&v=669FF52EB30EDFD588F5FE814EC39376EA599BFB",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Agentic Ai"
-        ],
-        "salary_min": 115832.3,
-        "salary_max": 115832.3,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Agentic AI Engineer Lead",
-        "company": "Carrier",
-        "location": "Kennesaw, Cobb County",
-        "url": "https://www.adzuna.com/land/ad/5895620992?se=DnN8ui248RGgMY43NiMBEQ&utm_medium=api&utm_source=4076fe36&v=38A97756BE4AF414574EB6D65C74FCC5524DE2B0",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Agentic Ai"
-        ],
-        "salary_min": 125014.98,
-        "salary_max": 125014.98,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Agentic AI Engineer Lead",
-        "company": "Carrier",
-        "location": "Kennesaw, Cobb County",
-        "url": "https://www.adzuna.com/land/ad/5895727441?se=UsANuy248RG_LevdjZ8dqA&utm_medium=api&utm_source=4076fe36&v=A2957348C9E8B6425FA4BB0D260696CBE0B06620",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Agentic Ai"
-        ],
-        "salary_min": 112637.44,
-        "salary_max": 112637.44,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Agentic AI Engineer Lead",
-        "company": "Carrier",
-        "location": "Indianapolis, Marion County",
-        "url": "https://www.adzuna.com/land/ad/5895644862?se=UsANuy248RG_LevdjZ8dqA&utm_medium=api&utm_source=4076fe36&v=669FF52EB30EDFD588F5FE814EC39376EA599BFB",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Agentic Ai"
-        ],
-        "salary_min": 115832.3,
-        "salary_max": 115832.3,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Agentic AI Engineer Lead",
-        "company": "Carrier",
-        "location": "Kennesaw, Cobb County",
-        "url": "https://www.adzuna.com/land/ad/5895620992?se=UsANuy248RG_LevdjZ8dqA&utm_medium=api&utm_source=4076fe36&v=38A97756BE4AF414574EB6D65C74FCC5524DE2B0",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Agentic Ai"
-        ],
-        "salary_min": 125014.98,
-        "salary_max": 125014.98,
-        "comp_disclosed": true
       },
       {
         "title": "Senior DevOps Engineer",
@@ -2031,6 +2093,23 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "Senior Applied AI Engineer",
+        "company": "Groundswell",
+        "location": "New Mexico, US",
+        "url": "https://www.adzuna.com/land/ad/5895666586?se=HDWCfve48RGFmc25Bd2jsw&utm_medium=api&utm_source=4076fe36&v=0ED786DA1DF4C812A6838B9BF135F5386D8A28DB",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer"
+        ],
+        "salary_min": 159291.75,
+        "salary_max": 159291.75,
+        "comp_disclosed": true
       }
     ]
   },
@@ -2084,6 +2163,10 @@
       "url": "https://jobs.ashbyhq.com/1password"
     },
     {
+      "company": "Adyen",
+      "url": "https://job-boards.greenhouse.io/adyen"
+    },
+    {
       "company": "Coinbase",
       "url": "https://job-boards.greenhouse.io/coinbase"
     },
@@ -2130,6 +2213,10 @@
     {
       "company": "LaunchDarkly",
       "url": "https://job-boards.greenhouse.io/launchdarkly"
+    },
+    {
+      "company": "N26",
+      "url": "https://job-boards.greenhouse.io/n26"
     },
     {
       "company": "OpenAI",
@@ -2234,10 +2321,7 @@
       "url": "https://www.telefonica.com/en/careers/"
     }
   ],
-  "warnings": [
-    "greenhouse:adyen:TimeoutError",
-    "greenhouse:circleci:TimeoutError"
-  ],
+  "warnings": [],
   "profile_lite": {
     "target_titles": [
       "site reliability",
