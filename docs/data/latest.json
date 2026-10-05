@@ -1,15 +1,15 @@
 {
-  "generated": "2026-10-04 15:34 UTC",
+  "generated": "2026-10-05 19:27 UTC",
   "sources_ok": 8,
   "sources_total": 8,
   "stats": {
-    "total": 99,
+    "total": 100,
     "track_b": 40,
     "track_c": 19,
-    "track_d": 37,
-    "track_e": 3,
+    "track_d": 39,
+    "track_e": 2,
     "grade_a": 5,
-    "grade_b": 36,
+    "grade_b": 37,
     "visa": 0,
     "us_sponsor_confirmed": 0,
     "match_75plus": 2
@@ -58,7 +58,7 @@
         "title": "Requirement for SRE Manager  Remote",
         "company": "Kairos",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5896106968?se=hMy3-QjA8RGh_LeUgGdixw&utm_medium=api&utm_source=4076fe36&v=5DC9504A0D00B949024FBB50951D9496CEA39B54",
+        "url": "https://www.adzuna.com/land/ad/5896106968?se=yFUeqfLA8RGr5sMVJZBn5Q&utm_medium=api&utm_source=4076fe36&v=5DC9504A0D00B949024FBB50951D9496CEA39B54",
         "score": 14,
         "grade": "A",
         "match": 70,
@@ -283,6 +283,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Engineering Manager - Python and K8s",
+        "company": "Canonical",
+        "location": "APAC,  EMEA",
+        "url": "https://jobicy.com/jobs/150121-engineering-manager-python-and-k8s",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Differentiator: Iot",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Manager, Solutions Engineering | AMER | Remote",
         "company": "Grafana Labs",
         "location": "United States (Remote)",
@@ -400,7 +419,7 @@
         "title": "Senior AI Platform Engineer - Nearshore",
         "company": "Diligente Technologies",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5906911390?se=Aic9AAnA8RGN96JAzfykhw&utm_medium=api&utm_source=4076fe36&v=3ADAB408218D7B709C828638EFC49B1111118C9F",
+        "url": "https://www.adzuna.com/land/ad/5906911390?se=ijqyr_LA8RGpcqAIQXZuOg&utm_medium=api&utm_source=4076fe36&v=3ADAB408218D7B709C828638EFC49B1111118C9F",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -416,25 +435,6 @@
         "comp_disclosed": true
       },
       {
-        "title": "Engineering Manager - Public Cloud, Python, Golang",
-        "company": "Canonical",
-        "location": "EMEA,  LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
-        "score": 9,
-        "grade": "C",
-        "match": 45,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Differentiator: Iot",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager, Cloud Engineering",
         "company": "LaunchDarkly",
         "location": "Remote - US",
@@ -448,6 +448,25 @@
           "Title match: cloud engineer",
           "Kubernetes",
           "Terraform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Site Reliability Engineer I",
+        "company": "Braze",
+        "location": "Canada",
+        "url": "https://jobicy.com/jobs/152549-senior-site-reliability-engineer-i",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -496,44 +515,6 @@
         "company": "Canonical",
         "location": "APAC,  EMEA",
         "url": "https://jobicy.com/jobs/149939-gitops-engineering-manager",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Differentiator: Iot",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Python Engineering Manager, Commercial Systems",
-        "company": "Canonical",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/149989-python-engineering-manager-commercial-systems",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Differentiator: Iot",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager- Ceph & Distributed Storage",
-        "company": "Canonical",
-        "location": "EMEA,  LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/149970-engineering-manager-ceph-distributed-storage",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -606,10 +587,29 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior ServiceNow Platform Engineer",
+        "company": "Abnormalsecurity",
+        "location": "Remote - USA",
+        "url": "https://abnormal.ai/careers/jobs/8011780003?gh_jid=8011780003",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Automation"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Senior Site Reliability Engineer",
         "company": "ADT",
         "location": "Pennsylvania, US",
-        "url": "https://www.adzuna.com/land/ad/5907106624?se=Ksgr-AjA8RGdRLcUnFY4TA&utm_medium=api&utm_source=4076fe36&v=80B4C44DC16EAE1044381BBD8F54D51AD94607A9",
+        "url": "https://www.adzuna.com/land/ad/5907106624?se=3tqEp_LA8RGpcqAIQXZuOg&utm_medium=api&utm_source=4076fe36&v=80B4C44DC16EAE1044381BBD8F54D51AD94607A9",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -625,19 +625,19 @@
         "comp_disclosed": true
       },
       {
-        "title": "Golang Engineering Manager, Commercial Systems",
-        "company": "Canonical",
-        "location": "EMEA",
-        "url": "https://jobicy.com/jobs/149984-golang-engineering-manager-commercial-systems",
-        "score": 7,
-        "grade": "C",
+        "title": "Senior DevOps Engineer, Observability",
+        "company": "NetBox Labs",
+        "location": "LATAM,  UK,  USA",
+        "url": "https://jobicy.com/jobs/154542-senior-devops-engineer-observability",
+        "score": 6,
+        "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: engineering manager",
-          "Differentiator: Iot",
-          "Platform"
+          "Title match: devops",
+          "Devops",
+          "Observability"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -657,6 +657,25 @@
           "Title match: engineering manager",
           "Platform",
           "Aws"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager",
+        "company": "Supabase",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/154552-engineering-manager-9",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform",
+          "RAG"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -750,25 +769,6 @@
           "Title match: infrastructure engineer",
           "Reliability",
           "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager, Product",
-        "company": "Harvey",
-        "location": "New York",
-        "url": "https://jobs.ashbyhq.com/harvey/e59f9b06-f863-446e-9022-61034004b69a",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform",
-          "Agentic Ai"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -894,7 +894,7 @@
         "title": "Senior AI Agent Engineer",
         "company": "Oracle",
         "location": "Baton Rouge, East Baton Rouge Parish",
-        "url": "https://www.adzuna.com/land/ad/5831454484?se=KEvh_QjA8RGompVZqO9Fmg&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4",
+        "url": "https://www.adzuna.com/land/ad/5831454484?se=8I5KrfLA8RGpcqAIQXZuOg&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4",
         "score": 11,
         "grade": "B",
         "match": 55,
@@ -912,8 +912,8 @@
       {
         "title": "Senior Site Reliability Engineer - Access Team",
         "company": "N26",
-        "location": "Berlin",
-        "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
+        "location": "Barcelona",
+        "url": "https://n26.com/en-eu/careers/positions/7774526?gh_jid=7774526",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -931,8 +931,8 @@
       {
         "title": "Senior Site Reliability Engineer - Access Team",
         "company": "N26",
-        "location": "Barcelona",
-        "url": "https://n26.com/en-eu/careers/positions/7774526?gh_jid=7774526",
+        "location": "Berlin",
+        "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -1023,6 +1023,24 @@
         "comp_disclosed": false
       },
       {
+        "title": "Engineering Manager",
+        "company": "intercom",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/intercom/engineering-manager-berlin-47930",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Ai Agent"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Engineering Manager - Git & Gitaly Operations",
         "company": "GitLab",
         "location": "Bangalore, India",
@@ -1095,24 +1113,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior Microsoft Infrastructure Engineer (m/w/d)",
-        "company": "Amplius-Systems GmbH",
-        "location": "Hamburg",
-        "url": "https://www.arbeitnow.com/jobs/companies/amplius-systems-gmbh/senior-microsoft-infrastructure-engineer-hamburg-247113",
-        "score": 3,
-        "grade": "F",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: infrastructure engineer",
-          "Azure"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Database Engineering Team Manager",
         "company": "Squarespace",
         "location": "Dublin",
@@ -1155,7 +1155,7 @@
         "title": "Site Reliability Engineering Lead",
         "company": "Jobgether",
         "location": "Connecticut, US",
-        "url": "https://www.adzuna.com/land/ad/5910968974?se=Ksgr-AjA8RGdRLcUnFY4TA&utm_medium=api&utm_source=4076fe36&v=6DFA15567E6C34683B819082F95B92673F759665",
+        "url": "https://www.adzuna.com/land/ad/5910968974?se=3tqEp_LA8RGpcqAIQXZuOg&utm_medium=api&utm_source=4076fe36&v=6DFA15567E6C34683B819082F95B92673F759665",
         "score": 14,
         "grade": "A",
         "match": 70,
@@ -1288,7 +1288,7 @@
         "title": "Senior Lead Software Engineer- SRE",
         "company": "J.P. Morgan",
         "location": "Dallas, Texas",
-        "url": "https://www.adzuna.com/land/ad/5883561501?se=8O1g-gjA8RGN96JAzfykhw&utm_medium=api&utm_source=4076fe36&v=DEE1FCA89243DD2BEEBA4072228ED8465292AC08",
+        "url": "https://www.adzuna.com/land/ad/5883561501?se=ILSoqfLA8RGpcqAIQXZuOg&utm_medium=api&utm_source=4076fe36&v=DEE1FCA89243DD2BEEBA4072228ED8465292AC08",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -1302,25 +1302,6 @@
         "salary_min": 107573.73,
         "salary_max": 107573.73,
         "comp_disclosed": true
-      },
-      {
-        "title": "Engineering Manager - Public Cloud, Python, Golang",
-        "company": "Canonical",
-        "location": "EMEA,  LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
-        "score": 9,
-        "grade": "C",
-        "match": 45,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Differentiator: Iot",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
       },
       {
         "title": "Engineering Manager, Cloud Engineering",
@@ -1380,25 +1361,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager- Ceph & Distributed Storage",
-        "company": "Canonical",
-        "location": "EMEA,  LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/149970-engineering-manager-ceph-distributed-storage",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Differentiator: Iot",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager, Core DevOps",
         "company": "GitLab",
         "location": "Remote, Canada; Remote, United States",
@@ -1431,6 +1393,44 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior ServiceNow Platform Engineer",
+        "company": "Abnormalsecurity",
+        "location": "Remote - USA",
+        "url": "https://abnormal.ai/careers/jobs/8011780003?gh_jid=8011780003",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Automation"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior DevOps Engineer, Observability",
+        "company": "NetBox Labs",
+        "location": "LATAM,  UK,  USA",
+        "url": "https://jobicy.com/jobs/154542-senior-devops-engineer-observability",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Observability"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -1515,7 +1515,7 @@
         "title": "Senior AI Platform Engineer",
         "company": "Judge Group, Inc.",
         "location": "Bee Cave, Travis County",
-        "url": "https://www.adzuna.com/land/ad/5887002464?se=Aic9AAnA8RGN96JAzfykhw&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E",
+        "url": "https://www.adzuna.com/land/ad/5887002464?se=ijqyr_LA8RGpcqAIQXZuOg&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1566,10 +1566,28 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager, Agent Foundations: Agent Execution",
+        "title": "Staff Infrastructure Engineer",
+        "company": "TRM Labs",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/154593-staff-infrastructure-engineer",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: infrastructure engineer",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, Data Foundations",
         "company": "GitLab",
-        "location": "Remote, United States",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8759592002",
+        "location": "Remote, US",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592950002",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -1584,10 +1602,28 @@
         "comp_disclosed": false
       },
       {
-        "title": "Engineering Manager, Data Foundations",
+        "title": "Engineering Manager, Dedicated Infrastructure",
         "company": "GitLab",
-        "location": "Remote, US",
-        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592950002",
+        "location": "Remote, Canada; Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8845322002",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Engineering Manager, SSCS: Supply Chain",
+        "company": "GitLab",
+        "location": "Bangalore, India; Remote, Australia; Remote, Canada; Remote, Israel; Remote, United States",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8478405002",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -1819,38 +1855,19 @@
     ],
     "E": [
       {
-        "title": "Engineering Manager - Public Cloud, Python, Golang",
-        "company": "Canonical",
-        "location": "EMEA,  LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang",
-        "score": 9,
-        "grade": "C",
-        "match": 45,
+        "title": "Senior DevOps Engineer, Observability",
+        "company": "NetBox Labs",
+        "location": "LATAM,  UK,  USA",
+        "url": "https://jobicy.com/jobs/154542-senior-devops-engineer-observability",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: engineering manager",
-          "Differentiator: Iot",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager- Ceph & Distributed Storage",
-        "company": "Canonical",
-        "location": "EMEA,  LATAM,  Canada,  USA",
-        "url": "https://jobicy.com/jobs/149970-engineering-manager-ceph-distributed-storage",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Differentiator: Iot",
-          "Platform"
+          "Title match: devops",
+          "Devops",
+          "Observability"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -1925,6 +1942,10 @@
     {
       "company": "1Password",
       "url": "https://jobs.ashbyhq.com/1password"
+    },
+    {
+      "company": "Abnormalsecurity",
+      "url": "https://job-boards.greenhouse.io/abnormalsecurity"
     },
     {
       "company": "Adyen",
