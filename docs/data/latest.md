@@ -1,20 +1,18 @@
-# career-radar - 2026-10-09 17:15 UTC
-Sources OK: 8/8
+# career-radar - 2026-10-10 16:01 UTC
+Sources OK: 7/8
 
 
-## 75%+ match: none today
-No posting currently clears the threshold. This is watchlist/market supply, not a scoring bug, see companies.json's dated notes for the established pattern (breadth adds volume, not automatically top-end score).
+## 75%+ match, strongest-fit postings (1)
+- 75% Senior Platform Engineer (f/m/x) @ Workist Gmbh (Berlin) https://www.arbeitnow.com/jobs/companies/workist-gmbh/senior-platform-engineer-berlin-342574
 
-## Track D - US (sponsorship not guaranteed, check per-role) (43)
+## Track D - US (sponsorship not guaranteed, check per-role) (36)
 - Director, Solutions Engineering | East | Remote @ Grafana Labs (United States (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6205562004
 - Senior Director, Solutions Engineering | Americas | Remote @ Grafana Labs (United States (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6126959004
 - Senior Site Reliability Engineer - US @ Goteleport (United States (Remote)) s12 https://jobs.ashbyhq.com/goteleport/1ceb2d28-1745-4d0d-b21e-3fa88be9b996
 - Staff Site Reliability Engineer - US @ Goteleport (United States (Remote)) s12 https://jobs.ashbyhq.com/goteleport/e53553a4-ef67-4fb1-a380-c6bed9e95b82
 - Manager, Solutions Engineering | AMER | Remote @ Grafana Labs (United States (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6163556004
 - Manager, Solutions Engineering | West Coast | Remote @ Grafana Labs (United States (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6191900004
-- Senior Site Reliability Engineer @ Cribl (Remote - United States) s10 https://cribl.io/job-detail/?gh_jid=6109420004
-- Senior Lead Software Engineer- SRE @ J.P. Morgan (Dallas, Texas) s10 https://www.adzuna.com/land/ad/5883561501?se=mmMZ6wTE8RGAYIVsDFf18w&utm_medium=api&utm_source=4076fe36&v=DEE1FCA89243DD2BEEBA4072228ED8465292AC08
-- Director, AI Automation Engineering @ Impiricus (Grand Central, Manhattan) s10 https://www.adzuna.com/land/ad/5914469466?se=qnm87wTE8RGjSfrCsBO0RQ&utm_medium=api&utm_source=4076fe36&v=B3E3E5E931F19ADC851149F8425525FC308370B5
+- Senior Lead Software Engineer- SRE @ J.P. Morgan (Dallas, Texas) s10 https://www.adzuna.com/land/ad/5883561501?se=nMYOuMPE8RGRs48L_-pA7w&utm_medium=api&utm_source=4076fe36&v=DEE1FCA89243DD2BEEBA4072228ED8465292AC08
 - Engineering Manager, Cloud Engineering @ LaunchDarkly (Remote - US) s9 https://job-boards.greenhouse.io/launchdarkly/jobs/8004607003
 - Engineering Manager, Core DevOps @ GitLab (Canada,  USA) s8 https://jobicy.com/jobs/154498-engineering-manager-core-devops
 - Director of Engineering, Cloud & Reliability @ Boulevard (USA) s8 https://jobicy.com/jobs/152496-director-of-engineering-cloud-reliability-2
@@ -26,37 +24,36 @@ No posting currently clears the threshold. This is watchlist/market supply, not 
 - Director of Engineering, Database Excellence @ GitLab (Remote, Canada; Remote, United States) s6 https://job-boards.greenhouse.io/gitlab/jobs/8853843002
 - Engineering Director, AI Engineering @ Hex (San Francisco) s6 https://jobs.ashbyhq.com/hex/1377177b-5b95-4653-8d5b-17de7e14513a
 - Solutions Engineering Manager @ Goteleport (United States (Remote)) s6 https://jobs.ashbyhq.com/goteleport/e528dee0-f9e9-4e19-9799-89102ad11365
+- Engineering Manager - Dashboard @ Workos (San Francisco) s6 https://jobs.ashbyhq.com/workos/e3e9f8a1-cf9f-4a14-b8ad-10a8d448a663
+- Engineering Manager @ Tremendous (USA) s4 https://jobicy.com/jobs/152855-engineering-manager-7
 
-## Track C - Europe (sponsorship not guaranteed, check per-role) (20)
+## Track C - Europe (sponsorship not guaranteed, check per-role) (17)
+- Senior Platform Engineer (f/m/x) @ Workist Gmbh (Berlin) s15 https://www.arbeitnow.com/jobs/companies/workist-gmbh/senior-platform-engineer-berlin-342574
 - Engineering Manager - Observability | Germany | Remote @ Grafana Labs (Germany (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202561004
 - Engineering Manager - Observability | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202563004
 - Engineering Manager - Observability | Spain | Remote @ Grafana Labs (Spain (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202560004
 - Engineering Manager - Observability | Sweden | Remote @ Grafana Labs (Sweden (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202558004
-- Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Sweden (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004
+- Senior AI Agent Engineer @ Oracle (Baton Rouge, East Baton Rouge Parish) s11 https://www.adzuna.com/land/ad/5831454484?se=lDlEvcPE8RGRs48L_-pA7w&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4
 - Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Netherlands (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004
-- Senior/Staff Platform Engineer (m/f/x) @ Cortea AI (Berlin) s8 https://www.arbeitnow.com/jobs/companies/cortea-ai/senior-staff-platform-engineer-berlin-145760
-- Senior Site Reliability Engineer @ Avaloq (Lazy Lake, Broward County) s8 https://www.adzuna.com/land/ad/5915061873?se=pt1T6QTE8RG_59bpLSVmjQ&utm_medium=api&utm_source=4076fe36&v=6C39BBD4D20AD7CE5CEDCBD48BA3C355F822C828
-- Senior Site Reliability Engineer @ Avaloq (Fort Lauderdale, Broward County) s8 https://www.adzuna.com/land/ad/5915262349?se=pt1T6QTE8RG_59bpLSVmjQ&utm_medium=api&utm_source=4076fe36&v=8E489B9546F23DA263FD62951DC7CA65813539BF
-- Senior/Staff AI Engineer, Quality & Evals (m/f/x) @ Cortea AI (Berlin) s6 https://www.arbeitnow.com/jobs/companies/cortea-ai/senior-staff-ai-engineer-quality-evals-berlin-387619
+- Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Sweden (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004
+- Senior MLOps Engineer (m/w/d) @ Flexa (München) s9 https://www.arbeitnow.com/jobs/companies/flexa/senior-mlops-engineer-munchen-447928
 - Director, Engineering - Digital Experience Monitoring @ Datadog (Paris, France) s5 https://careers.datadoghq.com/detail/8050591/?gh_jid=8050591
 - Senior DevOps Engineer @ Five9 (Portugal) s4 https://jobicy.com/jobs/154677-senior-devops-engineer-8
-- Engineering Manager, EMEA (Platform) @ Testlio (EMEA) s4 https://jobicy.com/jobs/154448-engineering-manager-emea-platform
 - Senior Machine Learning Engineer, Ranking - Quora @ Quora (Canada,  Ireland,  USA) s4 https://jobicy.com/jobs/154907-senior-machine-learning-engineer-ranking-quora
-- Engineering Manager - Experimentation @ Spotify (Sweden,  UK) s4 https://jobicy.com/jobs/154910-engineering-manager-experimentation
 - Engineering Manager - Git & Gitaly Operations @ GitLab (Bangalore, India) s4 https://job-boards.greenhouse.io/gitlab/jobs/8626740002
 - Engineering Manager, Trusted Agentic Development @ GitLab (Remote, Poland) s4 https://job-boards.greenhouse.io/gitlab/jobs/8782040002
 - Engineering Manager - Data Delivery Platform @ Adyen (Amsterdam) s4 https://job-boards.greenhouse.io/adyen/jobs/8110805
 - Engineering Manager - Regulatory Reporting Data @ Adyen (Amsterdam) s4 https://job-boards.greenhouse.io/adyen/jobs/8110803
 - Database Engineering Team Manager @ Squarespace (Dublin) s3 http://www.squarespace.com/about/careers?gh_jid=7962046
 
-## Track E - LatAm/Chile (no relocation needed) (3)
+## Track E - LatAm/Chile (no relocation needed) (5)
+- Staff DevOps Engineer @ Nextiva (Mexico) s6 https://jobicy.com/jobs/152908-staff-devops-engineer-2
+- Senior DevOps Engineer @ Nextiva (Mexico) s6 https://jobicy.com/jobs/152901-senior-devops-engineer-7
 - Senior DevOps Engineer, Observability @ NetBox Labs (LATAM,  UK,  USA) s6 https://jobicy.com/jobs/154542-senior-devops-engineer-observability
 - AI/ML Engineering Manager @ Caylent (Argentina) s6 https://jobicy.com/jobs/152435-ai-ml-engineering-manager
 - 1149 - Senior DevOps Engineer @ GoFasti (LATAM) s4 https://jobicy.com/jobs/154737-1149-senior-devops-engineer
 
-## Track B - Remote/income (90)
-- Site Reliability Engineering Manager @ Canonical (APAC,  EMEA) s14 https://jobicy.com/jobs/149986-site-reliability-engineering-manager
-- Requirement for SRE Manager  Remote @ Kairos (US) s14 https://www.adzuna.com/land/ad/5896106968?se=Jlqc6gTE8RGjSfrCsBO0RQ&utm_medium=api&utm_source=4076fe36&v=5DC9504A0D00B949024FBB50951D9496CEA39B54
+## Track B - Remote/income (69)
 - Director, Solutions Engineering | East | Remote @ Grafana Labs (United States (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6205562004
 - Engineering Manager - Observability | Germany | Remote @ Grafana Labs (Germany (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202561004
 - Engineering Manager - Observability | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202563004
@@ -68,13 +65,15 @@ No posting currently clears the threshold. This is watchlist/market supply, not 
 - Staff Site Reliability Engineer - US @ Goteleport (United States (Remote)) s12 https://jobs.ashbyhq.com/goteleport/e53553a4-ef67-4fb1-a380-c6bed9e95b82
 - Engineering Manager - Python and K8s @ Canonical (APAC,  EMEA) s10 https://jobicy.com/jobs/150121-engineering-manager-python-and-k8s
 - Manager, Solutions Engineering | AMER | Remote @ Grafana Labs (United States (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6163556004
-- Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Sweden (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004
 - Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Netherlands (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004
+- Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Sweden (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004
 - Manager, Solutions Engineering | SEMEA | Remote @ Grafana Labs (Israel (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6121609004
 - Manager, Solutions Engineering | West Coast | Remote @ Grafana Labs (United States (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6191900004
-- Senior Site Reliability Engineer @ Cribl (Remote - United States) s10 https://cribl.io/job-detail/?gh_jid=6109420004
-- SRE-Platform Lead @ Gemini Solutions Pvt Ltd (West Virginia, US) s10 https://www.adzuna.com/land/ad/5920604698?se=mmMZ6wTE8RGAYIVsDFf18w&utm_medium=api&utm_source=4076fe36&v=5C49FE2DEEC29B8D26A4F6250AF61468272B9E36
-- SRE-Platform Lead @ Gemini Solutions Pvt Ltd (US) s10 https://www.adzuna.com/details/5920150316?utm_medium=api&utm_source=4076fe36
+- Engineering Manager, Cloud Engineering @ LaunchDarkly (Remote - US) s9 https://job-boards.greenhouse.io/launchdarkly/jobs/8004607003
+- Senior Site Reliability Engineer I @ Braze (Canada) s8 https://jobicy.com/jobs/152549-senior-site-reliability-engineer-i
+- Engineering Manager, Core DevOps @ GitLab (Canada,  USA) s8 https://jobicy.com/jobs/154498-engineering-manager-core-devops
+- Director of Engineering, Cloud & Reliability @ Boulevard (USA) s8 https://jobicy.com/jobs/152496-director-of-engineering-cloud-reliability-2
+- Engineering Manager, Core DevOps @ GitLab (Remote, Canada; Remote, United States) s8 https://job-boards.greenhouse.io/gitlab/jobs/8789547002
 
 ## Companies with a real match today - browse their full career page
 - 1Password: https://jobs.ashbyhq.com/1password
