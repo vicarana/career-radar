@@ -1,12 +1,12 @@
-# career-radar - 2026-10-18 11:04 UTC
-Sources OK: 8/8
+# career-radar - 2026-10-19 11:05 UTC
+Sources OK: 7/8
 
 
 ## 75%+ match, strongest-fit postings (2)
 - 85% Principal Software Engineer, DevOps @ Legion (USA) https://jobicy.com/jobs/154248-principal-software-engineer-devops
 - 85% Principal Software Engineer, DevOps @ Legion (USA) https://jobicy.com/jobs/154248-principal-software-engineer-devops
 
-## Track D - US (sponsorship not guaranteed, check per-role) (56)
+## Track D - US (sponsorship not guaranteed, check per-role) (57)
 - Principal Software Engineer, DevOps @ Legion (USA) s17 https://jobicy.com/jobs/154248-principal-software-engineer-devops
 - Senior Director, Solutions Engineering | Americas | Remote @ Grafana Labs (United States (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6126959004
 - Senior Engineering Manager, Grafana Frontend | USA | Remote @ Grafana Labs (United States (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200721004
@@ -24,11 +24,11 @@ Sources OK: 8/8
 - Engineering Director, AI Engineering @ Hex (San Francisco) s6 https://jobs.ashbyhq.com/hex/1377177b-5b95-4653-8d5b-17de7e14513a
 - Solutions Engineering Manager @ Goteleport (United States (Remote)) s6 https://jobs.ashbyhq.com/goteleport/e528dee0-f9e9-4e19-9799-89102ad11365
 - Engineering Manager - Dashboard @ Workos (San Francisco) s6 https://jobs.ashbyhq.com/workos/e3e9f8a1-cf9f-4a14-b8ad-10a8d448a663
-- Senior AI Platform Engineer @ Judge Group, Inc. (Bee Cave, Travis County) s6 https://www.adzuna.com/land/ad/5887002464?se=GP8yluPK8RGq65mh8wCbFA&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E
+- Senior AI Platform Engineer @ Judge Group, Inc. (Bee Cave, Travis County) s6 https://www.adzuna.com/land/ad/5887002464?se=jitm3azL8RGRUIXd3bMO6Q&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E
+- Principal DevOps Engineer @ NBCUniversal (USA) s4 https://jobicy.com/jobs/148200-principal-devops-engineer-2
 - Senior SRE, Managed Gateways @ Kong Inc. (USA) s4 https://jobicy.com/jobs/155629-senior-sre-managed-gateways
-- Senior Platform Engineer @ Fleetio (USA) s4 https://jobicy.com/jobs/155361-senior-platform-engineer-5
 
-## Track C - Europe (sponsorship not guaranteed, check per-role) (18)
+## Track C - Europe (sponsorship not guaranteed, check per-role) (20)
 - Engineering Manager - Observability | Germany | Remote @ Grafana Labs (Germany (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202561004
 - Engineering Manager - Observability | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202563004
 - Engineering Manager - Observability | Spain | Remote @ Grafana Labs (Spain (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202560004
@@ -37,22 +37,24 @@ Sources OK: 8/8
 - Senior Engineering Manager, Grafana Frontend | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200731004
 - Senior Engineering Manager, Grafana Frontend | Spain | Remote @ Grafana Labs (Spain (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200725004
 - Senior Engineering Manager, Grafana Frontend | Sweden | Remote @ Grafana Labs (Sweden (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200798004
-- Senior AI Agent Engineer @ Oracle (Baton Rouge, East Baton Rouge Parish) s11 https://www.adzuna.com/land/ad/5831454484?se=vF1UkOPK8RGq65mh8wCbFA&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4
-- Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Sweden (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004
+- Senior AI Engineer / Generative AI Engineer - Vectorization & RAG @ Brillfy Technology Inc (Lafayette, Lafayette Parish) s11 https://www.adzuna.com/land/ad/5933333477?se=wjr6zqzL8RGRUIXd3bMO6Q&utm_medium=api&utm_source=4076fe36&v=D9C084BE0709BC9FC9951FB9D3ADF666755DD25F
+- Senior AI Agent Engineer @ Oracle (Baton Rouge, East Baton Rouge Parish) s11 https://www.adzuna.com/land/ad/5831454484?se=QH8D1qzL8RGb-ay6knl-lw&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4
 - Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Netherlands (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004
-- Senior AI Engineer @ CogniSoft Technologies (Lafayette, Lafayette Parish) s7 https://www.adzuna.com/land/ad/5929536697?se=IlvniuPK8RGxC6s8vDVnsg&utm_medium=api&utm_source=4076fe36&v=5FFBA70AC4F2881E937B9E5F84921A54D8D87C92
+- Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Sweden (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004
+- Senior AI Engineer @ CogniSoft Technologies (Lafayette, Lafayette Parish) s7 https://www.adzuna.com/land/ad/5929536697?se=wjr6zqzL8RGRUIXd3bMO6Q&utm_medium=api&utm_source=4076fe36&v=5FFBA70AC4F2881E937B9E5F84921A54D8D87C92
 - Director, Engineering - Digital Experience Monitoring @ Datadog (Paris, France) s5 https://careers.datadoghq.com/detail/8050591/?gh_jid=8050591
+- Senior Generative AI Engineer (m/w/d) @ Alexander Thamm GmbH (Munich) s4 https://www.arbeitnow.com/jobs/companies/alexander-thamm-gmbh/senior-generative-ai-engineer-munich-63920
 - Engineering Manager - Git & Gitaly Operations @ GitLab (Bangalore, India) s4 https://job-boards.greenhouse.io/gitlab/jobs/8626740002
 - Engineering Manager - Android / iOS @ Adyen (Amsterdam) s4 https://job-boards.greenhouse.io/adyen/jobs/8167155
 - Engineering Manager - Data Delivery Platform @ Adyen (Amsterdam) s4 https://job-boards.greenhouse.io/adyen/jobs/8110805
 - Engineering Manager - Regulatory Reporting Data @ Adyen (Amsterdam) s4 https://job-boards.greenhouse.io/adyen/jobs/8110803
-- Head of AI Solutions (Remote) @ CrowdStrike (Baton Rouge, East Baton Rouge Parish) s4 https://www.adzuna.com/land/ad/5930407729?se=9FxgiePK8RGD3NuKZ_epjg&utm_medium=api&utm_source=4076fe36&v=D06F0D4F140EAE96C0668BB1C70332ED43AADB2D
+- Head of AI Solutions (Remote) @ CrowdStrike (Baton Rouge, East Baton Rouge Parish) s4 https://www.adzuna.com/land/ad/5930407729?se=VnaCzKzL8RGdyeIfwUvJGw&utm_medium=api&utm_source=4076fe36&v=D06F0D4F140EAE96C0668BB1C70332ED43AADB2D
 
 ## Track E - LatAm/Chile (no relocation needed) (2)
 - Senior Software Engineer - SRE @ Salesloft (Mexico) s4 https://jobicy.com/jobs/155657-senior-software-engineer-sre
 - Senior Software Engineer, AI Engineer (Brazil) @ TRM Labs (Brazil) s4 https://jobicy.com/jobs/155662-senior-software-engineer-ai-engineer-brazil
 
-## Track B - Remote/income (99)
+## Track B - Remote/income (104)
 - Principal Software Engineer, DevOps @ Legion (USA) s17 https://jobicy.com/jobs/154248-principal-software-engineer-devops
 - Engineering Manager - Observability | Germany | Remote @ Grafana Labs (Germany (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202561004
 - Engineering Manager - Observability | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202563004
@@ -70,9 +72,9 @@ Sources OK: 8/8
 - Engineering Manager, Site Reliability Engineering @ Replit (Foster City, CA) s12 https://jobs.ashbyhq.com/replit/226d0562-2420-4991-ac18-23c827ed119c
 - Senior Site Reliability Engineer - US @ Goteleport (United States (Remote)) s12 https://jobs.ashbyhq.com/goteleport/1ceb2d28-1745-4d0d-b21e-3fa88be9b996
 - Staff Site Reliability Engineer - US @ Goteleport (United States (Remote)) s12 https://jobs.ashbyhq.com/goteleport/e53553a4-ef67-4fb1-a380-c6bed9e95b82
-- Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Sweden (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004
 - Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Netherlands (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004
-- SRE-Platform Lead @ Gemini Solutions Pvt Ltd (US) s10 https://www.adzuna.com/details/5932976708?utm_medium=api&utm_source=4076fe36
+- Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Sweden (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004
+- SRE-Platform Lead @ Gemini Solutions Pvt Ltd (West Virginia, US) s10 https://www.adzuna.com/land/ad/5920604698?se=oB7Mx6zL8RGdyeIfwUvJGw&utm_medium=api&utm_source=4076fe36&v=5C49FE2DEEC29B8D26A4F6250AF61468272B9E36
 
 ## Companies with a real match today - browse their full career page
 - 1Password: https://jobs.ashbyhq.com/1password
