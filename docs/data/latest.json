@@ -1,36 +1,36 @@
 {
-  "generated": "2026-10-23 08:32 UTC",
-  "sources_ok": 10,
+  "generated": "2026-10-23 11:06 UTC",
+  "sources_ok": 9,
   "sources_total": 10,
   "stats": {
-    "total": 322,
-    "unique": 231,
-    "track_b": 175,
-    "track_c": 65,
-    "track_d": 74,
-    "track_e": 8,
-    "grade_a": 19,
-    "grade_b": 38,
+    "total": 301,
+    "unique": 210,
+    "track_b": 163,
+    "track_c": 60,
+    "track_d": 73,
+    "track_e": 5,
+    "grade_a": 9,
+    "grade_b": 41,
     "visa": 0,
     "us_sponsor_confirmed": 0,
-    "match_75plus": 10
+    "match_75plus": 0
   },
   "funnel": {
-    "fetched": 15605,
-    "unique": 14011,
-    "score_ok": 3514,
-    "title_ok": 716,
-    "comp_ok": 697,
+    "fetched": 14570,
+    "unique": 13590,
+    "score_ok": 3262,
+    "title_ok": 687,
+    "comp_ok": 682,
     "fetched_by_source": {
       "remotive": 162,
       "jobicy": 150,
       "arbeitnow": 300,
       "remoteok": 99,
-      "greenhouse": 8675,
-      "lever": 391,
-      "ashby": 2301,
-      "workday": 1794,
-      "getonboard": 1036,
+      "greenhouse": 8669,
+      "lever": 400,
+      "ashby": 2300,
+      "workday": 1793,
+      "getonboard": 0,
       "adzuna_us": 697,
       "adzuna_de": 0,
       "adzuna_nl": 0,
@@ -67,158 +67,6 @@
   },
   "tracks": {
     "B": [
-      {
-        "title": "Senior Cloud Networking SRE",
-        "company": "Softserve",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/senior-cloud-networking-sre-softserve-remote",
-        "score": 24,
-        "grade": "A",
-        "match": 99,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: sre",
-          "Differentiator: Identity",
-          "SRE"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Lead Agentic AI Consultant",
-        "company": "Softserve",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/lead-agentic-ai-consultant-softserve-remote",
-        "score": 23,
-        "grade": "A",
-        "match": 99,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: agentic ai",
-          "Automation",
-          "Python"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior AI Engineer (GenAI, Python, LLMs) / Sector Bancario",
-        "company": "Devsu",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/senior-ai-engineer-genai-python-llms-sector-bancario-devsu-remote",
-        "score": 23,
-        "grade": "A",
-        "match": 99,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Kubernetes",
-          "Ci/Cd"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Cloud Engineer",
-        "company": "Niuro",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/senior-cloud-engineer-niuro-remote",
-        "score": 20,
-        "grade": "A",
-        "match": 99,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: cloud engineer",
-          "Differentiator: Sso",
-          "Devops"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Líder Técnico DevOps (WebLogic)",
-        "company": "BC Tecnología",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/lider-tecnico-devops-weblogic-bc-tecnologia-remote",
-        "score": 19,
-        "grade": "A",
-        "match": 95,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Differentiator: Sso",
-          "Devops"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Machine Learning Engineer",
-        "company": "Softserve",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/senior-machine-learning-engineer-softserve-remote",
-        "score": 18,
-        "grade": "A",
-        "match": 90,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: machine learning engineer",
-          "Platform",
-          "Ci/Cd"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Agentic AI Engineer",
-        "company": "BC Tecnología",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/senior-agentic-ai-engineer-bc-tecnologia-remote",
-        "score": 16,
-        "grade": "A",
-        "match": 80,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Agentic Ai",
-          "LLM"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Sr. DevOps & Infrastructure Consultant",
-        "company": "Inflect, Inc.",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/sr-devops-infrastructure-consultant-inflect-inc-remote",
-        "score": 15,
-        "grade": "A",
-        "match": 75,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "SRE",
-          "Reliability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
       {
         "title": "Staff Software Engineer - Databases SRE | Germany | Remote",
         "company": "Grafana Labs",
@@ -562,6 +410,44 @@
         "comp_disclosed": false
       },
       {
+        "title": "Engineering Manager, Cloud Engineering",
+        "company": "LaunchDarkly",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/156492-engineering-manager-cloud-engineering",
+        "score": 11,
+        "grade": "B",
+        "match": 55,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: cloud engineer",
+          "Kubernetes",
+          "Terraform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Manager, Solutions Engineering | NorBen | Remote",
+        "company": "Grafana Labs",
+        "location": "Netherlands",
+        "url": "https://jobicy.com/jobs/156505-manager-solutions-engineering-norben-remote",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Reliability",
+          "Platform",
+          "Observability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Site Reliability Engineer, Infrastructure Platforms — AMER (Intermediate to Senior Staff)",
         "company": "GitLab",
         "location": "Remote, Canada; Remote, US",
@@ -602,25 +488,6 @@
       {
         "title": "Manager, Solutions Engineering | NorBen | Remote",
         "company": "Grafana Labs",
-        "location": "Netherlands (Remote)",
-        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Reliability",
-          "Platform",
-          "Observability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Manager, Solutions Engineering | NorBen | Remote",
-        "company": "Grafana Labs",
         "location": "Sweden (Remote)",
         "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004",
         "score": 10,
@@ -638,19 +505,19 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior QA Automation Engineer (.NET/C#)",
-        "company": "Improving",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/senior-qa-automation-engineer-net-c-improving-remote",
+        "title": "Manager, Solutions Engineering | NorBen | Remote",
+        "company": "Grafana Labs",
+        "location": "Netherlands (Remote)",
+        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004",
         "score": 10,
         "grade": "B",
         "match": 50,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: automation engineer",
-          "Devops",
-          "Automation"
+          "Reliability",
+          "Platform",
+          "Observability"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -679,7 +546,7 @@
         "title": "Senior AI Platform Engineer - Nearshore",
         "company": "Diligente Technologies",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5906911390?se=wB8kPLzO8RGYjYM_BSEyfQ&utm_medium=api&utm_source=4076fe36&v=3ADAB408218D7B709C828638EFC49B1111118C9F",
+        "url": "https://www.adzuna.com/land/ad/5906911390?se=JCm1tNHO8RGuj6BgF4INug&utm_medium=api&utm_source=4076fe36&v=3ADAB408218D7B709C828638EFC49B1111118C9F",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -714,38 +581,19 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior AI Research Engineer",
-        "company": "Improving",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/senior-ai-research-engineer-improving-remote",
-        "score": 9,
-        "grade": "C",
-        "match": 45,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai research engineer",
-          "Python",
-          "LLM"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Director, Agentic Engineering",
-        "company": "Lightspeed Commerce",
+        "title": "Senior DevOps/SRE Engineer",
+        "company": "Oddball",
         "location": "USA",
-        "url": "https://jobicy.com/jobs/156460-senior-director-agentic-engineering",
+        "url": "https://jobicy.com/jobs/156491-senior-devops-sre-engineer",
         "score": 8,
         "grade": "C",
         "match": 40,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: cto",
-          "Platform",
-          "Ai Agent"
+          "Title match: sre",
+          "SRE",
+          "Devops"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -765,6 +613,25 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior AI Platform Engineer- LLM & Agents (m/w/d)",
+        "company": "Neurawork GmbH & Co. KG",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/neurawork-gmbh-co-kg/senior-ai-platform-engineer-llm-agents-berlin-491116",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "LLM"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -828,63 +695,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior AI Engineer",
-        "company": "Niuro",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/senior-ai-niuro-remote",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Observability",
-          "Python"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "AI Engineering Lead (Agentic Development)",
-        "company": "Niuro",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/ai-engineering-lead-agentic-development-niuro-remote",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Automation",
-          "Incident"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Head of Engineering [with CTO Path]",
-        "company": "Rapidseedbox LLC",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/head-of-engineering-with-cto-path-rapidseedbox-llc-remote",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: head of engineering",
-          "Reliability",
-          "RAG"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Engineering Manager, Identity Platform",
         "company": "OpenAI",
         "location": "San Francisco",
@@ -898,63 +708,6 @@
           "Title match: engineering manager",
           "Differentiator: Identity",
           "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Lead AI Engineer (Databricks & Contract Intelligence)",
-        "company": "Improving",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/lead-ai-engineer-databricks-contract-intelligence-improving-remote",
-        "score": 7,
-        "grade": "C",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Python",
-          "LLM"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Cloud Platform Engineer (LATAM)",
-        "company": "BC Tecnología",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/senior-cloud-platform-engineer-latam-bc-tecnologia-remote",
-        "score": 7,
-        "grade": "C",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Terraform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Lead AI Engineer",
-        "company": "Improving",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/lead-ai-engineer-improving-remote",
-        "score": 7,
-        "grade": "C",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Python",
-          "LLM"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -992,6 +745,24 @@
         "reasons": [
           "Title match: sre",
           "SRE",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Customer AI Engineer - Token Factory",
+        "company": "Nebius",
+        "location": "Europe",
+        "url": "https://jobicy.com/jobs/156535-senior-customer-ai-engineer-token-factory",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
           "Platform"
         ],
         "salary_min": null,
@@ -1434,6 +1205,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Engineering Manager",
+        "company": "Harvey",
+        "location": "Bengaluru",
+        "url": "https://jobs.ashbyhq.com/harvey/78d412a6-d63a-4475-802b-934aa0e12ccb",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: engineering manager",
+          "Platform",
+          "Agentic Ai"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Solutions Engineering Manager",
         "company": "Goteleport",
         "location": "United States (Remote)",
@@ -1627,7 +1417,7 @@
         "title": "Engineering Manager — Remote, Path to CTO",
         "company": "Benchstack Ai",
         "location": "Hayes Valley, San Francisco",
-        "url": "https://www.adzuna.com/land/ad/5938779433?se=ngs8N7zO8RGI4JqSWCEq_A&utm_medium=api&utm_source=4076fe36&v=DD0E59776F7F0646197D8084A0002C907E2A54C3",
+        "url": "https://www.adzuna.com/land/ad/5938779433?se=NP2vrdHO8RGYk6KA-2zltw&utm_medium=api&utm_source=4076fe36&v=DD0E59776F7F0646197D8084A0002C907E2A54C3",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1645,7 +1435,7 @@
         "title": "Senior AI Engineer",
         "company": "GTN Solutions",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5932228585?se=SKxjOLzO8RGyfco84P9a6A&utm_medium=api&utm_source=4076fe36&v=53A590163E2E6AC89021DB951F1954D491817E01",
+        "url": "https://www.adzuna.com/land/ad/5932228585?se=knt3r9HO8RG9vuJzTkxKEQ&utm_medium=api&utm_source=4076fe36&v=53A590163E2E6AC89021DB951F1954D491817E01",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1664,7 +1454,7 @@
         "title": "Senior AI Software Architect / Lead AI Platform Engineer- 100% remote",
         "company": "Calance",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5886626005?se=mu-QObzO8RGYjYM_BSEyfQ&utm_medium=api&utm_source=4076fe36&v=39ED7CFF94EACB96E6BFD422CF4F4BE29953FA41",
+        "url": "https://www.adzuna.com/land/ad/5886626005?se=zo_fsNHO8RGYk6KA-2zltw&utm_medium=api&utm_source=4076fe36&v=39ED7CFF94EACB96E6BFD422CF4F4BE29953FA41",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1682,7 +1472,7 @@
         "title": "Senior AI Platform Engineer",
         "company": "Judge Group, Inc.",
         "location": "Bee Cave, Travis County",
-        "url": "https://www.adzuna.com/land/ad/5887002464?se=wB8kPLzO8RGYjYM_BSEyfQ&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E",
+        "url": "https://www.adzuna.com/land/ad/5887002464?se=JCm1tNHO8RGuj6BgF4INug&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1700,7 +1490,7 @@
         "title": "Director AI Engineering (Remote Eligible)",
         "company": "Capital One",
         "location": "Prince, Manhattan",
-        "url": "https://www.adzuna.com/land/ad/5934065773?se=IK2uPLzO8RGYjYM_BSEyfQ&utm_medium=api&utm_source=4076fe36&v=74161F38F85F59E3DC4879C1C3E1ACFA7B6D2ACB",
+        "url": "https://www.adzuna.com/land/ad/5934065773?se=zMKVtdHO8RG9vuJzTkxKEQ&utm_medium=api&utm_source=4076fe36&v=74161F38F85F59E3DC4879C1C3E1ACFA7B6D2ACB",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1718,7 +1508,7 @@
         "title": "Director, AI Engineering (Remote - eligible)",
         "company": "Capital One",
         "location": "Pimmit, Fairfax County",
-        "url": "https://www.adzuna.com/land/ad/5934065537?se=IK2uPLzO8RGYjYM_BSEyfQ&utm_medium=api&utm_source=4076fe36&v=E30B5DD39701B8C1F98F92697F0C798CC18A782A",
+        "url": "https://www.adzuna.com/land/ad/5934065537?se=zMKVtdHO8RG9vuJzTkxKEQ&utm_medium=api&utm_source=4076fe36&v=E30B5DD39701B8C1F98F92697F0C798CC18A782A",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -1947,24 +1737,6 @@
         "reasons": [
           "Title match: platform engineer",
           "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior DevOps Engineer",
-        "company": "BetterHelp",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/156049-senior-devops-engineer-11",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -2405,8 +2177,8 @@
       {
         "title": "Manager II, Software Engineering, Infrastructure",
         "company": "Samsara",
-        "location": "Remote - US",
-        "url": "https://www.samsara.com/company/careers/roles/8148638?gh_jid=8148638",
+        "location": "Remote - Canada",
+        "url": "https://www.samsara.com/company/careers/roles/8221852?gh_jid=8221852",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -2423,8 +2195,8 @@
       {
         "title": "Manager II, Software Engineering, Infrastructure",
         "company": "Samsara",
-        "location": "Remote - Canada",
-        "url": "https://www.samsara.com/company/careers/roles/8221852?gh_jid=8221852",
+        "location": "Remote - US",
+        "url": "https://www.samsara.com/company/careers/roles/8148638?gh_jid=8148638",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -3144,7 +2916,7 @@
         "title": "AI SaaS CTO & Co-Founder (Remote)",
         "company": "InnovateSaaS",
         "location": "Hayes Valley, San Francisco",
-        "url": "https://www.adzuna.com/land/ad/5938779322?se=ngs8N7zO8RGI4JqSWCEq_A&utm_medium=api&utm_source=4076fe36&v=C108C917FC655398870218BFFB94BF9428778ECF",
+        "url": "https://www.adzuna.com/land/ad/5938779322?se=NP2vrdHO8RGYk6KA-2zltw&utm_medium=api&utm_source=4076fe36&v=C108C917FC655398870218BFFB94BF9428778ECF",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -3479,7 +3251,7 @@
         "title": "Senior AI Agent Engineer",
         "company": "Oracle",
         "location": "Baton Rouge, East Baton Rouge Parish",
-        "url": "https://www.adzuna.com/land/ad/5831454484?se=wmMcOrzO8RGb8Mtow_hIOg&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4",
+        "url": "https://www.adzuna.com/land/ad/5831454484?se=lhaksdHO8RGYk6KA-2zltw&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4",
         "score": 11,
         "grade": "B",
         "match": 55,
@@ -3493,6 +3265,25 @@
         "salary_min": 127181.23,
         "salary_max": 127181.23,
         "comp_disclosed": true
+      },
+      {
+        "title": "Manager, Solutions Engineering | NorBen | Remote",
+        "company": "Grafana Labs",
+        "location": "Netherlands",
+        "url": "https://jobicy.com/jobs/156505-manager-solutions-engineering-norben-remote",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Reliability",
+          "Platform",
+          "Observability"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Manager, Site Reliability Engineering - Storage Layer Service",
@@ -3535,8 +3326,8 @@
       {
         "title": "Manager, Solutions Engineering | NorBen | Remote",
         "company": "Grafana Labs",
-        "location": "Netherlands (Remote)",
-        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004",
+        "location": "Sweden (Remote)",
+        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -3554,8 +3345,8 @@
       {
         "title": "Manager, Solutions Engineering | NorBen | Remote",
         "company": "Grafana Labs",
-        "location": "Sweden (Remote)",
-        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004",
+        "location": "Netherlands (Remote)",
+        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -3609,6 +3400,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior AI Platform Engineer- LLM & Agents (m/w/d)",
+        "company": "Neurawork GmbH & Co. KG",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/neurawork-gmbh-co-kg/senior-ai-platform-engineer-llm-agents-berlin-491116",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "LLM"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Senior Site Reliability Engineer",
         "company": "Cabify",
         "location": "Madrid",
@@ -3631,7 +3441,7 @@
         "title": "Senior AI Engineer",
         "company": "CogniSoft Technologies",
         "location": "Lafayette, Lafayette Parish",
-        "url": "https://www.adzuna.com/land/ad/5929536697?se=SKxjOLzO8RGyfco84P9a6A&utm_medium=api&utm_source=4076fe36&v=5FFBA70AC4F2881E937B9E5F84921A54D8D87C92",
+        "url": "https://www.adzuna.com/land/ad/5929536697?se=knt3r9HO8RG9vuJzTkxKEQ&utm_medium=api&utm_source=4076fe36&v=5FFBA70AC4F2881E937B9E5F84921A54D8D87C92",
         "score": 7,
         "grade": "C",
         "match": 35,
@@ -3867,150 +3677,6 @@
         "reasons": [
           "Title match: ai engineer",
           "Openai"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Forward Deployed Engineering Manager",
-        "company": "Deepsetai",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/deepsetai/forward-deployed-engineering-manager-berlin-475939",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Agentic AI Principal (m/f/d)",
-        "company": "thoughtworks",
-        "location": "Cologne",
-        "url": "https://www.arbeitnow.com/jobs/companies/thoughtworks/agentic-ai-principal-cologne-443970",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: agentic ai",
-          "Agentic Ai"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Agentic AI Principal (m/f/d)",
-        "company": "thoughtworks",
-        "location": "Munich",
-        "url": "https://www.arbeitnow.com/jobs/companies/thoughtworks/agentic-ai-principal-munich-366446",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: agentic ai",
-          "Agentic Ai"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Agentic AI Principal (m/f/d)",
-        "company": "thoughtworks",
-        "location": "Hamburg",
-        "url": "https://www.arbeitnow.com/jobs/companies/thoughtworks/agentic-ai-principal-hamburg-148462",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: agentic ai",
-          "Agentic Ai"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Agentic AI Principal (m/f/d)",
-        "company": "thoughtworks",
-        "location": "Stuttgart",
-        "url": "https://www.arbeitnow.com/jobs/companies/thoughtworks/agentic-ai-principal-stuttgart-492278",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: agentic ai",
-          "Agentic Ai"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Director of Go-to-Market Engineering",
-        "company": "Perk",
-        "location": "Berlin",
-        "url": "https://www.arbeitnow.com/jobs/companies/perk/director-of-go-to-market-engineering-berlin-419348",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: cto",
-          "Platform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Agentic AI Principal",
-        "company": "thoughtworks",
-        "location": "London",
-        "url": "https://www.arbeitnow.co.uk/jobs/companies/thoughtworks/agentic-ai-principal-london-196180",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: agentic ai",
-          "Agentic Ai"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Agentic AI Principal",
-        "company": "thoughtworks",
-        "location": "Manchester",
-        "url": "https://www.arbeitnow.co.uk/jobs/companies/thoughtworks/agentic-ai-principal-manchester-295677",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: agentic ai",
-          "Agentic Ai"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -4287,6 +3953,24 @@
         "comp_disclosed": false
       },
       {
+        "title": "Head of AI Startups, EMEA",
+        "company": "Stripe",
+        "location": "Dublin, London, Paris, Berlin, Stockholm",
+        "url": "https://stripe.com/jobs/search?gh_jid=8299649",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: head of ai",
+          "Platform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Engineering Manager - Android",
         "company": "Adyen",
         "location": "Amsterdam",
@@ -4505,25 +4189,6 @@
     ],
     "D": [
       {
-        "title": "Senior Cloud Engineer",
-        "company": "Niuro",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/senior-cloud-engineer-niuro-remote",
-        "score": 20,
-        "grade": "A",
-        "match": 99,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: cloud engineer",
-          "Differentiator: Sso",
-          "Devops"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Principal Site Reliability Engineer, Platform Engineering: Dedicated",
         "company": "GitLab",
         "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
@@ -4619,6 +4284,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Engineering Manager, Cloud Engineering",
+        "company": "LaunchDarkly",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/156492-engineering-manager-cloud-engineering",
+        "score": 11,
+        "grade": "B",
+        "match": 55,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: cloud engineer",
+          "Kubernetes",
+          "Terraform"
+        ],
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Site Reliability Engineer, Infrastructure Platforms — AMER (Intermediate to Senior Staff)",
         "company": "GitLab",
         "location": "Remote, Canada; Remote, US",
@@ -4657,19 +4341,19 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior Director, Agentic Engineering",
-        "company": "Lightspeed Commerce",
+        "title": "Senior DevOps/SRE Engineer",
+        "company": "Oddball",
         "location": "USA",
-        "url": "https://jobicy.com/jobs/156460-senior-director-agentic-engineering",
+        "url": "https://jobicy.com/jobs/156491-senior-devops-sre-engineer",
         "score": 8,
         "grade": "C",
         "match": 40,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: cto",
-          "Platform",
-          "Ai Agent"
+          "Title match: sre",
+          "SRE",
+          "Devops"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -5114,7 +4798,7 @@
         "title": "Engineering Manager — Remote, Path to CTO",
         "company": "Benchstack Ai",
         "location": "Hayes Valley, San Francisco",
-        "url": "https://www.adzuna.com/land/ad/5938779433?se=ngs8N7zO8RGI4JqSWCEq_A&utm_medium=api&utm_source=4076fe36&v=DD0E59776F7F0646197D8084A0002C907E2A54C3",
+        "url": "https://www.adzuna.com/land/ad/5938779433?se=NP2vrdHO8RGYk6KA-2zltw&utm_medium=api&utm_source=4076fe36&v=DD0E59776F7F0646197D8084A0002C907E2A54C3",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -5132,7 +4816,7 @@
         "title": "Senior AI Platform Engineer",
         "company": "Judge Group, Inc.",
         "location": "Bee Cave, Travis County",
-        "url": "https://www.adzuna.com/land/ad/5887002464?se=wB8kPLzO8RGYjYM_BSEyfQ&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E",
+        "url": "https://www.adzuna.com/land/ad/5887002464?se=JCm1tNHO8RGuj6BgF4INug&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -5289,24 +4973,6 @@
           "Title match: engineering manager",
           "Incident",
           "Openai"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior DevOps Engineer",
-        "company": "BetterHelp",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/156049-senior-devops-engineer-11",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -5766,7 +5432,7 @@
         "title": "AI SaaS CTO & Co-Founder (Remote)",
         "company": "InnovateSaaS",
         "location": "Hayes Valley, San Francisco",
-        "url": "https://www.adzuna.com/land/ad/5938779322?se=ngs8N7zO8RGI4JqSWCEq_A&utm_medium=api&utm_source=4076fe36&v=C108C917FC655398870218BFFB94BF9428778ECF",
+        "url": "https://www.adzuna.com/land/ad/5938779322?se=NP2vrdHO8RGYk6KA-2zltw&utm_medium=api&utm_source=4076fe36&v=C108C917FC655398870218BFFB94BF9428778ECF",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -5873,25 +5539,6 @@
     ],
     "E": [
       {
-        "title": "Ingeniero DevOps Semi Senior",
-        "company": "BC Tecnología",
-        "location": "Chile",
-        "url": "https://www.getonbrd.com/jobs/ingeniero-devops-semi-senior-bc-tecnologia-santiago-36a8",
-        "score": 22,
-        "grade": "A",
-        "match": 99,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Differentiator: Identity",
-          "Devops"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Grupo QuintoAndar | Senior Site Reliability Engineer - AI Platform",
         "company": "QuintoAndar",
         "location": "Brasil",
@@ -5905,44 +5552,6 @@
           "Title match: site reliability",
           "Site Reliability",
           "Reliability"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Cloud Platform Engineer (LATAM)",
-        "company": "BC Tecnología",
-        "location": "Remote",
-        "url": "https://www.getonbrd.com/jobs/senior-cloud-platform-engineer-latam-bc-tecnologia-remote",
-        "score": 7,
-        "grade": "C",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Terraform"
-        ],
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager Senior",
-        "company": "Factor IT",
-        "location": "Mexico",
-        "url": "https://www.getonbrd.com/jobs/engineering-manager-senior-factor-it-bogota",
-        "score": 7,
-        "grade": "C",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Devops",
-          "Ci/Cd"
         ],
         "salary_min": null,
         "salary_max": null,
@@ -6217,198 +5826,7 @@
       "url": "https://jobs.ashbyhq.com/workos"
     }
   ],
-  "high_confidence_matches": [
-    {
-      "title": "Senior Cloud Networking SRE",
-      "company": "Softserve",
-      "location": "Remote",
-      "url": "https://www.getonbrd.com/jobs/senior-cloud-networking-sre-softserve-remote",
-      "score": 24,
-      "grade": "A",
-      "match": 99,
-      "visa": false,
-      "us_sponsor": false,
-      "reasons": [
-        "Title match: sre",
-        "Differentiator: Identity",
-        "SRE"
-      ],
-      "salary_min": null,
-      "salary_max": null,
-      "comp_disclosed": false
-    },
-    {
-      "title": "Lead Agentic AI Consultant",
-      "company": "Softserve",
-      "location": "Remote",
-      "url": "https://www.getonbrd.com/jobs/lead-agentic-ai-consultant-softserve-remote",
-      "score": 23,
-      "grade": "A",
-      "match": 99,
-      "visa": false,
-      "us_sponsor": false,
-      "reasons": [
-        "Title match: agentic ai",
-        "Automation",
-        "Python"
-      ],
-      "salary_min": null,
-      "salary_max": null,
-      "comp_disclosed": false
-    },
-    {
-      "title": "Senior AI Engineer (GenAI, Python, LLMs) / Sector Bancario",
-      "company": "Devsu",
-      "location": "Remote",
-      "url": "https://www.getonbrd.com/jobs/senior-ai-engineer-genai-python-llms-sector-bancario-devsu-remote",
-      "score": 23,
-      "grade": "A",
-      "match": 99,
-      "visa": false,
-      "us_sponsor": false,
-      "reasons": [
-        "Title match: ai engineer",
-        "Kubernetes",
-        "Ci/Cd"
-      ],
-      "salary_min": null,
-      "salary_max": null,
-      "comp_disclosed": false
-    },
-    {
-      "title": "Ingeniero DevOps Semi Senior",
-      "company": "BC Tecnología",
-      "location": "Chile",
-      "url": "https://www.getonbrd.com/jobs/ingeniero-devops-semi-senior-bc-tecnologia-santiago-36a8",
-      "score": 22,
-      "grade": "A",
-      "match": 99,
-      "visa": false,
-      "us_sponsor": false,
-      "reasons": [
-        "Title match: devops",
-        "Differentiator: Identity",
-        "Devops"
-      ],
-      "salary_min": null,
-      "salary_max": null,
-      "comp_disclosed": false
-    },
-    {
-      "title": "Senior Cloud Engineer",
-      "company": "Niuro",
-      "location": "Remote",
-      "url": "https://www.getonbrd.com/jobs/senior-cloud-engineer-niuro-remote",
-      "score": 20,
-      "grade": "A",
-      "match": 99,
-      "visa": false,
-      "us_sponsor": false,
-      "reasons": [
-        "Title match: cloud engineer",
-        "Differentiator: Sso",
-        "Devops"
-      ],
-      "salary_min": null,
-      "salary_max": null,
-      "comp_disclosed": false
-    },
-    {
-      "title": "Senior Cloud Engineer",
-      "company": "Niuro",
-      "location": "Remote",
-      "url": "https://www.getonbrd.com/jobs/senior-cloud-engineer-niuro-remote",
-      "score": 20,
-      "grade": "A",
-      "match": 99,
-      "visa": false,
-      "us_sponsor": false,
-      "reasons": [
-        "Title match: cloud engineer",
-        "Differentiator: Sso",
-        "Devops"
-      ],
-      "salary_min": null,
-      "salary_max": null,
-      "comp_disclosed": false
-    },
-    {
-      "title": "Líder Técnico DevOps (WebLogic)",
-      "company": "BC Tecnología",
-      "location": "Remote",
-      "url": "https://www.getonbrd.com/jobs/lider-tecnico-devops-weblogic-bc-tecnologia-remote",
-      "score": 19,
-      "grade": "A",
-      "match": 95,
-      "visa": false,
-      "us_sponsor": false,
-      "reasons": [
-        "Title match: devops",
-        "Differentiator: Sso",
-        "Devops"
-      ],
-      "salary_min": null,
-      "salary_max": null,
-      "comp_disclosed": false
-    },
-    {
-      "title": "Senior Machine Learning Engineer",
-      "company": "Softserve",
-      "location": "Remote",
-      "url": "https://www.getonbrd.com/jobs/senior-machine-learning-engineer-softserve-remote",
-      "score": 18,
-      "grade": "A",
-      "match": 90,
-      "visa": false,
-      "us_sponsor": false,
-      "reasons": [
-        "Title match: machine learning engineer",
-        "Platform",
-        "Ci/Cd"
-      ],
-      "salary_min": null,
-      "salary_max": null,
-      "comp_disclosed": false
-    },
-    {
-      "title": "Senior Agentic AI Engineer",
-      "company": "BC Tecnología",
-      "location": "Remote",
-      "url": "https://www.getonbrd.com/jobs/senior-agentic-ai-engineer-bc-tecnologia-remote",
-      "score": 16,
-      "grade": "A",
-      "match": 80,
-      "visa": false,
-      "us_sponsor": false,
-      "reasons": [
-        "Title match: ai engineer",
-        "Agentic Ai",
-        "LLM"
-      ],
-      "salary_min": null,
-      "salary_max": null,
-      "comp_disclosed": false
-    },
-    {
-      "title": "Sr. DevOps & Infrastructure Consultant",
-      "company": "Inflect, Inc.",
-      "location": "Remote",
-      "url": "https://www.getonbrd.com/jobs/sr-devops-infrastructure-consultant-inflect-inc-remote",
-      "score": 15,
-      "grade": "A",
-      "match": 75,
-      "visa": false,
-      "us_sponsor": false,
-      "reasons": [
-        "Title match: devops",
-        "SRE",
-        "Reliability"
-      ],
-      "salary_min": null,
-      "salary_max": null,
-      "comp_disclosed": false
-    }
-  ],
+  "high_confidence_matches": [],
   "high_confidence_threshold": 75,
   "direct_portals": [
     {
@@ -6470,7 +5888,9 @@
       "url": "https://www.telefonica.com/en/careers/"
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "getonboard:HTTPError"
+  ],
   "profile_lite": {
     "target_titles": [
       "site reliability",
