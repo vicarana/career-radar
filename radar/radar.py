@@ -106,7 +106,7 @@ def src_remotive(qs):
     for q in qs:
         try:
             d = _get("https://remotive.com/api/remote-jobs?search=" + urllib.parse.quote(q))
-            for j in d.get("jobs", [])[:40]:
+            for j in d.get("jobs", []):
                 out.append(_job(j.get("title"), j.get("company_name"),
                                 j.get("candidate_required_location"), j.get("url"),
                                 True, j.get("description", "")[:400]))
@@ -120,7 +120,7 @@ def src_jobicy(qs):
     for q in qs:
         try:
             d = _get("https://jobicy.com/api/v2/remote-jobs?count=50&tag=" + urllib.parse.quote(q))
-            for j in d.get("jobs", [])[:40]:
+            for j in d.get("jobs", []):
                 out.append(_job(j.get("jobTitle"), j.get("companyName"), j.get("jobGeo"),
                                 j.get("url"), True, (j.get("jobExcerpt") or "")[:400]))
         except Exception as e:
@@ -132,7 +132,7 @@ def src_arbeitnow():
     out = []
     try:
         d = _get("https://www.arbeitnow.com/api/job-board-api")
-        for j in d.get("data", [])[:120]:
+        for j in d.get("data", []):
             tags = " ".join(j.get("tags", []) or [])
             out.append(_job(j.get("title"), j.get("company_name"), j.get("location"),
                             j.get("url"), j.get("remote", False),
@@ -146,7 +146,7 @@ def src_remoteok(qs):
     out = []
     try:
         d = _get("https://remoteok.com/api")
-        for j in [r for r in d if isinstance(r, dict) and r.get("position")][:120]:
+        for j in [r for r in d if isinstance(r, dict) and r.get("position")]:
             tags = " ".join(j.get("tags", []) or [])
             out.append(_job(j.get("position"), j.get("company"), j.get("location") or "Remote",
                             j.get("url"), True, (j.get("description", "") or "")[:300] + " " + tags,
@@ -183,7 +183,7 @@ def src_greenhouse(slugs, companies):
     for slug in slugs:
         try:
             d = _get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true")
-            for j in d.get("jobs", [])[:60]:
+            for j in d.get("jobs", []):
                 loc = (j.get("location") or {}).get("name", "")
                 row = _job(j.get("title"), humanize_company(slug, companies), loc, j.get("absolute_url"),
                            "remote" in loc.lower(), (j.get("content") or "")[:400])
@@ -201,7 +201,7 @@ def src_lever(slugs, companies):
     for slug in slugs:
         try:
             d = _get(f"https://api.lever.co/v0/postings/{slug}?mode=json")
-            for j in d[:60]:
+            for j in d:
                 cats = j.get("categories", {}) or {}
                 loc = cats.get("location", "")
                 row = _job(j.get("text"), humanize_company(slug, companies), loc, j.get("hostedUrl"),
@@ -220,7 +220,7 @@ def src_ashby(slugs, companies):
     for slug in slugs:
         try:
             d = _get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}")
-            for j in d.get("jobs", [])[:60]:
+            for j in d.get("jobs", []):
                 loc = j.get("location", "")
                 row = _job(j.get("title"), humanize_company(slug, companies), loc, j.get("jobUrl"),
                            bool(j.get("isRemote")), (j.get("descriptionPlain") or "")[:400])
@@ -516,42 +516,45 @@ def main():
     search_titles = p.get("search_titles", {}).get("queries",
         ["sre", "devops", "platform engineer", "automation", "reliability"])
     sponsor_qs = sponsor_queries(search_titles)
-    jobs = (src_remotive(search_titles)
-            + src_jobicy(["devops", "engineering", "python"])
-            + src_arbeitnow()
-            + src_remoteok(["sre", "devops", "platform"])
-            + src_greenhouse(companies.get("greenhouse", []), companies)
-            + src_lever(companies.get("lever", []), companies)
-            + src_ashby(companies.get("ashby", []), companies)
-            # Track D (US sponsor) and Track C (Europe sponsor) both hard-
-            # require literal visa/sponsor language in the posting text.
-            # Raw ATS feeds (Greenhouse/Lever/Ashby) almost never spell that
-            # out, it's usually an interview conversation, not JSON payload
-            # text. Adzuna aggregates recruiter-written postings that more
-            # often call out sponsorship explicitly, and its `what=` param
-            # free-text searches title+description, so pairing every title
-            # in search_titles with 'visa sponsorship' (see sponsor_queries)
-            # surfaces postings that already contain both. Every US query
-            # here now covers the FULL search_titles list, not a hardcoded
-            # 3-4 term subset, per Vic 2026-08-27: previously CTO/CIO/Head of
-            # AI/Senior AI Engineer/SRE Manager/Senior SRE Lead/Senior AI
-            # Lead were never searched for anywhere in this file.
-            + src_adzuna(search_titles + sponsor_qs, country="us")
-            # Same sponsor-query logic, Track C. Adzuna has no single global
-            # search, every call is scoped to one country's job market.
-            # DE/NL confirmed working from earlier runs; ES added 2026-08-27
-            # (Spain widen), unverified until a live run confirms it
-            # actually returns results, same caveat as DE/NL originally had.
-            + src_adzuna(sponsor_qs, country="de")
-            + src_adzuna(sponsor_qs, country="nl")
-            + src_adzuna(sponsor_qs, country="es"))
-            # CL tried 2026-09-14, CONFIRMED unsupported: Adzuna returned a
-            # real HTTP404 UNSUPPORTED_COUNTRY response, its documented
-            # coverage is at/au/be/br/ca/ch/de/es/fr/gb/in/it/mx/nl/nz/pl/
-            # sg/us/za, no Chile. Removed rather than left in as permanent
-            # warning noise. Brazil (br) and Mexico (mx) ARE supported if
-            # broader LatAm-via-Adzuna reach is ever wanted later, that's a
-            # separate ask, not built here.
+    fetched = {
+        "remotive": src_remotive(search_titles),
+        "jobicy": src_jobicy(["devops", "engineering", "python"]),
+        "arbeitnow": src_arbeitnow(),
+        "remoteok": src_remoteok(["sre", "devops", "platform"]),
+        "greenhouse": src_greenhouse(companies.get("greenhouse", []), companies),
+        "lever": src_lever(companies.get("lever", []), companies),
+        "ashby": src_ashby(companies.get("ashby", []), companies),
+        # Track D (US sponsor) and Track C (Europe sponsor) both hard-
+        # require literal visa/sponsor language in the posting text.
+        # Raw ATS feeds (Greenhouse/Lever/Ashby) almost never spell that
+        # out, it's usually an interview conversation, not JSON payload
+        # text. Adzuna aggregates recruiter-written postings that more
+        # often call out sponsorship explicitly, and its `what=` param
+        # free-text searches title+description, so pairing every title
+        # in search_titles with 'visa sponsorship' (see sponsor_queries)
+        # surfaces postings that already contain both. Every US query
+        # here now covers the FULL search_titles list, not a hardcoded
+        # 3-4 term subset, per Vic 2026-08-27: previously CTO/CIO/Head of
+        # AI/Senior AI Engineer/SRE Manager/Senior SRE Lead/Senior AI
+        # Lead were never searched for anywhere in this file.
+        "adzuna_us": src_adzuna(search_titles + sponsor_qs, country="us"),
+        # Same sponsor-query logic, Track C. Adzuna has no single global
+        # search, every call is scoped to one country's job market.
+        # DE/NL confirmed working from earlier runs; ES added 2026-08-27
+        # (Spain widen), unverified until a live run confirms it
+        # actually returns results, same caveat as DE/NL originally had.
+        "adzuna_de": src_adzuna(sponsor_qs, country="de"),
+        "adzuna_nl": src_adzuna(sponsor_qs, country="nl"),
+        "adzuna_es": src_adzuna(sponsor_qs, country="es"),
+        # CL tried 2026-09-14, CONFIRMED unsupported: Adzuna returned a
+        # real HTTP404 UNSUPPORTED_COUNTRY response, its documented
+        # coverage is at/au/be/br/ca/ch/de/es/fr/gb/in/it/mx/nl/nz/pl/
+        # sg/us/za, no Chile. Removed rather than left in as permanent
+        # warning noise. Brazil (br) and Mexico (mx) ARE supported if
+        # broader LatAm-via-Adzuna reach is ever wanted later, that's a
+        # separate ask, not built here.
+    }
+    jobs = [j for rows in fetched.values() for j in rows]
 
     seen, uniq = set(), []
     for j in jobs:
@@ -560,15 +563,22 @@ def main():
             seen.add(k)
             uniq.append(j)
 
+    # Funnel: how many postings survive each gate, so the dashboard can say
+    # WHY the count is what it is instead of leaving it a mystery.
+    funnel = {"fetched": len(jobs), "unique": len(uniq), "score_ok": 0,
+              "title_ok": 0, "comp_ok": 0}
     buckets = {"B": [], "C": [], "D": [], "E": []}
     for j in uniq:
         s = score(j, p)
         if s < p.get("min_score", 3):
             continue
+        funnel["score_ok"] += 1
         if not is_senior_or_leadership(j, p):
             continue
+        funnel["title_ok"] += 1
         if not meets_comp_floor(j, p):
             continue
+        funnel["comp_ok"] += 1
         j["_score"] = s
         for tk in tracks_of(j, p):
             buckets[tk].append(j)
@@ -577,7 +587,7 @@ def main():
 
     def clean(lst):
         rows = []
-        for j in lst[:40]:
+        for j in lst:
             g, pct = grade_of(j["_score"])
             rows.append({"title": j["title"], "company": j["company"], "location": j["location"],
                          "url": j["url"], "score": j["_score"], "grade": g, "match": pct,
@@ -598,6 +608,9 @@ def main():
     high_conf = high_confidence_matches(allrows, high_conf_pct)
     stats = {
         "total": len(allrows),
+        # total sums the per-track lists, so a posting tagged B+C counts
+        # twice. unique is the real number of distinct postings.
+        "unique": len({r["url"] or (r["title"] + r["company"]) for r in allrows}),
         "track_b": len(B),
         "track_c": len(C),
         "track_d": len(D),
@@ -613,6 +626,7 @@ def main():
         "sources_ok": sources_ok,
         "sources_total": total_attempted,
         "stats": stats,
+        "funnel": {**funnel, "fetched_by_source": {k: len(v) for k, v in fetched.items()}},
         "tracks": {"B": B, "C": C, "D": D, "E": E},
         "linkedin": linkedin_searches(),
         "walmart_markets": p["track_a_walmart_markets"]["portals"],

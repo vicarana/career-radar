@@ -102,5 +102,40 @@ class HighConfidenceMatchesTests(unittest.TestCase):
         self.assertEqual(radar.high_confidence_matches([], 75), [])
 
 
+class NoSilentCapTests(unittest.TestCase):
+    """Regression for 2026-10-23: the dashboard showed 88 openings because
+    boards were clipped to 60 postings and every track to 40. Every
+    qualifying posting a source returns must reach the output."""
+
+    N = 150
+
+    def test_every_qualifying_posting_reaches_the_output(self):
+        import json
+        import tempfile
+        from unittest import mock
+
+        board = [radar._job(f"Senior Site Reliability Engineer {i}", "Acme", "Remote",
+                            f"https://example.test/{i}", True, "kubernetes terraform python")
+                 for i in range(self.N)]
+        empty = mock.Mock(return_value=[])
+        with tempfile.TemporaryDirectory() as tmp, \
+                mock.patch.object(radar, "DATA", tmp), \
+                mock.patch.object(radar, "src_greenhouse", return_value=board), \
+                mock.patch.object(radar, "src_remotive", empty), \
+                mock.patch.object(radar, "src_jobicy", empty), \
+                mock.patch.object(radar, "src_arbeitnow", empty), \
+                mock.patch.object(radar, "src_remoteok", empty), \
+                mock.patch.object(radar, "src_lever", empty), \
+                mock.patch.object(radar, "src_ashby", empty), \
+                mock.patch.object(radar, "src_adzuna", empty):
+            radar.main()
+            with open(f"{tmp}/latest.json", encoding="utf-8") as f:
+                out = json.load(f)
+        self.assertEqual(len(out["tracks"]["B"]), self.N)
+        self.assertEqual(out["funnel"]["fetched"], self.N)
+        self.assertEqual(out["funnel"]["comp_ok"], self.N)
+        self.assertEqual(out["stats"]["unique"], self.N)
+
+
 if __name__ == "__main__":
     unittest.main()
