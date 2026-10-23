@@ -1,14 +1,15 @@
-# career-radar - 2026-10-23 08:22 UTC
+# career-radar - 2026-10-23 08:32 UTC
 Sources OK: 10/10
 
 
-## 75%+ match, strongest-fit postings (9)
+## 75%+ match, strongest-fit postings (10)
 - 99% Senior Cloud Networking SRE @ Softserve (Remote) https://www.getonbrd.com/jobs/senior-cloud-networking-sre-softserve-remote
 - 99% Lead Agentic AI Consultant @ Softserve (Remote) https://www.getonbrd.com/jobs/lead-agentic-ai-consultant-softserve-remote
 - 99% Senior AI Engineer (GenAI, Python, LLMs) / Sector Bancario @ Devsu (Remote) https://www.getonbrd.com/jobs/senior-ai-engineer-genai-python-llms-sector-bancario-devsu-remote
 - 99% Ingeniero DevOps Semi Senior @ BC Tecnología (Chile) https://www.getonbrd.com/jobs/ingeniero-devops-semi-senior-bc-tecnologia-santiago-36a8
 - 99% Senior Cloud Engineer @ Niuro (Remote) https://www.getonbrd.com/jobs/senior-cloud-engineer-niuro-remote
 - 99% Senior Cloud Engineer @ Niuro (Remote) https://www.getonbrd.com/jobs/senior-cloud-engineer-niuro-remote
+- 95% Líder Técnico DevOps (WebLogic) @ BC Tecnología (Remote) https://www.getonbrd.com/jobs/lider-tecnico-devops-weblogic-bc-tecnologia-remote
 - 90% Senior Machine Learning Engineer @ Softserve (Remote) https://www.getonbrd.com/jobs/senior-machine-learning-engineer-softserve-remote
 - 80% Senior Agentic AI Engineer @ BC Tecnología (Remote) https://www.getonbrd.com/jobs/senior-agentic-ai-engineer-bc-tecnologia-remote
 - 75% Sr. DevOps & Infrastructure Consultant @ Inflect, Inc. (Remote) https://www.getonbrd.com/jobs/sr-devops-infrastructure-consultant-inflect-inc-remote
@@ -35,27 +36,27 @@ Sources OK: 10/10
 - Director, Field Sales Engineering @ Samsara (Remote - US) s6 https://www.samsara.com/company/careers/roles/7695309?gh_jid=7695309
 - Lead Machine Learning Engineer - ML Infrastructure @ Samsara (Remote - US) s6 https://www.samsara.com/company/careers/roles/7721193?gh_jid=7721193
 
-## Track C - Europe (sponsorship not guaranteed, check per-role) (69)
+## Track C - Europe (sponsorship not guaranteed, check per-role) (65)
 - Staff Software Engineer - Databases SRE | Germany | Remote @ Grafana Labs (Germany (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6103688004
 - Staff Software Engineer - Databases SRE | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6107502004
 - Staff Software Engineer - Databases SRE | Spain | Remote @ Grafana Labs (Spain (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6103685004
 - Staff Software Engineer - Databases SRE | Sweden | Remote @ Grafana Labs (Sweden (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6103687004
 - Staff Technical Program Manager, Site Reliability Engineering @ MongoDB (Cork, Ireland; Dublin, Ireland; Ireland) s12 https://www.mongodb.com/careers/job/?gh_jid=7831454
-- Engineering Manager - Observability | Germany | Remote @ Grafana Labs (Germany (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202561004
-- Engineering Manager - Observability | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202563004
-- Engineering Manager - Observability | Spain | Remote @ Grafana Labs (Spain (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202560004
-- Engineering Manager - Observability | Sweden | Remote @ Grafana Labs (Sweden (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202558004
 - Senior Engineering Manager, Grafana Frontend | Germany | Remote @ Grafana Labs (Germany (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200726004
 - Senior Engineering Manager, Grafana Frontend | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200731004
 - Senior Engineering Manager, Grafana Frontend | Spain | Remote @ Grafana Labs (Spain (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200725004
 - Senior Engineering Manager, Grafana Frontend | Sweden | Remote @ Grafana Labs (Sweden (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200798004
-- Senior AI Agent Engineer @ Oracle (Baton Rouge, East Baton Rouge Parish) s11 https://www.adzuna.com/land/ad/5831454484?se=uidW4brO8RGiY7N8xe78DA&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4
+- Senior AI Agent Engineer @ Oracle (Baton Rouge, East Baton Rouge Parish) s11 https://www.adzuna.com/land/ad/5831454484?se=wmMcOrzO8RGb8Mtow_hIOg&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4
 - Manager, Site Reliability Engineering - Storage Layer Service @ MongoDB (Dublin) s10 https://www.mongodb.com/careers/job/?gh_jid=7818635
 - Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS) @ MongoDB (Cork, Ireland; Dublin, Ireland) s10 https://www.mongodb.com/careers/job/?gh_jid=6984814
 - Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Netherlands (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004
 - Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Sweden (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6122353004
 - Senior Site Reliability Engineer (Auth0) @ Okta (Barcelona, Spain) s10 https://www.okta.com/company/careers/opportunity/7418982?gh_jid=7418982
 - B2B Senior Site Reliability Engineer @ Jamf (Poland) s8 https://jobicy.com/jobs/156267-b2b-senior-site-reliability-engineer
+- Senior Site Reliability Engineer @ Cabify (Madrid) s8 https://job-boards.greenhouse.io/cabify/jobs/8367951002
+- Senior AI Engineer @ CogniSoft Technologies (Lafayette, Lafayette Parish) s7 https://www.adzuna.com/land/ad/5929536697?se=SKxjOLzO8RGyfco84P9a6A&utm_medium=api&utm_source=4076fe36&v=5FFBA70AC4F2881E937B9E5F84921A54D8D87C92
+- Design & Reliability Engineering Manager @ Mistral.ai (Paris) s6 https://www.arbeitnow.fr/jobs/companies/mistralai/design-reliability-engineering-manager-paris-244688
+- Staff Machine Learning Engineer, LLM Inference Optimization @ Nebius (Zurich) s6 https://www.arbeitnow.ch/jobs/companies/nebius/staff-machine-learning-engineer-llm-inference-optimization-zurich-406082
 
 ## Track E - LatAm/Chile (no relocation needed) (8)
 - Ingeniero DevOps Semi Senior @ BC Tecnología (Chile) s22 https://www.getonbrd.com/jobs/ingeniero-devops-semi-senior-bc-tecnologia-santiago-36a8
@@ -67,11 +68,12 @@ Sources OK: 10/10
 - Lead Machine Learning Engineer @ Nubank (São Paulo) s4 https://jobs.ashbyhq.com/nubank/ecd4ec39-1f0a-4f65-b27a-f537c895a233
 - Senior Machine Learning Engineer @ Nubank (Bogota) s4 https://jobs.ashbyhq.com/nubank/1d9c8a3b-143a-4fba-a2cc-18380f06e474
 
-## Track B - Remote/income (179)
+## Track B - Remote/income (175)
 - Senior Cloud Networking SRE @ Softserve (Remote) s24 https://www.getonbrd.com/jobs/senior-cloud-networking-sre-softserve-remote
 - Lead Agentic AI Consultant @ Softserve (Remote) s23 https://www.getonbrd.com/jobs/lead-agentic-ai-consultant-softserve-remote
 - Senior AI Engineer (GenAI, Python, LLMs) / Sector Bancario @ Devsu (Remote) s23 https://www.getonbrd.com/jobs/senior-ai-engineer-genai-python-llms-sector-bancario-devsu-remote
 - Senior Cloud Engineer @ Niuro (Remote) s20 https://www.getonbrd.com/jobs/senior-cloud-engineer-niuro-remote
+- Líder Técnico DevOps (WebLogic) @ BC Tecnología (Remote) s19 https://www.getonbrd.com/jobs/lider-tecnico-devops-weblogic-bc-tecnologia-remote
 - Senior Machine Learning Engineer @ Softserve (Remote) s18 https://www.getonbrd.com/jobs/senior-machine-learning-engineer-softserve-remote
 - Senior Agentic AI Engineer @ BC Tecnología (Remote) s16 https://www.getonbrd.com/jobs/senior-agentic-ai-engineer-bc-tecnologia-remote
 - Sr. DevOps & Infrastructure Consultant @ Inflect, Inc. (Remote) s15 https://www.getonbrd.com/jobs/sr-devops-infrastructure-consultant-inflect-inc-remote
@@ -82,12 +84,11 @@ Sources OK: 10/10
 - Staff Software Engineer - Databases SRE | UK | Remote @ Grafana Labs (United Kingdom (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6101637004
 - Principal Site Reliability Engineer, Platform Engineering: Dedicated @ GitLab (Remote, Canada; Remote, United Kingdom; Remote, United States) s12 https://job-boards.greenhouse.io/gitlab/jobs/8623592002
 - Site Reliability Engineer (Senior or Staff), Atlas @ MongoDB (Austin; Boston; Chicago; Miami; New York City; Philadelphia; Pittsburgh; Raleigh; United States; Washington DC) s12 https://www.mongodb.com/careers/job/?gh_jid=7727964
-- Engineering Manager - Observability | Germany | Remote @ Grafana Labs (Germany (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202561004
-- Engineering Manager - Observability | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202563004
-- Engineering Manager - Observability | Spain | Remote @ Grafana Labs (Spain (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202560004
-- Engineering Manager - Observability | Sweden | Remote @ Grafana Labs (Sweden (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202558004
-- Engineering Manager - Observability | UK | Remote @ Grafana Labs (United Kingdom (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202562004
 - Senior Engineering Manager, Grafana Frontend | Canada | Remote @ Grafana Labs (Canada (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200723004
+- Senior Engineering Manager, Grafana Frontend | Germany | Remote @ Grafana Labs (Germany (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200726004
+- Senior Engineering Manager, Grafana Frontend | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200731004
+- Senior Engineering Manager, Grafana Frontend | Spain | Remote @ Grafana Labs (Spain (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200725004
+- Senior Engineering Manager, Grafana Frontend | Sweden | Remote @ Grafana Labs (Sweden (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200798004
 
 ## Companies with a real match today - browse their full career page
 - 1Password: https://jobs.ashbyhq.com/1password
