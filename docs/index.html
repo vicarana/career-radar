@@ -248,6 +248,13 @@ function nextAction(s){
     <div class="msg">No strong matches in this run. Try the search bar above, or re-run the Action on personal WiFi.</div>
   </div>`;
 }
+function funnelLine(f){
+  /* Why the headline number is what it is: every posting fetched, then how
+     many survive each gate. Absent on older data files, so guard it. */
+  if(!f||!f.fetched) return '';
+  const n=v=>(v||0).toLocaleString();
+  return `<div class="l">${n(f.fetched)} postings scanned · ${n(f.score_ok)} fit your skills · ${n(f.title_ok)} are senior/lead in your field</div>`;
+}
 function dashboard(){
   const s=DATA.stats||{};
   const strong=(s.grade_a||0)+(s.grade_b||0);
@@ -257,8 +264,9 @@ function dashboard(){
   <div class="section-title">Today's snapshot</div>
   <div class="grid">
     <div class="stat glass wide">
-      <div class="n">${s.total}</div>
-      <div class="l">total matches scanned</div>
+      <div class="n">${s.unique||s.total}</div>
+      <div class="l">open roles match your filters</div>
+      ${funnelLine(DATA.funnel)}
       <div class="mbar-wrap">
         <div class="mbar"><span style="width:${pct}%"></span></div>
         <div class="mbar-row"><span>${strong} strong (A/B grade)</span><span>${pct}%</span></div>

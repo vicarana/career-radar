@@ -22,6 +22,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+import extra_sources
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 PROFILE = os.path.join(ROOT, "profile.json")
@@ -30,6 +32,12 @@ DATA = os.path.join(ROOT, "docs", "data")
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 WARN = []
 ATTEMPTED = []
+# Title abbreviations/synonyms of 'senior' that are a language fact, not a
+# preference, so they live here and not in profile.json (which is synced
+# from MClaude and would overwrite a local edit). 2026-10-23: 'Sr. Machine
+# Learning Engineer' / 'Sr. Salesforce DevOps Engineer' were being dropped
+# because only the spelled-out 'senior' was recognized.
+SENIORITY_ALIASES = ["sr", "distinguished"]
 
 
 def _get(url, timeout=20):
@@ -60,7 +68,7 @@ def is_senior_or_leadership(job, p):
     engineering. Requiring the domain term to be in the TITLE itself,
     not just the description, closes that leak."""
     title = job["title"].lower()
-    seniority = p.get("seniority", [])
+    seniority = p.get("seniority", []) + SENIORITY_ALIASES
     leadership = p.get("leadership_titles", [])
     tier_ok = (any(_title_has_term(title, s) for s in seniority)
                or any(_title_has_term(title, s) for s in leadership))
@@ -272,6 +280,37 @@ def src_adzuna(qs, country="us"):
     return out
 
 
+def src_workday(sites, qs):
+    """Public Workday CXS job-search endpoint, one board per entry in
+    companies.json's "workday" list. Fetch/parse lives in extra_sources."""
+    ATTEMPTED.append("workday")
+    out = []
+    for site in sites:
+        root = extra_sources.workday_root(site)
+        for q in qs:
+            try:
+                for row in extra_sources.workday_postings(site, q):
+                    job = _job(**row)
+                    job["_career_root"] = root
+                    out.append(job)
+            except Exception as e:
+                WARN.append(f"workday:{site['tenant']}:{type(e).__name__}")
+    return out
+
+
+def src_getonboard(qs):
+    """Get on Board, a Chile-based LatAm tech job board with a free public
+    API. Feeds Track E (LatAm/Chile) directly."""
+    ATTEMPTED.append("getonboard")
+    out = []
+    for q in qs:
+        try:
+            out.extend(_job(**row) for row in extra_sources.getonboard_postings(q))
+        except Exception as e:
+            WARN.append(f"getonboard:{type(e).__name__}")
+    return out
+
+
 def score(job, p):
     t, title = job["text"], job["title"].lower()
     if any(s in title for s in p["avoid_skills"]):
@@ -328,6 +367,17 @@ def company_career_pages(buckets):
             if root:
                 pages[j["company"]] = root
     return [{"company": c, "url": u} for c, u in sorted(pages.items())]
+
+
+def manual_portals(portals, companies):
+    """Drop 'no public feed, search manually' links for companies the radar
+    now fetches automatically (2026-10-23: Anthropic has a public Greenhouse
+    board with hundreds of postings, yet was listed as manual-only). Done
+    here, not in profile.json, because profile.json is synced from MClaude."""
+    automated = {humanize_company(s, companies).lower()
+                 for k in ("greenhouse", "lever", "ashby") for s in companies.get(k, [])}
+    automated |= {(s.get("name") or s["tenant"]).lower() for s in companies.get("workday", [])}
+    return [x for x in portals if x["company"].lower() not in automated]
 
 
 def reasons_for(job, p):
@@ -524,6 +574,8 @@ def main():
         "greenhouse": src_greenhouse(companies.get("greenhouse", []), companies),
         "lever": src_lever(companies.get("lever", []), companies),
         "ashby": src_ashby(companies.get("ashby", []), companies),
+        "workday": src_workday(companies.get("workday", []), search_titles),
+        "getonboard": src_getonboard(search_titles),
         # Track D (US sponsor) and Track C (Europe sponsor) both hard-
         # require literal visa/sponsor language in the posting text.
         # Raw ATS feeds (Greenhouse/Lever/Ashby) almost never spell that
@@ -633,7 +685,7 @@ def main():
         "company_career_pages": company_career_pages(buckets),
         "high_confidence_matches": high_conf,
         "high_confidence_threshold": high_conf_pct,
-        "direct_portals": p.get("direct_portals", {}).get("portals", []),
+        "direct_portals": manual_portals(p.get("direct_portals", {}).get("portals", []), companies),
         "direct_portals_chile": p.get("direct_portals_chile", {}).get("portals", []),
         "warnings": sorted(set(WARN)),
         "profile_lite": {

@@ -102,6 +102,37 @@ class HighConfidenceMatchesTests(unittest.TestCase):
         self.assertEqual(radar.high_confidence_matches([], 75), [])
 
 
+class SeniorityAliasTests(unittest.TestCase):
+    P = {"seniority": ["senior"], "leadership_titles": [], "target_titles": ["devops", "machine learning"]}
+
+    def _ok(self, title):
+        return radar.is_senior_or_leadership({"title": title}, self.P)
+
+    def test_sr_abbreviation_counts_as_senior(self):
+        self.assertTrue(self._ok("Sr. Salesforce DevOps Engineer"))
+        self.assertTrue(self._ok("Sr Machine Learning Engineer"))
+
+    def test_distinguished_counts_as_senior(self):
+        self.assertTrue(self._ok("Distinguished Engineer, Core DevOps"))
+
+    def test_sr_is_a_whole_word_not_a_substring(self):
+        self.assertFalse(self._ok("Usrbin DevOps Engineer"))
+
+    def test_plain_title_without_seniority_still_excluded(self):
+        self.assertFalse(self._ok("DevOps Engineer"))
+
+
+class ManualPortalsTests(unittest.TestCase):
+    def test_drops_companies_that_now_have_an_automated_feed(self):
+        companies = {"greenhouse": ["anthropic"], "ashby": ["openai"],
+                     "display_names": {"openai": "OpenAI"},
+                     "workday": [{"tenant": "nvidia", "name": "NVIDIA"}]}
+        portals = [{"company": n, "url": "u"} for n in
+                   ("Anthropic", "OpenAI", "NVIDIA", "BHP (mining, Chile filter)")]
+        left = radar.manual_portals(portals, companies)
+        self.assertEqual([x["company"] for x in left], ["BHP (mining, Chile filter)"])
+
+
 class NoSilentCapTests(unittest.TestCase):
     """Regression for 2026-10-23: the dashboard showed 88 openings because
     boards were clipped to 60 postings and every track to 40. Every
@@ -127,6 +158,8 @@ class NoSilentCapTests(unittest.TestCase):
                 mock.patch.object(radar, "src_remoteok", empty), \
                 mock.patch.object(radar, "src_lever", empty), \
                 mock.patch.object(radar, "src_ashby", empty), \
+                mock.patch.object(radar, "src_workday", empty), \
+                mock.patch.object(radar, "src_getonboard", empty), \
                 mock.patch.object(radar, "src_adzuna", empty):
             radar.main()
             with open(f"{tmp}/latest.json", encoding="utf-8") as f:

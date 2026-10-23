@@ -5,7 +5,7 @@
 // change upstream (this bit Vic on 2026-08-27: sidebar/Pipeline/US-Visa
 // redesign was live in the repo but browsers kept rendering the old
 // top-tab-bar shell from an install months earlier).
-const CACHE = "radar-v2";
+const CACHE = "radar-v3";
 const SHELL = ["./", "./index.html", "./match.js", "./pipeline.js", "./sprint.js",
   "./style.css", "./manifest.webmanifest", "./data/latest.json"];
 
