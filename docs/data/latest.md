@@ -1,11 +1,20 @@
-# career-radar - 2026-10-23 07:34 UTC
-Sources OK: 8/8
+# career-radar - 2026-10-23 08:22 UTC
+Sources OK: 10/10
 
 
-## 75%+ match: none today
-No posting currently clears the threshold. This is watchlist/market supply, not a scoring bug, see companies.json's dated notes for the established pattern (breadth adds volume, not automatically top-end score).
+## 75%+ match, strongest-fit postings (9)
+- 99% Senior Cloud Networking SRE @ Softserve (Remote) https://www.getonbrd.com/jobs/senior-cloud-networking-sre-softserve-remote
+- 99% Lead Agentic AI Consultant @ Softserve (Remote) https://www.getonbrd.com/jobs/lead-agentic-ai-consultant-softserve-remote
+- 99% Senior AI Engineer (GenAI, Python, LLMs) / Sector Bancario @ Devsu (Remote) https://www.getonbrd.com/jobs/senior-ai-engineer-genai-python-llms-sector-bancario-devsu-remote
+- 99% Ingeniero DevOps Semi Senior @ BC Tecnología (Chile) https://www.getonbrd.com/jobs/ingeniero-devops-semi-senior-bc-tecnologia-santiago-36a8
+- 99% Senior Cloud Engineer @ Niuro (Remote) https://www.getonbrd.com/jobs/senior-cloud-engineer-niuro-remote
+- 99% Senior Cloud Engineer @ Niuro (Remote) https://www.getonbrd.com/jobs/senior-cloud-engineer-niuro-remote
+- 90% Senior Machine Learning Engineer @ Softserve (Remote) https://www.getonbrd.com/jobs/senior-machine-learning-engineer-softserve-remote
+- 80% Senior Agentic AI Engineer @ BC Tecnología (Remote) https://www.getonbrd.com/jobs/senior-agentic-ai-engineer-bc-tecnologia-remote
+- 75% Sr. DevOps & Infrastructure Consultant @ Inflect, Inc. (Remote) https://www.getonbrd.com/jobs/sr-devops-infrastructure-consultant-inflect-inc-remote
 
-## Track D - US (sponsorship not guaranteed, check per-role) (71)
+## Track D - US (sponsorship not guaranteed, check per-role) (74)
+- Senior Cloud Engineer @ Niuro (Remote) s20 https://www.getonbrd.com/jobs/senior-cloud-engineer-niuro-remote
 - Principal Site Reliability Engineer, Platform Engineering: Dedicated @ GitLab (Remote, Canada; Remote, United Kingdom; Remote, United States) s12 https://job-boards.greenhouse.io/gitlab/jobs/8623592002
 - Senior Engineering Manager, Grafana Frontend | USA | Remote @ Grafana Labs (United States (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200721004
 - Staff AI Engineer - Grafana AI/ML | USA | Remote @ Grafana Labs (United States (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6100672004
@@ -21,13 +30,12 @@ No posting currently clears the threshold. This is watchlist/market supply, not 
 - Engineering Manager, Client Platform Engineering @ OpenAI (San Francisco) s8 https://jobs.ashbyhq.com/openai/5df9e349-f8e1-4cfd-ba20-ec9e4115d564
 - Engineering Manager, Identity Platform @ OpenAI (San Francisco) s7 https://jobs.ashbyhq.com/openai/7ba0b390-b198-4101-80bb-b49a6dd62607
 - Senior DevOps Engineer - LATAM @ Luxury Presence (LATAM) s6 https://jobicy.com/jobs/156418-senior-devops-engineer-latam-2
+- Distinguished Engineer, Core DevOps @ GitLab (Remote, Canada; Remote, United Kingdom; Remote, United States) s6 https://job-boards.greenhouse.io/gitlab/jobs/8831350002
 - Staff Backend Engineer, Core DevOps @ GitLab (Remote, Canada; Remote, United States) s6 https://job-boards.greenhouse.io/gitlab/jobs/8689236002
 - Director, Field Sales Engineering @ Samsara (Remote - US) s6 https://www.samsara.com/company/careers/roles/7695309?gh_jid=7695309
 - Lead Machine Learning Engineer - ML Infrastructure @ Samsara (Remote - US) s6 https://www.samsara.com/company/careers/roles/7721193?gh_jid=7721193
-- Senior Machine Learning Engineer @ Samsara (Remote - US) s6 https://www.samsara.com/company/careers/roles/8055245?gh_jid=8055245
-- Staff Machine Learning Engineer - Edge AI @ Samsara (Remote - US) s6 https://www.samsara.com/company/careers/roles/7266357?gh_jid=7266357
 
-## Track C - Europe (sponsorship not guaranteed, check per-role) (68)
+## Track C - Europe (sponsorship not guaranteed, check per-role) (69)
 - Staff Software Engineer - Databases SRE | Germany | Remote @ Grafana Labs (Germany (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6103688004
 - Staff Software Engineer - Databases SRE | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6107502004
 - Staff Software Engineer - Databases SRE | Spain | Remote @ Grafana Labs (Spain (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6103685004
@@ -41,7 +49,7 @@ No posting currently clears the threshold. This is watchlist/market supply, not 
 - Senior Engineering Manager, Grafana Frontend | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200731004
 - Senior Engineering Manager, Grafana Frontend | Spain | Remote @ Grafana Labs (Spain (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200725004
 - Senior Engineering Manager, Grafana Frontend | Sweden | Remote @ Grafana Labs (Sweden (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200798004
-- Senior AI Agent Engineer @ Oracle (Baton Rouge, East Baton Rouge Parish) s11 https://www.adzuna.com/land/ad/5831454484?se=CPEfJbTO8RGc5Kk30LXKDg&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4
+- Senior AI Agent Engineer @ Oracle (Baton Rouge, East Baton Rouge Parish) s11 https://www.adzuna.com/land/ad/5831454484?se=uidW4brO8RGiY7N8xe78DA&utm_medium=api&utm_source=4076fe36&v=A99BDF4DFEFE54D828EC8E8D36154905303207B4
 - Manager, Site Reliability Engineering - Storage Layer Service @ MongoDB (Dublin) s10 https://www.mongodb.com/careers/job/?gh_jid=7818635
 - Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS) @ MongoDB (Cork, Ireland; Dublin, Ireland) s10 https://www.mongodb.com/careers/job/?gh_jid=6984814
 - Manager, Solutions Engineering | NorBen | Remote @ Grafana Labs (Netherlands (Remote)) s10 https://job-boards.greenhouse.io/grafanalabs/jobs/6121600004
@@ -49,12 +57,24 @@ No posting currently clears the threshold. This is watchlist/market supply, not 
 - Senior Site Reliability Engineer (Auth0) @ Okta (Barcelona, Spain) s10 https://www.okta.com/company/careers/opportunity/7418982?gh_jid=7418982
 - B2B Senior Site Reliability Engineer @ Jamf (Poland) s8 https://jobicy.com/jobs/156267-b2b-senior-site-reliability-engineer
 
-## Track E - LatAm/Chile (no relocation needed) (3)
+## Track E - LatAm/Chile (no relocation needed) (8)
+- Ingeniero DevOps Semi Senior @ BC Tecnología (Chile) s22 https://www.getonbrd.com/jobs/ingeniero-devops-semi-senior-bc-tecnologia-santiago-36a8
 - Grupo QuintoAndar | Senior Site Reliability Engineer - AI Platform @ QuintoAndar (Brasil) s10 https://job-boards.greenhouse.io/quintoandar/jobs/4249527009
+- Senior Cloud Platform Engineer (LATAM) @ BC Tecnología (Remote) s7 https://www.getonbrd.com/jobs/senior-cloud-platform-engineer-latam-bc-tecnologia-remote
+- Engineering Manager Senior @ Factor IT (Mexico) s7 https://www.getonbrd.com/jobs/engineering-manager-senior-factor-it-bogota
 - Senior DevOps Engineer - LATAM @ Luxury Presence (LATAM) s6 https://jobicy.com/jobs/156418-senior-devops-engineer-latam-2
 - Grupo QuintoAndar | Senior Platform Engineer (Women Applicants Only) @ QuintoAndar (Brasil) s4 https://job-boards.greenhouse.io/quintoandar/jobs/4288328009
+- Lead Machine Learning Engineer @ Nubank (São Paulo) s4 https://jobs.ashbyhq.com/nubank/ecd4ec39-1f0a-4f65-b27a-f537c895a233
+- Senior Machine Learning Engineer @ Nubank (Bogota) s4 https://jobs.ashbyhq.com/nubank/1d9c8a3b-143a-4fba-a2cc-18380f06e474
 
-## Track B - Remote/income (145)
+## Track B - Remote/income (179)
+- Senior Cloud Networking SRE @ Softserve (Remote) s24 https://www.getonbrd.com/jobs/senior-cloud-networking-sre-softserve-remote
+- Lead Agentic AI Consultant @ Softserve (Remote) s23 https://www.getonbrd.com/jobs/lead-agentic-ai-consultant-softserve-remote
+- Senior AI Engineer (GenAI, Python, LLMs) / Sector Bancario @ Devsu (Remote) s23 https://www.getonbrd.com/jobs/senior-ai-engineer-genai-python-llms-sector-bancario-devsu-remote
+- Senior Cloud Engineer @ Niuro (Remote) s20 https://www.getonbrd.com/jobs/senior-cloud-engineer-niuro-remote
+- Senior Machine Learning Engineer @ Softserve (Remote) s18 https://www.getonbrd.com/jobs/senior-machine-learning-engineer-softserve-remote
+- Senior Agentic AI Engineer @ BC Tecnología (Remote) s16 https://www.getonbrd.com/jobs/senior-agentic-ai-engineer-bc-tecnologia-remote
+- Sr. DevOps & Infrastructure Consultant @ Inflect, Inc. (Remote) s15 https://www.getonbrd.com/jobs/sr-devops-infrastructure-consultant-inflect-inc-remote
 - Staff Software Engineer - Databases SRE | Germany | Remote @ Grafana Labs (Germany (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6103688004
 - Staff Software Engineer - Databases SRE | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6107502004
 - Staff Software Engineer - Databases SRE | Spain | Remote @ Grafana Labs (Spain (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6103685004
@@ -68,13 +88,6 @@ No posting currently clears the threshold. This is watchlist/market supply, not 
 - Engineering Manager - Observability | Sweden | Remote @ Grafana Labs (Sweden (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202558004
 - Engineering Manager - Observability | UK | Remote @ Grafana Labs (United Kingdom (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6202562004
 - Senior Engineering Manager, Grafana Frontend | Canada | Remote @ Grafana Labs (Canada (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200723004
-- Senior Engineering Manager, Grafana Frontend | Germany | Remote @ Grafana Labs (Germany (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200726004
-- Senior Engineering Manager, Grafana Frontend | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200731004
-- Senior Engineering Manager, Grafana Frontend | Spain | Remote @ Grafana Labs (Spain (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200725004
-- Senior Engineering Manager, Grafana Frontend | Sweden | Remote @ Grafana Labs (Sweden (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200798004
-- Senior Engineering Manager, Grafana Frontend | United Kingdom | Remote @ Grafana Labs (United Kingdom (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200793004
-- Senior Engineering Manager, Grafana Frontend | USA | Remote @ Grafana Labs (United States (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6200721004
-- Staff AI Engineer - Grafana AI/ML | Canada | Remote @ Grafana Labs (Canada (Remote)) s12 https://job-boards.greenhouse.io/grafanalabs/jobs/6100673004
 
 ## Companies with a real match today - browse their full career page
 - 1Password: https://jobs.ashbyhq.com/1password
@@ -83,6 +96,7 @@ No posting currently clears the threshold. This is watchlist/market supply, not 
 - Airbnb: https://job-boards.greenhouse.io/airbnb
 - Anthropic: https://job-boards.greenhouse.io/anthropic
 - Cabify: https://job-boards.greenhouse.io/cabify
+- Cohere: https://jobs.ashbyhq.com/cohere
 - Coinbase: https://job-boards.greenhouse.io/coinbase
 - Cribl: https://job-boards.greenhouse.io/cribl
 - Datadog: https://job-boards.greenhouse.io/datadog
@@ -98,15 +112,20 @@ No posting currently clears the threshold. This is watchlist/market supply, not 
 - Instacart: https://job-boards.greenhouse.io/instacart
 - LaunchDarkly: https://job-boards.greenhouse.io/launchdarkly
 - MongoDB: https://job-boards.greenhouse.io/mongodb
+- NVIDIA: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+- Notion: https://jobs.ashbyhq.com/notion
+- Nubank: https://jobs.ashbyhq.com/nubank
 - Okta: https://job-boards.greenhouse.io/okta
 - OpenAI: https://jobs.ashbyhq.com/openai
 - Pinterest: https://job-boards.greenhouse.io/pinterest
 - QuintoAndar: https://job-boards.greenhouse.io/quintoandar
 - Reddit: https://job-boards.greenhouse.io/reddit
 - Replit: https://jobs.ashbyhq.com/replit
+- Salesforce: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site
 - Samsara: https://job-boards.greenhouse.io/samsara
 - Squarespace: https://job-boards.greenhouse.io/squarespace
 - Stripe: https://job-boards.greenhouse.io/stripe
+- Supabase: https://jobs.ashbyhq.com/supabase
 - Workos: https://jobs.ashbyhq.com/workos
 
 ## Direct portals - no public ATS feed, check manually
