@@ -115,6 +115,12 @@ class SeniorityAliasTests(unittest.TestCase):
     def test_distinguished_counts_as_senior(self):
         self.assertTrue(self._ok("Distinguished Engineer, Core DevOps"))
 
+    def test_spanish_and_portuguese_leadership_words_count(self):
+        self.assertTrue(self._ok("Lider DevOps"))
+        self.assertTrue(self._ok("Líder Técnico DevOps (WebLogic)"))
+        self.assertTrue(self._ok("Jefe de Plataforma DevOps"))
+        self.assertTrue(self._ok("Ingeniero DevOps Sénior"))
+
     def test_sr_is_a_whole_word_not_a_substring(self):
         self.assertFalse(self._ok("Usrbin DevOps Engineer"))
 

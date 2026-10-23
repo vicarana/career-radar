@@ -36,8 +36,11 @@ ATTEMPTED = []
 # preference, so they live here and not in profile.json (which is synced
 # from MClaude and would overwrite a local edit). 2026-10-23: 'Sr. Machine
 # Learning Engineer' / 'Sr. Salesforce DevOps Engineer' were being dropped
-# because only the spelled-out 'senior' was recognized.
-SENIORITY_ALIASES = ["sr", "distinguished"]
+# because only the spelled-out 'senior' was recognized. Spanish/Portuguese
+# leadership words added the same day: Get on Board (Chile) titles read
+# 'Lider DevOps' / 'Líder Técnico DevOps', which the English-only list missed.
+SENIORITY_ALIASES = ["sr", "distinguished", "líder", "lider", "jefe", "gerente",
+                     "sénior", "sênior"]
 
 
 def _get(url, timeout=20):
