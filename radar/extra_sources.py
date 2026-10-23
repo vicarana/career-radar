@@ -19,6 +19,15 @@ import urllib.request
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 WORKDAY_PAGE = 20  # Workday's CXS endpoint serves at most 20 rows per call.
 GETONBOARD_PAGE = 100  # verified: per_page=100 returns 100 rows.
+# Pages per SEARCH QUERY, not per board. Workday search is loose word
+# matching, so a broad query (e.g. 'senior ai lead') can match most of a
+# multi-thousand-posting board, and paging all of it for 18 queries x 2
+# boards hung a real run for 6+ minutes (2026-10-23). Results are relevance
+# ranked, so the first pages hold the real hits. Hitting the limit is never
+# silent: it is recorded in TRUNCATED and surfaced in the output.
+WORKDAY_MAX_PAGES = 3
+GETONBOARD_MAX_PAGES = 5
+TRUNCATED = []
 _TAGS = re.compile(r"<[^>]+>")
 
 
@@ -47,10 +56,14 @@ def workday_postings(site, query):
     """
     api = (f"https://{site['tenant']}.{site['wd']}.myworkdayjobs.com"
            f"/wday/cxs/{site['tenant']}/{site['site']}/jobs")
-    offset, total = 0, None
+    offset, total, pages_read = 0, None, 0
     while total is None or offset < total:
+        if pages_read >= WORKDAY_MAX_PAGES:
+            TRUNCATED.append(f"workday:{site['tenant']}:{query}")
+            break
         d = _request_json(api, {"appliedFacets": {}, "limit": WORKDAY_PAGE,
                                 "offset": offset, "searchText": query})
+        pages_read += 1
         if total is None:
             total = d.get("total", 0)
         rows = d.get("jobPostings", [])
@@ -73,6 +86,9 @@ def getonboard_postings(query):
     """
     page, pages = 1, 1
     while page <= pages:
+        if page > GETONBOARD_MAX_PAGES:
+            TRUNCATED.append(f"getonboard:{query}")
+            break
         d = _request_json("https://www.getonbrd.com/api/v0/search/jobs?query="
                           f"{urllib.parse.quote(query)}&per_page={GETONBOARD_PAGE}"
                           f"&page={page}&expand=%5B%22company%22%5D")

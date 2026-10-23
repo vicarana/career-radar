@@ -43,6 +43,16 @@ class WorkdayTests(unittest.TestCase):
             self.assertEqual(list(extra_sources.workday_postings(SITE, "sre")), [])
         self.assertEqual(req.call_count, 1)
 
+    def test_broad_query_stops_at_page_limit_and_records_it(self):
+        # Regression 2026-10-23: unbounded paging of broad queries hung a run.
+        extra_sources.TRUNCATED.clear()
+        with mock.patch.object(extra_sources, "_request_json",
+                               return_value=wd_page(5000, ["a"] * 20)) as req:
+            rows = list(extra_sources.workday_postings(SITE, "senior ai lead"))
+        self.assertEqual(req.call_count, extra_sources.WORKDAY_MAX_PAGES)
+        self.assertEqual(len(rows), 20 * extra_sources.WORKDAY_MAX_PAGES)
+        self.assertEqual(extra_sources.TRUNCATED, ["workday:acme:senior ai lead"])
+
 
 def gob_page(page, pages, n):
     return {"meta": {"page": page, "total_pages": pages}, "data": [{
@@ -69,6 +79,14 @@ class GetOnBoardTests(unittest.TestCase):
         self.assertEqual((row["salary_min"], row["salary_max"]), (3400 * 12, 4400 * 12))
         self.assertNotIn("<", row["desc"])
         self.assertIn("kubernetes", row["desc"])
+
+    def test_stops_at_page_limit_and_records_it(self):
+        extra_sources.TRUNCATED.clear()
+        with mock.patch.object(extra_sources, "_request_json",
+                               return_value=gob_page(1, 99, 1)) as req:
+            list(extra_sources.getonboard_postings("devops"))
+        self.assertEqual(req.call_count, extra_sources.GETONBOARD_MAX_PAGES)
+        self.assertEqual(extra_sources.TRUNCATED, ["getonboard:devops"])
 
     def test_missing_salary_stays_none_not_zero(self):
         page = gob_page(1, 1, 1)

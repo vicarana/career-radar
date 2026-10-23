@@ -678,7 +678,9 @@ def main():
         "sources_ok": sources_ok,
         "sources_total": total_attempted,
         "stats": stats,
-        "funnel": {**funnel, "fetched_by_source": {k: len(v) for k, v in fetched.items()}},
+        "funnel": {**funnel, "fetched_by_source": {k: len(v) for k, v in fetched.items()},
+                   # search queries that hit a pages-per-query limit (never silent)
+                   "truncated": sorted(set(extra_sources.TRUNCATED))},
         "tracks": {"B": B, "C": C, "D": D, "E": E},
         "linkedin": linkedin_searches(),
         "walmart_markets": p["track_a_walmart_markets"]["portals"],
