@@ -253,7 +253,10 @@ function funnelLine(f){
      many survive each gate. Absent on older data files, so guard it. */
   if(!f||!f.fetched) return '';
   const n=v=>(v||0).toLocaleString();
-  return `<div class="l">${n(f.fetched)} postings scanned · ${n(f.score_ok)} fit your skills · ${n(f.title_ok)} are senior/lead in your field</div>`;
+  const levels=(f.title_senior===undefined)
+    ? `${n(f.title_ok)} pass the title filter`
+    : `${n(f.title_senior)} senior/lead · ${n(f.title_unstated)} level not stated`;
+  return `<div class="l">${n(f.fetched)} postings scanned · ${n(f.score_ok)} fit your skills · ${levels}</div>`;
 }
 function dashboard(){
   const s=DATA.stats||{};

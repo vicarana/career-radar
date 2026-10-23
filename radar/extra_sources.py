@@ -1,12 +1,14 @@
-"""Fetch + parse for the two sources that aren't a plain ATS board feed:
-Workday (many big employers) and Get on Board (Chile-based LatAm tech board).
+"""Fetch + parse for the sources that aren't a plain ATS board feed:
+Workday (many big employers), Get on Board (Chile-based LatAm tech board),
+Amazon and Microsoft (their own careers search JSON).
 
 Pure stdlib, no import of radar.py on purpose: radar.py wraps these rows with
 its own _job()/WARN/ATTEMPTED bookkeeping, so this module stays a small,
 network-only seam that unit tests can feed canned JSON.
 
-Both public endpoints were verified live from GitHub Actions on 2026-10-23
-(Nvidia and Salesforce Workday boards, getonbrd.com/api/v0). Every function
+All public endpoints were verified live from GitHub Actions on 2026-10-23
+(Nvidia and Salesforce Workday boards, getonbrd.com/api/v0, amazon.jobs and
+apply.careers.microsoft.com). Every function
 yields dicts whose keys match radar._job()'s parameters.
 """
 from __future__ import annotations
@@ -27,6 +29,10 @@ GETONBOARD_PAGE = 100  # verified: per_page=100 returns 100 rows.
 # silent: it is recorded in TRUNCATED and surfaced in the output.
 WORKDAY_MAX_PAGES = 3
 GETONBOARD_MAX_PAGES = 5
+AMAZON_PAGE = 100  # verified: result_limit=100 returns 100 rows.
+AMAZON_MAX_PAGES = 3
+MICROSOFT_PAGE = 10  # verified: the endpoint serves 10 rows per call.
+MICROSOFT_MAX_PAGES = 5
 TRUNCATED = []
 _TAGS = re.compile(r"<[^>]+>")
 
@@ -105,3 +111,67 @@ def getonboard_postings(query):
                    "salary_min": lo * 12 if lo else None,
                    "salary_max": hi * 12 if hi else None}
         page += 1
+
+
+def amazon_postings(query):
+    """Amazon's own job search JSON, paged by offset (100 per page).
+
+    `hits` is the total for the query. Interns are skipped using Amazon's own
+    `is_intern` flag. Description = short description + basic qualifications,
+    which is where the skill keywords live.
+    """
+    offset, hits, pages_read = 0, None, 0
+    while hits is None or offset < hits:
+        if pages_read >= AMAZON_MAX_PAGES:
+            TRUNCATED.append(f"amazon:{query}")
+            break
+        d = _request_json("https://www.amazon.jobs/en/search.json?result_limit="
+                          f"{AMAZON_PAGE}&offset={offset}&base_query={urllib.parse.quote(query)}")
+        pages_read += 1
+        if hits is None:
+            hits = d.get("hits", 0)
+        rows = d.get("jobs", [])
+        if not rows:
+            break
+        for j in rows:
+            if j.get("is_intern"):
+                continue
+            loc = j.get("normalized_location") or j.get("location") or ""
+            desc = " ".join(filter(None, [j.get("description_short"), j.get("basic_qualifications")]))
+            yield {"title": j.get("title"), "company": "Amazon", "location": loc,
+                   "url": "https://www.amazon.jobs" + (j.get("job_path") or ""),
+                   "remote": "virtual" in loc.lower() or "remote" in loc.lower(),
+                   "desc": _TAGS.sub(" ", desc)}
+        offset += AMAZON_PAGE
+
+
+def microsoft_postings(query):
+    """Microsoft's public careers search JSON, paged by `start` (10 per page).
+
+    The old gcsservices.careers.microsoft.com endpoint now fails TLS
+    verification, this is the working replacement (verified 2026-10-23).
+    `data.count` is the total. No description is returned, so scoring leans
+    on title + department + locations. The job URL base is inferred from
+    positionUrl, not independently opened.
+    """
+    start, total, pages_read = 0, None, 0
+    while total is None or start < total:
+        if pages_read >= MICROSOFT_MAX_PAGES:
+            TRUNCATED.append(f"microsoft:{query}")
+            break
+        d = _request_json("https://apply.careers.microsoft.com/api/pcsx/search"
+                          f"?domain=microsoft.com&query={urllib.parse.quote(query)}&start={start}")
+        pages_read += 1
+        data = d.get("data") or {}
+        if total is None:
+            total = data.get("count", 0)
+        rows = data.get("positions", [])
+        if not rows:
+            break
+        for j in rows:
+            locs = j.get("locations") or []
+            yield {"title": j.get("name"), "company": "Microsoft", "location": "; ".join(locs),
+                   "url": "https://apply.careers.microsoft.com" + (j.get("positionUrl") or ""),
+                   "remote": j.get("workLocationOption") == "remote",
+                   "desc": j.get("department") or ""}
+        start += MICROSOFT_PAGE

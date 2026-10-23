@@ -96,5 +96,69 @@ class GetOnBoardTests(unittest.TestCase):
         self.assertIsNone(row["salary_min"])
 
 
+def amz_page(hits, n, intern_at=None):
+    return {"hits": hits, "jobs": [
+        {"title": f"DevOps Engineer {i}", "location": "US, WA, Seattle",
+         "normalized_location": "Seattle, Washington, USA", "job_path": f"/en/jobs/{i}/x",
+         "description_short": "Run <b>aws</b>", "basic_qualifications": "python", "is_intern": i == intern_at}
+        for i in range(n)]}
+
+
+class AmazonTests(unittest.TestCase):
+    def test_pages_by_offset_and_skips_interns(self):
+        pages = [amz_page(150, 100, intern_at=0), amz_page(150, 50)]
+        with mock.patch.object(extra_sources, "_request_json", side_effect=pages) as req:
+            rows = list(extra_sources.amazon_postings("devops"))
+        self.assertEqual(len(rows), 149)  # 150 minus the one intern
+        self.assertIn("offset=100", req.call_args_list[1][0][0])
+
+    def test_row_shape(self):
+        with mock.patch.object(extra_sources, "_request_json", return_value=amz_page(1, 1)):
+            row = next(extra_sources.amazon_postings("devops"))
+        self.assertEqual(row["company"], "Amazon")
+        self.assertEqual(row["url"], "https://www.amazon.jobs/en/jobs/0/x")
+        self.assertEqual(row["location"], "Seattle, Washington, USA")
+        self.assertIn("aws", row["desc"])
+        self.assertNotIn("<", row["desc"])
+
+    def test_page_limit_is_recorded(self):
+        extra_sources.TRUNCATED.clear()
+        with mock.patch.object(extra_sources, "_request_json", return_value=amz_page(9999, 100)) as req:
+            list(extra_sources.amazon_postings("devops"))
+        self.assertEqual(req.call_count, extra_sources.AMAZON_MAX_PAGES)
+        self.assertEqual(extra_sources.TRUNCATED, ["amazon:devops"])
+
+
+def ms_page(count, n):
+    return {"data": {"count": count, "positions": [
+        {"name": f"Senior SRE {i}", "locations": ["India, Hyderabad", "US, Redmond"],
+         "positionUrl": f"/careers/job/{i}", "workLocationOption": "remote",
+         "department": "Site Reliability Engineering"} for i in range(n)]}}
+
+
+class MicrosoftTests(unittest.TestCase):
+    def test_pages_by_start_until_count(self):
+        pages = [ms_page(15, 10), ms_page(15, 5)]
+        with mock.patch.object(extra_sources, "_request_json", side_effect=pages) as req:
+            rows = list(extra_sources.microsoft_postings("sre"))
+        self.assertEqual(len(rows), 15)
+        self.assertIn("start=10", req.call_args_list[1][0][0])
+
+    def test_row_shape(self):
+        with mock.patch.object(extra_sources, "_request_json", return_value=ms_page(1, 1)):
+            row = next(extra_sources.microsoft_postings("sre"))
+        self.assertEqual(row["company"], "Microsoft")
+        self.assertEqual(row["url"], "https://apply.careers.microsoft.com/careers/job/0")
+        self.assertEqual(row["location"], "India, Hyderabad; US, Redmond")
+        self.assertTrue(row["remote"])
+
+    def test_page_limit_is_recorded(self):
+        extra_sources.TRUNCATED.clear()
+        with mock.patch.object(extra_sources, "_request_json", return_value=ms_page(9999, 10)) as req:
+            list(extra_sources.microsoft_postings("sre"))
+        self.assertEqual(req.call_count, extra_sources.MICROSOFT_MAX_PAGES)
+        self.assertEqual(extra_sources.TRUNCATED, ["microsoft:sre"])
+
+
 if __name__ == "__main__":
     unittest.main()

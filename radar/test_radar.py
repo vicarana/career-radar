@@ -128,13 +128,42 @@ class SeniorityAliasTests(unittest.TestCase):
         self.assertFalse(self._ok("DevOps Engineer"))
 
 
+class TitleLevelTests(unittest.TestCase):
+    P = {"seniority": ["senior"], "leadership_titles": ["manager"],
+         "target_titles": ["devops", "platform engineer", "sre"]}
+
+    def _lvl(self, title):
+        return radar.title_level({"title": title}, self.P)
+
+    def test_explicit_senior_stays_senior(self):
+        self.assertEqual(self._lvl("Senior DevOps Engineer"), "senior")
+        self.assertEqual(self._lvl("SRE Manager"), "senior")
+
+    def test_domain_title_without_level_word_is_unstated(self):
+        self.assertEqual(self._lvl("Platform Engineer"), "unstated")
+        self.assertEqual(self._lvl("DevOps Engineer (GCP)"), "unstated")
+
+    def test_explicit_junior_markers_are_excluded(self):
+        for t in ("DevOps Engineer Intern", "Junior Platform Engineer", "SRE Engineer II",
+                  "Associate DevOps Engineer", "Platform Engineer I", "DevOps Engineer Jr"):
+            self.assertIsNone(self._lvl(t), t)
+
+    def test_off_domain_is_excluded_even_with_no_junior_word(self):
+        self.assertIsNone(self._lvl("Account Executive"))
+        self.assertIsNone(self._lvl("Software Engineering Generalist"))
+
+    def test_i_marker_is_a_whole_word(self):
+        self.assertEqual(self._lvl("DevOps Engineer, Insights"), "unstated")
+
+
 class ManualPortalsTests(unittest.TestCase):
     def test_drops_companies_that_now_have_an_automated_feed(self):
         companies = {"greenhouse": ["anthropic"], "ashby": ["openai"],
                      "display_names": {"openai": "OpenAI"},
-                     "workday": [{"tenant": "nvidia", "name": "NVIDIA"}]}
+                     "workday": [{"tenant": "nvidia", "name": "NVIDIA"}],
+                     "automated_portal_names": ["Amazon"]}
         portals = [{"company": n, "url": "u"} for n in
-                   ("Anthropic", "OpenAI", "NVIDIA", "BHP (mining, Chile filter)")]
+                   ("Anthropic", "OpenAI", "NVIDIA", "Amazon", "BHP (mining, Chile filter)")]
         left = radar.manual_portals(portals, companies)
         self.assertEqual([x["company"] for x in left], ["BHP (mining, Chile filter)"])
 
@@ -166,6 +195,8 @@ class NoSilentCapTests(unittest.TestCase):
                 mock.patch.object(radar, "src_ashby", empty), \
                 mock.patch.object(radar, "src_workday", empty), \
                 mock.patch.object(radar, "src_getonboard", empty), \
+                mock.patch.object(radar, "src_amazon", empty), \
+                mock.patch.object(radar, "src_microsoft", empty), \
                 mock.patch.object(radar, "src_adzuna", empty):
             radar.main()
             with open(f"{tmp}/latest.json", encoding="utf-8") as f:
@@ -174,6 +205,38 @@ class NoSilentCapTests(unittest.TestCase):
         self.assertEqual(out["funnel"]["fetched"], self.N)
         self.assertEqual(out["funnel"]["comp_ok"], self.N)
         self.assertEqual(out["stats"]["unique"], self.N)
+        self.assertEqual(out["funnel"]["title_senior"], self.N)
+        self.assertEqual(out["funnel"]["title_unstated"], 0)
+
+    def test_unstated_level_roles_are_included_and_flagged(self):
+        import json
+        import tempfile
+        from unittest import mock
+
+        board = [radar._job("Platform Engineer", "Acme", "Remote", "https://example.test/u",
+                            True, "kubernetes terraform python")]
+        empty = mock.Mock(return_value=[])
+        with tempfile.TemporaryDirectory() as tmp, \
+                mock.patch.object(radar, "DATA", tmp), \
+                mock.patch.object(radar, "src_greenhouse", return_value=board), \
+                mock.patch.object(radar, "src_remotive", empty), \
+                mock.patch.object(radar, "src_jobicy", empty), \
+                mock.patch.object(radar, "src_arbeitnow", empty), \
+                mock.patch.object(radar, "src_remoteok", empty), \
+                mock.patch.object(radar, "src_lever", empty), \
+                mock.patch.object(radar, "src_ashby", empty), \
+                mock.patch.object(radar, "src_workday", empty), \
+                mock.patch.object(radar, "src_getonboard", empty), \
+                mock.patch.object(radar, "src_amazon", empty), \
+                mock.patch.object(radar, "src_microsoft", empty), \
+                mock.patch.object(radar, "src_adzuna", empty):
+            radar.main()
+            with open(f"{tmp}/latest.json", encoding="utf-8") as f:
+                out = json.load(f)
+        row = out["tracks"]["B"][0]
+        self.assertEqual(row["level"], "unstated")
+        self.assertIn("Level not stated", row["reasons"])
+        self.assertEqual(out["funnel"]["title_unstated"], 1)
 
 
 if __name__ == "__main__":

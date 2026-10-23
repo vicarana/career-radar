@@ -20,6 +20,7 @@
   "workday": [
     {"tenant": "nvidia", "wd": "wd5", "site": "NVIDIAExternalCareerSite", "name": "NVIDIA"},
     {"tenant": "salesforce", "wd": "wd12", "site": "External_Career_Site", "name": "Salesforce"}],
+  "automated_portal_names": ["Amazon", "Microsoft"],
   "display_names": {
     "_note": "Optional slug -> proper-cased display name overrides. Every ATS board slug is plain lowercase (that's the URL path segment, e.g. job-boards.greenhouse.io/grafanalabs), so without this a job card would show the company as 'grafanalabs' instead of 'Grafana Labs'. Only slugs where plain .title() gets it wrong need an entry here, anything absent just falls back to slug.replace('-',' ').title() in humanize_company(), see radar.py.",
     "gitlab": "GitLab", "circleci": "CircleCI", "mongodb": "MongoDB",

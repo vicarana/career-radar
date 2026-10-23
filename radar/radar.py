@@ -18,20 +18,19 @@ import datetime as dt
 import json
 import os
 import re
-import urllib.error
 import urllib.parse
-import urllib.request
 
 import extra_sources
+from sources import (  # noqa: F401  (re-exported: tests patch radar.src_*)
+    ATTEMPTED, WARN, UA, _get, _job, humanize_company, src_adzuna, src_amazon,
+    src_arbeitnow, src_ashby, src_getonboard, src_greenhouse, src_jobicy, src_lever,
+    src_microsoft, src_remotive, src_remoteok, src_workday)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 PROFILE = os.path.join(ROOT, "profile.json")
 COMPANIES = os.path.join(HERE, "companies.json")
 DATA = os.path.join(ROOT, "docs", "data")
-UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-WARN = []
-ATTEMPTED = []
 # Title abbreviations/synonyms of 'senior' that are a language fact, not a
 # preference, so they live here and not in profile.json (which is synced
 # from MClaude and would overwrite a local edit). 2026-10-23: 'Sr. Machine
@@ -39,14 +38,17 @@ ATTEMPTED = []
 # because only the spelled-out 'senior' was recognized. Spanish/Portuguese
 # leadership words added the same day: Get on Board (Chile) titles read
 # 'Lider DevOps' / 'Líder Técnico DevOps', which the English-only list missed.
+ADZUNA_COUNTRIES = ["us", "gb", "de", "nl", "es", "mx", "br"]
+# Explicit entry-level / mid-level markers that exclude a title with no
+# seniority word. Short ones match as whole words (see _title_has_term), so
+# 'i'/'ii' mean the level suffix ('Engineer II'), not letters inside words.
+JUNIOR_MARKERS = ["intern", "internship", "junior", "jr", "graduate", "grad",
+                  "entry level", "entry-level", "associate", "trainee",
+                  "apprentice", "student", "university", "i", "ii", "practicante",
+                  "pasante", "becario", "aprendiz", "estágio", "estagiário"]
 SENIORITY_ALIASES = ["sr", "distinguished", "líder", "lider", "jefe", "gerente",
                      "sénior", "sênior"]
 
-
-def _get(url, timeout=20):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return json.loads(r.read().decode("utf-8", "replace"))
 
 
 def _title_has_term(title, term):
@@ -85,6 +87,29 @@ def is_senior_or_leadership(job, p):
     return any(_title_has_term(title, t) for t in domain_terms)
 
 
+def title_level(job, p):
+    """Classify a title: 'senior' (explicit Senior+/leadership tier AND a
+    domain term, the original strict gate), 'unstated' (a specific target-
+    role term but no level word at all, e.g. plain 'Platform Engineer'), or
+    None (off-domain, or explicitly junior).
+
+    2026-10-23, Vic: 'I need all the openings'. About 170 board roles and 34
+    Chile roles matched the domain but were dropped for lacking a seniority
+    word, even though many orgs just don't put one in the title. They now
+    pass, flagged 'Level not stated' so the card is honest. Explicit junior
+    markers still exclude. The generic 'engineering' domain term is NOT used
+    on this path (it only made sense next to a seniority word), otherwise
+    every 'Software Engineering ...' title would flood in."""
+    if is_senior_or_leadership(job, p):
+        return "senior"
+    title = job["title"].lower()
+    if any(_title_has_term(title, m) for m in JUNIOR_MARKERS):
+        return None
+    if any(_title_has_term(title, t) for t in p.get("target_titles", [])):
+        return "unstated"
+    return None
+
+
 def meets_comp_floor(job, p):
     """Only excludes when comp is actually disclosed and clearly below the
     floor. Most public ATS boards (Greenhouse/Lever/Ashby) never disclose
@@ -99,73 +124,6 @@ def meets_comp_floor(job, p):
     return (lo / 12) >= floor
 
 
-def _job(title, company, location, url, remote, desc, salary_min=None, salary_max=None):
-    return {
-        "title": (title or "").strip(),
-        "company": (company or "").strip(),
-        "location": (location or "").strip(),
-        "url": (url or "").strip(),
-        "remote": bool(remote),
-        "text": " ".join(filter(None, [title, company, location, desc])).lower(),
-        "salary_min": salary_min,
-        "salary_max": salary_max,
-    }
-
-
-def src_remotive(qs):
-    out = []
-    for q in qs:
-        try:
-            d = _get("https://remotive.com/api/remote-jobs?search=" + urllib.parse.quote(q))
-            for j in d.get("jobs", []):
-                out.append(_job(j.get("title"), j.get("company_name"),
-                                j.get("candidate_required_location"), j.get("url"),
-                                True, j.get("description", "")[:400]))
-        except Exception as e:
-            WARN.append(f"remotive:{type(e).__name__}")
-    return out
-
-
-def src_jobicy(qs):
-    out = []
-    for q in qs:
-        try:
-            d = _get("https://jobicy.com/api/v2/remote-jobs?count=50&tag=" + urllib.parse.quote(q))
-            for j in d.get("jobs", []):
-                out.append(_job(j.get("jobTitle"), j.get("companyName"), j.get("jobGeo"),
-                                j.get("url"), True, (j.get("jobExcerpt") or "")[:400]))
-        except Exception as e:
-            WARN.append(f"jobicy:{type(e).__name__}")
-    return out
-
-
-def src_arbeitnow():
-    out = []
-    try:
-        d = _get("https://www.arbeitnow.com/api/job-board-api")
-        for j in d.get("data", []):
-            tags = " ".join(j.get("tags", []) or [])
-            out.append(_job(j.get("title"), j.get("company_name"), j.get("location"),
-                            j.get("url"), j.get("remote", False),
-                            (j.get("description", "") or "")[:400] + " " + tags))
-    except Exception as e:
-        WARN.append(f"arbeitnow:{type(e).__name__}")
-    return out
-
-
-def src_remoteok(qs):
-    out = []
-    try:
-        d = _get("https://remoteok.com/api")
-        for j in [r for r in d if isinstance(r, dict) and r.get("position")]:
-            tags = " ".join(j.get("tags", []) or [])
-            out.append(_job(j.get("position"), j.get("company"), j.get("location") or "Remote",
-                            j.get("url"), True, (j.get("description", "") or "")[:300] + " " + tags,
-                            salary_min=j.get("salary_min"), salary_max=j.get("salary_max")))
-    except Exception as e:
-        WARN.append(f"remoteok:{type(e).__name__}")
-    return out
-
 
 def _load_companies():
     try:
@@ -175,143 +133,6 @@ def _load_companies():
         WARN.append(f"companies.json:{type(e).__name__}")
         return {}
 
-
-def humanize_company(slug, companies):
-    """ATS board slugs are plain lowercase URL segments ('grafanalabs',
-    'gitlab'), not display names. Prefer an explicit override from
-    companies.json's display_names map, fall back to a plain title-case
-    for anything not listed there (works fine for most single-word
-    slugs, e.g. 'samsara' -> 'Samsara')."""
-    overrides = companies.get("display_names", {})
-    return overrides.get(slug) or slug.replace("-", " ").title()
-
-
-def src_greenhouse(slugs, companies):
-    """Public, unauthenticated ATS board API. Companies opt into this feed
-    on purpose so their own careers page can render it."""
-    ATTEMPTED.append("greenhouse")
-    out = []
-    for slug in slugs:
-        try:
-            d = _get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true")
-            for j in d.get("jobs", []):
-                loc = (j.get("location") or {}).get("name", "")
-                row = _job(j.get("title"), humanize_company(slug, companies), loc, j.get("absolute_url"),
-                           "remote" in loc.lower(), (j.get("content") or "")[:400])
-                row["_career_root"] = f"https://job-boards.greenhouse.io/{slug}"
-                out.append(row)
-        except Exception as e:
-            WARN.append(f"greenhouse:{slug}:{type(e).__name__}")
-    return out
-
-
-def src_lever(slugs, companies):
-    """Public, unauthenticated ATS board API (same opt-in pattern as Greenhouse)."""
-    ATTEMPTED.append("lever")
-    out = []
-    for slug in slugs:
-        try:
-            d = _get(f"https://api.lever.co/v0/postings/{slug}?mode=json")
-            for j in d:
-                cats = j.get("categories", {}) or {}
-                loc = cats.get("location", "")
-                row = _job(j.get("text"), humanize_company(slug, companies), loc, j.get("hostedUrl"),
-                           "remote" in loc.lower(), (j.get("descriptionPlain") or "")[:400])
-                row["_career_root"] = f"https://jobs.lever.co/{slug}"
-                out.append(row)
-        except Exception as e:
-            WARN.append(f"lever:{slug}:{type(e).__name__}")
-    return out
-
-
-def src_ashby(slugs, companies):
-    """Public, unauthenticated ATS board API (same opt-in pattern as Greenhouse)."""
-    ATTEMPTED.append("ashby")
-    out = []
-    for slug in slugs:
-        try:
-            d = _get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}")
-            for j in d.get("jobs", []):
-                loc = j.get("location", "")
-                row = _job(j.get("title"), humanize_company(slug, companies), loc, j.get("jobUrl"),
-                           bool(j.get("isRemote")), (j.get("descriptionPlain") or "")[:400])
-                row["_career_root"] = f"https://jobs.ashbyhq.com/{slug}"
-                out.append(row)
-        except Exception as e:
-            WARN.append(f"ashby:{slug}:{type(e).__name__}")
-    return out
-
-
-def src_adzuna(qs, country="us"):
-    """Free-tier aggregator API. Skips cleanly if creds aren't set - no crash,
-    just fewer sources, same graceful-degrade pattern as sync-profile.yml.
-    Adzuna has no single global search, every query is scoped to one
-    country in the URL path itself, so covering multiple geographies means
-    calling this once per country code, not just adding more search terms
-    to one call."""
-    app_id = os.environ.get("ADZUNA_APP_ID")
-    app_key = os.environ.get("ADZUNA_APP_KEY")
-    if not app_id or not app_key:
-        return []
-    ATTEMPTED.append("adzuna")
-    out = []
-    for q in qs:
-        try:
-            url = (f"https://api.adzuna.com/v1/api/jobs/{country}/search/1"
-                   f"?app_id={app_id}&app_key={app_key}&results_per_page=40"
-                   f"&what={urllib.parse.quote(q)}&content-type=application/json")
-            d = _get(url)
-            for j in d.get("results", []):
-                loc = (j.get("location") or {}).get("display_name", "")
-                out.append(_job(j.get("title"), (j.get("company") or {}).get("display_name"),
-                                loc, j.get("redirect_url"), "remote" in loc.lower(),
-                                (j.get("description") or "")[:800],
-                                salary_min=j.get("salary_min"), salary_max=j.get("salary_max")))
-        except urllib.error.HTTPError as e:
-            # Capture the real status + a short body snippet, not just the
-            # exception class name, "HTTPError" alone hides whether this is
-            # bad creds (401), a malformed request (400), or a rate limit
-            # (429), each needs a different fix and a bare class name can't
-            # tell them apart.
-            try:
-                body = e.read().decode("utf-8", "replace")[:150]
-            except Exception:
-                body = ""
-            WARN.append(f"adzuna:{country}:HTTP{e.code}:{body}")
-        except Exception as e:
-            WARN.append(f"adzuna:{country}:{type(e).__name__}")
-    return out
-
-
-def src_workday(sites, qs):
-    """Public Workday CXS job-search endpoint, one board per entry in
-    companies.json's "workday" list. Fetch/parse lives in extra_sources."""
-    ATTEMPTED.append("workday")
-    out = []
-    for site in sites:
-        root = extra_sources.workday_root(site)
-        for q in qs:
-            try:
-                for row in extra_sources.workday_postings(site, q):
-                    job = _job(**row)
-                    job["_career_root"] = root
-                    out.append(job)
-            except Exception as e:
-                WARN.append(f"workday:{site['tenant']}:{type(e).__name__}")
-    return out
-
-
-def src_getonboard(qs):
-    """Get on Board, a Chile-based LatAm tech job board with a free public
-    API. Feeds Track E (LatAm/Chile) directly."""
-    ATTEMPTED.append("getonboard")
-    out = []
-    for q in qs:
-        try:
-            out.extend(_job(**row) for row in extra_sources.getonboard_postings(q))
-        except Exception as e:
-            WARN.append(f"getonboard:{type(e).__name__}")
-    return out
 
 
 def score(job, p):
@@ -380,6 +201,7 @@ def manual_portals(portals, companies):
     automated = {humanize_company(s, companies).lower()
                  for k in ("greenhouse", "lever", "ashby") for s in companies.get(k, [])}
     automated |= {(s.get("name") or s["tenant"]).lower() for s in companies.get("workday", [])}
+    automated |= {n.lower() for n in companies.get("automated_portal_names", [])}
     return [x for x in portals if x["company"].lower() not in automated]
 
 
@@ -552,14 +374,6 @@ def linkedin_searches():
     return [{"label": l, "url": b + urllib.parse.quote(k) + s} for l, k, s in combos]
 
 
-def sponsor_queries(titles):
-    """Build one 'visa sponsorship' Adzuna search phrase per title. Adzuna's
-    `what=` param is a single free-text field, not separate title/keyword
-    fields, so pairing each title with the sponsorship suffix in one string
-    is how we search for both at once."""
-    return [f"{t} visa sponsorship" for t in titles]
-
-
 def main():
     with open(PROFILE, encoding="utf-8") as f:
         p = json.load(f)
@@ -568,7 +382,6 @@ def main():
     ATTEMPTED.extend(["remotive", "jobicy", "arbeitnow", "remoteok"])
     search_titles = p.get("search_titles", {}).get("queries",
         ["sre", "devops", "platform engineer", "automation", "reliability"])
-    sponsor_qs = sponsor_queries(search_titles)
     fetched = {
         "remotive": src_remotive(search_titles),
         "jobicy": src_jobicy(["devops", "engineering", "python"]),
@@ -579,35 +392,20 @@ def main():
         "ashby": src_ashby(companies.get("ashby", []), companies),
         "workday": src_workday(companies.get("workday", []), search_titles),
         "getonboard": src_getonboard(search_titles),
-        # Track D (US sponsor) and Track C (Europe sponsor) both hard-
-        # require literal visa/sponsor language in the posting text.
-        # Raw ATS feeds (Greenhouse/Lever/Ashby) almost never spell that
-        # out, it's usually an interview conversation, not JSON payload
-        # text. Adzuna aggregates recruiter-written postings that more
-        # often call out sponsorship explicitly, and its `what=` param
-        # free-text searches title+description, so pairing every title
-        # in search_titles with 'visa sponsorship' (see sponsor_queries)
-        # surfaces postings that already contain both. Every US query
-        # here now covers the FULL search_titles list, not a hardcoded
-        # 3-4 term subset, per Vic 2026-08-27: previously CTO/CIO/Head of
-        # AI/Senior AI Engineer/SRE Manager/Senior SRE Lead/Senior AI
-        # Lead were never searched for anywhere in this file.
-        "adzuna_us": src_adzuna(search_titles + sponsor_qs, country="us"),
-        # Same sponsor-query logic, Track C. Adzuna has no single global
-        # search, every call is scoped to one country's job market.
-        # DE/NL confirmed working from earlier runs; ES added 2026-08-27
-        # (Spain widen), unverified until a live run confirms it
-        # actually returns results, same caveat as DE/NL originally had.
-        "adzuna_de": src_adzuna(sponsor_qs, country="de"),
-        "adzuna_nl": src_adzuna(sponsor_qs, country="nl"),
-        "adzuna_es": src_adzuna(sponsor_qs, country="es"),
-        # CL tried 2026-09-14, CONFIRMED unsupported: Adzuna returned a
-        # real HTTP404 UNSUPPORTED_COUNTRY response, its documented
-        # coverage is at/au/be/br/ca/ch/de/es/fr/gb/in/it/mx/nl/nz/pl/
-        # sg/us/za, no Chile. Removed rather than left in as permanent
-        # warning noise. Brazil (br) and Mexico (mx) ARE supported if
-        # broader LatAm-via-Adzuna reach is ever wanted later, that's a
-        # separate ask, not built here.
+        "amazon": src_amazon(search_titles),
+        "microsoft": src_microsoft(search_titles),
+        # Adzuna, one call set per country (its API has no global search).
+        # 2026-10-23 ROOT CAUSE of the "DE/NL/ES return 0" mystery, verified
+        # live: every '<title> visa sponsorship' query returns 0 results in
+        # EVERY country, the US included, because Adzuna ANDs all words.
+        # DE/NL/ES only ever ran those queries, so they were always empty,
+        # and the 18 US sponsor queries were wasted quota. Plain title
+        # queries return plenty (e.g. DE 153 to 1272 per title). Sponsorship
+        # is still detected from posting text (visa / us_sponsor badges).
+        # GB, MX and BR added: all verified to return results, MX/BR feed
+        # Track E. CL is unsupported by Adzuna (HTTP404 UNSUPPORTED_COUNTRY).
+        **{f"adzuna_{cc}": src_adzuna(search_titles, country=cc)
+           for cc in ADZUNA_COUNTRIES},
     }
     jobs = [j for rows in fetched.values() for j in rows]
 
@@ -621,16 +419,19 @@ def main():
     # Funnel: how many postings survive each gate, so the dashboard can say
     # WHY the count is what it is instead of leaving it a mystery.
     funnel = {"fetched": len(jobs), "unique": len(uniq), "score_ok": 0,
-              "title_ok": 0, "comp_ok": 0}
+              "title_ok": 0, "title_senior": 0, "title_unstated": 0, "comp_ok": 0}
     buckets = {"B": [], "C": [], "D": [], "E": []}
     for j in uniq:
         s = score(j, p)
         if s < p.get("min_score", 3):
             continue
         funnel["score_ok"] += 1
-        if not is_senior_or_leadership(j, p):
+        level = title_level(j, p)
+        if level is None:
             continue
         funnel["title_ok"] += 1
+        funnel[f"title_{level}"] += 1
+        j["_level"] = level
         if not meets_comp_floor(j, p):
             continue
         funnel["comp_ok"] += 1
@@ -647,7 +448,8 @@ def main():
             rows.append({"title": j["title"], "company": j["company"], "location": j["location"],
                          "url": j["url"], "score": j["_score"], "grade": g, "match": pct,
                          "visa": j.get("visa", False), "us_sponsor": j.get("us_sponsor", False),
-                         "reasons": reasons_for(j, p),
+                         "reasons": reasons_for(j, p) + (["Level not stated"] if j["_level"] == "unstated" else []),
+                         "level": j["_level"],
                          "salary_min": j.get("salary_min"), "salary_max": j.get("salary_max"),
                          "comp_disclosed": j.get("salary_min") is not None})
         return rows
