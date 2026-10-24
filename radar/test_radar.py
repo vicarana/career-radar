@@ -18,9 +18,11 @@ Run: python3 radar/test_radar.py
 import sys
 import unittest
 from pathlib import Path
+from unittest import mock
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import radar  # noqa: E402
+import sources  # noqa: E402
 
 
 class HumanizeCompanyTests(unittest.TestCase):
@@ -184,6 +186,32 @@ class CollapseMassPostedTests(unittest.TestCase):
         jobs = [self._job("Senior SRE", c, "Paris") for c in ("A", "B", "C", "D", "E", "F")]
         kept, _ = radar.collapse_mass_posted(jobs)
         self.assertEqual(len(kept), 6)
+
+
+class AdzunaUndisclosedCompanyTests(unittest.TestCase):
+    @staticmethod
+    def _canned(*companies):
+        return {"count": len(companies), "results": [
+            {"title": "Devops Engineer", "company": c, "redirect_url": f"https://adzuna.test/{i}",
+             "location": {"display_name": "Sao Paulo", "area": ["Brasil"]}, "description": ""}
+            for i, c in enumerate(companies)]}
+
+    def _run(self, payload):
+        env = {"ADZUNA_APP_ID": "x", "ADZUNA_APP_KEY": "y"}
+        with mock.patch.dict("os.environ", env), mock.patch.object(sources, "_get", return_value=payload):
+            return sources.src_adzuna(["devops"], country="br")
+
+    def test_missing_or_blank_employer_gets_visible_label(self):
+        rows = self._run(self._canned(None, {}, {"display_name": "  "}, {"display_name": "Acme"}))
+        self.assertEqual([r["company"] for r in rows],
+                         [sources.UNDISCLOSED_COMPANY] * 3 + ["Acme"])
+
+    def test_anonymous_ads_never_merge_even_at_five_locations(self):
+        jobs = [{"title": "Devops Engineer", "company": sources.UNDISCLOSED_COMPANY,
+                 "location": f"City {i}", "url": f"https://adzuna.test/{i}", "_score": 1}
+                for i in range(6)]
+        kept, removed = radar.collapse_mass_posted(jobs)
+        self.assertEqual((len(kept), removed), (6, 0))
 
 
 class FailedQueryWarningTests(unittest.TestCase):

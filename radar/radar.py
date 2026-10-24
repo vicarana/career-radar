@@ -22,7 +22,7 @@ import urllib.parse
 
 import extra_sources
 from sources import (  # noqa: F401  (re-exported: tests patch radar.src_*)
-    ATTEMPTED, WARN, UA, _get, _job, humanize_company, src_adzuna, src_amazon,
+    ATTEMPTED, WARN, UA, UNDISCLOSED_COMPANY, _get, _job, humanize_company, src_adzuna, src_amazon,
     src_arbeitnow, src_ashby, src_getonboard, src_greenhouse, src_jobicy, src_lever,
     src_microsoft, src_remotive, src_remoteok, src_workday)
 
@@ -122,7 +122,12 @@ def collapse_mass_posted(jobs):
     """
     groups = {}
     for j in jobs:
-        groups.setdefault((j["title"].lower().strip(), j["company"].lower().strip()), []).append(j)
+        company = j["company"].lower().strip()
+        if company == UNDISCLOSED_COMPANY.lower():
+            # Unknown employers are not one employer: key by URL so two
+            # anonymous ads with the same title never merge.
+            company = j.get("url") or str(id(j))
+        groups.setdefault((j["title"].lower().strip(), company), []).append(j)
     keep = set()
     for members in groups.values():
         if len(members) >= MASS_POST_MIN:

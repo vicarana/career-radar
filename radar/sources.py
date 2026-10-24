@@ -31,6 +31,12 @@ def _get(url, timeout=20):
         return json.loads(r.read().decode("utf-8", "replace"))
 
 
+# Adzuna omits the employer on confidential and some agency posts (10 of
+# ~1,300 rows on 2026-10-24, all Brazil/Spain). The name is not recoverable,
+# so say so on the card instead of rendering a blank company.
+UNDISCLOSED_COMPANY = "Company not disclosed"
+
+
 def _job(title, company, location, url, remote, desc, salary_min=None, salary_max=None):
     return {
         "title": (title or "").strip(),
@@ -197,7 +203,8 @@ def src_adzuna(qs, country="us"):
                 area = (j.get("location") or {}).get("area") or []
                 if area and area[0].lower() not in loc.lower():
                     loc = f"{loc}, {area[0]}" if loc else area[0]
-                out.append(_job(j.get("title"), (j.get("company") or {}).get("display_name"),
+                employer = ((j.get("company") or {}).get("display_name") or "").strip()
+                out.append(_job(j.get("title"), employer or UNDISCLOSED_COMPANY,
                                 loc, j.get("redirect_url"), "remote" in loc.lower(),
                                 (j.get("description") or "")[:800],
                                 salary_min=j.get("salary_min"), salary_max=j.get("salary_max")))
