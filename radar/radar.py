@@ -38,6 +38,10 @@ DATA = os.path.join(ROOT, "docs", "data")
 # because only the spelled-out 'senior' was recognized. Spanish/Portuguese
 # leadership words added the same day: Get on Board (Chile) titles read
 # 'Lider DevOps' / 'Líder Técnico DevOps', which the English-only list missed.
+# Same title + company in this many locations or more is a mass-posted ad,
+# not that many openings (2026-10-23: one German "career changer" training ad
+# showed up in 48 cities, a "Founding CTO" ad in 22).
+MASS_POST_MIN = 5
 ADZUNA_COUNTRIES = ["us", "gb", "de", "nl", "es", "mx", "br"]
 # Explicit entry-level / mid-level markers that exclude a title with no
 # seniority word. Short ones match as whole words (see _title_has_term), so
@@ -108,6 +112,32 @@ def title_level(job, p):
     if any(_title_has_term(title, t) for t in p.get("target_titles", [])):
         return "unstated"
     return None
+
+
+def collapse_mass_posted(jobs):
+    """Return (kept, removed_count). Within each (title, company) group:
+    5+ members collapse to the best-scoring one, tagged with how many
+    locations it was posted in; smaller groups keep every location but drop
+    exact same-location duplicates. Input order of survivors is preserved.
+    """
+    groups = {}
+    for j in jobs:
+        groups.setdefault((j["title"].lower().strip(), j["company"].lower().strip()), []).append(j)
+    keep = set()
+    for members in groups.values():
+        if len(members) >= MASS_POST_MIN:
+            best = max(members, key=lambda x: x["_score"])
+            best["_posted_in"] = len(members)
+            keep.add(id(best))
+            continue
+        seen_loc = set()
+        for m in members:
+            loc = m["location"].lower().strip()
+            if loc not in seen_loc:
+                seen_loc.add(loc)
+                keep.add(id(m))
+    kept = [j for j in jobs if id(j) in keep]
+    return kept, len(jobs) - len(kept)
 
 
 def meets_comp_floor(job, p):
@@ -419,8 +449,9 @@ def main():
     # Funnel: how many postings survive each gate, so the dashboard can say
     # WHY the count is what it is instead of leaving it a mystery.
     funnel = {"fetched": len(jobs), "unique": len(uniq), "score_ok": 0,
-              "title_ok": 0, "title_senior": 0, "title_unstated": 0, "comp_ok": 0}
+              "title_ok": 0, "title_senior": 0, "title_unstated": 0, "comp_ok": 0, "collapsed": 0}
     buckets = {"B": [], "C": [], "D": [], "E": []}
+    passed = []
     for j in uniq:
         s = score(j, p)
         if s < p.get("min_score", 3):
@@ -436,6 +467,9 @@ def main():
             continue
         funnel["comp_ok"] += 1
         j["_score"] = s
+        passed.append(j)
+    passed, funnel["collapsed"] = collapse_mass_posted(passed)
+    for j in passed:
         for tk in tracks_of(j, p):
             buckets[tk].append(j)
     for tk in buckets:
@@ -448,7 +482,8 @@ def main():
             rows.append({"title": j["title"], "company": j["company"], "location": j["location"],
                          "url": j["url"], "score": j["_score"], "grade": g, "match": pct,
                          "visa": j.get("visa", False), "us_sponsor": j.get("us_sponsor", False),
-                         "reasons": reasons_for(j, p) + (["Level not stated"] if j["_level"] == "unstated" else []),
+                         "reasons": reasons_for(j, p) + (["Level not stated"] if j["_level"] == "unstated" else [])
+                                     + ([f"Posted in {j['_posted_in']} locations"] if j.get("_posted_in") else []),
                          "level": j["_level"],
                          "salary_min": j.get("salary_min"), "salary_max": j.get("salary_max"),
                          "comp_disclosed": j.get("salary_min") is not None})

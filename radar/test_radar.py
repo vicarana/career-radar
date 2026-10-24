@@ -156,6 +156,62 @@ class TitleLevelTests(unittest.TestCase):
         self.assertEqual(self._lvl("DevOps Engineer, Insights"), "unstated")
 
 
+class CollapseMassPostedTests(unittest.TestCase):
+    @staticmethod
+    def _job(title, company, loc, score=5):
+        return {"title": title, "company": company, "location": loc, "_score": score}
+
+    def test_five_or_more_locations_collapse_to_best_scoring_one(self):
+        jobs = [self._job("Prompt Engineer", "Spam GmbH", f"City {i}", score=i) for i in range(6)]
+        kept, removed = radar.collapse_mass_posted(jobs)
+        self.assertEqual(len(kept), 1)
+        self.assertEqual(removed, 5)
+        self.assertEqual(kept[0]["_score"], 5)
+        self.assertEqual(kept[0]["_posted_in"], 6)
+
+    def test_small_groups_keep_each_distinct_location(self):
+        jobs = [self._job("Senior SRE", "Acme", loc) for loc in ("Paris", "Dublin", "Berlin")]
+        kept, removed = radar.collapse_mass_posted(jobs)
+        self.assertEqual((len(kept), removed), (3, 0))
+        self.assertFalse(any("_posted_in" in j for j in kept))
+
+    def test_exact_same_location_duplicates_are_dropped(self):
+        jobs = [self._job("Senior SRE", "Acme", "Paris"), self._job("Senior SRE", "Acme", " paris ")]
+        kept, removed = radar.collapse_mass_posted(jobs)
+        self.assertEqual((len(kept), removed), (1, 1))
+
+    def test_different_companies_never_merge(self):
+        jobs = [self._job("Senior SRE", c, "Paris") for c in ("A", "B", "C", "D", "E", "F")]
+        kept, _ = radar.collapse_mass_posted(jobs)
+        self.assertEqual(len(kept), 6)
+
+
+class FailedQueryWarningTests(unittest.TestCase):
+    def test_http_error_keeps_code_and_query(self):
+        import urllib.error
+        import sources
+
+        sources.WARN.clear()
+
+        def boom(q):
+            raise urllib.error.HTTPError("u", 429, "Too Many", {}, None)
+
+        out = sources._from_queries("microsoft", ["sre"], boom)
+        self.assertEqual(out, [])
+        self.assertEqual(sources.WARN, ["microsoft:HTTP429:sre"])
+
+    def test_other_errors_keep_class_and_query(self):
+        import sources
+
+        sources.WARN.clear()
+
+        def boom(q):
+            raise ValueError("x")
+
+        sources._from_queries("amazon", ["devops"], boom)
+        self.assertEqual(sources.WARN, ["amazon:ValueError:devops"])
+
+
 class ManualPortalsTests(unittest.TestCase):
     def test_drops_companies_that_now_have_an_automated_feed(self):
         companies = {"greenhouse": ["anthropic"], "ashby": ["openai"],

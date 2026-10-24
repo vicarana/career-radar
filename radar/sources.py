@@ -243,8 +243,12 @@ def _from_queries(name, qs, rows_for):
     for q in qs:
         try:
             out.extend(_job(**row) for row in rows_for(q))
+        except urllib.error.HTTPError as e:
+            # The bare class name hides whether this is a rate limit (429),
+            # a block (403) or a bad request (400). Keep the code + query.
+            WARN.append(f"{name}:HTTP{e.code}:{q}")
         except Exception as e:
-            WARN.append(f"{name}:{type(e).__name__}")
+            WARN.append(f"{name}:{type(e).__name__}:{q}")
     return out
 
 
