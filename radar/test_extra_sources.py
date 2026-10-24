@@ -160,5 +160,60 @@ class MicrosoftTests(unittest.TestCase):
         self.assertEqual(extra_sources.TRUNCATED, ["microsoft:sre"])
 
 
+class RetryTests(unittest.TestCase):
+    class _Resp:
+        def __init__(self, body):
+            self._b = body
+
+        def read(self):
+            return self._b
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return False
+
+    @staticmethod
+    def _err(code, retry_after=None):
+        import urllib.error
+        hdrs = {"Retry-After": retry_after} if retry_after else {}
+        return urllib.error.HTTPError("u", code, "x", hdrs, None)
+
+    def test_retries_429_then_succeeds_honoring_retry_after(self):
+        ok = self._Resp(b'{"a": 1}')
+        with mock.patch("urllib.request.urlopen", side_effect=[self._err(429, "7"), self._err(429), ok]), \
+                mock.patch.object(extra_sources.time, "sleep") as sleep:
+            self.assertEqual(extra_sources._request_json("http://x"), {"a": 1})
+        self.assertEqual([c.args[0] for c in sleep.call_args_list], [7.0, 4])
+
+    def test_gives_up_after_max_retries_and_raises(self):
+        import urllib.error
+        errs = [self._err(429) for _ in range(extra_sources.RETRY_MAX + 1)]
+        with mock.patch("urllib.request.urlopen", side_effect=errs) as op, \
+                mock.patch.object(extra_sources.time, "sleep"):
+            with self.assertRaises(urllib.error.HTTPError):
+                extra_sources._request_json("http://x")
+        self.assertEqual(op.call_count, extra_sources.RETRY_MAX + 1)
+
+    def test_non_retryable_error_raises_immediately(self):
+        import urllib.error
+        with mock.patch("urllib.request.urlopen", side_effect=[self._err(404)]) as op, \
+                mock.patch.object(extra_sources.time, "sleep") as sleep:
+            with self.assertRaises(urllib.error.HTTPError):
+                extra_sources._request_json("http://x")
+        self.assertEqual(op.call_count, 1)
+        sleep.assert_not_called()
+
+    def test_retry_wait_is_capped(self):
+        self.assertEqual(extra_sources._retry_wait(self._err(429, "999"), 0), 30.0)
+
+    def test_pause_applies_after_success(self):
+        with mock.patch("urllib.request.urlopen", return_value=self._Resp(b"{}")), \
+                mock.patch.object(extra_sources.time, "sleep") as sleep:
+            extra_sources._request_json("http://x", pause=0.5)
+        sleep.assert_called_once_with(0.5)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -15,6 +15,8 @@ from __future__ import annotations
 
 import json
 import re
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -34,18 +36,49 @@ AMAZON_MAX_PAGES = 3
 MICROSOFT_PAGE = 10  # verified: the endpoint serves 10 rows per call.
 MICROSOFT_MAX_PAGES = 5
 TRUNCATED = []
+RETRY_STATUSES = (429, 503)
+RETRY_MAX = 3
+GETONBOARD_PAUSE = 0.5  # seconds between calls, it rate limits (HTTP 429)
+MICROSOFT_PAUSE = 1.0
 _TAGS = re.compile(r"<[^>]+>")
 
 
-def _request_json(url, body=None, timeout=25):
+def _retry_wait(err, attempt):
+    """Seconds to wait before retrying a refused request: honor Retry-After
+    when it is a number, else back off 2s, 4s, 8s. Capped at 30s."""
+    try:
+        header = float((err.headers or {}).get("Retry-After"))
+    except (TypeError, ValueError):
+        header = 0.0
+    return min(header or 2 ** (attempt + 1), 30.0)
+
+
+def _request_json(url, body=None, timeout=25, pause=0.0):
+    """GET (or POST when `body` is given) and parse JSON.
+
+    Retries 429/503 up to RETRY_MAX times, then raises. `pause` sleeps after a
+    successful call, for hosts that rate limit (2026-10-23: Microsoft and Get
+    on Board answered HTTP 429 when queried at full speed, silently losing
+    most queries). Any other error raises immediately and loudly.
+    """
     headers = {"User-Agent": UA, "Accept": "application/json"}
     data = None
     if body is not None:
         data = json.dumps(body).encode("utf-8")
         headers["Content-Type"] = "application/json"
-    req = urllib.request.Request(url, data=data, headers=headers)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return json.loads(r.read().decode("utf-8", "replace"))
+    for attempt in range(RETRY_MAX + 1):
+        try:
+            req = urllib.request.Request(url, data=data, headers=headers)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                parsed = json.loads(r.read().decode("utf-8", "replace"))
+            break
+        except urllib.error.HTTPError as err:
+            if err.code not in RETRY_STATUSES or attempt == RETRY_MAX:
+                raise
+            time.sleep(_retry_wait(err, attempt))
+    if pause:
+        time.sleep(pause)
+    return parsed
 
 
 def workday_root(site):
@@ -97,7 +130,7 @@ def getonboard_postings(query):
             break
         d = _request_json("https://www.getonbrd.com/api/v0/search/jobs?query="
                           f"{urllib.parse.quote(query)}&per_page={GETONBOARD_PAGE}"
-                          f"&page={page}&expand=%5B%22company%22%5D")
+                          f"&page={page}&expand=%5B%22company%22%5D", pause=GETONBOARD_PAUSE)
         pages = (d.get("meta") or {}).get("total_pages", 1)
         for j in d.get("data", []):
             a = j.get("attributes") or {}
@@ -160,7 +193,8 @@ def microsoft_postings(query):
             TRUNCATED.append(f"microsoft:{query}")
             break
         d = _request_json("https://apply.careers.microsoft.com/api/pcsx/search"
-                          f"?domain=microsoft.com&query={urllib.parse.quote(query)}&start={start}")
+                          f"?domain=microsoft.com&query={urllib.parse.quote(query)}&start={start}",
+                          pause=MICROSOFT_PAUSE)
         pages_read += 1
         data = d.get("data") or {}
         if total is None:
