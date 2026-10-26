@@ -198,7 +198,7 @@ class AdzunaUndisclosedCompanyTests(unittest.TestCase):
 
     def _run(self, payload):
         env = {"ADZUNA_APP_ID": "x", "ADZUNA_APP_KEY": "y"}
-        with mock.patch.dict("os.environ", env), mock.patch.object(sources, "_get", return_value=payload):
+        with mock.patch.dict("os.environ", env), mock.patch.object(sources.extra_sources, "_request_json", return_value=payload):
             return sources.src_adzuna(["devops"], country="br")
 
     def test_missing_or_blank_employer_gets_visible_label(self):
@@ -212,6 +212,57 @@ class AdzunaUndisclosedCompanyTests(unittest.TestCase):
                 for i in range(6)]
         kept, removed = radar.collapse_mass_posted(jobs)
         self.assertEqual((len(kept), removed), (6, 0))
+
+
+class AdzunaRetryTests(unittest.TestCase):
+    ENV = {"ADZUNA_APP_ID": "x", "ADZUNA_APP_KEY": "y"}
+
+    class _Resp:
+        def __init__(self, body):
+            self._b = body
+
+        def read(self):
+            return self._b
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return False
+
+    @staticmethod
+    def _err(code):
+        import urllib.error
+        return urllib.error.HTTPError("u", code, "x", {}, None)
+
+    def _run(self, side_effect, queries):
+        sources.WARN.clear()
+        with mock.patch.dict("os.environ", self.ENV), \
+                mock.patch("urllib.request.urlopen", side_effect=side_effect) as op, \
+                mock.patch.object(sources.extra_sources.time, "sleep"):
+            rows = sources.src_adzuna(queries, country="gb")
+        return rows, op.call_count
+
+    def test_transient_503_is_retried_and_rows_come_back(self):
+        ok = self._Resp(b'{"count": 1, "results": [{"title": "SRE", "company": {"display_name": "Acme"},'
+                        b' "redirect_url": "https://adzuna.test/1", "location": {"display_name": "London"}}]}')
+        rows, calls = self._run([self._err(503), ok], ["sre"])
+        self.assertEqual([r["company"] for r in rows], ["Acme"])
+        self.assertEqual(calls, 2)
+        self.assertEqual(sources.WARN, [])
+
+    def test_persistent_503_skips_remaining_queries_of_that_country(self):
+        errs = [self._err(503) for _ in range(sources.extra_sources.RETRY_MAX + 1)]
+        rows, calls = self._run(errs, ["sre", "devops", "platform"])
+        self.assertEqual(rows, [])
+        self.assertEqual(calls, sources.extra_sources.RETRY_MAX + 1)  # one query only, not three
+        self.assertEqual(len(sources.WARN), 1)
+        self.assertTrue(sources.WARN[0].startswith("adzuna:gb:HTTP503"))
+
+    def test_non_retryable_error_does_not_skip_other_queries(self):
+        rows, calls = self._run([self._err(400), self._err(400)], ["sre", "devops"])
+        self.assertEqual((rows, calls), ([], 2))
+        self.assertEqual(len(sources.WARN), 2)
 
 
 class FailedQueryWarningTests(unittest.TestCase):

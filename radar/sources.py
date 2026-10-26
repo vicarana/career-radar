@@ -189,7 +189,9 @@ def src_adzuna(qs, country="us"):
             url = (f"https://api.adzuna.com/v1/api/jobs/{country}/search/1"
                    f"?app_id={app_id}&app_key={app_key}&results_per_page=50"
                    f"&what={urllib.parse.quote(q)}&content-type=application/json")
-            d = _get(url)
+            # Shared helper: retries 429/503 (Adzuna answered HTTP 503 on and
+            # off 2026-10-23/24, a different country each run), honors Retry-After.
+            d = extra_sources._request_json(url, timeout=20)
             # Page 1 only (50 rows) on purpose: the free tier is quota
             # limited and 7 countries x 18 titles is already ~126 calls.
             # When Adzuna has more, say so in the output, never silently.
@@ -219,6 +221,11 @@ def src_adzuna(qs, country="us"):
             except Exception:
                 body = ""
             WARN.append(f"adzuna:{country}:HTTP{e.code}:{body}")
+            if e.code in extra_sources.RETRY_STATUSES:
+                # Retries already ran out. The country is down or throttling us,
+                # so each remaining query would only burn another round of
+                # waits (up to 14 s). Skip them, the next run tries again.
+                break
         except Exception as e:
             WARN.append(f"adzuna:{country}:{type(e).__name__}")
     return out
