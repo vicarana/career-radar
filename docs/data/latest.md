@@ -1,16 +1,16 @@
-# career-radar - 2026-11-06 11:09 UTC
+# career-radar - 2026-11-07 11:09 UTC
 Sources OK: 11/12
 
 
-## 75%+ match, strongest-fit postings (51)
+## 75%+ match, strongest-fit postings (52)
 - 99% AI Infrastructure Platform Engineer @ Niuro (Remote) https://www.getonbrd.com/jobs/ai-infrastructure-platform-engineer-niuro-remote-e893
 - 99% Senior Cloud Networking SRE @ Softserve (Remote) https://www.getonbrd.com/jobs/senior-cloud-networking-sre-softserve-remote
-- 99% Cloud Networking SRE @ Softserve (Remote) https://www.getonbrd.com/jobs/cloud-networking-sre-softserve-remote
 - 99% Lead Agentic AI Consultant @ Softserve (Remote) https://www.getonbrd.com/jobs/lead-agentic-ai-consultant-softserve-remote
 - 99% Senior AI Engineer (GenAI, Python, LLMs) / Sector Bancario @ Devsu (Remote) https://www.getonbrd.com/jobs/senior-ai-engineer-genai-python-llms-sector-bancario-devsu-remote
 - 99% Ingeniero DevOps Semi Senior @ BC Tecnología (Chile) https://www.getonbrd.com/jobs/ingeniero-devops-semi-senior-bc-tecnologia-santiago-36a8
 - 99% Forward Deployed AI Engineer @ Devsu (Remote) https://www.getonbrd.com/jobs/forward-deployed-ai-engineer-devsu-remote
 - 99% Senior AWS Site Reliability Engineers - 2850 @ Xideral (Guadalajara, Jalisco, México) https://www.adzuna.com.mx/details/5890787831?utm_medium=api&utm_source=4076fe36
+- 99% Agentic AI Platform Engineer @ eSolutionsFirst, LLC (Vienna, Fairfax County, US) https://www.adzuna.com/land/ad/5940548671?se=su7vh5va8RGMj86c16zqBQ&utm_medium=api&utm_source=4076fe36&v=C1889E8B8253E40925224B3253BCADA436DCBCB6
 - 99% SRE Engineer (Site Reliability Engineer) @ Factor IT (Colombia) https://www.getonbrd.com/jobs/sre-engineer-site-reliability-engineer-factor-it-bogota
 - 99% Senior AWS Site Reliability Engineers - 2850 @ Xideral (Guadalajara, Jalisco, México) https://www.adzuna.com.mx/details/5890787831?utm_medium=api&utm_source=4076fe36
 - 99% DevOps Engineer / Cloud Engineer (LATAM) @ BC Tecnología (Remote) https://www.getonbrd.com/jobs/devops-engineer-cloud-engineer-latam-bc-tecnologia-remote
@@ -19,7 +19,7 @@ Sources OK: 11/12
 - 95% Líder Técnico DevOps (WebLogic) @ BC Tecnología (Remote) https://www.getonbrd.com/jobs/lider-tecnico-devops-weblogic-bc-tecnologia-remote
 - 95% SRE / DevOps Engineer @ BC Tecnología (Remote) https://www.getonbrd.com/jobs/sre-devops-engineer-bc-tecnologia-remote
 
-## Track D - US (sponsorship not guaranteed, check per-role) (127)
+## Track D - US (sponsorship not guaranteed, check per-role) (120)
 - AWS Infrastructure Engineer @ Niuro (Remote) s14 https://www.getonbrd.com/jobs/aws-infrastructure-engineer-niuro-remote
 - Back-end AI Engineer Python / LLM Orchestration @ Improving (Remote) s13 https://www.getonbrd.com/jobs/backend-ai-engineer-python-llm-orchestration-improving-remote
 - DevOps Engineer @ Pavago (México) s13 https://www.adzuna.com.mx/details/5740820010?utm_medium=api&utm_source=4076fe36
@@ -31,23 +31,25 @@ Sources OK: 11/12
 - Site Reliability Engineer, Infrastructure Platforms — AMER (Intermediate to Senior Staff) @ GitLab (Remote, Canada; Remote, US) s10 https://job-boards.greenhouse.io/gitlab/jobs/8623389002
 - Infrastructure Engineer - SRE @ Workos (United States & Canada) s10 https://jobs.ashbyhq.com/workos/cff5a16f-fd1c-4b64-9b66-8a8321122375
 - Engineering Manager, Cloud Engineering @ LaunchDarkly (Remote - US) s9 https://job-boards.greenhouse.io/launchdarkly/jobs/8004607003
+- Sr. Platform Engineer - Linux/Kubernetes @ Request Technology, LLC (Schiller Park, Cook County, US) s9 https://www.adzuna.com/land/ad/5955569263?se=5DJ9f5va8RGzCKIGhSyn9w&utm_medium=api&utm_source=4076fe36&v=B677D3CAD50ADEACF9486B0815C6E06D0749688E
 - AI Engineer - Generative AI & AWS @ Workana (México) s9 https://www.adzuna.com.mx/details/5774053890?utm_medium=api&utm_source=4076fe36
 - Director of Engineering, Cloud & Reliability @ Boulevard (USA) s8 https://jobicy.com/jobs/152496-director-of-engineering-cloud-reliability-2
-- Site Reliability Engineer 2 @ Kong Inc. (USA) s8 https://jobicy.com/jobs/154637-site-reliability-engineer-2-3
 - Director, GTM AI Engineering @ Samsara (Remote - US) s8 https://www.samsara.com/company/careers/roles/8261007?gh_jid=8261007
 - Senior ServiceNow Platform Engineer @ Abnormalsecurity (Remote - USA) s8 https://abnormal.ai/careers/jobs/8011780003?gh_jid=8011780003
 - Engineering Manager, Client Platform Engineering @ OpenAI (San Francisco) s8 https://jobs.ashbyhq.com/openai/5df9e349-f8e1-4cfd-ba20-ec9e4115d564
 - Applied AI Engineer @ Workos (United States & Canada) s8 https://jobs.ashbyhq.com/workos/5e650527-d8dd-413a-9cfb-d7d68143274b
-- Senior AI Agent Engineer @ Weekday AI (US) s8 https://www.adzuna.com/details/5730411385?utm_medium=api&utm_source=4076fe36
+- Director of AI @ ClearBridge Technology Group (Massachusetts, US) s8 https://www.adzuna.com/land/ad/5946253273?se=dDW-iJva8RGjeNQBudm3mQ&utm_medium=api&utm_source=4076fe36&v=C82851A42806D499747BCE5C8F75EEE745C16217
 - Site Reliability Engineer, Tech Lead @ Loadsmart (Brasil) s8 https://www.adzuna.com.br/details/5886368224?utm_medium=api&utm_source=4076fe36
 
-## Track C - Europe (sponsorship not guaranteed, check per-role) (435)
+## Track C - Europe (sponsorship not guaranteed, check per-role) (436)
+- Agentic AI Platform Engineer @ eSolutionsFirst, LLC (Vienna, Fairfax County, US) s21 https://www.adzuna.com/land/ad/5940548671?se=su7vh5va8RGMj86c16zqBQ&utm_medium=api&utm_source=4076fe36&v=C1889E8B8253E40925224B3253BCADA436DCBCB6
 - Digital Site Reliability Engineer @ Radisson Hotel Group (Madrid, España) s19 https://www.adzuna.es/details/5947325610?utm_medium=api&utm_source=4076fe36
 - Senior Cloud Platform Engineer & SRE Lead @ Flywire (Valencia, Comunidad Valenciana, España) s18 https://www.adzuna.es/details/5937848064?utm_medium=api&utm_source=4076fe36
-- Cloud & Infrastructure SRE Manager @ MAT CZE Materialise SRO (Barcelona, Cataluña, España) s17 https://www.adzuna.es/details/5944874749?utm_medium=api&utm_source=4076fe36
-- Devops Engineer @ Ocho (Belfast, Northern Ireland, UK) s16 https://www.adzuna.co.uk/jobs/land/ad/5945823965?se=VsznWtLZ8RGTTKLvN8-x8A&utm_medium=api&utm_source=4076fe36&v=F853E8F5720CC97F89DD4560DEB30375FE5A86F8
+- Cloud & Infrastructure SRE Manager @ Mat Cze Materialise Sro (Barcelona, Cataluña, España) s17 https://www.adzuna.es/details/5944874749?utm_medium=api&utm_source=4076fe36
+- Devops Engineer @ Ocho (Belfast, Northern Ireland, UK) s16 https://www.adzuna.co.uk/jobs/land/ad/5945823965?se=sp5pi5va8RGzCKIGhSyn9w&utm_medium=api&utm_source=4076fe36&v=F853E8F5720CC97F89DD4560DEB30375FE5A86F8
+- DevOps Engineer (m/w/d) @ TÜV NORD Service GmbH & Co. KG (Bahrenfeld, Hamburg, Deutschland) s16 https://www.adzuna.de/land/ad/5936616765?se=8O52lZva8RGIoukAzhusmQ&utm_medium=api&utm_source=4076fe36&v=2B89C7A14981D63ABF11C156CA5E155BED340983
+- Senior Site Reliability Engineer (SRE) @ Mirantis (Barcelona, Cataluña, España) s16 https://www.adzuna.es/details/5955338637?utm_medium=api&utm_source=4076fe36
 - Senior AI Platform Engineer: Kubernetes, GPU & MLOps @ evoila (Madrid, Comunidad de Madrid, España) s15 https://www.adzuna.es/details/5927287123?utm_medium=api&utm_source=4076fe36
-- Senior Site Reliability Engineer — Token Factory (Inference Platform) @ Nebius (Berlin) s14 https://www.arbeitnow.com/jobs/companies/nebius/senior-site-reliability-engineer-token-factory-inference-platform-berlin-261089
 - Staff Software Engineer - Databases SRE | Germany | Remote @ Grafana Labs (Germany (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6103688004
 - Staff Software Engineer - Databases SRE | Ireland | Remote @ Grafana Labs (Republic of Ireland (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6107502004
 - Staff Software Engineer - Databases SRE | Spain | Remote @ Grafana Labs (Spain (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6103685004
@@ -57,13 +59,11 @@ Sources OK: 11/12
 - Lead Tech SRE @ Jobgether (Veldhoven, Noord-Brabant, Nederland) s14 https://www.adzuna.nl/details/5951996980?utm_medium=api&utm_source=4076fe36
 - Senior Site Reliability Engineer (SRE) @ Mirantis (Barcelona, España) s14 https://www.adzuna.es/details/5952728362?utm_medium=api&utm_source=4076fe36
 - Senior Site Reliability Engineer (Sre) @ Perk (Barcelona, España) s14 https://www.adzuna.es/details/5953557901?utm_medium=api&utm_source=4076fe36
-- DevOps / Platform Engineer @ Pasiona (Barcelona, España) s14 https://www.adzuna.es/land/ad/5954171205?se=sC2aftLZ8RGiyLcWFRyVsw&utm_medium=api&utm_source=4076fe36&v=5E38472690BB12879E51C929FBC42AF35CD981BF
-- Senior SRE: Scale, Reliability & Security Lead @ Codeway (Barcelona, Cataluña, España) s14 https://www.adzuna.es/details/5920408433?utm_medium=api&utm_source=4076fe36
+- DevOps / Platform Engineer @ Pasiona (Barcelona, España) s14 https://www.adzuna.es/land/ad/5954171205?se=ltynqJva8RGJ_5m-0JeM1g&utm_medium=api&utm_source=4076fe36&v=5E38472690BB12879E51C929FBC42AF35CD981BF
 - Agentic AI Platform Engineer @ Siemens Energy (Madrid, Comunidad de Madrid, España) s14 https://www.adzuna.es/details/5948109486?utm_medium=api&utm_source=4076fe36
-- AI Platform Engineer(m/f/d) @ Allianz Seguros (Barcelona, España) s14 https://www.adzuna.es/land/ad/5954162747?se=PjcjhtLZ8RGiyLcWFRyVsw&utm_medium=api&utm_source=4076fe36&v=F5BBC0AEF8359F5F4CEA7D5D06DCEA2D3F777E64
-- AI Platform Engineer (m/f/d) @ Allianz Seguros (Barcelona, España) s14 https://www.adzuna.es/land/ad/5954152710?se=PjcjhtLZ8RGiyLcWFRyVsw&utm_medium=api&utm_source=4076fe36&v=42A408B378EE055C285C257FD80F8FC516434158
+- AI Platform Engineer (m/f/d) @ Allianz Seguros (Barcelona, España) s14 https://www.adzuna.es/land/ad/5954152710?se=SM6Jr5va8RGzCKIGhSyn9w&utm_medium=api&utm_source=4076fe36&v=42A408B378EE055C285C257FD80F8FC516434158
 
-## Track E - LatAm/Chile (no relocation needed) (339)
+## Track E - LatAm/Chile (no relocation needed) (336)
 - Ingeniero DevOps Semi Senior @ BC Tecnología (Chile) s22 https://www.getonbrd.com/jobs/ingeniero-devops-semi-senior-bc-tecnologia-santiago-36a8
 - SRE Engineer (Site Reliability Engineer) @ Factor IT (Colombia) s21 https://www.getonbrd.com/jobs/sre-engineer-site-reliability-engineer-factor-it-bogota
 - Senior AWS Site Reliability Engineers - 2850 @ Xideral (Guadalajara, Jalisco, México) s21 https://www.adzuna.com.mx/details/5890787831?utm_medium=api&utm_source=4076fe36
@@ -75,7 +75,6 @@ Sources OK: 11/12
 - DevOps Engineer @ Dynamic Devs (Chile) s18 https://www.getonbrd.com/jobs/devops-engineer-dynamic-devs-santiago-0ac3
 - Sr. Software engineer/AI engineer, IES LATech & GIS @ Amazon (Sao Paulo, Sao Paulo, BRA) s18 https://www.amazon.jobs/en/jobs/10471103/sr-software-engineer-ai-engineer-ies-latech-gis
 - Site Reliability Engineer @ Sur (México) s18 https://www.adzuna.com.mx/details/5954609962?utm_medium=api&utm_source=4076fe36
-- Senior Platform Engineer Role (Devops) @ Jobgether (México) s18 https://www.adzuna.com.mx/details/5947075619?utm_medium=api&utm_source=4076fe36
 - Site Reliability Engineer @ Sur (Brasil) s18 https://www.adzuna.com.br/details/5954609727?utm_medium=api&utm_source=4076fe36
 - Senior AI Agent Engineer @ Encora (Campinas, Estado de São Paulo, Brasil) s18 https://www.adzuna.com.br/details/5899820549?utm_medium=api&utm_source=4076fe36
 - AI Engineer IA Generativa @ BC Tecnología (Chile) s17 https://www.getonbrd.com/jobs/ai-engineer-senior-ia-generativa-bc-tecnologia-santiago
@@ -84,11 +83,11 @@ Sources OK: 11/12
 - Desarrollador/a Full-Stack DevOps @ Agilesoft SpA (Chile) s16 https://www.getonbrd.com/jobs/desarrollador-a-full-stack-agilesoft-spa-santiago-b072
 - AI Engineer (RAG & Intelligent Agents) @ Dynamic Devs (Chile) s16 https://www.getonbrd.com/jobs/ai-engineer-rag-intelligent-agents-dynamic-devs-santiago-61bd
 - Senior Site Reliability Engineer @ Delinea (Ciudad de México, México) s16 https://www.adzuna.com.mx/details/5941583369?utm_medium=api&utm_source=4076fe36
+- DevOps Engineer @ Digital OnUS (Monterrey, Nuevo León, México) s16 https://www.adzuna.com.mx/details/4802310514?utm_medium=api&utm_source=4076fe36
 
-## Track B - Remote/income (389)
+## Track B - Remote/income (381)
 - AI Infrastructure Platform Engineer @ Niuro (Remote) s29 https://www.getonbrd.com/jobs/ai-infrastructure-platform-engineer-niuro-remote-e893
 - Senior Cloud Networking SRE @ Softserve (Remote) s24 https://www.getonbrd.com/jobs/senior-cloud-networking-sre-softserve-remote
-- Cloud Networking SRE @ Softserve (Remote) s24 https://www.getonbrd.com/jobs/cloud-networking-sre-softserve-remote
 - Lead Agentic AI Consultant @ Softserve (Remote) s23 https://www.getonbrd.com/jobs/lead-agentic-ai-consultant-softserve-remote
 - Senior AI Engineer (GenAI, Python, LLMs) / Sector Bancario @ Devsu (Remote) s23 https://www.getonbrd.com/jobs/senior-ai-engineer-genai-python-llms-sector-bancario-devsu-remote
 - Forward Deployed AI Engineer @ Devsu (Remote) s21 https://www.getonbrd.com/jobs/forward-deployed-ai-engineer-devsu-remote
@@ -97,14 +96,15 @@ Sources OK: 11/12
 - Site Reliability Engineer (gn) – fully remote @ Experis (Eschborn, Main-Taunus-Kreis, Deutschland) s20 https://www.adzuna.de/details/5948283012?utm_medium=api&utm_source=4076fe36
 - Líder Técnico DevOps (WebLogic) @ BC Tecnología (Remote) s19 https://www.getonbrd.com/jobs/lider-tecnico-devops-weblogic-bc-tecnologia-remote
 - SRE / DevOps Engineer @ BC Tecnología (Remote) s19 https://www.getonbrd.com/jobs/sre-devops-engineer-bc-tecnologia-remote
-- Senior Machine Learning Engineer @ Softserve (Remote) s18 https://www.getonbrd.com/jobs/senior-machine-learning-engineer-softserve-remote
 - Senior AI Agent Engineer @ Encora (Campinas, Estado de São Paulo, Brasil) s18 https://www.adzuna.com.br/details/5899820549?utm_medium=api&utm_source=4076fe36
 - Senior Agentic AI Engineer @ BC Tecnología (Remote) s16 https://www.getonbrd.com/jobs/senior-agentic-ai-engineer-bc-tecnologia-remote
 - Sr. DevOps & Infrastructure Consultant @ Inflect, Inc. (Remote) s15 https://www.getonbrd.com/jobs/sr-devops-infrastructure-consultant-inflect-inc-remote
 - Developer Platform Engineer (LATAM) @ BC Tecnología (Remote) s15 https://www.getonbrd.com/jobs/developer-platform-engineer-latam-bc-tecnologia-remote
 - Machine Learning Engineer con Enfoque en IA Generativa @ Improving (Remote) s15 https://www.getonbrd.com/jobs/machine-learning-engineer-con-enfoque-en-ia-generativa-improving-remote
 - AI Automation Engineer — Contract @ Blupax Pharmaceuticals (Remote) s15 https://www.getonbrd.com/jobs/ai-automation-engineer-contract-blupax-pharmaceuticals-remote
+- Site Reliability Engineering (SRE) Lead - 2770 @ Xideral (Guadalajara, Jalisco, México) s15 https://www.adzuna.com.mx/details/5704753561?utm_medium=api&utm_source=4076fe36
 - Site Reliability Engineering Manager @ Canonical (APAC,  EMEA) s14 https://jobicy.com/jobs/149986-site-reliability-engineering-manager
+- Middle/Senior/Staff Site Reliability Engineer (K8s) @ Npv (Remote) s14 https://www.arbeitnow.com/jobs/companies/npv/remote-middle-senior-staff-site-reliability-engineer-k8s-1859
 - Staff Software Engineer - Databases SRE | Germany | Remote @ Grafana Labs (Germany (Remote)) s14 https://job-boards.greenhouse.io/grafanalabs/jobs/6103688004
 
 ## Companies with a real match today - browse their full career page
