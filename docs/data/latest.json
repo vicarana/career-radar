@@ -1,48 +1,48 @@
 {
-  "generated": "2026-11-14 11:08 UTC",
+  "generated": "2026-11-15 11:10 UTC",
   "sources_ok": 10,
   "sources_total": 12,
   "stats": {
-    "total": 1282,
-    "unique": 1043,
-    "track_b": 385,
-    "track_c": 430,
+    "total": 1281,
+    "unique": 1049,
+    "track_b": 390,
+    "track_c": 423,
     "track_d": 130,
-    "track_e": 337,
-    "grade_a": 84,
-    "grade_b": 173,
+    "track_e": 338,
+    "grade_a": 90,
+    "grade_b": 176,
     "visa": 12,
     "us_sponsor_confirmed": 0,
-    "match_75plus": 43
+    "match_75plus": 46
   },
   "funnel": {
-    "fetched": 19347,
-    "unique": 17935,
-    "score_ok": 6127,
-    "title_ok": 3289,
-    "title_senior": 1747,
-    "title_unstated": 1542,
-    "comp_ok": 2608,
-    "collapsed": 509,
+    "fetched": 20334,
+    "unique": 18545,
+    "score_ok": 6193,
+    "title_ok": 3364,
+    "title_senior": 1828,
+    "title_unstated": 1536,
+    "comp_ok": 2689,
+    "collapsed": 539,
     "fetched_by_source": {
       "remotive": 288,
       "jobicy": 150,
       "arbeitnow": 300,
       "remoteok": 97,
-      "greenhouse": 8629,
-      "lever": 338,
-      "ashby": 2404,
-      "workday": 907,
-      "getonboard": 147,
-      "amazon": 801,
-      "microsoft": 672,
-      "adzuna_us": 871,
-      "adzuna_gb": 844,
-      "adzuna_de": 705,
-      "adzuna_nl": 593,
-      "adzuna_es": 769,
-      "adzuna_mx": 416,
-      "adzuna_br": 416
+      "greenhouse": 8631,
+      "lever": 306,
+      "ashby": 2407,
+      "workday": 1812,
+      "getonboard": 143,
+      "amazon": 798,
+      "microsoft": 789,
+      "adzuna_us": 872,
+      "adzuna_gb": 843,
+      "adzuna_de": 707,
+      "adzuna_nl": 595,
+      "adzuna_es": 768,
+      "adzuna_mx": 411,
+      "adzuna_br": 417
     },
     "truncated": [
       "adzuna:br",
@@ -52,9 +52,13 @@
       "adzuna:mx",
       "adzuna:nl",
       "adzuna:us",
+      "microsoft:agentic ai engineer",
       "microsoft:ai agent engineer",
+      "microsoft:ai platform engineer",
       "microsoft:devops engineer",
+      "microsoft:director of ai",
       "microsoft:head of ai",
+      "microsoft:llm engineer",
       "microsoft:machine learning engineer",
       "microsoft:platform engineer",
       "microsoft:prompt engineer",
@@ -62,7 +66,19 @@
       "microsoft:senior ai lead",
       "microsoft:senior sre lead",
       "microsoft:site reliability engineer",
-      "microsoft:vp of ai",
+      "workday:nvidia:agentic ai engineer",
+      "workday:nvidia:ai agent engineer",
+      "workday:nvidia:ai platform engineer",
+      "workday:nvidia:devops engineer",
+      "workday:nvidia:director of ai",
+      "workday:nvidia:head of ai",
+      "workday:nvidia:llm engineer",
+      "workday:nvidia:machine learning engineer",
+      "workday:nvidia:platform engineer",
+      "workday:nvidia:prompt engineer",
+      "workday:nvidia:senior ai engineer",
+      "workday:nvidia:senior ai lead",
+      "workday:nvidia:site reliability engineer",
       "workday:salesforce:agentic ai engineer",
       "workday:salesforce:ai agent engineer",
       "workday:salesforce:ai platform engineer",
@@ -328,6 +344,26 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior Site Reliability Engineer (SRE) m/f/x",
+        "company": "Makersite GmbH",
+        "location": "Remote job",
+        "url": "https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-senior-site-reliability-engineer-sre-berlin-312709",
+        "score": 14,
+        "grade": "A",
+        "match": 70,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "SRE",
+          "Site Reliability"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Staff Software Engineer - Databases SRE | Germany | Remote",
         "company": "Grafana Labs",
         "location": "Germany (Remote)",
@@ -493,7 +529,7 @@
         "title": "Platform Engineer",
         "company": "Charter Global, Inc.",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5943743567?se=QFj9jhvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=1117DDEAE6A937BB3D7A64340148CED0955BF78B",
+        "url": "https://www.adzuna.com/land/ad/5943743567?se=dkOpBuXg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=1117DDEAE6A937BB3D7A64340148CED0955BF78B",
         "score": 14,
         "grade": "A",
         "match": 70,
@@ -508,27 +544,6 @@
         "level": "unstated",
         "salary_min": 121207.28,
         "salary_max": 121207.28,
-        "comp_disclosed": true
-      },
-      {
-        "title": "AI Agent Engineer",
-        "company": "Digile",
-        "location": "US",
-        "url": "https://www.adzuna.com/details/5940746216?utm_medium=api&utm_source=4076fe36",
-        "score": 14,
-        "grade": "A",
-        "match": 70,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai agent",
-          "Python",
-          "Ai Agent",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": 103339.45,
-        "salary_max": 103339.45,
         "comp_disclosed": true
       },
       {
@@ -628,6 +643,27 @@
           "Title match: devops",
           "Devops",
           "Automation",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Site Reliability Engineer",
+        "company": "Supabase",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/155391-site-reliability-engineer-4",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability",
           "Level not stated"
         ],
         "level": "unstated",
@@ -921,7 +957,7 @@
         "title": "SRE Project Manager: Level 2",
         "company": "Themesoft Inc",
         "location": "Rockford, Mercer County, US",
-        "url": "https://www.adzuna.com/land/ad/5959621014?se=gAKpjxvg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=7F4EFA1B63C0DFBD84DC0E3795D5B4DBE89ABAC6",
+        "url": "https://www.adzuna.com/land/ad/5959621014?se=PIcNB-Xg8RGxQMf6yBy3OQ&utm_medium=api&utm_source=4076fe36&v=7F4EFA1B63C0DFBD84DC0E3795D5B4DBE89ABAC6",
         "score": 12,
         "grade": "B",
         "match": 60,
@@ -941,7 +977,7 @@
         "title": "Lead SRE With Web Applications Experience -100% Remote (Fulltime)",
         "company": "The Dignify Solutions, LLC",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5953517943?se=gAKpjxvg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=E65EE8A3B08083FC48574264D94133F03055EC8B",
+        "url": "https://www.adzuna.com/land/ad/5953517943?se=PIcNB-Xg8RGxQMf6yBy3OQ&utm_medium=api&utm_source=4076fe36&v=E65EE8A3B08083FC48574264D94133F03055EC8B",
         "score": 12,
         "grade": "B",
         "match": 60,
@@ -955,26 +991,6 @@
         "level": "senior",
         "salary_min": 85190.96,
         "salary_max": 85190.96,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Senior Director, AI Engineering -Agentic AI Platform(Remote Eligible)",
-        "company": "Capital One",
-        "location": "Prince, Manhattan, US",
-        "url": "https://www.adzuna.com/land/ad/5958172825?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=309AAC9C0BE79F9553D786693AEE9849B708C880",
-        "score": 12,
-        "grade": "B",
-        "match": 60,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Platform",
-          "Agentic Ai"
-        ],
-        "level": "senior",
-        "salary_min": 182848.48,
-        "salary_max": 182848.48,
         "comp_disclosed": true
       },
       {
@@ -1023,7 +1039,7 @@
         "title": "Platform Engineer",
         "company": "Sabio infotech",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5944923341?se=QFj9jhvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=4574FC50227EE3D54BA0445DA41676A26EAA1F2E",
+        "url": "https://www.adzuna.com/land/ad/5944923341?se=dkOpBuXg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=4574FC50227EE3D54BA0445DA41676A26EAA1F2E",
         "score": 11,
         "grade": "B",
         "match": 55,
@@ -1039,6 +1055,27 @@
         "salary_min": 139146.64,
         "salary_max": 139146.64,
         "comp_disclosed": true
+      },
+      {
+        "title": "Platform Engineer - FedD180/FedD181",
+        "company": "Defense Unicorns",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/162137-platform-engineer-fedd180-fedd181",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Site Reliability",
+          "Reliability",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Site Reliability Engineer, Infrastructure Platforms — AMER (Intermediate to Senior Staff)",
@@ -1145,7 +1182,7 @@
         "title": "Site Reliability Engineer",
         "company": "SAIC",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5946648257?se=wt3djRvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=9B681811A112E4A72F61AB9E790B0205B3DBBCD8",
+        "url": "https://www.adzuna.com/land/ad/5946648257?se=wHPfBeXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=9B681811A112E4A72F61AB9E790B0205B3DBBCD8",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -1166,7 +1203,7 @@
         "title": "Agentic AI Engineer - Manager",
         "company": "EY",
         "location": "Saint Paul, Ramsey County, US",
-        "url": "https://www.adzuna.com/land/ad/5939202802?se=BFyMlxvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=3FABD320C46B48A381BCFE91E103C44B77758C47",
+        "url": "https://www.adzuna.com/land/ad/5939202802?se=WEXaCuXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=3FABD320C46B48A381BCFE91E103C44B77758C47",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -1176,7 +1213,7 @@
           "Title match: ai engineer",
           "Agentic Ai",
           "Ai Agent",
-          "Posted in 8 locations"
+          "Posted in 10 locations"
         ],
         "level": "senior",
         "salary_min": 140015.48,
@@ -1187,7 +1224,7 @@
         "title": "Site Reliability Engineer",
         "company": "The Business Connection Group",
         "location": "Farringdon, Central London, UK",
-        "url": "https://www.adzuna.co.uk/jobs/land/ad/5898618619?se=Gt-tmxvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=0091DB0638BE9D65A2BA08AE76199A5999737D99",
+        "url": "https://www.adzuna.co.uk/jobs/land/ad/5898618619?se=aEi6DeXg8RGekZL8yz3TIA&utm_medium=api&utm_source=4076fe36&v=0091DB0638BE9D65A2BA08AE76199A5999737D99",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -1240,6 +1277,27 @@
           "Platform"
         ],
         "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Remote Site Reliability Engineer",
+        "company": "Company not disclosed",
+        "location": "São Paulo, Estado de São Paulo, Brasil",
+        "url": "https://www.adzuna.com.br/details/5966365858?utm_medium=api&utm_source=4076fe36",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability",
+          "Level not stated"
+        ],
+        "level": "unstated",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -1372,7 +1430,7 @@
         "title": "GenAI Platform Engineers",
         "company": "Judge Group, Inc.",
         "location": "Cheektowaga, Erie County, US",
-        "url": "https://www.adzuna.com/land/ad/5871252314?se=QFj9jhvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=48F120DAA6DF9F01DE4B244F6D3CE01E88A5C7CE",
+        "url": "https://www.adzuna.com/land/ad/5871252314?se=dkOpBuXg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=48F120DAA6DF9F01DE4B244F6D3CE01E88A5C7CE",
         "score": 9,
         "grade": "C",
         "match": 45,
@@ -1403,27 +1461,6 @@
           "Title match: devops",
           "Devops",
           "Platform",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "AI Engineer - Generative AI & AWS",
-        "company": "Workana",
-        "location": "México",
-        "url": "https://www.adzuna.com.mx/details/5774053890?utm_medium=api&utm_source=4076fe36",
-        "score": 9,
-        "grade": "C",
-        "match": 45,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Python",
-          "Ai Agent",
           "Level not stated"
         ],
         "level": "unstated",
@@ -1533,21 +1570,22 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior Software Engineer, Backend (AI Agent Integrations)",
-        "company": "Cresta",
-        "location": "Canada",
-        "url": "https://jobicy.com/jobs/149101-senior-software-engineer-backend-ai-agent-integrations",
+        "title": "AI Platform Engineer",
+        "company": "Supabase",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/155385-ai-platform-engineer",
         "score": 8,
         "grade": "C",
         "match": 40,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: ai agent",
+          "Title match: platform engineer",
           "Platform",
-          "Ai Agent"
+          "RAG",
+          "Level not stated"
         ],
-        "level": "senior",
+        "level": "unstated",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -1586,6 +1624,46 @@
           "Title match: ai engineer",
           "Differentiator: Iot",
           "Platform"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Manager, Software Engineering - AI Developer Productivity (Dev Agents and SRE AI)",
+        "company": "Samsara",
+        "location": "Remote - Canada",
+        "url": "https://www.samsara.com/company/careers/roles/8387002?gh_jid=8387002",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: sre",
+          "Differentiator: Iot",
+          "SRE"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Manager, Software Engineering - AI Developer Productivity (Dev Agents and SRE AI)",
+        "company": "Samsara",
+        "location": "Remote - US",
+        "url": "https://www.samsara.com/company/careers/roles/8374911?gh_jid=8374911",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: sre",
+          "Differentiator: Iot",
+          "SRE"
         ],
         "level": "senior",
         "salary_min": null,
@@ -1678,7 +1756,7 @@
         "title": "Site Reliability Engineer",
         "company": "System One",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5954650601?se=wt3djRvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=9C04B5352FF8984048579120E6513D311D9D21CE",
+        "url": "https://www.adzuna.com/land/ad/5954650601?se=wHPfBeXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=9C04B5352FF8984048579120E6513D311D9D21CE",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -1738,30 +1816,10 @@
         "comp_disclosed": true
       },
       {
-        "title": "Senior AI Agent Engineer",
-        "company": "Weekday AI",
-        "location": "US",
-        "url": "https://www.adzuna.com/details/5730411385?utm_medium=api&utm_source=4076fe36",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai agent",
-          "Automation",
-          "Ai Agent"
-        ],
-        "level": "senior",
-        "salary_min": 115714.83,
-        "salary_max": 115714.83,
-        "comp_disclosed": true
-      },
-      {
         "title": "AGENTIC AI ENGINEER - AI/LLM",
         "company": "3AMIGOSIT LLC",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5936849465?se=BFyMlxvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=E9FC5907A6910D6C3AC5D25CDD0B180F5DDF28C4",
+        "url": "https://www.adzuna.com/land/ad/5936849465?se=WEXaCuXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=E9FC5907A6910D6C3AC5D25CDD0B180F5DDF28C4",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -1803,7 +1861,7 @@
         "title": "GO AI Agentic Engineer",
         "company": "Huxley Associates",
         "location": "UK",
-        "url": "https://www.adzuna.co.uk/jobs/land/ad/5951749593?se=wgwGoBvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=694D2FADCCED9DC02629B05F1170CF315C544553",
+        "url": "https://www.adzuna.co.uk/jobs/land/ad/5951749593?se=eMBgEeXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=694D2FADCCED9DC02629B05F1170CF315C544553",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -1859,25 +1917,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Remote Head of AI Engineering - ML Platform Lead",
-        "company": "Hubble s",
-        "location": "España",
-        "url": "https://www.adzuna.es/details/5964408299?utm_medium=api&utm_source=4076fe36",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Platform"
-        ],
-        "level": "senior",
-        "salary_min": 90000,
-        "salary_max": 130000,
-        "comp_disclosed": true
       },
       {
         "title": "Senior AI Platform Engineer — Lead, Scale & Innovation",
@@ -2204,25 +2243,25 @@
         "comp_disclosed": false
       },
       {
-        "title": "Enterprise DevOps Engineer (Salesforce/AWS)",
-        "company": "Brilliant Infotech Inc.",
-        "location": "West Trenton, Mercer County, US",
-        "url": "https://www.adzuna.com/land/ad/5965617759?se=xLlojhvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=22E36A3CCFCA8276D23A1E051FED9A581CBB9362",
-        "score": 7,
-        "grade": "C",
+        "title": "Platform Engineer (FedD145)",
+        "company": "Defense Unicorns",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/162132-platform-engineer-fedd145",
+        "score": 6,
+        "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Ci/Cd",
+          "Title match: platform engineer",
+          "Platform",
+          "Kubernetes",
           "Level not stated"
         ],
         "level": "unstated",
-        "salary_min": 97978.77,
-        "salary_max": 97978.77,
-        "comp_disclosed": true
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Staff DevOps Engineer (Platform)",
@@ -2304,10 +2343,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Platform Engineer",
-        "company": "Defense Unicorns",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/161246-platform-engineer-3",
+        "title": "Platform Engineer, Managed Postgres",
+        "company": "Supabase",
+        "location": "Anywhere",
+        "url": "https://jobicy.com/jobs/155389-platform-engineer-managed-postgres",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -2316,7 +2355,7 @@
         "reasons": [
           "Title match: platform engineer",
           "Platform",
-          "Kubernetes",
+          "RAG",
           "Level not stated"
         ],
         "level": "unstated",
@@ -2325,21 +2364,22 @@
         "comp_disclosed": false
       },
       {
-        "title": "Sr. Forward Deployed AI Engineer (Remote Eligible in the UK)",
-        "company": "Smartsheet",
-        "location": "UK",
-        "url": "https://jobicy.com/jobs/155167-sr-forward-deployed-ai-engineer-remote-eligible-in-the-uk",
+        "title": "Platform Engineer",
+        "company": "Finmid.com",
+        "location": "Berlin / Greece / Remote",
+        "url": "https://www.arbeitnow.com/jobs/companies/finmidcom/remote-platform-engineer-34275",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: ai engineer",
-          "Ai Agent",
-          "Ai Agents"
+          "Title match: platform engineer",
+          "Platform",
+          "RAG",
+          "Level not stated"
         ],
-        "level": "senior",
+        "level": "unstated",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -2589,8 +2629,8 @@
       {
         "title": "Staff Machine Learning Engineer - Edge AI",
         "company": "Samsara",
-        "location": "Remote - Canada",
-        "url": "https://www.samsara.com/company/careers/roles/8358618?gh_jid=8358618",
+        "location": "Remote - US",
+        "url": "https://www.samsara.com/company/careers/roles/8358617?gh_jid=8358617",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -2609,8 +2649,8 @@
       {
         "title": "Staff Machine Learning Engineer - Edge AI",
         "company": "Samsara",
-        "location": "Remote - US",
-        "url": "https://www.samsara.com/company/careers/roles/8358617?gh_jid=8358617",
+        "location": "Remote - Canada",
+        "url": "https://www.samsara.com/company/careers/roles/8358618?gh_jid=8358618",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3334,6 +3374,26 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior Account Manager, Agentic AI Cyber Platform — UK&I",
+        "company": "NVIDIA",
+        "location": "UK, Remote",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UK-Remote/Agentic-AI-Platform-Senior-Account-Manager-UK-I_JR2024082",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: agentic ai",
+          "Platform",
+          "Agentic Ai"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Sr. QA Automation Engineer",
         "company": "Improving",
         "location": "Remote",
@@ -3352,6 +3412,28 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "DevOps Engineer",
+        "company": "SAIC",
+        "location": "Mount Rainier, Prince George's County, US",
+        "url": "https://www.adzuna.com/land/ad/5962840557?se=OJpKBuXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=B684F4D17298A9CA4028365007C84E2E38E77D80",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform",
+          "Level not stated",
+          "Posted in 5 locations"
+        ],
+        "level": "unstated",
+        "salary_min": 143731.6,
+        "salary_max": 143731.6,
+        "comp_disclosed": true
       },
       {
         "title": "AI Platform / SRE Lead",
@@ -3377,7 +3459,7 @@
         "title": "Agentic AI Engineer / Architect",
         "company": "Software Guidance & Assistance",
         "location": "Northlake, DeKalb County, US",
-        "url": "https://www.adzuna.com/land/ad/5959726155?se=BFyMlxvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=91F1C2849A5F371CA94566E7EBB72A589D8567A9",
+        "url": "https://www.adzuna.com/land/ad/5959726155?se=WEXaCuXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=91F1C2849A5F371CA94566E7EBB72A589D8567A9",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3397,7 +3479,7 @@
         "title": "Senior Engineer - Agentic AI Engineering",
         "company": "Pyramid Consulting, Inc.",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5962242686?se=BFyMlxvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=1CD32550D0DD9E69E5CAC69DBE5C837E43DF2432",
+        "url": "https://www.adzuna.com/land/ad/5962242686?se=WEXaCuXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=1CD32550D0DD9E69E5CAC69DBE5C837E43DF2432",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3416,7 +3498,7 @@
         "title": "Agentic AI Engineer with Security Clearance",
         "company": "Blu Omega LLC",
         "location": "Beltsville, Prince George's County, US",
-        "url": "https://www.adzuna.com/land/ad/5960623104?se=BFyMlxvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=FEB36122CFEB95946EFABAC6A889E9790CF67B00",
+        "url": "https://www.adzuna.com/land/ad/5960623104?se=WEXaCuXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=FEB36122CFEB95946EFABAC6A889E9790CF67B00",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3436,7 +3518,7 @@
         "title": "Senior AI Platform Engineer",
         "company": "Judge Group, Inc.",
         "location": "Bee Cave, Travis County, US",
-        "url": "https://www.adzuna.com/land/ad/5887002464?se=2phemRvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E",
+        "url": "https://www.adzuna.com/land/ad/5887002464?se=pKguDOXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3452,10 +3534,29 @@
         "comp_disclosed": true
       },
       {
+        "title": "Director AI Engineering (Remote Eligible)",
+        "company": "Capital One",
+        "location": "Prince, Manhattan, US",
+        "url": "https://www.adzuna.com/land/ad/5958188090?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=AC74C8A344A332253E638989F751E227EEE7E316",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "RAG"
+        ],
+        "level": "senior",
+        "salary_min": 254098.31,
+        "salary_max": 254098.31,
+        "comp_disclosed": true
+      },
+      {
         "title": "Director, AI Engineering (Remote - eligible)",
         "company": "Capital One",
         "location": "Pimmit, Fairfax County, US",
-        "url": "https://www.adzuna.com/land/ad/5958101753?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=B0133C8AE8D52AD4B53481EC762B19D5DA33999E",
+        "url": "https://www.adzuna.com/land/ad/5958101753?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=B0133C8AE8D52AD4B53481EC762B19D5DA33999E",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3474,7 +3575,7 @@
         "title": "Director, AI Engineer (Remote Eligible)",
         "company": "Discover Financial Services",
         "location": "Richmond, Richmond County, US",
-        "url": "https://www.adzuna.com/land/ad/5948659281?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=B2C4B857875FCB3D514607CD3A6817FAA572F490",
+        "url": "https://www.adzuna.com/land/ad/5948659281?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=B2C4B857875FCB3D514607CD3A6817FAA572F490",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3493,7 +3594,7 @@
         "title": "Director, AI Engineer (Remote Eligible)",
         "company": "Discover Financial Services",
         "location": "Grand Central, Manhattan, US",
-        "url": "https://www.adzuna.com/land/ad/5948638591?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=237E0E73DF23FD4B2A55409569D7A5C8A598E141",
+        "url": "https://www.adzuna.com/land/ad/5948638591?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=237E0E73DF23FD4B2A55409569D7A5C8A598E141",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3512,7 +3613,7 @@
         "title": "Director, AI Engineer (Remote Eligible)",
         "company": "Discover Financial Services",
         "location": "Hayes Valley, San Francisco, US",
-        "url": "https://www.adzuna.com/land/ad/5948635990?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=157C9C39884B2E028BF6336244F92507E4A2E830",
+        "url": "https://www.adzuna.com/land/ad/5948635990?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=157C9C39884B2E028BF6336244F92507E4A2E830",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3531,7 +3632,7 @@
         "title": "Director AI Engineering (Remote Eligible)",
         "company": "Discover Financial Services",
         "location": "Grand Central, Manhattan, US",
-        "url": "https://www.adzuna.com/land/ad/5948658682?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=887C26CC0DE8FCF3B637517E3239006512261A46",
+        "url": "https://www.adzuna.com/land/ad/5948658682?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=887C26CC0DE8FCF3B637517E3239006512261A46",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3550,7 +3651,7 @@
         "title": "Director AI Engineering (Remote Eligible)",
         "company": "Discover Financial Services",
         "location": "Campbell, Santa Clara County, US",
-        "url": "https://www.adzuna.com/land/ad/5948635619?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=0D8B9BD760D9481B0729DFB76AD3CB828C6CDDA2",
+        "url": "https://www.adzuna.com/land/ad/5948635619?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=0D8B9BD760D9481B0729DFB76AD3CB828C6CDDA2",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3569,7 +3670,7 @@
         "title": "Director AI Engineering (Remote Eligible)",
         "company": "Discover Financial Services",
         "location": "Hayes Valley, San Francisco, US",
-        "url": "https://www.adzuna.com/land/ad/5948655948?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=1B1D6A3A880C9E2F92403413FC0F0B079243BB74",
+        "url": "https://www.adzuna.com/land/ad/5948655948?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=1B1D6A3A880C9E2F92403413FC0F0B079243BB74",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3587,8 +3688,27 @@
       {
         "title": "Director, AI Engineering (Remote - eligible)",
         "company": "Discover Financial Services",
+        "location": "Hayes Valley, San Francisco, US",
+        "url": "https://www.adzuna.com/land/ad/5948658785?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=0600BB4A09AA348D6A10F520250B1FE9D22E5B3A",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "RAG"
+        ],
+        "level": "senior",
+        "salary_min": 161225.7,
+        "salary_max": 161225.7,
+        "comp_disclosed": true
+      },
+      {
+        "title": "Director, AI Engineering (Remote - eligible)",
+        "company": "Discover Financial Services",
         "location": "Grand Central, Manhattan, US",
-        "url": "https://www.adzuna.com/land/ad/5948635931?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=42B93E811644CBDBFCF5A8F135C152DDD1D29235",
+        "url": "https://www.adzuna.com/land/ad/5948635931?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=42B93E811644CBDBFCF5A8F135C152DDD1D29235",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3607,7 +3727,7 @@
         "title": "Director, AI Engineering (Remote - eligible)",
         "company": "Discover Financial Services",
         "location": "Pimmit, Fairfax County, US",
-        "url": "https://www.adzuna.com/land/ad/5948637571?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=7B3414229B865F5535C5B30BD2E79B8FCD8F0A76",
+        "url": "https://www.adzuna.com/land/ad/5948637571?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=7B3414229B865F5535C5B30BD2E79B8FCD8F0A76",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3623,29 +3743,10 @@
         "comp_disclosed": true
       },
       {
-        "title": "Director, AI Engineering (Remote - eligible)",
-        "company": "Discover Financial Services",
-        "location": "Hayes Valley, San Francisco, US",
-        "url": "https://www.adzuna.com/land/ad/5948658785?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=0600BB4A09AA348D6A10F520250B1FE9D22E5B3A",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "RAG"
-        ],
-        "level": "senior",
-        "salary_min": 161225.7,
-        "salary_max": 161225.7,
-        "comp_disclosed": true
-      },
-      {
         "title": "Head of AI",
         "company": "Rise Technical Recruitment",
         "location": "Farringdon, Central London, UK",
-        "url": "https://www.adzuna.co.uk/jobs/land/ad/5952084338?se=lr8mnhvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=8E3C81F8553703A935476C2368A0A54B42355E4C",
+        "url": "https://www.adzuna.co.uk/jobs/land/ad/5952084338?se=8pHLD-Xg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=8E3C81F8553703A935476C2368A0A54B42355E4C",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3665,7 +3766,7 @@
         "title": "Head of AI",
         "company": "Rise Technical Recruitment Limited",
         "location": "London, UK",
-        "url": "https://www.adzuna.co.uk/jobs/land/ad/5952174424?se=lr8mnhvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=2E290C85838E79003AC173DB41EF854E00DACF98",
+        "url": "https://www.adzuna.co.uk/jobs/land/ad/5952174424?se=8pHLD-Xg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=2E290C85838E79003AC173DB41EF854E00DACF98",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3685,7 +3786,7 @@
         "title": "Head of AI, Game Generation",
         "company": "Rise Technical Recruitment",
         "location": "Farringdon, Central London, UK",
-        "url": "https://www.adzuna.co.uk/jobs/land/ad/5942720687?se=lr8mnhvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=6D4609FD01CE201483C16F75209F832188D67F95",
+        "url": "https://www.adzuna.co.uk/jobs/land/ad/5942720687?se=8pHLD-Xg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=6D4609FD01CE201483C16F75209F832188D67F95",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3705,7 +3806,7 @@
         "title": "Head of AI, Game Generation",
         "company": "Rise Technical Recruitment Limited",
         "location": "London, UK",
-        "url": "https://www.adzuna.co.uk/jobs/land/ad/5942536070?se=lr8mnhvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=BFAAD884948CD5616F7350C2969369B11E753DFD",
+        "url": "https://www.adzuna.co.uk/jobs/land/ad/5942536070?se=8pHLD-Xg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=BFAAD884948CD5616F7350C2969369B11E753DFD",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -3842,24 +3943,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Head of AI Engineering",
-        "company": "Hubble s",
-        "location": "España",
-        "url": "https://www.adzuna.es/details/5964400228?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer"
-        ],
-        "level": "senior",
-        "salary_min": 90000,
-        "salary_max": 130000,
-        "comp_disclosed": true
       },
       {
         "title": "Senior AI Engineer",
@@ -4042,46 +4125,6 @@
         "comp_disclosed": true
       },
       {
-        "title": "Ai Platform Engineer, Api & Integrations - Hybrid",
-        "company": "Factorial",
-        "location": "Valladolid, Castilla y León, España",
-        "url": "https://www.adzuna.es/details/5948094775?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": 81000,
-        "salary_max": 125000,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Senior DevOps Engineer",
-        "company": "SailPoint",
-        "location": "México",
-        "url": "https://www.adzuna.com.mx/details/5923506519?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Differentiator: Identity",
-          "Devops"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "DevOps Engineer - AI Model Evaluator",
         "company": "Mercor",
         "location": "Ciudad de México, México",
@@ -4148,26 +4191,6 @@
         "company": "Fortive Corporation",
         "location": "Indaiatuba, Estado de São Paulo, Brasil",
         "url": "https://www.adzuna.com.br/details/5957853725?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Devops Engineer",
-        "company": "Fortive",
-        "location": "Indaiatuba, Estado de São Paulo, Brasil",
-        "url": "https://www.adzuna.com.br/details/5960294150?utm_medium=api&utm_source=4076fe36",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -4406,46 +4429,6 @@
           "Title match: platform engineer",
           "Platform",
           "Anthropic",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Applied AI Engineer, Startups (Codex)",
-        "company": "OpenAI",
-        "location": "Paris, France",
-        "url": "https://jobs.ashbyhq.com/openai/d801f26e-951e-452c-9924-9449b55edc5a",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Openai",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Applied AI Engineer, Startups (Codex)",
-        "company": "OpenAI",
-        "location": "Munich, Germany",
-        "url": "https://jobs.ashbyhq.com/openai/e522c734-6e4e-4d69-80c1-d09d5144eab4",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Openai",
           "Level not stated"
         ],
         "level": "unstated",
@@ -5151,10 +5134,30 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior Machine Learning Engineer",
+        "company": "Pyramid Technology Solutions, Inc.",
+        "location": "US",
+        "url": "https://www.adzuna.com/land/ad/5895557367?se=vpSwC-Xg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=7E829BD975C255E8E198081B6AE5969E8EE88A0C",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: machine learning engineer",
+          "Platform",
+          "Pytorch"
+        ],
+        "level": "senior",
+        "salary_min": 153578.92,
+        "salary_max": 153578.92,
+        "comp_disclosed": true
+      },
+      {
         "title": "Head of Data Platform Engineering",
         "company": "McCabe & Barton",
         "location": "London, UK",
-        "url": "https://www.adzuna.co.uk/jobs/land/ad/5837034398?se=uKOQnBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=6528BCA85D9B812E0A6C18656E4ECAA035FC60AD",
+        "url": "https://www.adzuna.co.uk/jobs/land/ad/5837034398?se=wtN5DuXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=6528BCA85D9B812E0A6C18656E4ECAA035FC60AD",
         "score": 5,
         "grade": "D",
         "match": 35,
@@ -5294,6 +5297,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior Platform Engineer",
+        "company": "Fleetio",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/155361-senior-platform-engineer-5",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Staff Platform Engineer",
         "company": "Wurl",
         "location": "USA",
@@ -5371,57 +5393,40 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior Platform Engineer",
-        "company": "Filigran",
-        "location": "France",
-        "url": "https://jobicy.com/jobs/161359-senior-platform-engineer-7",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Machine Learning Engineering Manager II",
-        "company": "Spotify",
-        "location": "Sweden,  UK",
-        "url": "https://jobicy.com/jobs/162092-machine-learning-engineering-manager-ii",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: machine learning engineer"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Software Engineering Manager",
-        "company": "Fanatics",
+        "title": "Senior Director, Solutions Engineering",
+        "company": "Domino Data Lab",
         "location": "USA",
-        "url": "https://jobicy.com/jobs/155302-senior-software-engineering-manager",
+        "url": "https://jobicy.com/jobs/162239-senior-director-solutions-engineering",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: engineering manager",
+          "Title match: cto",
           "Platform"
         ],
         "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "AI Integration & Automation Engineer (m/w/d) GER",
+        "company": "Customs Support Group",
+        "location": "Remote job",
+        "url": "https://www.arbeitnow.com/jobs/companies/customs-support-group/remote-ai-integration-automation-engineer-ger-128389",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: automation engineer",
+          "Automation",
+          "Level not stated"
+        ],
+        "level": "unstated",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -5888,8 +5893,8 @@
       {
         "title": "Manager II, Software Engineering, Infrastructure",
         "company": "Samsara",
-        "location": "Remote - US",
-        "url": "https://www.samsara.com/company/careers/roles/8148638?gh_jid=8148638",
+        "location": "Remote - Canada",
+        "url": "https://www.samsara.com/company/careers/roles/8221852?gh_jid=8221852",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -5907,8 +5912,8 @@
       {
         "title": "Manager II, Software Engineering, Infrastructure",
         "company": "Samsara",
-        "location": "Remote - Canada",
-        "url": "https://www.samsara.com/company/careers/roles/8221852?gh_jid=8221852",
+        "location": "Remote - US",
+        "url": "https://www.samsara.com/company/careers/roles/8148638?gh_jid=8148638",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -6803,10 +6808,29 @@
         "comp_disclosed": false
       },
       {
-        "title": "DevOps Engineer",
-        "company": "SAIC",
-        "location": "Reston, Fairfax County, US",
-        "url": "https://www.adzuna.com/land/ad/5844006529?se=xLlojhvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=90E7140D039F5CF3F15C165809892F81C8BE9AA9",
+        "title": "Senior DevOps Engineer",
+        "company": "NVIDIA",
+        "location": "India, Remote",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Remote/Senior-DevOps-Engineer_JR2027109",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Solutions Architect - DevOps",
+        "company": "NVIDIA",
+        "location": "Australia, Remote",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Australia-Remote/Solutions-Architect---DevOps_JR2015236",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -6818,15 +6842,15 @@
           "Level not stated"
         ],
         "level": "unstated",
-        "salary_min": 331268.28,
-        "salary_max": 331268.28,
-        "comp_disclosed": true
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "DevOps Engineer",
-        "company": "SAIC",
-        "location": "State Farm, Arlington County, US",
-        "url": "https://www.adzuna.com/land/ad/5952793659?se=xLlojhvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=441AFA0662BA5578F722DC949F07F12E7F8DF115",
+        "title": "Solutions Architect - NCP DevOps",
+        "company": "NVIDIA",
+        "location": "Australia, Remote",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Australia-Remote/Solutions-Architect---NCP-DevOps_JR2027206",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -6838,35 +6862,34 @@
           "Level not stated"
         ],
         "level": "unstated",
-        "salary_min": 181570.94,
-        "salary_max": 181570.94,
-        "comp_disclosed": true
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
-        "title": "Backend/Platform Engineer - Remote [84522]",
-        "company": "Onward Search",
-        "location": "Mundelein, Lake County, US",
-        "url": "https://www.adzuna.com/land/ad/5954638488?se=QFj9jhvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=6976852A4C8DE5AF91993D6AD2DAC074A18BDB10",
+        "title": "Senior Solutions Architect, Cloud Infrastructure and DevOps - NVIS",
+        "company": "NVIDIA",
+        "location": "Japan, Remote",
+        "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Japan-Remote/Senior-Solutions-Architect--Cloud-Infrastructure-and-DevOps---NVIS_JR1997336",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Level not stated"
+          "Title match: devops",
+          "Devops"
         ],
-        "level": "unstated",
-        "salary_min": 115857.6,
-        "salary_max": 115857.6,
-        "comp_disclosed": true
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Platform Engineer",
         "company": "Swoon Group",
         "location": "Schiller Park, Cook County, US",
-        "url": "https://www.adzuna.com/land/ad/5953614976?se=QFj9jhvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=633552A12508A23095DCA46D2C5B5A3D6823AE0F",
+        "url": "https://www.adzuna.com/land/ad/5953614976?se=dkOpBuXg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=633552A12508A23095DCA46D2C5B5A3D6823AE0F",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -6880,6 +6903,65 @@
         "level": "unstated",
         "salary_min": 106064.84,
         "salary_max": 106064.84,
+        "comp_disclosed": true
+      },
+      {
+        "title": "Cloud Platform Engineer",
+        "company": "SAIC",
+        "location": "Chantilly, Fairfax County, US",
+        "url": "https://www.adzuna.com/land/ad/5962838748?se=dkOpBuXg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=FF9EBAE40A5E208F15B7A97C233940817BCF6498",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": 166204.64,
+        "salary_max": 166204.64,
+        "comp_disclosed": true
+      },
+      {
+        "title": "Cloud Platform Engineer",
+        "company": "SAIC",
+        "location": "US",
+        "url": "https://www.adzuna.com/land/ad/5962840559?se=dkOpBuXg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=3759B9488033FD69A33944877AC6CDAF6D82EA84",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": 173463.86,
+        "salary_max": 173463.86,
+        "comp_disclosed": true
+      },
+      {
+        "title": "Senior AI Engineer",
+        "company": "Thronus Group LLC",
+        "location": "US",
+        "url": "https://www.adzuna.com/land/ad/5966185565?se=6L3TCOXg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=D11D5A1FD64870FEA7FF28BAD1ED5A3313E8577D",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Platform"
+        ],
+        "level": "senior",
+        "salary_min": 175704.7,
+        "salary_max": 175704.7,
         "comp_disclosed": true
       },
       {
@@ -6905,7 +6987,7 @@
         "title": "Data & AI / LLM Engineer",
         "company": "SANS",
         "location": "US",
-        "url": "https://www.adzuna.com/land/ad/5963556870?se=9mArmBvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=4392AB049F8BD80ABAE2053F7E63B4859CC08C88",
+        "url": "https://www.adzuna.com/land/ad/5963556870?se=tsk4C-Xg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=4392AB049F8BD80ABAE2053F7E63B4859CC08C88",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -6925,7 +7007,7 @@
         "title": "Machine Learning Engineer, Discovery",
         "company": "Whatnot",
         "location": "Grand Central, Manhattan, US",
-        "url": "https://www.adzuna.com/land/ad/5948638063?se=BIC8mBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=47BE5DF7C015FB199F1100B8E05EE29AE36E190C",
+        "url": "https://www.adzuna.com/land/ad/5948638063?se=vpSwC-Xg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=47BE5DF7C015FB199F1100B8E05EE29AE36E190C",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -6945,7 +7027,7 @@
         "title": "Machine Learning Engineer, Growth",
         "company": "Whatnot",
         "location": "Hayes Valley, San Francisco, US",
-        "url": "https://www.adzuna.com/land/ad/5948638234?se=BIC8mBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=31C9F6A36E746EB79729FB10C6E5C015E8100447",
+        "url": "https://www.adzuna.com/land/ad/5948638234?se=vpSwC-Xg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=31C9F6A36E746EB79729FB10C6E5C015E8100447",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -6959,6 +7041,26 @@
         "level": "unstated",
         "salary_min": 281008.1,
         "salary_max": 281008.1,
+        "comp_disclosed": true
+      },
+      {
+        "title": "Machine Learning Engineer, Applied Research",
+        "company": "Whatnot",
+        "location": "Grand Central, Manhattan, US",
+        "url": "https://www.adzuna.com/land/ad/5948635877?se=vpSwC-Xg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=943EE5287C1D2A3AE52CF6B3DD42361CA77C1F78",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: machine learning engineer",
+          "Platform",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": 315184.5,
+        "salary_max": 315184.5,
         "comp_disclosed": true
       },
       {
@@ -7066,6 +7168,26 @@
         "company": "Kyndryl",
         "location": "Hoofddorp, Haarlemmermeer, Nederland",
         "url": "https://www.adzuna.nl/details/5933982442?utm_medium=api&utm_source=4076fe36",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "IT4IT Platform Engineer",
+        "company": "Kyndryl",
+        "location": "Hoofddorp, Haarlemmermeer, Nederland",
+        "url": "https://www.adzuna.nl/details/5938933640?utm_medium=api&utm_source=4076fe36",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -7765,6 +7887,27 @@
         "comp_disclosed": false
       },
       {
+        "title": "AI Platform Engineer",
+        "company": "eSolutionsFirst, LLC",
+        "location": "Vienna, Fairfax County, US",
+        "url": "https://www.adzuna.com/land/ad/5957682652?se=pKguDOXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=08FBE0F23D209A9F85CF59ACD9D724F09EEBDBE1",
+        "score": 19,
+        "grade": "A",
+        "match": 95,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Python",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": 148528.92,
+        "salary_max": 148528.92,
+        "comp_disclosed": true
+      },
+      {
         "title": "Digital Site Reliability Engineer",
         "company": "Radisson Hotel Group",
         "location": "Madrid, España",
@@ -7826,10 +7969,31 @@
         "comp_disclosed": true
       },
       {
+        "title": "Devops Engineer",
+        "company": "Ocho",
+        "location": "Belfast, Northern Ireland, UK",
+        "url": "https://www.adzuna.co.uk/jobs/land/ad/5945823965?se=8s0iDuXg8RGwZsHzjEy9wA&utm_medium=api&utm_source=4076fe36&v=F853E8F5720CC97F89DD4560DEB30375FE5A86F8",
+        "score": 16,
+        "grade": "A",
+        "match": 80,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": 100000,
+        "salary_max": 100000,
+        "comp_disclosed": true
+      },
+      {
         "title": "DevOps Engineer (m/w/d)",
         "company": "TÜV NORD Service GmbH & Co. KG",
         "location": "Bahrenfeld, Hamburg, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5936616765?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=2B89C7A14981D63ABF11C156CA5E155BED340983",
+        "url": "https://www.adzuna.de/land/ad/5936616765?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=2B89C7A14981D63ABF11C156CA5E155BED340983",
         "score": 16,
         "grade": "A",
         "match": 80,
@@ -7842,6 +8006,26 @@
           "Level not stated"
         ],
         "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Site Reliability Engineer (SRE) m/f/x",
+        "company": "Makersite GmbH",
+        "location": "Remote job",
+        "url": "https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-senior-site-reliability-engineer-sre-berlin-312709",
+        "score": 14,
+        "grade": "A",
+        "match": 70,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "SRE",
+          "Site Reliability"
+        ],
+        "level": "senior",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -8074,7 +8258,7 @@
         "title": "AI Platform Engineer (m/f/d)",
         "company": "Allianz Seguros",
         "location": "Barcelona, España",
-        "url": "https://www.adzuna.es/land/ad/5954152710?se=tkAwvBvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=42A408B378EE055C285C257FD80F8FC516434158",
+        "url": "https://www.adzuna.es/land/ad/5954152710?se=WrPUJ-Xg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=42A408B378EE055C285C257FD80F8FC516434158",
         "score": 14,
         "grade": "A",
         "match": 70,
@@ -8095,7 +8279,7 @@
         "title": "AI Platform Engineer(m/f/d)",
         "company": "Allianz Seguros",
         "location": "Barcelona, España",
-        "url": "https://www.adzuna.es/land/ad/5954162747?se=tkAwvBvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=F5BBC0AEF8359F5F4CEA7D5D06DCEA2D3F777E64",
+        "url": "https://www.adzuna.es/land/ad/5954162747?se=WrPUJ-Xg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=F5BBC0AEF8359F5F4CEA7D5D06DCEA2D3F777E64",
         "score": 14,
         "grade": "A",
         "match": 70,
@@ -8130,6 +8314,27 @@
         "level": "senior",
         "salary_min": 90000,
         "salary_max": 130000,
+        "comp_disclosed": true
+      },
+      {
+        "title": "Hybrid Cloud AI Platform Engineer | Kraków & Barcelona",
+        "company": "Global Enterprise Partners",
+        "location": "Barcelona, Cataluña, España",
+        "url": "https://www.adzuna.es/details/5954384782?utm_medium=api&utm_source=4076fe36",
+        "score": 14,
+        "grade": "A",
+        "match": 70,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Kubernetes",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": 85000,
+        "salary_max": 125000,
         "comp_disclosed": true
       },
       {
@@ -8171,6 +8376,26 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
+      },
+      {
+        "title": "Site Reliability Engineer III",
+        "company": "CME Technology Support Services Ltd",
+        "location": "Belfast, Northern Ireland, UK",
+        "url": "https://www.adzuna.co.uk/jobs/land/ad/5942117471?se=aEi6DeXg8RGekZL8yz3TIA&utm_medium=api&utm_source=4076fe36&v=D7D65E212AAEF784701F8F1A7FBB6B728765DA5F",
+        "score": 13,
+        "grade": "B",
+        "match": 65,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "SRE",
+          "Site Reliability"
+        ],
+        "level": "senior",
+        "salary_min": 81337.95,
+        "salary_max": 81337.95,
+        "comp_disclosed": true
       },
       {
         "title": "Lead AI Engineer – Remote/Hybrid, Agentic AI",
@@ -8518,27 +8743,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "DevOps / Platform Engineer",
-        "company": "STAFIDE",
-        "location": "Amsterdam, Noord-Holland, Nederland",
-        "url": "https://www.adzuna.nl/details/5951367911?utm_medium=api&utm_source=4076fe36",
-        "score": 12,
-        "grade": "B",
-        "match": 60,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Site Reliability Engineer",
         "company": "Plenit",
         "location": "Madrid, España",
@@ -8573,6 +8777,27 @@
           "Title match: site reliability",
           "SRE",
           "Site Reliability",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Site Reliability Engineer - Data Platform",
+        "company": "N26",
+        "location": "Barcelona, España",
+        "url": "https://www.adzuna.es/land/ad/5963398416?se=-pthIeXg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=0DA71AAA5E568DE834BCD15E5086C59EA339BBF6",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability",
           "Level not stated"
         ],
         "level": "unstated",
@@ -8646,7 +8871,7 @@
         "title": "Senior Agentic AI Engineer",
         "company": "Izertis",
         "location": "Madrid, España",
-        "url": "https://www.adzuna.es/land/ad/5954166457?se=aOEWuhvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=C4032B9AA0789E072DF1E5B73E434EE50A4B84BF",
+        "url": "https://www.adzuna.es/land/ad/5954166457?se=QDE7JuXg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=C4032B9AA0789E072DF1E5B73E434EE50A4B84BF",
         "score": 12,
         "grade": "B",
         "match": 60,
@@ -8705,26 +8930,6 @@
         "comp_disclosed": true
       },
       {
-        "title": "Lead AI Platform Engineer (Hybrid)",
-        "company": "DR / Decision Resources LLC",
-        "location": "Barcelona, Cataluña, España",
-        "url": "https://www.adzuna.es/details/5950636104?utm_medium=api&utm_source=4076fe36",
-        "score": 12,
-        "grade": "B",
-        "match": 60,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Python"
-        ],
-        "level": "senior",
-        "salary_min": 120000,
-        "salary_max": 180000,
-        "comp_disclosed": true
-      },
-      {
         "title": "Senior Site Reliability Engineer (SRE) | Feeld",
         "company": "Offshore Software Development and Product Studio",
         "location": "Brasil",
@@ -8765,10 +8970,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Azure Platform Engineer (all genders) in Hamburg",
+        "title": "Azure Platform Engineer (all genders) in Berlin",
         "company": "Instaffo GmbH",
-        "location": "Hamburg-Altstadt, Hamburg, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5833374649?se=eAWPpBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=CF0ABC998E1D64B20FE6786A97FD0B488B31F82D",
+        "location": "Mitte, Berlin, Deutschland",
+        "url": "https://www.adzuna.de/land/ad/5833374567?se=Kq0TFeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=0DB87B8940D74D01C9604CC66DCBF28C075C19B4",
         "score": 11,
         "grade": "B",
         "match": 55,
@@ -8786,10 +8991,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Azure Platform Engineer (all genders) in Berlin",
+        "title": "Azure Platform Engineer (all genders) in Hamburg",
         "company": "Instaffo GmbH",
-        "location": "Mitte, Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5833374567?se=eAWPpBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=0DB87B8940D74D01C9604CC66DCBF28C075C19B4",
+        "location": "Hamburg-Altstadt, Hamburg, Deutschland",
+        "url": "https://www.adzuna.de/land/ad/5833374649?se=Kq0TFeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=CF0ABC998E1D64B20FE6786A97FD0B488B31F82D",
         "score": 11,
         "grade": "B",
         "match": 55,
@@ -9206,26 +9411,6 @@
           "Title match: ai agent",
           "Agentic Ai",
           "Ai Agent"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior Agentic AI Engineer (all genders)",
-        "company": "adesso SE",
-        "location": "Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5860795428?se=jqduqBvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=218699BDB673E02D251B908A39AFE7DF2038CD97",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Differentiator: Sso",
-          "Agentic Ai"
         ],
         "level": "senior",
         "salary_min": null,
@@ -9746,7 +9931,7 @@
         "title": "GO AI Agentic Engineer",
         "company": "Huxley Associates",
         "location": "UK",
-        "url": "https://www.adzuna.co.uk/jobs/land/ad/5951749593?se=wgwGoBvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=694D2FADCCED9DC02629B05F1170CF315C544553",
+        "url": "https://www.adzuna.co.uk/jobs/land/ad/5951749593?se=eMBgEeXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=694D2FADCCED9DC02629B05F1170CF315C544553",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -9767,7 +9952,7 @@
         "title": "Site Reliability Engineer - VMware & Cloud",
         "company": "Brainlab",
         "location": "München, München (Kreis), Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5910073921?se=cLmxoxvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=E77CFD5CFFE1406A4C09E6E6D8E126DCE426DEA1",
+        "url": "https://www.adzuna.de/land/ad/5910073921?se=cBNUFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=E77CFD5CFFE1406A4C09E6E6D8E126DCE426DEA1",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -9871,7 +10056,7 @@
         "title": "Senior Site Reliability Engineer (m/w/d)",
         "company": "Interhyp Gruppe",
         "location": "Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5936957015?se=cLmxoxvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=A26670A06458825DDEDBCD1AB19055D67CD7ED42",
+        "url": "https://www.adzuna.de/details/5936957015?utm_medium=api&utm_source=4076fe36",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -9929,10 +10114,10 @@
         "comp_disclosed": true
       },
       {
-        "title": "DevOps Engineer - Cloud Native & Kubernetes (m/w/d)",
-        "company": "Bundesdruckerei-Gruppe",
+        "title": "DevOps Platform Engineer Openshift",
+        "company": "Deutsche Rentenversicherung Bund",
         "location": "Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5960629050?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=D529228A90C56F79FB72127340BC184137936BE1",
+        "url": "https://www.adzuna.de/land/ad/5961997833?se=Kq0TFeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=647FF7570E47A3079D2B77158C065285E161F67B",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -9941,7 +10126,7 @@
         "reasons": [
           "Title match: devops",
           "Devops",
-          "Kubernetes",
+          "Platform",
           "Level not stated"
         ],
         "level": "unstated",
@@ -9950,10 +10135,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "DevOps Platform Engineer Openshift",
-        "company": "Deutsche Rentenversicherung Bund",
-        "location": "Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5961997833?se=eAWPpBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=647FF7570E47A3079D2B77158C065285E161F67B",
+        "title": "DevOps Engineer / Platform Engineer (m/w/d)",
+        "company": "Lürssen Werft Bremen GmbH & Co. KG",
+        "location": "Deutschland",
+        "url": "https://www.adzuna.de/land/ad/5950678930?se=Kq0TFeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=CBAD88BE8F08751989314D9FA803BEB8F5745ECB",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -10066,6 +10251,27 @@
           "Kubernetes"
         ],
         "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "AI Platform Engineer - Edgy device (m/f/d)",
+        "company": "Almetra",
+        "location": "Berlin, Deutschland",
+        "url": "https://www.adzuna.de/details/5966169006?utm_medium=api&utm_source=4076fe36",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Differentiator: Device Fleet",
+          "Platform",
+          "Level not stated"
+        ],
+        "level": "unstated",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -10319,25 +10525,6 @@
         "comp_disclosed": true
       },
       {
-        "title": "Remote Head of AI Engineering - ML Platform Lead",
-        "company": "Hubble s",
-        "location": "España",
-        "url": "https://www.adzuna.es/details/5964408299?utm_medium=api&utm_source=4076fe36",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Platform"
-        ],
-        "level": "senior",
-        "salary_min": 90000,
-        "salary_max": 130000,
-        "comp_disclosed": true
-      },
-      {
         "title": "Senior AI Platform Engineer — Lead, Scale & Innovation",
         "company": "Valsea Technology",
         "location": "Marbella, Málaga, España",
@@ -10423,7 +10610,7 @@
         "title": "Santander AI Lab - Frontier Agentic AI Engineer",
         "company": "Banco Santander",
         "location": "Madrid, España",
-        "url": "https://www.adzuna.es/land/ad/5954152547?se=aOEWuhvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=67151FFC68B89AAFB647A2DF16F4F514F10BAE6C",
+        "url": "https://www.adzuna.es/land/ad/5954152547?se=QDE7JuXg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=67151FFC68B89AAFB647A2DF16F4F514F10BAE6C",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -10444,7 +10631,7 @@
         "title": "Santander AI Lab - Frontier Agentic AI Engineer",
         "company": "Santander",
         "location": "Madrid, España",
-        "url": "https://www.adzuna.es/land/ad/5954152585?se=aOEWuhvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=80000BE52B408CC977F2476F72E6333429C24D1D",
+        "url": "https://www.adzuna.es/land/ad/5954152585?se=QDE7JuXg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=80000BE52B408CC977F2476F72E6333429C24D1D",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -10564,46 +10751,6 @@
         "comp_disclosed": true
       },
       {
-        "title": "Ai Agents Manager - Customer Care Location: Barcelona",
-        "company": "Preply",
-        "location": "Barcelona, Cataluña, España",
-        "url": "https://www.adzuna.es/details/5952614694?utm_medium=api&utm_source=4076fe36",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai agent",
-          "Ai Agent",
-          "Ai Agents"
-        ],
-        "level": "senior",
-        "salary_min": 90000,
-        "salary_max": 140000,
-        "comp_disclosed": true
-      },
-      {
-        "title": "AI Agents Manager - Customer Care Location: Barcelona",
-        "company": "Preply Inc.",
-        "location": "Barcelona, Cataluña, España",
-        "url": "https://www.adzuna.es/details/5937833772?utm_medium=api&utm_source=4076fe36",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai agent",
-          "Ai Agent",
-          "Ai Agents"
-        ],
-        "level": "senior",
-        "salary_min": 90000,
-        "salary_max": 120000,
-        "comp_disclosed": true
-      },
-      {
         "title": "Ai Prompt Engineer For Llm Automation & Insights",
         "company": "Capitole",
         "location": "Sevilla, Andalucía, España",
@@ -10648,7 +10795,7 @@
         "title": "Senior AI Engineer",
         "company": "CogniSoft Technologies",
         "location": "Lafayette, Lafayette Parish, US",
-        "url": "https://www.adzuna.com/land/ad/5929536697?se=SkcPkxvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=5FFBA70AC4F2881E937B9E5F84921A54D8D87C92",
+        "url": "https://www.adzuna.com/land/ad/5929536697?se=6L3TCOXg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=5FFBA70AC4F2881E937B9E5F84921A54D8D87C92",
         "score": 7,
         "grade": "C",
         "match": 35,
@@ -10749,10 +10896,31 @@
         "comp_disclosed": false
       },
       {
+        "title": "DevOps Engineer",
+        "company": "dLocal",
+        "location": "Madrid, España",
+        "url": "https://www.adzuna.es/details/5937333577?utm_medium=api&utm_source=4076fe36",
+        "score": 7,
+        "grade": "C",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Platform Engineer",
         "company": "Holaluz",
         "location": "Barcelona, España",
-        "url": "https://www.adzuna.es/land/ad/5954160295?se=TLS6tBvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=C6740F5BC32F9C2C318753E782ACD7CBFDFB9D88",
+        "url": "https://www.adzuna.es/land/ad/5954160295?se=mAuAIuXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=C6740F5BC32F9C2C318753E782ACD7CBFDFB9D88",
         "score": 7,
         "grade": "C",
         "match": 35,
@@ -10790,22 +10958,63 @@
         "comp_disclosed": true
       },
       {
-        "title": "GenAI Engineer (m/w/d)",
-        "company": "Machine Learning Reply",
-        "location": "Munich, Bayern, Germany",
-        "url": "https://www.arbeitnow.com/jobs/companies/machine-learning-reply/genai-engineer-munich-83891",
+        "title": "Platform Engineer",
+        "company": "Finmid.com",
+        "location": "Berlin / Greece / Remote",
+        "url": "https://www.arbeitnow.com/jobs/companies/finmidcom/remote-platform-engineer-34275",
         "score": 6,
         "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: ai engineer",
-          "LLM",
+          "Title match: platform engineer",
+          "Platform",
           "RAG",
           "Level not stated"
         ],
         "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "AI Platform Engineer",
+        "company": "Jobgether",
+        "location": "Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/jobgether/ai-platform-engineer-germany-385581",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Level not stated",
+          "Posted in 5 locations"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Platform Engineer",
+        "company": "SwissPeak Partners GmbH",
+        "location": "Basel, Basel-Stadt, Switzerland",
+        "url": "https://www.arbeitnow.ch/jobs/companies/swisspeak-partners-gmbh/senior-platform-engineer-basel-203869",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Automation"
+        ],
+        "level": "senior",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -10995,10 +11204,30 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior DevOps Engineer",
+        "company": "TP ICAP Group Services Ltd",
+        "location": "Belfast, Northern Ireland, UK",
+        "url": "https://www.adzuna.co.uk/jobs/land/ad/5966006549?se=8s0iDuXg8RGwZsHzjEy9wA&utm_medium=api&utm_source=4076fe36&v=55FC341DDB5086BCA3B75E13FC90A2A1F70A1F0C",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Ci/Cd"
+        ],
+        "level": "senior",
+        "salary_min": 81035.21,
+        "salary_max": 81035.21,
+        "comp_disclosed": true
+      },
+      {
         "title": "DevOps Engineer (m/f/d)",
         "company": "Augentic",
         "location": "Au-Haidhausen, München, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5948755983?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=A8E560D642D4C701A9978489BE1F1DEB4D9656CD",
+        "url": "https://www.adzuna.de/land/ad/5948755983?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=A8E560D642D4C701A9978489BE1F1DEB4D9656CD",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -11019,7 +11248,7 @@
         "title": "Senior DevOps Engineer (m/w/d)",
         "company": "Paychex Europe Germany GmbH",
         "location": "Rostock, Mecklenburg-Vorpommern, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5961992636?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=A3C894750CA09655BBF6613EA147EE90C1114E69",
+        "url": "https://www.adzuna.de/land/ad/5961992636?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=A3C894750CA09655BBF6613EA147EE90C1114E69",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -11102,7 +11331,7 @@
         "title": "Senior DevOps Engineer (m/w/d) für Brandenburg, Berlin, Braunschweig",
         "company": "Instaffo GmbH",
         "location": "Mitte, Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5927390905?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=3FDD4A0834B06FF3354BBB651B4BA2C5DB0AB638",
+        "url": "https://www.adzuna.de/land/ad/5927390905?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=3FDD4A0834B06FF3354BBB651B4BA2C5DB0AB638",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -11122,7 +11351,7 @@
         "title": "SAP DevOps Engineer (w/m/d)",
         "company": "KALORIMETA GMBH",
         "location": "Hamburg, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5947025244?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=63C02CA3131527BFCDC41E77E9EB6B6AB7DFF3C7",
+        "url": "https://www.adzuna.de/land/ad/5947025244?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=63C02CA3131527BFCDC41E77E9EB6B6AB7DFF3C7",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -11143,7 +11372,7 @@
         "title": "Senior DevOps Engineer (m/w/d)",
         "company": "EOS Deutscher Inkasso-Dienst",
         "location": "Hamburg, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5874898420?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=BD337B5FC00737F4D7891E2B638C685F60F7B441",
+        "url": "https://www.adzuna.de/land/ad/5874898420?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=BD337B5FC00737F4D7891E2B638C685F60F7B441",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -11163,7 +11392,7 @@
         "title": "Staff Platform Engineer - Cloud Platform (all genders)",
         "company": "ABOUT YOU SE & Co. KG",
         "location": "Hamburg, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5965413160?se=eAWPpBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=324C901DDDD36FE930BE8E09A264F7569F2A4B3A",
+        "url": "https://www.adzuna.de/land/ad/5961206485?se=Kq0TFeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=373E463961E6961009F7811D14175B442F1646F8",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -11182,8 +11411,8 @@
       {
         "title": "Cloud Platform Engineer (m/w/d) – Kubernetes / STACKIT / AI Platform Operations",
         "company": "dtms GmbH",
-        "location": "Hamburg-Altstadt, Hamburg, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5929531825?se=eAWPpBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=6A5C55BA7D10C96DF7C2B57829FE47CFBBC25195",
+        "location": "Altstadt, Mainz, Deutschland",
+        "url": "https://www.adzuna.de/land/ad/5929529389?se=Kq0TFeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=53901D77254449FAC12F3F0BAE768901BDEA7C02",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -11203,8 +11432,8 @@
       {
         "title": "Cloud Platform Engineer (m/w/d) – Kubernetes / STACKIT / AI Platform Operations",
         "company": "dtms GmbH",
-        "location": "Altstadt, Mainz, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5929529389?se=eAWPpBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=53901D77254449FAC12F3F0BAE768901BDEA7C02",
+        "location": "Hamburg-Altstadt, Hamburg, Deutschland",
+        "url": "https://www.adzuna.de/land/ad/5929531825?se=Kq0TFeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=6A5C55BA7D10C96DF7C2B57829FE47CFBBC25195",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -11225,7 +11454,7 @@
         "title": "Senior Platform Engineer (m/w/d)",
         "company": "BIOTRONIK Corporate Services SE",
         "location": "Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5938599381?se=eAWPpBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=A351C99C8AE6DB7D607B1B46A7FB143BD29E41A9",
+        "url": "https://www.adzuna.de/land/ad/5938599381?se=Kq0TFeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=A351C99C8AE6DB7D607B1B46A7FB143BD29E41A9",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -11245,7 +11474,7 @@
         "title": "Senior KI Platform Engineer (m/w/d)",
         "company": "DZ HYP",
         "location": "Hamburg, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5956398957?se=eAWPpBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=ECD3A29D71503DC15C23EAC8A44089F552B111E0",
+        "url": "https://www.adzuna.de/land/ad/5956398957?se=Kq0TFeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=ECD3A29D71503DC15C23EAC8A44089F552B111E0",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -11669,26 +11898,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior DevOps Engineer",
-        "company": "Jobgether",
-        "location": "Veldhoven, Noord-Brabant, Nederland",
-        "url": "https://www.adzuna.nl/details/5957396886?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "AWX Platform Engineer",
         "company": "Liberty Global",
         "location": "Nederland",
@@ -11705,26 +11914,6 @@
           "Level not stated"
         ],
         "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Staff Platform Engineer",
-        "company": "Jobgether",
-        "location": "Veldhoven, Noord-Brabant, Nederland",
-        "url": "https://www.adzuna.nl/details/5957409432?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Automation"
-        ],
-        "level": "senior",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -11753,27 +11942,7 @@
         "title": "Engineering lead AI",
         "company": "PwC",
         "location": "Amsterdam, Noord-Holland, Nederland",
-        "url": "https://www.adzuna.nl/land/ad/5943580802?se=slytrhvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=07C54EA85A82E81522236D6A35B23E967F483BD1",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Platform",
-          "Agentic Ai",
-          "RAG"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering lead AI",
-        "company": "PwC",
-        "location": "Oud West, Amsterdam, Nederland",
-        "url": "https://www.adzuna.nl/land/ad/5943811081?se=slytrhvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=B6B1120672546CB76E7FBD7BAD4A21B467194302",
+        "url": "https://www.adzuna.nl/land/ad/5943580802?se=uCKKHeXg8RGekZL8yz3TIA&utm_medium=api&utm_source=4076fe36&v=07C54EA85A82E81522236D6A35B23E967F483BD1",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -11915,7 +12084,7 @@
         "title": "Platform Engineer",
         "company": "Allianz Seguros",
         "location": "Madrid, España",
-        "url": "https://www.adzuna.es/land/ad/5954164943?se=TLS6tBvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=5BEBDFA133AB698190FC2AFEE5E291152344EA8E",
+        "url": "https://www.adzuna.es/land/ad/5954164943?se=mAuAIuXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=5BEBDFA133AB698190FC2AFEE5E291152344EA8E",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -11994,6 +12163,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Sre Manager (Vpn)",
+        "company": "Proton",
+        "location": "Barcelona, España",
+        "url": "https://www.adzuna.es/details/5966364305?utm_medium=api&utm_source=4076fe36",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: sre",
+          "SRE"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "CTO - Transformation",
         "company": "Talent-R",
         "location": "Madrid, España",
@@ -12033,24 +12221,6 @@
         "comp_disclosed": true
       },
       {
-        "title": "Head of AI Engineering",
-        "company": "Hubble s",
-        "location": "España",
-        "url": "https://www.adzuna.es/details/5964400228?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer"
-        ],
-        "level": "senior",
-        "salary_min": 90000,
-        "salary_max": 130000,
-        "comp_disclosed": true
-      },
-      {
         "title": "Head of AI Engineering - Software Company",
         "company": "Company not disclosed",
         "location": "Barcelona, España",
@@ -12087,26 +12257,6 @@
         "salary_min": 95000,
         "salary_max": 120000,
         "comp_disclosed": true
-      },
-      {
-        "title": "Senior AI Engineer",
-        "company": "Prosper AI",
-        "location": "Barcelona, España",
-        "url": "https://www.adzuna.es/details/5732691991?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Ai Agent",
-          "Ai Agents"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
       },
       {
         "title": "Senior AI Engineer, Marketing",
@@ -12149,10 +12299,10 @@
         "comp_disclosed": true
       },
       {
-        "title": "Senior AI Engineer, Agentic Systems",
+        "title": "Senior Ai Engineer, Agentic Systems",
         "company": "Kharon",
-        "location": "Madrid, Comunidad de Madrid, España",
-        "url": "https://www.adzuna.es/details/5920404502?utm_medium=api&utm_source=4076fe36",
+        "location": "Madrid, España",
+        "url": "https://www.adzuna.es/details/5966364277?utm_medium=api&utm_source=4076fe36",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -12164,15 +12314,15 @@
           "Ai Agents"
         ],
         "level": "senior",
-        "salary_min": 95000,
-        "salary_max": 115000,
-        "comp_disclosed": true
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Senior AI Engineer, Agentic Systems",
         "company": "Kharon",
-        "location": "Madrid, España",
-        "url": "https://www.adzuna.es/details/5947799516?utm_medium=api&utm_source=4076fe36",
+        "location": "Madrid, Comunidad de Madrid, España",
+        "url": "https://www.adzuna.es/details/5920404502?utm_medium=api&utm_source=4076fe36",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -12212,7 +12362,7 @@
         "title": "Staff AI Agent Engineer",
         "company": "Siemens Gamesa",
         "location": "Barcelona, España",
-        "url": "https://www.adzuna.es/land/ad/5954150674?se=bGd5uRvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=4C5CEC0D825DABDA23BE173300278798D0C60C2B",
+        "url": "https://www.adzuna.es/land/ad/5954150674?se=9hLHJeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=4C5CEC0D825DABDA23BE173300278798D0C60C2B",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -12231,7 +12381,7 @@
         "title": "Staff AI Agent Engineer",
         "company": "Siemens Gamesa",
         "location": "Madrid, España",
-        "url": "https://www.adzuna.es/land/ad/5954150696?se=bGd5uRvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=94BA4F9DFA0C9577681527AC0FDC337E208617CB",
+        "url": "https://www.adzuna.es/land/ad/5954150696?se=9hLHJeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=94BA4F9DFA0C9577681527AC0FDC337E208617CB",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -12250,7 +12400,7 @@
         "title": "Staff AI Agent Engineer",
         "company": "Siemens Gamesa",
         "location": "Tres Cantos, Madrid, España",
-        "url": "https://www.adzuna.es/land/ad/5954150686?se=bGd5uRvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=AAA8581ACB1A978070562EC145BE4D172FFC2FCC",
+        "url": "https://www.adzuna.es/land/ad/5954150686?se=9hLHJeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=AAA8581ACB1A978070562EC145BE4D172FFC2FCC",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -12289,7 +12439,7 @@
         "title": "Agentic AI Engineer",
         "company": "Mango",
         "location": "Palau-solità i Plegamans, Barcelona, España",
-        "url": "https://www.adzuna.es/land/ad/5954154327?se=aOEWuhvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=FA05D4E7C86A9139ED14F5F5DE898E37F6124CE2",
+        "url": "https://www.adzuna.es/land/ad/5954154327?se=QDE7JuXg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=FA05D4E7C86A9139ED14F5F5DE898E37F6124CE2",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -12369,7 +12519,7 @@
         "title": "AI Engineer (Agentic AI)",
         "company": "GFT España",
         "location": "Alcobendas, Madrid, España",
-        "url": "https://www.adzuna.es/land/ad/5954149299?se=aOEWuhvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=5463F9562CF3278109C3C9AB6238108E32479BDC",
+        "url": "https://www.adzuna.es/land/ad/5954149299?se=QDE7JuXg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=5463F9562CF3278109C3C9AB6238108E32479BDC",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -12408,7 +12558,7 @@
         "title": "Lead AI Engineer (Agentic AI)",
         "company": "GFT España",
         "location": "Alcobendas, Madrid, España",
-        "url": "https://www.adzuna.es/land/ad/5954149340?se=aOEWuhvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=F7CC78C396D49D9C3937E7F30BE699DF8BD8E3D5",
+        "url": "https://www.adzuna.es/land/ad/5954149340?se=QDE7JuXg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=F7CC78C396D49D9C3937E7F30BE699DF8BD8E3D5",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -12527,30 +12677,10 @@
         "comp_disclosed": true
       },
       {
-        "title": "Customer-Facing Ai Platform Engineer",
-        "company": "HappyRobot",
-        "location": "Barcelona, España",
-        "url": "https://www.adzuna.es/details/5963827153?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Experienced AI Platform Engineer - AI, CX & Marketing Platform",
         "company": "MediaMarkt España",
         "location": "Barcelona, España",
-        "url": "https://www.adzuna.es/land/ad/5954162849?se=tkAwvBvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=41919EB13A6D70E6410CEC4FAED2AA6F18B01ECF",
+        "url": "https://www.adzuna.es/land/ad/5954162849?se=WrPUJ-Xg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=41919EB13A6D70E6410CEC4FAED2AA6F18B01ECF",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -12605,26 +12735,6 @@
         "comp_disclosed": true
       },
       {
-        "title": "Ai Platform Engineer, Api & Integrations - Hybrid",
-        "company": "Factorial",
-        "location": "Valladolid, Castilla y León, España",
-        "url": "https://www.adzuna.es/details/5948094775?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": 81000,
-        "salary_max": 125000,
-        "comp_disclosed": true
-      },
-      {
         "title": "Director of AI-Driven Clinical Programming",
         "company": "AstraZeneca Pharmaceuticals LP Company",
         "location": "Barcelona, Cataluña, España",
@@ -12663,29 +12773,10 @@
         "comp_disclosed": true
       },
       {
-        "title": "Director of Engineering - AI-Driven Mobile Games & FinOps",
-        "company": "Socialpoint",
-        "location": "Barcelona, Cataluña, España",
-        "url": "https://www.adzuna.es/details/5940406349?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: director of engineering",
-          "RAG"
-        ],
-        "level": "senior",
-        "salary_min": 120000,
-        "salary_max": 180000,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Applied AI Engineer, Enterprise",
-        "company": "Anthropic",
-        "location": "Paris, France",
-        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390754008",
+        "title": "Applied AI Engineer, Startups (Codex)",
+        "company": "OpenAI",
+        "location": "Munich, Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/openai/applied-ai-engineer-startups-codex-munich-197432",
         "score": 5,
         "grade": "D",
         "match": 35,
@@ -12693,8 +12784,9 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: ai engineer",
-          "Anthropic",
-          "Level not stated"
+          "Openai",
+          "Level not stated",
+          "Posted in 5 locations"
         ],
         "level": "unstated",
         "salary_min": null,
@@ -12722,10 +12814,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Applied AI Engineer, Startups (Codex)",
-        "company": "OpenAI",
+        "title": "Applied AI Engineer, Enterprise",
+        "company": "Anthropic",
         "location": "Paris, France",
-        "url": "https://jobs.ashbyhq.com/openai/d801f26e-951e-452c-9924-9449b55edc5a",
+        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390754008",
         "score": 5,
         "grade": "D",
         "match": 35,
@@ -12733,27 +12825,7 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: ai engineer",
-          "Openai",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Applied AI Engineer, Startups (Codex)",
-        "company": "OpenAI",
-        "location": "Munich, Germany",
-        "url": "https://jobs.ashbyhq.com/openai/e522c734-6e4e-4d69-80c1-d09d5144eab4",
-        "score": 5,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Openai",
+          "Anthropic",
           "Level not stated"
         ],
         "level": "unstated",
@@ -12906,7 +12978,7 @@
         "title": "(Senior) Compute Platform Engineer - OpenStack, KVM, QEMU, libvirt - STACKIT (m/w/d)",
         "company": "Schwarz Digits",
         "location": "Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5951826741?se=eAWPpBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=5654ECDB059D9D8E35ACCCB72B1F04417E36F4A3",
+        "url": "https://www.adzuna.de/land/ad/5951826741?se=Kq0TFeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=5654ECDB059D9D8E35ACCCB72B1F04417E36F4A3",
         "score": 5,
         "grade": "D",
         "match": 35,
@@ -13191,10 +13263,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior Platform Engineer",
-        "company": "Filigran",
-        "location": "France",
-        "url": "https://jobicy.com/jobs/161359-senior-platform-engineer-7",
+        "title": "Data Platform Engineer (m/f/d)",
+        "company": "Flix",
+        "location": "Berlin, Berlin, Germany",
+        "url": "https://www.arbeitnow.com/jobs/companies/flix/data-platform-engineer-berlin-328247",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -13202,25 +13274,27 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: platform engineer",
-          "Platform"
+          "Platform",
+          "Level not stated"
         ],
-        "level": "senior",
+        "level": "unstated",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
       },
       {
-        "title": "Machine Learning Engineering Manager II",
-        "company": "Spotify",
-        "location": "Sweden,  UK",
-        "url": "https://jobicy.com/jobs/162092-machine-learning-engineering-manager-ii",
+        "title": "Engineering Manager",
+        "company": "Finom",
+        "location": "Berlin",
+        "url": "https://www.arbeitnow.com/jobs/companies/finom/engineering-manager-berlin-258285",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: machine learning engineer"
+          "Title match: engineering manager",
+          "Platform"
         ],
         "level": "senior",
         "salary_min": null,
@@ -13240,25 +13314,6 @@
         "reasons": [
           "Title match: reliability engineer",
           "Reliability"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Engineering Manager",
-        "company": "eucalyptus",
-        "location": "",
-        "url": "https://www.arbeitnow.co.uk/jobs/companies/eucalyptus/engineering-manager-482608",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: engineering manager",
-          "Platform"
         ],
         "level": "senior",
         "salary_min": null,
@@ -13671,6 +13726,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Agentic AI (Copilot) Senior Cloud Solution Architect",
+        "company": "Microsoft",
+        "location": "Hungary, Multiple Locations, Multiple Locations; Austria, Multiple Locations, Multiple Locations",
+        "url": "https://apply.careers.microsoft.com/careers/job/1970393557051006",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: agentic ai",
+          "Agentic Ai"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Senior Cloud Solution Architect - Agentic AI (Copilot)",
         "company": "Microsoft",
         "location": "Germany, Multiple Locations, Multiple Locations",
@@ -13710,29 +13784,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Agentic AI (Copilot) Senior Cloud Solution Architect",
-        "company": "Microsoft",
-        "location": "Hungary, Multiple Locations, Multiple Locations; Austria, Multiple Locations, Multiple Locations",
-        "url": "https://apply.careers.microsoft.com/careers/job/1970393557051006",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: agentic ai",
-          "Agentic Ai"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Platform Engineer",
         "company": "Tandym Tech",
         "location": "Vienna, Fairfax County, US",
-        "url": "https://www.adzuna.com/land/ad/5956092718?se=QFj9jhvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=12B523258D256FDB9379004D4C5A7590A580385D",
+        "url": "https://www.adzuna.com/land/ad/5956092718?se=dkOpBuXg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=12B523258D256FDB9379004D4C5A7590A580385D",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -13768,49 +13823,10 @@
         "comp_disclosed": true
       },
       {
-        "title": "DevOps Engineer - Certificate Services (m/w/d)",
-        "company": "Bundesdruckerei-Gruppe",
-        "location": "Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5961264849?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=BBE1A18A44D148272004A5E593AB83DFED8EEE70",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Senior DevOps Engineer (m/w/d)",
-        "company": "Bundesdruckerei-Gruppe",
-        "location": "Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5957982208?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=478D713E7FDC9094F0E7250B4EF36AA60204222D",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "DevOps Engineer (all genders) in Berlin",
         "company": "Instaffo GmbH",
         "location": "Mitte, Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5923252185?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=285C577190823EA2C606657F7B08FA7452A3D167",
+        "url": "https://www.adzuna.de/land/ad/5923252185?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=285C577190823EA2C606657F7B08FA7452A3D167",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -13830,7 +13846,7 @@
         "title": "Senior DevOps Engineer (alle Menschen)",
         "company": "THE BRETTINGHAMS GmbH",
         "location": "Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5938601963?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=EE95F58F4ACD20154363DF818C08BF9996A0CABC",
+        "url": "https://www.adzuna.de/land/ad/5938601963?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=EE95F58F4ACD20154363DF818C08BF9996A0CABC",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -13968,7 +13984,7 @@
         "title": "DevOps Engineer Containerbetrieb",
         "company": "Deutsche Rentenversicherung Bund",
         "location": "Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5950678918?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=D038A3C9F7A276AB4B95011EA27E82F89E78671B",
+        "url": "https://www.adzuna.de/land/ad/5950678918?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=D038A3C9F7A276AB4B95011EA27E82F89E78671B",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -13988,7 +14004,7 @@
         "title": "Testing and DevOps Engineer (m/w/d)",
         "company": "TROX SE",
         "location": "Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5941720872?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=7FE0B93C34402E01A988B9BE589D0C34579E7CDB",
+        "url": "https://www.adzuna.de/land/ad/5941720872?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=7FE0B93C34402E01A988B9BE589D0C34579E7CDB",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -14005,10 +14021,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "DevOps Engineer (all genders) in Berlin",
-        "company": "Instaffo GmbH",
-        "location": "Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5948496286?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=E63871A518AD7F0A6D92BB293AF0FE6F2425BFE3",
+        "title": "(Senior) DevOps Engineer (m/w/d)",
+        "company": "EDEKABANK AG",
+        "location": "Hamburg, Deutschland",
+        "url": "https://www.adzuna.de/land/ad/5812921692?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=EA0A2F825F3302BD85B00D481328F0AF919ACDD3",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -14016,10 +14032,9 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: devops",
-          "Devops",
-          "Level not stated"
+          "Devops"
         ],
-        "level": "unstated",
+        "level": "senior",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -14028,7 +14043,27 @@
         "title": "Cloud Platform Engineer (m/w/d) KI & Simulation AIRBUS",
         "company": "Orizon GmbH, Unit Aviation",
         "location": "Kluftern, Friedrichshafen, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5949662414?se=eAWPpBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=67406C983DE2B7D857F531DB12D44863B5DB0721",
+        "url": "https://www.adzuna.de/land/ad/5949662414?se=Kq0TFeXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=67406C983DE2B7D857F531DB12D44863B5DB0721",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Platform Engineer",
+        "company": "NetBird",
+        "location": "Deutschland",
+        "url": "https://www.adzuna.de/details/5834812244?utm_medium=api&utm_source=4076fe36",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -14105,7 +14140,7 @@
         "title": "Technical Director / Head of Engineering & AI (alle Menschen)",
         "company": "THE BRETTINGHAMS GmbH",
         "location": "Berlin, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5938601054?se=UH3ZpRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=A1AFC759E4F21F98BA8DFEDC4BFE97F223D5FD91",
+        "url": "https://www.adzuna.de/land/ad/5938601054?se=eJAOFuXg8RGwZsHzjEy9wA&utm_medium=api&utm_source=4076fe36&v=A1AFC759E4F21F98BA8DFEDC4BFE97F223D5FD91",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -14143,7 +14178,7 @@
         "title": "Senior AI Engineer – Agentic Engineering (m/w/d)",
         "company": "Funk - Internationaler Versicherungsmakler und Risk Consultant",
         "location": "Hamburg, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5943185046?se=jqduqBvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=1B82CC7AC6CA4711DC559FFD885E44FA87469741",
+        "url": "https://www.adzuna.de/details/5943185046?utm_medium=api&utm_source=4076fe36",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -14488,26 +14523,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Platform Engineer",
-        "company": "Rewire",
-        "location": "Binnenstad, Amsterdam, Nederland",
-        "url": "https://www.adzuna.nl/details/5946608845?utm_medium=api&utm_source=4076fe36",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Software Platform Engineer",
         "company": "Thales",
         "location": "Hengelo, Overijssel, Nederland",
@@ -14587,26 +14602,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Platform engineer - Infrastructure",
-        "company": "CGI",
-        "location": "Rotterdam, Zuid-Holland, Nederland",
-        "url": "https://www.adzuna.nl/details/5911698632?utm_medium=api&utm_source=4076fe36",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Senior Platform Engineer",
         "company": "Just Eat",
         "location": "Amsterdam, Noord-Holland, Nederland",
@@ -14621,6 +14616,26 @@
           "Platform"
         ],
         "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "IT4IT Platform Engineer",
+        "company": "Kyndryl",
+        "location": "Hoofddorp, Haarlemmermeer, Nederland",
+        "url": "https://www.adzuna.nl/details/5938933640?utm_medium=api&utm_source=4076fe36",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Level not stated"
+        ],
+        "level": "unstated",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -14879,7 +14894,7 @@
         "title": "Forward Deployed AI Engineer",
         "company": "PwC",
         "location": "Amsterdam, Noord-Holland, Nederland",
-        "url": "https://www.adzuna.nl/land/ad/5943580794?se=JBb9sBvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=661492BF374076C8700DA55DB97E328B43D38FD4",
+        "url": "https://www.adzuna.nl/land/ad/5943580794?se=Fr-1H-Xg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=661492BF374076C8700DA55DB97E328B43D38FD4",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -14899,7 +14914,7 @@
         "title": "Forward Deployed AI Engineer",
         "company": "PwC",
         "location": "Oud West, Amsterdam, Nederland",
-        "url": "https://www.adzuna.nl/land/ad/5943811080?se=JBb9sBvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=0C93E81F0B87AB4787B39557CA1592414B543B08",
+        "url": "https://www.adzuna.nl/land/ad/5943811080?se=Fr-1H-Xg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=0C93E81F0B87AB4787B39557CA1592414B543B08",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -14959,7 +14974,7 @@
         "title": "Devops Engineer",
         "company": "Alten España",
         "location": "Barcelona, España",
-        "url": "https://www.adzuna.es/land/ad/5954148822?se=QAoNtBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=3514B343EFC79794676A9406785F5E7C4816D1BF",
+        "url": "https://www.adzuna.es/land/ad/5954148822?se=jBMHIuXg8RGxQMf6yBy3OQ&utm_medium=api&utm_source=4076fe36&v=3514B343EFC79794676A9406785F5E7C4816D1BF",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -15054,26 +15069,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "DevSecOps Platform Engineer",
-        "company": "Cloudera",
-        "location": "Madrid, Comunidad de Madrid, España",
-        "url": "https://www.adzuna.es/details/5937770145?utm_medium=api&utm_source=4076fe36",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": 90000,
-        "salary_max": 120000,
-        "comp_disclosed": true
       },
       {
         "title": "MongoDB Platform Engineer",
@@ -15286,10 +15281,10 @@
         "comp_disclosed": true
       },
       {
-        "title": "Hybrid CTO - Tech Strategy & Platform Architecture",
-        "company": "DARE",
-        "location": "Madrid, Comunidad de Madrid, España",
-        "url": "https://www.adzuna.es/details/5964400093?utm_medium=api&utm_source=4076fe36",
+        "title": "Coke plant, sinter plant, blast furnace or steel shop maintenance expert for CTO ArcelorMittal Flat Europe team (324420)",
+        "company": "ArcelorMittal",
+        "location": "Sagunto/Sagunt, Valencia, España",
+        "url": "https://www.adzuna.es/land/ad/5954155998?se=JEBVI-Xg8RGekZL8yz3TIA&utm_medium=api&utm_source=4076fe36&v=EAB5170DA85F713EB003F31E74D5B5111B132B52",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -15297,18 +15292,18 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: cto",
-          "Platform"
+          "Reliability"
         ],
         "level": "senior",
-        "salary_min": 120000,
-        "salary_max": 180000,
-        "comp_disclosed": true
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
       },
       {
         "title": "Coke plant, sinter plant, blast furnace or steel shop maintenance expert for CTO ArcelorMittal Flat Europe team (324420)",
         "company": "ArcelorMittal",
-        "location": "Sagunto/Sagunt, Valencia, España",
-        "url": "https://www.adzuna.es/land/ad/5954155998?se=hswCthvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=EAB5170DA85F713EB003F31E74D5B5111B132B52",
+        "location": "Avilés, Asturias, España",
+        "url": "https://www.adzuna.es/land/ad/5954155980?se=JEBVI-Xg8RGekZL8yz3TIA&utm_medium=api&utm_source=4076fe36&v=626DC30DE4220AC030CA317CDCAD6FECD6AB8AAF",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -15325,7 +15320,7 @@
       },
       {
         "title": "Global Head of AI-Driven Aftersales",
-        "company": "Stark Future SL",
+        "company": "Stark Future Sl",
         "location": "Sant Boi de Llobregat, Barcelona, España",
         "url": "https://www.adzuna.es/details/5952661377?utm_medium=api&utm_source=4076fe36",
         "score": 4,
@@ -15362,6 +15357,25 @@
         "comp_disclosed": true
       },
       {
+        "title": "Head of AI-Driven Organic Search, EMEA",
+        "company": "Np Digital",
+        "location": "España",
+        "url": "https://www.adzuna.es/details/5965746761?utm_medium=api&utm_source=4076fe36",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: head of ai",
+          "LLM"
+        ],
+        "level": "senior",
+        "salary_min": 91000,
+        "salary_max": 136000,
+        "comp_disclosed": true
+      },
+      {
         "title": "Senior AI Engineer",
         "company": "ING",
         "location": "España",
@@ -15384,7 +15398,7 @@
         "title": "Senior AI Engineer",
         "company": "ING",
         "location": "Madrid, España",
-        "url": "https://www.adzuna.es/land/ad/5964737306?se=jPRptxvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=6D13B366709BC163F09A7D837B0D04FD53BF2439",
+        "url": "https://www.adzuna.es/land/ad/5964737306?se=tpJHJOXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=6D13B366709BC163F09A7D837B0D04FD53BF2439",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -15634,26 +15648,6 @@
         "comp_disclosed": true
       },
       {
-        "title": "Ultralytics LLM Engineer",
-        "company": "Ultralytics",
-        "location": "Madrid, España",
-        "url": "https://www.adzuna.es/details/5727393792?utm_medium=api&utm_source=4076fe36",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: llm engineer",
-          "LLM",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Senior LLM Engineer | Relocation Offered",
         "company": "Relocate.me",
         "location": "Barcelona, Cataluña, España",
@@ -15888,7 +15882,7 @@
         "title": "Senior Machine Learning Engineer",
         "company": "Finom",
         "location": "España",
-        "url": "https://www.adzuna.es/land/ad/5954155662?se=tnyGuxvg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=921C9A4478B2D2E63D56F67F31BF7DC154819CCF",
+        "url": "https://www.adzuna.es/land/ad/5954155662?se=ZC9AJ-Xg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=921C9A4478B2D2E63D56F67F31BF7DC154819CCF",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -15907,7 +15901,7 @@
         "title": "Senior Machine Learning Engineer",
         "company": "Finom",
         "location": "Barcelona, España",
-        "url": "https://www.adzuna.es/land/ad/5954155698?se=tnyGuxvg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=F609A8FDFD8DAA60283F02F3295E257D1BF49E2A",
+        "url": "https://www.adzuna.es/land/ad/5954155698?se=ZC9AJ-Xg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=F609A8FDFD8DAA60283F02F3295E257D1BF49E2A",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -16147,7 +16141,7 @@
         "title": "Prompt Engineer (LLMs & AI Evaluation)",
         "company": "Inetum",
         "location": "Bilbao, Vizcaya, España",
-        "url": "https://www.adzuna.es/land/ad/5954152091?se=dkvXvRvg8RGjsJUa4adyXA&utm_medium=api&utm_source=4076fe36&v=A648348E54290ECB7C454D323180BD58440C597A",
+        "url": "https://www.adzuna.es/land/ad/5954152091?se=LMkYKeXg8RGwZsHzjEy9wA&utm_medium=api&utm_source=4076fe36&v=A648348E54290ECB7C454D323180BD58440C597A",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -16464,6 +16458,27 @@
         "comp_disclosed": false
       },
       {
+        "title": "Platform Engineer - FedD180/FedD181",
+        "company": "Defense Unicorns",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/162137-platform-engineer-fedd180-fedd181",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Site Reliability",
+          "Reliability",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Site Reliability Engineer, Infrastructure Platforms — AMER (Intermediate to Senior Staff)",
         "company": "GitLab",
         "location": "Remote, Canada; Remote, US",
@@ -16545,27 +16560,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "AI Engineer - Generative AI & AWS",
-        "company": "Workana",
-        "location": "México",
-        "url": "https://www.adzuna.com.mx/details/5774053890?utm_medium=api&utm_source=4076fe36",
-        "score": 9,
-        "grade": "C",
-        "match": 45,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Python",
-          "Ai Agent",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Director of Platform Engineering [gn] Data Intelligence Platform",
         "company": "Actian",
         "location": "France,  Germany,  Spain,  UK,  USA",
@@ -16618,6 +16612,26 @@
           "Title match: ai engineer",
           "Differentiator: Iot",
           "Platform"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Manager, Software Engineering - AI Developer Productivity (Dev Agents and SRE AI)",
+        "company": "Samsara",
+        "location": "Remote - US",
+        "url": "https://www.samsara.com/company/careers/roles/8374911?gh_jid=8374911",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: sre",
+          "Differentiator: Iot",
+          "SRE"
         ],
         "level": "senior",
         "salary_min": null,
@@ -16684,46 +16698,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Senior AI Agent Engineer",
-        "company": "Weekday AI",
-        "location": "US",
-        "url": "https://www.adzuna.com/details/5730411385?utm_medium=api&utm_source=4076fe36",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai agent",
-          "Automation",
-          "Ai Agent"
-        ],
-        "level": "senior",
-        "salary_min": 115714.83,
-        "salary_max": 115714.83,
-        "comp_disclosed": true
-      },
-      {
-        "title": "Director of AI",
-        "company": "ClearBridge Technology Group",
-        "location": "Massachusetts, US",
-        "url": "https://www.adzuna.com/land/ad/5946253273?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=C82851A42806D499747BCE5C8F75EEE745C16217",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: director of ai",
-          "Platform",
-          "RAG"
-        ],
-        "level": "senior",
-        "salary_min": 338157.16,
-        "salary_max": 338157.16,
-        "comp_disclosed": true
       },
       {
         "title": "Site Reliability Engineer, Tech Lead",
@@ -16807,6 +16781,27 @@
         "comp_disclosed": false
       },
       {
+        "title": "Platform Engineer (FedD145)",
+        "company": "Defense Unicorns",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/162132-platform-engineer-fedd145",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Kubernetes",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Staff DevOps Engineer (Platform)",
         "company": "Phantom",
         "location": "Europe,  USA",
@@ -16861,27 +16856,6 @@
           "Devops"
         ],
         "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Platform Engineer",
-        "company": "Defense Unicorns",
-        "location": "USA",
-        "url": "https://jobicy.com/jobs/161246-platform-engineer-3",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Kubernetes",
-          "Level not stated"
-        ],
-        "level": "unstated",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -17392,7 +17366,7 @@
         "title": "Senior AI Platform Engineer",
         "company": "Judge Group, Inc.",
         "location": "Bee Cave, Travis County, US",
-        "url": "https://www.adzuna.com/land/ad/5887002464?se=2phemRvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E",
+        "url": "https://www.adzuna.com/land/ad/5887002464?se=pKguDOXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=032CD39A589B57ED08F76E8FD110A88B6E6F367E",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -17411,7 +17385,7 @@
         "title": "Staff, AI Platform Engineer",
         "company": "Vivint",
         "location": "Cedar Pass, Utah County, US",
-        "url": "https://www.adzuna.com/land/ad/5870499012?se=2phemRvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=B80F49AB21344725DAD3F8DF9B89592DBFBA64D3",
+        "url": "https://www.adzuna.com/land/ad/5870499012?se=pKguDOXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=B80F49AB21344725DAD3F8DF9B89592DBFBA64D3",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -17430,7 +17404,7 @@
         "title": "Director, AI Engineer (Remote Eligible)",
         "company": "Discover Financial Services",
         "location": "Hayes Valley, San Francisco, US",
-        "url": "https://www.adzuna.com/land/ad/5948635990?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=157C9C39884B2E028BF6336244F92507E4A2E830",
+        "url": "https://www.adzuna.com/land/ad/5948635990?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=157C9C39884B2E028BF6336244F92507E4A2E830",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -17449,7 +17423,7 @@
         "title": "Director AI Engineering (Remote Eligible)",
         "company": "Discover Financial Services",
         "location": "Hayes Valley, San Francisco, US",
-        "url": "https://www.adzuna.com/land/ad/5948655948?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=1B1D6A3A880C9E2F92403413FC0F0B079243BB74",
+        "url": "https://www.adzuna.com/land/ad/5948655948?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=1B1D6A3A880C9E2F92403413FC0F0B079243BB74",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -17468,7 +17442,7 @@
         "title": "Director, AI Engineering (Remote - eligible)",
         "company": "Discover Financial Services",
         "location": "Hayes Valley, San Francisco, US",
-        "url": "https://www.adzuna.com/land/ad/5948658785?se=muP4mRvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=0600BB4A09AA348D6A10F520250B1FE9D22E5B3A",
+        "url": "https://www.adzuna.com/land/ad/5948658785?se=1C-GDOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=0600BB4A09AA348D6A10F520250B1FE9D22E5B3A",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -17947,6 +17921,25 @@
         "comp_disclosed": false
       },
       {
+        "title": "Senior Platform Engineer",
+        "company": "Fleetio",
+        "location": "USA",
+        "url": "https://jobicy.com/jobs/155361-senior-platform-engineer-5",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Staff Platform Engineer",
         "company": "Wurl",
         "location": "USA",
@@ -17985,17 +17978,17 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior Software Engineering Manager",
-        "company": "Fanatics",
+        "title": "Senior Director, Solutions Engineering",
+        "company": "Domino Data Lab",
         "location": "USA",
-        "url": "https://jobicy.com/jobs/155302-senior-software-engineering-manager",
+        "url": "https://jobicy.com/jobs/162239-senior-director-solutions-engineering",
         "score": 4,
         "grade": "D",
         "match": 35,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: engineering manager",
+          "Title match: cto",
           "Platform"
         ],
         "level": "senior",
@@ -18562,7 +18555,7 @@
         "title": "Platform Engineer",
         "company": "Swoon Group",
         "location": "Schiller Park, Cook County, US",
-        "url": "https://www.adzuna.com/land/ad/5953614976?se=QFj9jhvg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=633552A12508A23095DCA46D2C5B5A3D6823AE0F",
+        "url": "https://www.adzuna.com/land/ad/5953614976?se=dkOpBuXg8RGUMblR_orDcw&utm_medium=api&utm_source=4076fe36&v=633552A12508A23095DCA46D2C5B5A3D6823AE0F",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -18582,7 +18575,7 @@
         "title": "Field CTO - North America",
         "company": "Qualtrics",
         "location": "Provo, Utah County, US",
-        "url": "https://www.adzuna.com/land/ad/5909899185?se=LAo6kRvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=98A09D47C9E14B7C0CE2934D9CED1D190B219754",
+        "url": "https://www.adzuna.com/land/ad/5909899185?se=lPixB-Xg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=98A09D47C9E14B7C0CE2934D9CED1D190B219754",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -18620,7 +18613,7 @@
         "title": "Machine Learning Engineer, Growth",
         "company": "Whatnot",
         "location": "Hayes Valley, San Francisco, US",
-        "url": "https://www.adzuna.com/land/ad/5948638234?se=BIC8mBvg8RG_3f7Bvvli5g&utm_medium=api&utm_source=4076fe36&v=31C9F6A36E746EB79729FB10C6E5C015E8100447",
+        "url": "https://www.adzuna.com/land/ad/5948638234?se=vpSwC-Xg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=4076fe36&v=31C9F6A36E746EB79729FB10C6E5C015E8100447",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -18996,27 +18989,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "DevOps Engineer",
-        "company": "Epicor",
-        "location": "Monterrey, Nuevo León, México",
-        "url": "https://www.adzuna.com.mx/details/5958318401?utm_medium=api&utm_source=4076fe36",
-        "score": 19,
-        "grade": "A",
-        "match": 95,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Site Reliability Engineer (SRE) – GCP Platform",
         "company": "Kstack",
         "location": "São Paulo, Estado de São Paulo, Brasil",
@@ -19286,6 +19258,27 @@
         "comp_disclosed": false
       },
       {
+        "title": "Site Reliability Engineer (SRE)",
+        "company": "Handoff",
+        "location": "São Paulo, Estado de São Paulo, Brasil",
+        "url": "https://www.adzuna.com.br/details/5966163378?utm_medium=api&utm_source=4076fe36",
+        "score": 16,
+        "grade": "A",
+        "match": 80,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "SRE",
+          "Site Reliability",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": 360000,
+        "salary_max": 456000,
+        "comp_disclosed": true
+      },
+      {
         "title": "Developer Platform Engineer (LATAM)",
         "company": "BC Tecnología",
         "location": "Remote",
@@ -19423,6 +19416,27 @@
           "Title match: site reliability",
           "Differentiator: Sso",
           "SRE",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Devops Engineer",
+        "company": "Company not disclosed",
+        "location": "São Paulo, Estado de São Paulo, Brasil",
+        "url": "https://www.adzuna.com.br/details/5966368893?utm_medium=api&utm_source=4076fe36",
+        "score": 15,
+        "grade": "A",
+        "match": 75,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Automation",
           "Level not stated"
         ],
         "level": "unstated",
@@ -19722,6 +19736,27 @@
         "comp_disclosed": false
       },
       {
+        "title": "Cloud Devops Engineer",
+        "company": "Company not disclosed",
+        "location": "São Paulo, Estado de São Paulo, Brasil",
+        "url": "https://www.adzuna.com.br/details/5966366868?utm_medium=api&utm_source=4076fe36",
+        "score": 14,
+        "grade": "A",
+        "match": 70,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "SRE",
+          "Devops",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Sr AI Platform Engineer | LLM, Python e Databricks",
         "company": "Smarthis",
         "location": "São José dos Campos, Estado de São Paulo, Brasil",
@@ -19740,27 +19775,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "AWS DevOps - AWS Site Reliability Engineer",
-        "company": "Capital Empresarial Horizonte",
-        "location": "México",
-        "url": "https://www.adzuna.com.mx/details/5935550002?utm_medium=api&utm_source=4076fe36",
-        "score": 13,
-        "grade": "B",
-        "match": 65,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": 540000,
-        "salary_max": 1080000,
-        "comp_disclosed": true
       },
       {
         "title": "DevOps Engineer",
@@ -19929,6 +19943,27 @@
         "comp_disclosed": false
       },
       {
+        "title": "Site Reliability Engineer",
+        "company": "Cognizant",
+        "location": "México",
+        "url": "https://www.adzuna.com.mx/details/5966623504?utm_medium=api&utm_source=4076fe36",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: site reliability",
+          "SRE",
+          "Site Reliability",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Site Reliability Engineer (SRE)",
         "company": "Accenture",
         "location": "México",
@@ -20071,10 +20106,51 @@
         "comp_disclosed": false
       },
       {
+        "title": "SRE Senior - Plataforma",
+        "company": "Jobgether",
+        "location": "Brasil",
+        "url": "https://www.adzuna.com.br/details/5966141124?utm_medium=api&utm_source=4076fe36",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: sre",
+          "SRE",
+          "Site Reliability"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "DevOps Engineer",
         "company": "Collinson Brasil",
         "location": "São Paulo, Estado de São Paulo, Brasil",
         "url": "https://www.adzuna.com.br/details/5833588005?utm_medium=api&utm_source=4076fe36",
+        "score": 12,
+        "grade": "B",
+        "match": 60,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Automation",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Devops Engineer",
+        "company": "Collinson Group",
+        "location": "São Paulo, Estado de São Paulo, Brasil",
+        "url": "https://www.adzuna.com.br/details/5965873789?utm_medium=api&utm_source=4076fe36",
         "score": 12,
         "grade": "B",
         "match": 60,
@@ -20251,27 +20327,6 @@
           "Title match: devops",
           "Devops",
           "Platform",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "DevOps / Cloud Engineer",
-        "company": "Semantix",
-        "location": "Brasil",
-        "url": "https://www.adzuna.com.br/details/5964773520?utm_medium=api&utm_source=4076fe36",
-        "score": 11,
-        "grade": "B",
-        "match": 55,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Differentiator: Sso",
-          "Devops",
           "Level not stated"
         ],
         "level": "unstated",
@@ -20503,30 +20558,31 @@
         "comp_disclosed": false
       },
       {
-        "title": "Acceleration Center - Agentic AI & DevOps Engineer - Senior Associate",
-        "company": "PricewaterhouseCoopers",
-        "location": "México",
-        "url": "https://www.adzuna.com.mx/details/5772863708?utm_medium=api&utm_source=4076fe36",
+        "title": "Site Reliability Engineer",
+        "company": "Tyk Technologies",
+        "location": "Brasil",
+        "url": "https://www.adzuna.com.br/details/5859666571?utm_medium=api&utm_source=4076fe36",
         "score": 10,
         "grade": "B",
         "match": 50,
         "visa": false,
         "us_sponsor": false,
         "reasons": [
-          "Title match: devops",
-          "Differentiator: Sso",
-          "Devops"
+          "Title match: site reliability",
+          "Site Reliability",
+          "Reliability",
+          "Level not stated"
         ],
-        "level": "senior",
+        "level": "unstated",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
       },
       {
-        "title": "Site Reliability Engineer",
-        "company": "Tyk Technologies",
-        "location": "Brasil",
-        "url": "https://www.adzuna.com.br/details/5859666571?utm_medium=api&utm_source=4076fe36",
+        "title": "Remote Site Reliability Engineer",
+        "company": "Company not disclosed",
+        "location": "São Paulo, Estado de São Paulo, Brasil",
+        "url": "https://www.adzuna.com.br/details/5966365858?utm_medium=api&utm_source=4076fe36",
         "score": 10,
         "grade": "B",
         "match": 50,
@@ -20639,27 +20695,6 @@
           "Reliability"
         ],
         "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Site Reliability Engineer - AI Platform",
-        "company": "Kyndryl",
-        "location": "São Paulo, Estado de São Paulo, Brasil",
-        "url": "https://www.adzuna.com.br/details/5944697943?utm_medium=api&utm_source=4076fe36",
-        "score": 10,
-        "grade": "B",
-        "match": 50,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability",
-          "Level not stated"
-        ],
-        "level": "unstated",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -20909,6 +20944,27 @@
         "comp_disclosed": false
       },
       {
+        "title": "Ai Agent Engineer",
+        "company": "Company not disclosed",
+        "location": "São Paulo, Estado de São Paulo, Brasil",
+        "url": "https://www.adzuna.com.br/details/5966368667?utm_medium=api&utm_source=4076fe36",
+        "score": 10,
+        "grade": "B",
+        "match": 50,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai agent",
+          "Platform",
+          "Ai Agent",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Devops Engineer",
         "company": "Black Dragon Capital",
         "location": "México",
@@ -20993,6 +21049,68 @@
         "comp_disclosed": false
       },
       {
+        "title": "Azure DevOps Engineer (GitHub Migration Specialist)",
+        "company": "Applaudo Studios",
+        "location": "Ciudad de México, México",
+        "url": "https://www.adzuna.com.mx/details/5959650489?utm_medium=api&utm_source=4076fe36",
+        "score": 9,
+        "grade": "C",
+        "match": 45,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior DevOps Engineer (AWS/Terraform/Kubernetes)",
+        "company": "Monks",
+        "location": "México",
+        "url": "https://www.adzuna.com.mx/details/5963459814?utm_medium=api&utm_source=4076fe36",
+        "score": 9,
+        "grade": "C",
+        "match": 45,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Kubernetes"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Cloud Engineer / DevOps Engineer GCP (Híbrido - Pedregal)",
+        "company": "EON",
+        "location": "Álvaro Obregón, Ciudad de México",
+        "url": "https://www.adzuna.com.mx/details/5966106359?utm_medium=api&utm_source=4076fe36",
+        "score": 9,
+        "grade": "C",
+        "match": 45,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Platform",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Senior Full-Stack AI Engineer - Finance Applications & Integrations",
         "company": "Berry Virtual | MedVirtual | AI Virtual",
         "location": "México",
@@ -21033,27 +21151,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "AI Engineer - Generative AI & AWS",
-        "company": "Workana",
-        "location": "México",
-        "url": "https://www.adzuna.com.mx/details/5774053890?utm_medium=api&utm_source=4076fe36",
-        "score": 9,
-        "grade": "C",
-        "match": 45,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Python",
-          "Ai Agent",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Senior Machine Learning Platform Engineer - Model Hosting & MLOps",
         "company": "HP Inc.",
         "location": "San Pedro Tlaquepaque, Jalisco, México",
@@ -21069,6 +21166,27 @@
           "LLM"
         ],
         "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "DEVOPS ENGINEER",
+        "company": "Tiflux Sistema De Gestao",
+        "location": "Barreiros, Paraná, Brasil",
+        "url": "https://www.adzuna.com.br/details/5966166684?utm_medium=api&utm_source=4076fe36",
+        "score": 9,
+        "grade": "C",
+        "match": 45,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Differentiator: Sso",
+          "Devops",
+          "Level not stated"
+        ],
+        "level": "unstated",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -21154,25 +21272,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Remote Head of AI Engineering - ML Platform Lead",
-        "company": "Hubble s",
-        "location": "España",
-        "url": "https://www.adzuna.es/details/5964408299?utm_medium=api&utm_source=4076fe36",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Platform"
-        ],
-        "level": "senior",
-        "salary_min": 90000,
-        "salary_max": 130000,
-        "comp_disclosed": true
       },
       {
         "title": "Senior Site Reliability Engineer",
@@ -21316,6 +21415,27 @@
         "comp_disclosed": false
       },
       {
+        "title": "DevOps Engineer - Systematic Commodities Hedge Fund",
+        "company": "Moreton Capital Partners",
+        "location": "México",
+        "url": "https://www.adzuna.com.mx/details/5854549062?utm_medium=api&utm_source=4076fe36",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Agentic Ai",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Senior Platform Engineer",
         "company": "Caylent",
         "location": "México",
@@ -21352,6 +21472,26 @@
           "Level not stated"
         ],
         "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Agentic AI Engineer - Senior Associate",
+        "company": "PricewaterhouseCoopers",
+        "location": "México",
+        "url": "https://www.adzuna.com.mx/details/5966078239?utm_medium=api&utm_source=4076fe36",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Differentiator: Sso",
+          "Agentic Ai"
+        ],
+        "level": "senior",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -21403,27 +21543,6 @@
         "company": "IBM",
         "location": "Hortolândia, Estado de São Paulo, Brasil",
         "url": "https://www.adzuna.com.br/details/3306691310?utm_medium=api&utm_source=4076fe36",
-        "score": 8,
-        "grade": "C",
-        "match": 40,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: site reliability",
-          "Site Reliability",
-          "Reliability",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Site Reliability Engineer",
-        "company": "Ebix Latin America",
-        "location": "São Paulo, Estado de São Paulo, Brasil",
-        "url": "https://www.adzuna.com.br/details/5965065541?utm_medium=api&utm_source=4076fe36",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -21564,10 +21683,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "SAP DevOps Engineer (SAP BTP) | Procurement Next Generation",
-        "company": "AM53 Tech Recruitment",
-        "location": "São Paulo, Estado de São Paulo, Brasil",
-        "url": "https://www.adzuna.com.br/details/5930860406?utm_medium=api&utm_source=4076fe36",
+        "title": "Devops Engineer - Torizon Cloud",
+        "company": "Recruitme",
+        "location": "Indaiatuba, Estado de São Paulo, Brasil",
+        "url": "https://www.adzuna.com.br/details/5874247271?utm_medium=api&utm_source=4076fe36",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -21575,8 +21694,8 @@
         "us_sponsor": false,
         "reasons": [
           "Title match: devops",
+          "Differentiator: Iot",
           "Devops",
-          "Platform",
           "Level not stated"
         ],
         "level": "unstated",
@@ -21589,6 +21708,26 @@
         "company": "Caylent",
         "location": "Brasil",
         "url": "https://www.adzuna.com.br/details/5940664751?utm_medium=api&utm_source=4076fe36",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Agentic Ai"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Platform Engineer",
+        "company": "Caylent",
+        "location": "Brasilia, Distrito Federal",
+        "url": "https://www.adzuna.com.br/details/5965873697?utm_medium=api&utm_source=4076fe36",
         "score": 8,
         "grade": "C",
         "match": 40,
@@ -21659,6 +21798,26 @@
           "Title match: ai engineer",
           "Automation",
           "LLM"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Ai Engineer",
+        "company": "EPAM Systems",
+        "location": "Montenegro, Rio Grande do Sul, Brasil",
+        "url": "https://www.adzuna.com.br/details/5965874380?utm_medium=api&utm_source=4076fe36",
+        "score": 8,
+        "grade": "C",
+        "match": 40,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: ai engineer",
+          "Python",
+          "Ai Agent"
         ],
         "level": "senior",
         "salary_min": null,
@@ -22056,26 +22215,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Platform Engineer Spec III (SQL Server)",
-        "company": "Banco Santander",
-        "location": "São Paulo, Estado de São Paulo, Brasil",
-        "url": "https://www.adzuna.com.br/details/5939414486?utm_medium=api&utm_source=4076fe36",
-        "score": 7,
-        "grade": "C",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Differentiator: Sso",
-          "Platform"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Senior Software Engineer (Platform Engineer), Cloud Storage",
         "company": "VTEX",
         "location": "Brasil",
@@ -22089,6 +22228,26 @@
           "Title match: platform engineer",
           "Platform",
           "RAG"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Machine Learning Engineer",
+        "company": "Company not disclosed",
+        "location": "São Paulo, Estado de São Paulo, Brasil",
+        "url": "https://www.adzuna.com.br/details/5966366470?utm_medium=api&utm_source=4076fe36",
+        "score": 7,
+        "grade": "C",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: machine learning engineer",
+          "Platform",
+          "Gcp"
         ],
         "level": "senior",
         "salary_min": null,
@@ -22140,7 +22299,7 @@
         "title": "Agentic AI Engineer Lead",
         "company": "Carrier",
         "location": "Uptown, Marion County, US",
-        "url": "https://www.adzuna.com/land/ad/5899566252?se=BFyMlxvg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=17124767B241628E36D9D7A273831DCDDE7151BA",
+        "url": "https://www.adzuna.com/land/ad/5899566252?se=WEXaCuXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=17124767B241628E36D9D7A273831DCDDE7151BA",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -22159,7 +22318,7 @@
         "title": "SAP DevOps Engineer (w/m/d)",
         "company": "KALORIMETA GMBH",
         "location": "Hamburg, Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5947025244?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=63C02CA3131527BFCDC41E77E9EB6B6AB7DFF3C7",
+        "url": "https://www.adzuna.de/land/ad/5947025244?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=63C02CA3131527BFCDC41E77E9EB6B6AB7DFF3C7",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -22195,24 +22354,6 @@
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
-      },
-      {
-        "title": "Head of AI Engineering",
-        "company": "Hubble s",
-        "location": "España",
-        "url": "https://www.adzuna.es/details/5964400228?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer"
-        ],
-        "level": "senior",
-        "salary_min": 90000,
-        "salary_max": 130000,
-        "comp_disclosed": true
       },
       {
         "title": "Senior AI Agent Lead & Architect",
@@ -22317,26 +22458,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior DevOps Engineer",
-        "company": "SailPoint",
-        "location": "México",
-        "url": "https://www.adzuna.com.mx/details/5923506519?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Differentiator: Identity",
-          "Devops"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Staff DevOps Engineer",
         "company": "Bright Machines",
         "location": "México",
@@ -22398,26 +22519,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Staff DevOps Engineer (Ingeniero DevOps Staff)",
-        "company": "Clara",
-        "location": "México",
-        "url": "https://www.adzuna.com.mx/details/5917312987?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "DevOps Engineer - AI Model Evaluator",
         "company": "Mercor",
         "location": "Ciudad de México, México",
@@ -22434,26 +22535,6 @@
           "Level not stated"
         ],
         "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Staff Platform Engineer",
-        "company": "Jobgether",
-        "location": "México",
-        "url": "https://www.adzuna.com.mx/details/5957219913?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Automation"
-        ],
-        "level": "senior",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -22495,6 +22576,26 @@
           "Level not stated"
         ],
         "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Cloud Platform Engineer",
+        "company": "AstraZeneca",
+        "location": "Guadalajara, Jalisco, México",
+        "url": "https://www.adzuna.com.mx/details/5966104269?utm_medium=api&utm_source=4076fe36",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Differentiator: Identity",
+          "Platform"
+        ],
+        "level": "senior",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -22845,10 +22946,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "Devops Engineer",
-        "company": "Deel",
-        "location": "Brasilia, Distrito Federal",
-        "url": "https://www.adzuna.com.br/details/5963066343?utm_medium=api&utm_source=4076fe36",
+        "title": "Senior Devops Engineer",
+        "company": "Company not disclosed",
+        "location": "São Paulo, Estado de São Paulo, Brasil",
+        "url": "https://www.adzuna.com.br/details/5966368626?utm_medium=api&utm_source=4076fe36",
         "score": 6,
         "grade": "D",
         "match": 35,
@@ -22857,10 +22958,9 @@
         "reasons": [
           "Title match: devops",
           "Devops",
-          "Platform",
-          "Level not stated"
+          "Ci/Cd"
         ],
-        "level": "unstated",
+        "level": "senior",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -22946,26 +23046,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior Devops Engineer",
-        "company": "Fortive",
-        "location": "Indaiatuba, Estado de São Paulo, Brasil",
-        "url": "https://www.adzuna.com.br/details/5960294150?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Platform"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "DevOps Engineer - Foundations (ROOT)",
         "company": "1GLOBAL",
         "location": "São Paulo, Estado de São Paulo, Brasil",
@@ -23028,26 +23108,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Staff Platform Engineer",
-        "company": "Jobgether",
-        "location": "Brasil",
-        "url": "https://www.adzuna.com.br/details/5957239413?utm_medium=api&utm_source=4076fe36",
-        "score": 6,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Automation"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "SAP Cloud Platform Engineer",
         "company": "Pantheon",
         "location": "Brasil",
@@ -23064,6 +23124,26 @@
           "Level not stated"
         ],
         "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Senior Platform Engineer (Crossplane)",
+        "company": "Jobgether",
+        "location": "Brasil",
+        "url": "https://www.adzuna.com.br/details/5966081923?utm_medium=api&utm_source=4076fe36",
+        "score": 6,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: platform engineer",
+          "Platform",
+          "Kubernetes"
+        ],
+        "level": "senior",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -23724,6 +23804,27 @@
         "comp_disclosed": false
       },
       {
+        "title": "Devops Engineer",
+        "company": "Company not disclosed",
+        "location": "Brasil",
+        "url": "https://www.adzuna.com.br/details/5966367858?utm_medium=api&utm_source=4076fe36",
+        "score": 5,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: devops",
+          "Devops",
+          "Aws",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
         "title": "Cloud DevOps Engineer",
         "company": "Azumo",
         "location": "São Paulo, Estado de São Paulo, Brasil",
@@ -23924,7 +24025,7 @@
         "title": "Testing and DevOps Engineer (m/w/d)",
         "company": "TROX SE",
         "location": "Deutschland",
-        "url": "https://www.adzuna.de/land/ad/5941720872?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=7FE0B93C34402E01A988B9BE589D0C34579E7CDB",
+        "url": "https://www.adzuna.de/land/ad/5941720872?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=7FE0B93C34402E01A988B9BE589D0C34579E7CDB",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -23975,26 +24076,6 @@
           "LLM"
         ],
         "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Platform Engineer - Datacenter Infrastructure",
-        "company": "F5 Networks",
-        "location": "Guadalajara, Jalisco, México",
-        "url": "https://www.adzuna.com.mx/details/5930843601?utm_medium=api&utm_source=4076fe36",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Level not stated"
-        ],
-        "level": "unstated",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -24058,26 +24139,6 @@
         "salary_min": 720000,
         "salary_max": 1080000,
         "comp_disclosed": true
-      },
-      {
-        "title": "DevOps Engineer",
-        "company": "Accuray",
-        "location": "México",
-        "url": "https://www.adzuna.com.mx/details/5120328571?utm_medium=api&utm_source=4076fe36",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
       },
       {
         "title": "DevOps Engineer",
@@ -24651,26 +24712,6 @@
       },
       {
         "title": "SRE Engineer - REMOTO",
-        "company": "Verity",
-        "location": "São Paulo, Estado de São Paulo, Brasil",
-        "url": "https://www.adzuna.com.br/details/5943545490?utm_medium=api&utm_source=4076fe36",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: sre",
-          "SRE",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "SRE Engineer - REMOTO",
         "company": "#sejaveriter",
         "location": "Brasil",
         "url": "https://www.adzuna.com.br/details/5955909584?utm_medium=api&utm_source=4076fe36",
@@ -24749,45 +24790,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "DevOps Engineer Career Opportunities at Dev.Pro - 01",
-        "company": "Dev.Pro",
-        "location": "São Paulo, Estado de São Paulo, Brasil",
-        "url": "https://www.adzuna.com.br/details/5636064167?utm_medium=api&utm_source=4076fe36",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops",
-          "Level not stated"
-        ],
-        "level": "unstated",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "[Job 32440] DevOps Engineer Sênior - Huawei Cloud | AI Deployer",
-        "company": "CI&T",
-        "location": "Brasil",
-        "url": "https://www.adzuna.com.br/details/5947138294?utm_medium=api&utm_source=4076fe36",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: devops",
-          "Devops"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Platform Engineer",
         "company": "GM Financial",
         "location": "São Paulo, Estado de São Paulo, Brasil",
@@ -24841,26 +24843,6 @@
           "Platform"
         ],
         "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
-        "title": "Cloud Platform Engineer",
-        "company": "Concentrix",
-        "location": "Brasil",
-        "url": "https://www.adzuna.com.br/details/5961910867?utm_medium=api&utm_source=4076fe36",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: platform engineer",
-          "Platform",
-          "Level not stated"
-        ],
-        "level": "unstated",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -24943,10 +24925,10 @@
         "comp_disclosed": false
       },
       {
-        "title": "[Job-32264] Principal Platform Engineer , Brazil",
-        "company": "CI&T",
-        "location": "Brasil",
-        "url": "https://www.adzuna.com.br/details/5941542728?utm_medium=api&utm_source=4076fe36",
+        "title": "Senior Platform Engineer - Sap Customer Experience",
+        "company": "SAP",
+        "location": "São Paulo, Estado de São Paulo, Brasil",
+        "url": "https://www.adzuna.com.br/details/5965873961?utm_medium=api&utm_source=4076fe36",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -25062,6 +25044,25 @@
         "company": "Hiring",
         "location": "Brasil",
         "url": "https://www.adzuna.com.br/details/5963464177?utm_medium=api&utm_source=4076fe36",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: cto",
+          "Differentiator: Sso"
+        ],
+        "level": "senior",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Sesi - Técnico(a) em Enfermagem - CTO - Vl",
+        "company": "FINDES",
+        "location": "Vitória, Espirito Santo, Brasil",
+        "url": "https://www.adzuna.com.br/details/5966350785?utm_medium=api&utm_source=4076fe36",
         "score": 4,
         "grade": "D",
         "match": 35,
@@ -25267,25 +25268,6 @@
         "comp_disclosed": false
       },
       {
-        "title": "Senior Software Engineer, Ai Engineer (Brazil)",
-        "company": "TRM",
-        "location": "Ituiutaba, Minas Gerais, Brasil",
-        "url": "https://www.adzuna.com.br/details/5963066173?utm_medium=api&utm_source=4076fe36",
-        "score": 4,
-        "grade": "D",
-        "match": 35,
-        "visa": false,
-        "us_sponsor": false,
-        "reasons": [
-          "Title match: ai engineer",
-          "Platform"
-        ],
-        "level": "senior",
-        "salary_min": null,
-        "salary_max": null,
-        "comp_disclosed": false
-      },
-      {
         "title": "Executive Partner - CIO Advisory - Public Sector Brazil",
         "company": "Gartner",
         "location": "São Paulo, Estado de São Paulo, Brasil",
@@ -25378,6 +25360,45 @@
           "Level not stated"
         ],
         "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Allen Recruitment Consulting",
+        "location": "Brasilia, Distrito Federal",
+        "url": "https://www.adzuna.com.br/details/5965873823?utm_medium=api&utm_source=4076fe36",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: machine learning engineer",
+          "Automation",
+          "Level not stated"
+        ],
+        "level": "unstated",
+        "salary_min": null,
+        "salary_max": null,
+        "comp_disclosed": false
+      },
+      {
+        "title": "Sênior Machine Learning Engineer",
+        "company": "Company not disclosed",
+        "location": "São Paulo, Estado de São Paulo, Brasil",
+        "url": "https://www.adzuna.com.br/details/5966366169?utm_medium=api&utm_source=4076fe36",
+        "score": 4,
+        "grade": "D",
+        "match": 35,
+        "visa": false,
+        "us_sponsor": false,
+        "reasons": [
+          "Title match: machine learning engineer",
+          "Python"
+        ],
+        "level": "senior",
         "salary_min": null,
         "salary_max": null,
         "comp_disclosed": false
@@ -25828,6 +25849,10 @@
       "url": "https://job-boards.greenhouse.io/n26"
     },
     {
+      "company": "NVIDIA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+    },
+    {
       "company": "Notion",
       "url": "https://jobs.ashbyhq.com/notion"
     },
@@ -26129,6 +26154,27 @@
       "comp_disclosed": false
     },
     {
+      "title": "AI Platform Engineer",
+      "company": "eSolutionsFirst, LLC",
+      "location": "Vienna, Fairfax County, US",
+      "url": "https://www.adzuna.com/land/ad/5957682652?se=pKguDOXg8RG3UKJUaLg__w&utm_medium=api&utm_source=4076fe36&v=08FBE0F23D209A9F85CF59ACD9D724F09EEBDBE1",
+      "score": 19,
+      "grade": "A",
+      "match": 95,
+      "visa": false,
+      "us_sponsor": false,
+      "reasons": [
+        "Title match: platform engineer",
+        "Platform",
+        "Python",
+        "Level not stated"
+      ],
+      "level": "unstated",
+      "salary_min": 148528.92,
+      "salary_max": 148528.92,
+      "comp_disclosed": true
+    },
+    {
       "title": "Digital Site Reliability Engineer",
       "company": "Radisson Hotel Group",
       "location": "Madrid, España",
@@ -26186,27 +26232,6 @@
         "Site Reliability"
       ],
       "level": "senior",
-      "salary_min": null,
-      "salary_max": null,
-      "comp_disclosed": false
-    },
-    {
-      "title": "DevOps Engineer",
-      "company": "Epicor",
-      "location": "Monterrey, Nuevo León, México",
-      "url": "https://www.adzuna.com.mx/details/5958318401?utm_medium=api&utm_source=4076fe36",
-      "score": 19,
-      "grade": "A",
-      "match": 95,
-      "visa": false,
-      "us_sponsor": false,
-      "reasons": [
-        "Title match: devops",
-        "Devops",
-        "Platform",
-        "Level not stated"
-      ],
-      "level": "unstated",
       "salary_min": null,
       "salary_max": null,
       "comp_disclosed": false
@@ -26458,10 +26483,31 @@
       "comp_disclosed": false
     },
     {
+      "title": "Devops Engineer",
+      "company": "Ocho",
+      "location": "Belfast, Northern Ireland, UK",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5945823965?se=8s0iDuXg8RGwZsHzjEy9wA&utm_medium=api&utm_source=4076fe36&v=F853E8F5720CC97F89DD4560DEB30375FE5A86F8",
+      "score": 16,
+      "grade": "A",
+      "match": 80,
+      "visa": false,
+      "us_sponsor": false,
+      "reasons": [
+        "Title match: devops",
+        "Devops",
+        "Platform",
+        "Level not stated"
+      ],
+      "level": "unstated",
+      "salary_min": 100000,
+      "salary_max": 100000,
+      "comp_disclosed": true
+    },
+    {
       "title": "DevOps Engineer (m/w/d)",
       "company": "TÜV NORD Service GmbH & Co. KG",
       "location": "Bahrenfeld, Hamburg, Deutschland",
-      "url": "https://www.adzuna.de/land/ad/5936616765?se=dmI0pBvg8RGyRaTp6879Ag&utm_medium=api&utm_source=4076fe36&v=2B89C7A14981D63ABF11C156CA5E155BED340983",
+      "url": "https://www.adzuna.de/land/ad/5936616765?se=ZkiwFOXg8RGNl561rfNY_A&utm_medium=api&utm_source=4076fe36&v=2B89C7A14981D63ABF11C156CA5E155BED340983",
       "score": 16,
       "grade": "A",
       "match": 80,
@@ -26560,6 +26606,27 @@
       "salary_min": null,
       "salary_max": null,
       "comp_disclosed": false
+    },
+    {
+      "title": "Site Reliability Engineer (SRE)",
+      "company": "Handoff",
+      "location": "São Paulo, Estado de São Paulo, Brasil",
+      "url": "https://www.adzuna.com.br/details/5966163378?utm_medium=api&utm_source=4076fe36",
+      "score": 16,
+      "grade": "A",
+      "match": 80,
+      "visa": false,
+      "us_sponsor": false,
+      "reasons": [
+        "Title match: site reliability",
+        "SRE",
+        "Site Reliability",
+        "Level not stated"
+      ],
+      "level": "unstated",
+      "salary_min": 360000,
+      "salary_max": 456000,
+      "comp_disclosed": true
     },
     {
       "title": "Developer Platform Engineer (LATAM)",
@@ -26788,6 +26855,27 @@
       "salary_min": null,
       "salary_max": null,
       "comp_disclosed": false
+    },
+    {
+      "title": "Devops Engineer",
+      "company": "Company not disclosed",
+      "location": "São Paulo, Estado de São Paulo, Brasil",
+      "url": "https://www.adzuna.com.br/details/5966368893?utm_medium=api&utm_source=4076fe36",
+      "score": 15,
+      "grade": "A",
+      "match": 75,
+      "visa": false,
+      "us_sponsor": false,
+      "reasons": [
+        "Title match: devops",
+        "Devops",
+        "Automation",
+        "Level not stated"
+      ],
+      "level": "unstated",
+      "salary_min": null,
+      "salary_max": null,
+      "comp_disclosed": false
     }
   ],
   "high_confidence_threshold": 75,
@@ -26844,11 +26932,8 @@
     }
   ],
   "warnings": [
-    "microsoft:HTTP429:agentic ai engineer",
-    "microsoft:HTTP429:ai platform engineer",
-    "microsoft:HTTP429:director of ai",
-    "microsoft:HTTP429:llm engineer",
-    "workday:nvidia:JSONDecodeError"
+    "lever:jobandtalent:TimeoutError",
+    "microsoft:HTTP429:vp of ai"
   ],
   "profile_lite": {
     "target_titles": [
