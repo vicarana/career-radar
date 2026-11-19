@@ -142,7 +142,13 @@
       {"company": "Enel Chile (energy)", "url": "https://www.enel.com/company/careers"},
       {"company": "AES Andes (energy)", "url": "https://www.aesandes.com/en/careers"},
       {"company": "Entel (telecom)", "url": "https://www.entel.cl/"},
-      {"company": "Movistar/Telefonica (telecom)", "url": "https://www.telefonica.com/en/careers/"}
+      {"company": "Movistar/Telefonica (telecom)", "url": "https://www.telefonica.com/en/careers/"},
+{"company": "Transbank (payments)", "url": "https://transbank.buk.cl/trabaja-con-nosotros"},
+{"company": "Santander Chile (banking)", "url": "https://empleos.santander.cl/"},
+{"company": "Cencosud (retail)", "url": "https://empleos.cencosud.com/"},
+{"company": "ACHS (insurance)", "url": "https://trabajos.achs.cl/"},
+{"company": "Microsoft Chile (cloud)", "url": "https://apply.careers.microsoft.com/careers?lc=Chile"},
+{"company": "Google Chile (cloud)", "url": "https://www.google.com/about/careers/applications/jobs/results?location=Chile"}
     ]
   },
   "min_score": 3,
