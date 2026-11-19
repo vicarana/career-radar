@@ -12,11 +12,11 @@
     "grafanalabs", "affirm", "carta",
     "nubank", "quintoandar",
     "okta", "fastly", "cribl", "abnormalsecurity", "duolingo"],
-  "lever": ["palantir", "jobandtalent", "dlocal", "fintual"],
+  "lever": ["palantir", "jobandtalent", "dlocal", "fintual", "xepelin"],
   "ashby": ["replit", "vanta", "ramp", "linear", "mercury", "hex", "pinecone",
     "openai", "sierra", "harvey", "vercel", "loom",
     "goteleport", "clerk", "workos", "doppler", "1password",
-    "notion", "cohere", "supabase", "nubank"],
+    "notion", "cohere", "supabase", "nubank", "toku"],
   "workday": [
     {"tenant": "nvidia", "wd": "wd5", "site": "NVIDIAExternalCareerSite", "name": "NVIDIA"},
     {"tenant": "salesforce", "wd": "wd12", "site": "External_Career_Site", "name": "Salesforce"}],
