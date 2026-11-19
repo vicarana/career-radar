@@ -148,7 +148,14 @@
 {"company": "Cencosud (retail)", "url": "https://empleos.cencosud.com/"},
 {"company": "ACHS (insurance)", "url": "https://trabajos.achs.cl/"},
 {"company": "Microsoft Chile (cloud)", "url": "https://apply.careers.microsoft.com/careers?lc=Chile"},
-{"company": "Google Chile (cloud)", "url": "https://www.google.com/about/careers/applications/jobs/results?location=Chile"}
+{"company": "Google Chile (cloud)", "url": "https://www.google.com/about/careers/applications/jobs/results?location=Chile"},
+{"company": "Banco de Chile (banking)", "url": "https://www.trabajaenelchile.cl/"},
+{"company": "Redsalud (healthcare)", "url": "https://redsalud.trabajando.cl/"},
+{"company": "Scotiabank Chile (banking)", "url": "https://jobs.scotiabank.com/search/?createNewAlert=false&q=&locationsearch=Chile"},
+{"company": "SII (public sector, contests)", "url": "https://www.sii.cl/sobre_el_sii/trabaja_con_nosotros.html"},
+{"company": "Claro Chile (telecom)", "url": "https://career19.sapsf.com/career?company=clarochile"},
+{"company": "Nubox (SaaS)", "url": "https://nubox.teamtailor.com/jobs"},
+{"company": "Colbun (energy)", "url": "https://career19.sapsf.com/career?company=colbun&site=VjItbVFuejRUQXYrTHNDazcvM0kyTDUrQT09"}
     ]
   },
   "min_score": 3,
